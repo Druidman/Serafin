@@ -8,9 +8,6 @@
     "scripts": {
         "start": "electron ."
     },
-    "dependencies": {
-        "electron": "^33.2.0"
-    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Druidman/Serafin.git"
@@ -18,5 +15,8 @@
     "bugs": {
         "url": "https://github.com/Druidman/Serafin/issues"
     },
-    "homepage": "https://github.com/Druidman/Serafin#readme"
+    "homepage": "https://github.com/Druidman/Serafin#readme",
+    "devDependencies": {
+        "electron": "^33.2.0"
+    }
 }
