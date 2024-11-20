@@ -1,0 +1,22 @@
+{
+    "name": "serafin",
+    "version": "1.0.0",
+    "description": "Serafin app to control text in church",
+    "main": "main.js",
+    "author": "Mateusz Kowalski",
+    "license": "MIT",
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "electron": "^33.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Druidman/Serafin.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Druidman/Serafin/issues"
+    },
+    "homepage": "https://github.com/Druidman/Serafin#readme"
+}
