@@ -1,7 +1,13 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path');
+const { ConnectDatabase } = require('../../db/connect')
 
+function getData(event){
+    event.returnValue = [["siemaa","g"],["siemee","f"],["siemww","d"],["siem","s"]]
+}
 const createWindow = () => {
+  const db = ConnectDatabase()
+  console.log(db)
   const win = new BrowserWindow({
     width: 1280,
     height: 720,
@@ -9,8 +15,7 @@ const createWindow = () => {
       preload: path.join(__dirname, 'preload.js')
     }
   })
-  var path_to_index = path.join(__dirname,"app")
-  path_to_index = path.join(path_to_index,"index.html")
+  var path_to_index = path.join(__dirname,"../renderer/index.html")
   win.loadFile(path_to_index)
 }
 
@@ -27,3 +32,4 @@ app.on('window-all-closed', () => {
 })
 
 
+ipcMain.on("getData",getData)
