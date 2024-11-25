@@ -1,13 +1,15 @@
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path');
-const { ConnectDatabase } = require('../../db/connect')
+const database = require('../../db/database')
 
-function getData(event){
-    event.returnValue = [["siemaa","g"],["siemee","f"],["siemww","d"],["siem","s"]]
+const db = database.ConnectDatabase()
+async function getData(event,amount){
+    console.log(amount)
+    event.returnValue = await database.songs.read_names(amount,db)
 }
 const createWindow = () => {
-  const db = ConnectDatabase()
-  console.log(db)
+  
+
   const win = new BrowserWindow({
     width: 1280,
     height: 720,

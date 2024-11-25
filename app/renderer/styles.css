@@ -24,7 +24,7 @@ body{
 header{
     height: 10%;
     width: 100%;
-    background-color: #383838;
+    background-color: #363f4b;
     display: flex;
     justify-content: center;
    
@@ -35,19 +35,19 @@ main{
    
     display: flex;
     justify-content: left;
-    background-color: #1e1e1e;
+    background-color: #bdb8bf;
 
     
 }
 .mainBox{
-    background-color: #2d2d2d;
+    background-color: #fcf5fb;
     border-radius: 10px;
     display: flex;
     
     
 }
 .mainButton{
-    background-color: #D98B00;
+    background-color: #FFFFFF;
     border-radius: 10px;
     border: none;
 }
@@ -56,6 +56,22 @@ main{
     flex-direction: column;
     justify-content: space-between;
     padding: 5px;
+}
+.dbRecord {
+    font-size: larger;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+    height: 10%;
+    margin-top: 3px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: 0.2s;
+
+}
+.dbRecord:hover {
+    background-color: #fcf5fb;
 }
 
 #database {
@@ -93,8 +109,13 @@ main{
     height: 100%;
  
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    overflow-y: scroll;
   
 }
+
 
 #player #playlist {
     width: 100%;

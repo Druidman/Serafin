@@ -1,7 +1,7 @@
 
 
 document.getElementById("play").onclick = () => {
-    var data = window.electronAPI.getData()
+    var data = window.electronAPI.getData(10)
 
     var dataBox = document.getElementById("databaseViewer")
     console.log(data)
@@ -10,13 +10,12 @@ document.getElementById("play").onclick = () => {
 
     for (var element of data){
         var box = document.createElement("div")
-        var name = document.createElement("h1")
-        var lyrics = document.createElement("p")
-        name.textContent = element[0]
-        lyrics.textContent = element[1]
+        
+        var name = document.createElement("p")
+        name.textContent = element["name"]
         box.append(name)
-        box.append(lyrics)
 
+        box.classList.add("dbRecord")
         dataBox.append(box)
     }
 }
