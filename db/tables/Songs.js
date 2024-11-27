@@ -1,9 +1,8 @@
 
 
-function read_names(amount,db){
+function read_titles(amount,db){
     return new Promise((resolve, reject)=>{
-        console.log(amount)
-        db.all("SELECT name FROM songs LIMIT ?",[amount],(err,rows)=>{
+        db.all("SELECT title,id FROM songs LIMIT ?",[amount],(err,rows)=>{
             if (err){
                 console.error(err.message)
                 reject(err)
@@ -17,4 +16,4 @@ function read_names(amount,db){
 }
 
 
-module.exports = { read_names }
+module.exports = { read_titles }

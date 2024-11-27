@@ -4,7 +4,7 @@ function FillWithSampleData(db){
     const fs = require("fs")
     const path = require("path")
     
-    const fill = db.prepare("INSERT INTO songs(name,lyrics) VALUES (?,?)")
+    const fill = db.prepare("INSERT INTO songs(title,lyrics) VALUES (?,?)")
   
     const filepath = path.join(__dirname,"data.json")
     var data = fs.readFileSync(filepath,'utf-8')

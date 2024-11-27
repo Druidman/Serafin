@@ -5,7 +5,7 @@ const database = require('../../db/database')
 const db = database.ConnectDatabase()
 async function getData(event,amount){
     console.log(amount)
-    event.returnValue = await database.songs.read_names(amount,db)
+    event.returnValue = await database.songs.read_titles(amount,db)
 }
 const createWindow = () => {
   

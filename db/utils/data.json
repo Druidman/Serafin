@@ -1,15 +1,15 @@
 {
     "SampleDataSongs": 
     [
-        ["name1","song1"],
-        ["name2","song2"],
-        ["name3","song3"],
-        ["name4","song4"],
-        ["name5","song5"],
-        ["name6","song6"],
-        ["name7","song7"],
-        ["name8","song8"],
-        ["name9","song9"],
-        ["name10","song10"]
+        ["Ach, ja Matka boleściwa","song1"],
+        ["Ach, ja Matka tak żałosna","song2"],
+        ["Ach, widzę Syna mojego","song3"],
+        ["Bądź pozdrowiony, bądź pochwalony","song4"],
+        ["Duszo oziębła, czemu nie gorejesz","song5"],
+        ["Gorzkie żale, przybywajcie","song6"],
+        ["Jezu, na zabicie okrutne","song7"],
+        ["Jezu, od pospólstwa niewinnie","song8"],
+        ["Jezu, od pospólstwa niezbożnie","song9"],
+        ["Któryś za nas cierpiał rany","song10"]
     ]
 }
