@@ -1,4 +1,4 @@
-import requests
+import requests, json
 
 from bs4 import BeautifulSoup
 
@@ -27,11 +27,36 @@ table = document.find(class_="table-responsive")
 body = table.tbody
 elements = body.find_all("td")
 
-for element in elements:
-    link = element.a
-    if link:
-        print(link["href"])
-        print(link.text)
+with open("data.json", "w") as file:
+    data = {"SampleDataSongs": []}
+    for element in elements:
+        a = element.a
+        if not a:
+            continue
+        name = a.text
+        link = a['href']
+
+        dataa = requests.get(link)
+        document = BeautifulSoup(dataa.text,"html.parser")
+
+        container = document.find_all(class_="tab-content")
+        lyrics = container[0].p.text
+
+      
+        model = [name,lyrics]
+        data["SampleDataSongs"].append(model)
+        
+        
+    data  = json.dumps(data)
+    file.write(data)
+    file.close()
+
+
+
+
+
+    
+
 
 
 

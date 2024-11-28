@@ -81,6 +81,15 @@ main{
     overflow-y: scroll;
 }
 
+.lyricsBox{
+    width: 100%;
+    
+    background-color: #bdb8bf;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
 
 #database {
     width: 30%;
@@ -100,6 +109,8 @@ main{
 #controlPanel {
     width: 40%;
     height: 100%;
+
+
     
     
 }

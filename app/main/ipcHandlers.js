@@ -6,12 +6,16 @@ function setupIpcHandlers(db){
     
     ipcMain.on("getSongsPreview",(Event,amount)=>{
         database.getSongsPreview(Event,amount,db)
-        console.log("songsprevew",amount)
+        console.debug("getSongsPreview: IPC")
     })
 
     ipcMain.on("getSongsByPrefix",(Event,prefix)=>{
         database.getSongsByPrefix(Event,prefix,db)
-        console.log("by preview")
+        console.debug("getSongsByPrefix: IPC")
+    })
+    ipcMain.on("getSongsFullById",(Event,ids)=>{
+        database.getSongsFullById(Event,ids,db)
+        console.debug("getSongsFullById: IPC")
         
     })
 }

@@ -1,5 +1,7 @@
 
-
+function checkExistance(){
+    
+}
 
 function plus_button(button){
     button.textContent = "-"
@@ -27,9 +29,18 @@ function add_click_event(button){
 
     })
 }
+function construct_lyrics_record(lyrics){
+    var box = document.createElement("div")
+    box.classList.add("lyricsBox")
+
+    var p_tag = document.createElement("p")
+    p_tag.innerText = lyrics
+
+    box.appendChild(p_tag)
+    return box
 
 
-
+}
 function construct_db_record(element){
     var dbRecord = document.createElement("div")
     dbRecord.classList.add("dbRecord")
@@ -78,3 +89,31 @@ document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
     }
 
 })
+
+
+document.getElementById("play").onclick = () => {
+    var playlist = document.getElementById("playlist")
+    var playview = document.getElementById("playView")
+    playview.innerHTML = ""
+
+    var songPreviews = playlist.querySelectorAll(".dbRecord")
+    var ids = []
+    for (preview of songPreviews){
+        ids.push(preview.id)
+    }
+    
+
+    var songs = window.electronAPI.getSongsFullById(ids)
+    console.log(songs)
+
+    for (song of songs){
+        
+        var lyrics_record = construct_lyrics_record(song["lyrics"])
+        playview.appendChild(lyrics_record)
+
+    }
+
+
+    
+
+}
