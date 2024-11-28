@@ -55,6 +55,7 @@ function construct_db_record(element){
 function load_data(data){
     
     var dataBox = document.getElementById("databaseViewer")
+    dataBox.innerHTML = ""
 
     for (var element of data){
         var db_record = construct_db_record(element)
@@ -66,20 +67,14 @@ var data = window.electronAPI.getSongsPreview(10)
 console.log("data",data)
 load_data(data)
 
-document.getElementById("play").onclick = ()=>{
-    var data = window.electronAPI.getSongsPreview(10)
-    console.log("newdata",data)
-    load_data(data)
+document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
+    
+    if (event.key == "Enter"){
+       
+        var data = window.electronAPI.getSongsByPrefix(event.target.value)
+        console.log(data)
+        load_data(data)
+        
+    }
 
-}
-
-// document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
-//     console.log("event fired but not")
-//     if (event.key == "Enter"){
-//         console.log("event fired")
-//         var data = window.electronAPI.getSongsByPrefix(event.target.value)
-//         console.log(data)
-//         load_data(data)
-//     }
-
-// })
+})

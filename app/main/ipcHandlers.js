@@ -11,6 +11,7 @@ function setupIpcHandlers(db){
 
     ipcMain.on("getSongsByPrefix",(Event,prefix)=>{
         database.getSongsByPrefix(Event,prefix,db)
+        console.log("by preview")
         
     })
 }
