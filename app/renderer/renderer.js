@@ -1,5 +1,6 @@
 
 
+
 function plus_button(button){
     button.textContent = "-"
     var parent = button.parentNode
@@ -51,8 +52,8 @@ function construct_db_record(element){
 
 }
 
-function load_data(){
-    var data = window.electronAPI.getData(10)
+function load_data(data){
+    
     var dataBox = document.getElementById("databaseViewer")
 
     for (var element of data){
@@ -61,5 +62,24 @@ function load_data(){
     }
 
 }
+var data = window.electronAPI.getSongsPreview(10)
+console.log("data",data)
+load_data(data)
 
-load_data()
+document.getElementById("play").onclick = ()=>{
+    var data = window.electronAPI.getSongsPreview(10)
+    console.log("newdata",data)
+    load_data(data)
+
+}
+
+// document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
+//     console.log("event fired but not")
+//     if (event.key == "Enter"){
+//         console.log("event fired")
+//         var data = window.electronAPI.getSongsByPrefix(event.target.value)
+//         console.log(data)
+//         load_data(data)
+//     }
+
+// })

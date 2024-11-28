@@ -1,12 +1,19 @@
-const { app, BrowserWindow, ipcMain } = require('electron')
+const { app, BrowserWindow } = require('electron')
 const path = require('path');
 const database = require('../../db/database')
+const { setupIpcHandlers } = require("./ipcHandlers")
 
-const db = database.ConnectDatabase()
-async function getData(event,amount){
-    console.log(amount)
-    event.returnValue = await database.songs.read_titles(amount,db)
+async function setup_app(){
+    
+    db = database.ConnectDatabase()
+    
+    await database.Config(db)
+    
+    setupIpcHandlers(db)
+
+    createWindow()
 }
+
 const createWindow = () => {
   
 
@@ -21,12 +28,15 @@ const createWindow = () => {
   win.loadFile(path_to_index)
 }
 
-app.whenReady().then(() => {
-  createWindow()
 
-  app.on('activate', () => {
-    if (BrowserWindow.getAllWindows().length === 0) createWindow()
-  })
+app.whenReady().then(() => {
+  setup_app()
+
+  
+})
+
+app.on('activate', () => {
+  if (BrowserWindow.getAllWindows().length === 0) createWindow()
 })
 
 app.on('window-all-closed', () => {
@@ -34,4 +44,4 @@ app.on('window-all-closed', () => {
 })
 
 
-ipcMain.on("getData",getData)
+

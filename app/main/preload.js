@@ -2,6 +2,6 @@ const { contextBridge, ipcRenderer } = require("electron")
 
 
 contextBridge.exposeInMainWorld("electronAPI", {
-    getData: (amount) => ipcRenderer.sendSync("getData",amount)
-    
+    getSongsPreview: (amount) => ipcRenderer.sendSync("getSongsPreview",amount),
+    getSongsByPrefix: (prefix) => ipcRenderer.sendSync("getSongsByPrefix",prefix)
 })

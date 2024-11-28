@@ -8,7 +8,21 @@ function read_titles(amount,db){
                 reject(err)
             }
             else {
-                console.log(rows)
+                resolve(rows)
+            
+            }
+        })
+    })
+}
+
+function getByPrefix(prefix,db){
+    return new Promise((resolve,reject)=>{
+        db.all("SELECT title,id FROM songs WHERE title LIKE ? ",[prefix + "%"],(err,rows)=>{
+            if (err) {
+                console.error(err.message)
+                reject(err)
+            }
+            else {
                 resolve(rows)
             }
         })
@@ -16,4 +30,4 @@ function read_titles(amount,db){
 }
 
 
-module.exports = { read_titles }
+module.exports = { read_titles, getByPrefix }

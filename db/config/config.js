@@ -1,11 +1,19 @@
+const migrations = require("../Migrations/migrations")
+const { FillWithSampleData } = require("../utils/FillDatabase")
 
-function Config(db){
-    const migrations = require("../Migrations/migrations")
+async function Config(db){
+    console.debug("CONFIG STARTED")
     
-    const { FillWithSampleData } = require("../utils/FillDatabase")
+    db.serialize(()=>{
+        migrations.MigrateSongs(db)
+        
+
+    })
+    await FillWithSampleData(db)
+    console.debug("CONFIG ENDED")
     
-    migrations.MigrateSongs(db)
-    FillWithSampleData(db)
+
+
    
 
 }
