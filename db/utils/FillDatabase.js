@@ -21,7 +21,7 @@ async function FillWithSampleData(db){
                 } else {
                     if (!row) {
                         console.log(row)
-                        fill.run(sample[0], sample[1], (err) => {
+                        fill.run(sample[0], JSON.stringify(sample[1]), (err) => {
                             if (err) {
                                 console.error("error while inserting");
                                 reject(err);

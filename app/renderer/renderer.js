@@ -107,9 +107,12 @@ document.getElementById("play").onclick = () => {
     console.log(songs)
 
     for (song of songs){
-        
-        var lyrics_record = construct_lyrics_record(song["lyrics"])
-        playview.appendChild(lyrics_record)
+        var lyrics = song
+        for (verse of lyrics){
+            var verse = construct_lyrics_record(verse)
+            playview.appendChild(verse)
+        }
+       
 
     }
 

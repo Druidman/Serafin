@@ -39,6 +39,8 @@ async function getFullById(ids,db){
                     reject(err)
                 }
                 else{
+                    row = JSON.parse(row.lyrics)
+                    console.log(row)
                     resolve(row)
                 
                 }
