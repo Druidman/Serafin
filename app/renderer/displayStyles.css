@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+
+.textBox{
+    width: 100vw;
+    height: 100vh;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
