@@ -2,7 +2,7 @@ import * as Buttons from "./buttons.js"
 import { getSongsByPrefix, getSongsFullById } from "./ipcHandlers.js"
 import { load_previews } from "./dbutils.js"
 import { construct_verse } from "./elementConstructors.js"
-import { getWindow, openNewWindow, updateWindow } from "./windowManager.js"
+import { openNewWindow, updateWindow, window_active } from "./windowManager.js"
 
 
 function add_click_event(button){
@@ -53,14 +53,13 @@ document.getElementById("play").addEventListener("click",()=>{
        
 
     }
-    
-    if (!getWindow()){
+    if (window_active()){
+        updateWindow()
+    }
+    else{
         openNewWindow("display.html")
     }
-
-    updateWindow()
-
-    
+  
 })
 
 export { add_click_event }
