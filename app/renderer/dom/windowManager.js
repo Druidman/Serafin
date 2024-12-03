@@ -1,9 +1,11 @@
-var ind = 1
+var state = {
+    ind: 1
+}
 var newWind = null
 function openNewWindow(filename){
     newWind = window.open(filename,"_blank","width=1000,height=500")
-    
-    return newWind
+  
+    return newWind  
 }
 
 function window_active(){
@@ -21,19 +23,31 @@ function getWindow(){
     return newWind
 }
 
-function updateWindow(){
+function updateWindow(verses){
+    if (!newWind){
+        return
+    }
+    
     var doc = newWind.document
-    var verseHolder = document.getElementById("playView")
-    var verses = verseHolder.querySelectorAll(".verseBox")
-    console.log(verses[ind+1].outersHTML)
-    var body = doc.getElementById("body")
+    
+
+    var body = doc.body
+
+    if (!body.innerHTML){
+        return
+    }
+ 
     body.innerHTML = ''
-    body.appendChild(verses[ind])
+
+
+    var verse = verses[state.ind].cloneNode(true)
+    body.appendChild(verse)
+        
+    
+    
     
 
-
     
-
 }
 
-export { openNewWindow, getWindow, updateWindow, window_active }
+export { openNewWindow, getWindow, updateWindow, window_active, state }

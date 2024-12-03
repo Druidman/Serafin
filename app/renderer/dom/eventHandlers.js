@@ -2,7 +2,7 @@ import * as Buttons from "./buttons.js"
 import { getSongsByPrefix, getSongsFullById } from "./ipcHandlers.js"
 import { load_previews } from "./dbutils.js"
 import { construct_verse } from "./elementConstructors.js"
-import { openNewWindow, updateWindow, window_active } from "./windowManager.js"
+import { openNewWindow, updateWindow, window_active, state } from "./windowManager.js"
 
 
 function add_click_event(button){
@@ -53,13 +53,43 @@ document.getElementById("play").addEventListener("click",()=>{
        
 
     }
-    if (window_active()){
-        updateWindow()
+    var verseHolder = document.getElementById("playView")
+    var verses = verseHolder.querySelectorAll(".verseBox")
+    
+    if (verses.length == 0){
+        return
     }
-    else{
+    if (!window_active()){
+        
         openNewWindow("display.html")
     }
+    updateWindow(verses)
+
   
+})
+
+document.getElementById("next").addEventListener("click",()=>{
+    var verseHolder = document.getElementById("playView")
+    var verses = verseHolder.querySelectorAll(".verseBox")
+    if (!verses){
+        return
+    }
+    if (state.ind < verses.length-1){
+        state.ind+=1
+        updateWindow(verses)
+    }
+})
+document.getElementById("prev").addEventListener("click",()=>{
+    var verseHolder = document.getElementById("playView")
+    var verses = verseHolder.querySelectorAll(".verseBox")
+    if (!verses){
+        return
+    }
+    if (state.ind > 0){
+        state.ind-=1
+        updateWindow(verses)
+    }
+
 })
 
 export { add_click_event }
