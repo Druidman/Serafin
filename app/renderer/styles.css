@@ -164,11 +164,18 @@ main{
     width: 40%;
     height:100%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 #controlButtons #next {
     width: 60%;
     height:100%;
     margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
