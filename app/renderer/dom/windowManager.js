@@ -1,5 +1,5 @@
 var state = {
-    ind: 1
+    ind: 0
 }
 var newWind = null
 function openNewWindow(filename){
