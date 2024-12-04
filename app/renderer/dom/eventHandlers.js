@@ -1,8 +1,9 @@
 import * as Buttons from "./buttons.js"
 import { getSongsByPrefix, getSongsFullById } from "./ipcHandlers.js"
 import { load_previews } from "./dbutils.js"
-import { construct_verse } from "./elementConstructors.js"
+import { updatePlayView } from "./elementUpdaters.js"
 import { openNewWindow, updateWindow, window_active, state } from "./windowManager.js"
+import { get_ids } from "./utils.js"
 
 
 function add_click_event(button){
@@ -31,28 +32,12 @@ document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
 })
 
 document.getElementById("play").addEventListener("click",()=>{
-    var playlist = document.getElementById("playlist")
-    var playview = document.getElementById("playView")
-    playview.innerHTML = ""
-
-    var songPreviews = playlist.querySelectorAll(".dbRecord")
-
-    var ids = []
-    for (var preview of songPreviews){
-        ids.push(preview.id)
-    }
+    var ids = get_ids()
 
     var songs = getSongsFullById(ids)
 
-
-    for (var lyrics of songs){
-        for (var verse of lyrics){
-            var verseElement = construct_verse(verse)
-            playview.appendChild(verseElement)
-        }
-       
-
-    }
+    updatePlayView(songs)
+    
     var verseHolder = document.getElementById("playView")
     var verses = verseHolder.querySelectorAll(".verseBox")
     
@@ -64,9 +49,6 @@ document.getElementById("play").addEventListener("click",()=>{
         openNewWindow("display.html")
     }
     updateWindow(verses,true)
-    
-
-  
 })
 
 document.getElementById("next").addEventListener("click",()=>{
