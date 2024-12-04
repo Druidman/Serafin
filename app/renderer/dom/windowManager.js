@@ -3,9 +3,10 @@ var state = {
 }
 var newWind = null
 function openNewWindow(filename){
+    
     newWind = window.open(filename,"_blank","width=1000,height=500")
+        
   
-    return newWind  
 }
 
 function window_active(){
@@ -23,9 +24,12 @@ function getWindow(){
     return newWind
 }
 
-function updateWindow(verses){
+function updateWindow(verses,res){
     if (!newWind){
         return
+    }
+    if (res){
+        state.id = 0
     }
     
     var doc = newWind.document
@@ -39,7 +43,7 @@ function updateWindow(verses){
  
     body.innerHTML = ''
 
-
+    console.log(state.ind)
     var verse = verses[state.ind].cloneNode(true)
     body.appendChild(verse)
         
@@ -49,5 +53,7 @@ function updateWindow(verses){
 
     
 }
+
+
 
 export { openNewWindow, getWindow, updateWindow, window_active, state }

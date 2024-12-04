@@ -63,7 +63,8 @@ document.getElementById("play").addEventListener("click",()=>{
         
         openNewWindow("display.html")
     }
-    updateWindow(verses)
+    updateWindow(verses,true)
+    
 
   
 })
@@ -71,23 +72,23 @@ document.getElementById("play").addEventListener("click",()=>{
 document.getElementById("next").addEventListener("click",()=>{
     var verseHolder = document.getElementById("playView")
     var verses = verseHolder.querySelectorAll(".verseBox")
-    if (!verses){
+    if (verses.length == 0){
         return
     }
     if (state.ind < verses.length-1){
         state.ind+=1
-        updateWindow(verses)
+        updateWindow(verses,false)
     }
 })
 document.getElementById("prev").addEventListener("click",()=>{
     var verseHolder = document.getElementById("playView")
     var verses = verseHolder.querySelectorAll(".verseBox")
-    if (!verses){
+    if (verses.length == 0){
         return
     }
     if (state.ind > 0){
         state.ind-=1
-        updateWindow(verses)
+        updateWindow(verses,false)
     }
 
 })

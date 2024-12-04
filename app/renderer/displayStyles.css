@@ -1,17 +1,27 @@
-* {
-    margin: 0px;
-    box-sizing: border-box;
-    
-    
+*{
+    background-color: black;
 }
 
 
 .verseBox{
-    width: 100vw;
-    height: 100vh;
-    font-size: larger;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+    padding: 20px;
+    
+   
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    
+    box-sizing: border-box;
+    
 }
