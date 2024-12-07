@@ -12,4 +12,13 @@ function updatePlayView(songs){
     }
 }
 
-export { updatePlayView }
+function updatePlaylist(dbRecord){
+    var playlist = document.getElementById("playlist")
+    playlist.append(dbRecord)
+}
+function updateDatabaseViewer(dbRecord){
+    var playlist = document.getElementById("databaseViewer")
+    playlist.append(dbRecord)
+}
+
+export { updatePlayView, updatePlaylist, updateDatabaseViewer }

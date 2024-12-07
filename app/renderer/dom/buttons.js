@@ -1,15 +1,15 @@
+import { updatePlaylist, updateDatabaseViewer } from "./elementUpdaters.js"
+
 function plus_button(button){
     button.textContent = "-"
-    var parent = button.parentNode
-    var playlist = document.getElementById("playlist")
-    playlist.append(parent)
+    var dbRecord = button.parentNode
+    updatePlaylist(dbRecord)
 }
 
 function minus_button(button){
     button.textContent = "+"
-    var parent = button.parentNode
-    var databaseViewer = document.getElementById("databaseViewer")
-    databaseViewer.append(parent)
+    var dbRecord = button.parentNode
+    updateDatabaseViewer(dbRecord)
 
 }
 
