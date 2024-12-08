@@ -70,8 +70,13 @@ main{
     transition: 0.2s;
 
 }
-.dbRecord:hover {
+.dbRecord:not(.selected):hover {
     background-color: #fcf5fb;
+}
+
+.selected {
+    background-color: yellow;
+
 }
 
 .recordHolder {
@@ -89,6 +94,7 @@ main{
     margin: 5px;
     padding: 10px;
 }
+
 
 
 #database {

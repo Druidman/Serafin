@@ -2,18 +2,41 @@ import * as Buttons from "./buttons.js"
 import { getSongsByPrefix, getSongsFullById } from "./ipcHandlers.js"
 import { load_previews } from "./dbutils.js"
 import { updatePlayView } from "./elementUpdaters.js"
-import { openNewWindow, updateWindow, window_active, state } from "./windowManager.js"
-import { get_ids } from "./utils.js"
+import * as windManager from "./windowManager/window.js"
+import * as displayWind from "./windowManager/displayWindow.js"
+
+function playlistRecord_click_event(event){
+    if (event.target.tagName === "BUTTON"){
+        return
+    }
+   
+    var selected = document.getElementsByClassName("playlistRecord selected")[0]
+    if (selected){
+        selected.classList.remove("selected")
+    }
+    
+    event.currentTarget.classList.add("selected")
 
 
-function add_click_event(button){
+}
+
+function add_playlistRecord_click_event(playlistRecord){
+
+
+    playlistRecord.addEventListener("click",playlistRecord_click_event)
+    
+    
+        
+}
+
+function db_record_button_click_event(button){
     button.addEventListener("click",()=>{
         switch (button.textContent){
             case "+":
-                Buttons.plus_button(button)
+                Buttons.convert_to_minus_button(button)
                 break;
             case "-":
-                Buttons.minus_button(button)
+                Buttons.convert_to_plus_button(button)
                 break;
         }
 
@@ -32,47 +55,47 @@ document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
 })
 
 document.getElementById("play").addEventListener("click",()=>{
-    var ids = get_ids()
-
+    
+    var playlist = document.getElementById("playlist")
+    var songPreviews = playlist.querySelectorAll(".dbRecord")
+   
+    var ids = songPreviews.map((preview)=>{
+        return preview.id
+    })
+    
+    
     var songs = getSongsFullById(ids)
+    console.log(songs)
 
     updatePlayView(songs)
     
     var verseHolder = document.getElementById("playView")
-    var verses = verseHolder.querySelectorAll(".verseBox")
+    var verse = verseHolder.getElementById("verse0")
     
-    if (verses.length == 0){
+    
+    if (!verse){
         return
     }
-    if (!window_active()){
-        
-        openNewWindow("display.html")
+
+    var windName = "displayName";
+
+    if (!windManager.check_window_active(windName)){
+        windManager.openNewWindow("display.html",windName)
     }
-    updateWindow(verses,true)
+    displayWind.loadVerse(verse)
+    displayWind.updateWindow()
+
+    
+    
 })
 
 document.getElementById("next").addEventListener("click",()=>{
-    var verseHolder = document.getElementById("playView")
-    var verses = verseHolder.querySelectorAll(".verseBox")
-    if (verses.length == 0){
-        return
-    }
-    if (state.ind < verses.length-1){
-        state.ind+=1
-        updateWindow(verses,false)
-    }
+    displayWind.nextVerse()
+    displayWind.updateWindow()
 })
 document.getElementById("prev").addEventListener("click",()=>{
-    var verseHolder = document.getElementById("playView")
-    var verses = verseHolder.querySelectorAll(".verseBox")
-    if (verses.length == 0){
-        return
-    }
-    if (state.ind > 0){
-        state.ind-=1
-        updateWindow(verses,false)
-    }
-
+    displayWind.prevVerse()
+    displayWind.updateWindow()
 })
 
-export { add_click_event }
+export { db_record_button_click_event, playlistRecord_click_event, add_playlistRecord_click_event }

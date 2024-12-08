@@ -1,8 +1,9 @@
-import { add_click_event } from "./eventHandlers.js"
+import { db_record_button_click_event } from "./eventHandlers.js"
 
-function construct_verse(verse){
+function construct_verse(verse,verseId){
     var box = document.createElement("div")
     box.classList.add("verseBox")
+    
 
     var p_tag = document.createElement("p")
     p_tag.innerText = verse
@@ -24,7 +25,7 @@ function construct_db_record(element){
     dbButton.classList.add("dbRecordButton")
     dbButton.classList.add("plus")
 
-    add_click_event(dbButton)
+    db_record_button_click_event(dbButton)
 
     dbRecord.appendChild(title_p)
     dbRecord.appendChild(dbButton)
