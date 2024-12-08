@@ -11,12 +11,17 @@ async function getSongsByPrefix(event,prefix,db){
 async function getSongsFullById(event,ids,db){
     event.returnValue = await songs.getFullById(ids,db)
 }
+async function getSongFullById(event,id,db){
+    event.returnValue = await songs.getFullById([id],db)
+    
+}
 
 module.exports = { 
     ConnectDatabase,
     getSongsPreview,
     getSongsByPrefix,
     getSongsFullById,
+    getSongFullById,
     Config
 
 }

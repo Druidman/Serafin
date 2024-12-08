@@ -40,7 +40,7 @@ async function getFullById(ids,db){
                 }
                 else{
                     row = JSON.parse(row.lyrics)
-                    console.log(row)
+                    
                     resolve(row)
                 
                 }

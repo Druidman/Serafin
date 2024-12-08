@@ -9,10 +9,12 @@ function loadVerse(firstverse){
 
 function nextVerse(){
     verse = verse.nextSibling
+    updateWindow()
 }
 
 function prevVerse(){
     verse = verse.previousSibling
+    updateWindow()
 }
 
 function updateWindow(){

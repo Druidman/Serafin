@@ -1,5 +1,5 @@
 import * as Buttons from "./buttons.js"
-import { getSongsByPrefix, getSongsFullById } from "./ipcHandlers.js"
+import { getSongsByPrefix, getSongsFullById, getSongFullById } from "./ipcHandlers.js"
 import { load_previews } from "./dbutils.js"
 import { updatePlayView } from "./elementUpdaters.js"
 import * as windManager from "./windowManager/window.js"
@@ -16,6 +16,9 @@ function playlistRecord_click_event(event){
     }
     
     event.currentTarget.classList.add("selected")
+    var id = event.currentTarget.id
+    var song = getSongFullById(id)
+    updatePlayView(song)
 
 
 }
@@ -55,35 +58,35 @@ document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
 })
 
 document.getElementById("play").addEventListener("click",()=>{
-    
-    var playlist = document.getElementById("playlist")
-    var songPreviews = playlist.querySelectorAll(".dbRecord")
    
-    var ids = songPreviews.map((preview)=>{
-        return preview.id
-    })
     
-    
-    var songs = getSongsFullById(ids)
-    console.log(songs)
 
-    updatePlayView(songs)
+   
+    // var ids = songPreviews.map((preview)=>{
+    //     return preview.id
+    // })
     
-    var verseHolder = document.getElementById("playView")
-    var verse = verseHolder.getElementById("verse0")
     
-    
-    if (!verse){
-        return
-    }
+    // var songs = getSongsFullById(ids)
+    // console.log(songs)
 
-    var windName = "displayName";
+    // updatePlayView(songs)
+    
+    // var verseHolder = document.getElementById("playView")
+    // var verse = verseHolder.getElementById("verse0")
+    
+    
+    // if (!verse){
+    //     return
+    // }
 
-    if (!windManager.check_window_active(windName)){
-        windManager.openNewWindow("display.html",windName)
-    }
-    displayWind.loadVerse(verse)
-    displayWind.updateWindow()
+    // var windName = "displayName";
+
+    // if (!windManager.check_window_active(windName)){
+    //     windManager.openNewWindow("display.html",windName)
+    // }
+    // displayWind.loadVerse(verse)
+    // displayWind.updateWindow()
 
     
     

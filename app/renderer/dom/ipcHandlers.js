@@ -8,9 +8,15 @@ function getSongsFullById(ids){
     return songs
 }
 
+function getSongFullById(id){
+    var song = window.electronAPI.getSongFullById(id)[0]
+
+    return song
+}
+
 function getSongsByPrefix(prefix){
     var data = window.electronAPI.getSongsByPrefix(prefix)
     return data
 }
 
-export { getSongsFullById, getSongsPreview, getSongsByPrefix }
+export { getSongsFullById, getSongsPreview, getSongsByPrefix, getSongFullById }

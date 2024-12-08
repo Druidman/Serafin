@@ -4,15 +4,15 @@ import { add_playlistRecord_click_event, playlistRecord_click_event } from "./ev
 
 
 
-function updatePlayView(songs){
+function updatePlayView(song){
     var playview = document.getElementById("playView")
     playview.innerHTML = ""
-    for (var lyrics of songs){
-        for (var verse of lyrics){
-            var verseElement = construct_verse(verse)
-            playview.appendChild(verseElement)
-        }
+    
+    for (var verse of song){
+        var verseElement = construct_verse(verse)
+        playview.appendChild(verseElement)
     }
+    
 }
 
 function updatePlaylist(dbRecord){

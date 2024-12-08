@@ -1,6 +1,6 @@
 import { db_record_button_click_event } from "./eventHandlers.js"
 
-function construct_verse(verse,verseId){
+function construct_verse(verse){
     var box = document.createElement("div")
     box.classList.add("verseBox")
     
