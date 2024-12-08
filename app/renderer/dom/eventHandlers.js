@@ -32,18 +32,20 @@ function add_playlistRecord_click_event(playlistRecord){
         
 }
 
-function db_record_button_click_event(button){
-    button.addEventListener("click",()=>{
-        switch (button.textContent){
-            case "+":
-                Buttons.convert_to_minus_button(button)
-                break;
-            case "-":
-                Buttons.convert_to_plus_button(button)
-                break;
-        }
+function db_record_button_click_event(event){
+    var button = event.currentTarget
+    switch (button.textContent){
+        case "+":
+            Buttons.convert_to_minus_button(button)
+            break;
+        case "-":
+            Buttons.convert_to_plus_button(button)
+            break;
+    }
+}
 
-    })
+function add_db_record_button_click_event(button){
+    button.addEventListener("click",db_record_button_click_event)
 }
 
 document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
@@ -85,4 +87,4 @@ document.getElementById("prev").addEventListener("click",()=>{
     
 })
 
-export { db_record_button_click_event, playlistRecord_click_event, add_playlistRecord_click_event }
+export { add_db_record_button_click_event, playlistRecord_click_event, add_playlistRecord_click_event }
