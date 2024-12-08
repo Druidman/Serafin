@@ -3,17 +3,20 @@ var windows = {}
 function openNewWindow(filename,name){
     
     var newWind = window.open(filename,"_blank","width=1000,height=500")
+    
     windows[name] = newWind
 }
 
 function check_window_active(name){
     var currWind = windows[name]
+    
     if (!currWind){
         return false
     }
     if (currWind.closed){
-        return true
+        return false
     }
+    return true
   
 }
 

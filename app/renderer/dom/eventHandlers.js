@@ -58,47 +58,31 @@ document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
 })
 
 document.getElementById("play").addEventListener("click",()=>{
-   
-    
+    var firstverse = document.getElementsByClassName("verseBox")[0]
+    console.log(firstverse)
+    const windName = "displayWind"
+    const filename = "display.html"
 
-   
-    // var ids = songPreviews.map((preview)=>{
-    //     return preview.id
-    // })
-    
-    
-    // var songs = getSongsFullById(ids)
-    // console.log(songs)
+    console.log("checking window active")
+    console.log(windManager.check_window_active(windName))
+    if (!windManager.check_window_active(windName)){
+        
+        windManager.openNewWindow(filename,windName)
+    }
 
-    // updatePlayView(songs)
-    
-    // var verseHolder = document.getElementById("playView")
-    // var verse = verseHolder.getElementById("verse0")
-    
-    
-    // if (!verse){
-    //     return
-    // }
-
-    // var windName = "displayName";
-
-    // if (!windManager.check_window_active(windName)){
-    //     windManager.openNewWindow("display.html",windName)
-    // }
-    // displayWind.loadVerse(verse)
-    // displayWind.updateWindow()
-
-    
-    
+    displayWind.loadVerse(firstverse)
+    displayWind.updateWindow()
 })
 
 document.getElementById("next").addEventListener("click",()=>{
+    console.log("next verse")
     displayWind.nextVerse()
-    displayWind.updateWindow()
+    
 })
 document.getElementById("prev").addEventListener("click",()=>{
+    console.log("prev verse")
     displayWind.prevVerse()
-    displayWind.updateWindow()
+    
 })
 
 export { db_record_button_click_event, playlistRecord_click_event, add_playlistRecord_click_event }
