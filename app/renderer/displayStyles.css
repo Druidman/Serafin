@@ -2,11 +2,27 @@
     background-color: black;
 }
 
-
-.verseBox{
+#dragger{
     position: fixed;
     left: 0;
     top: 0;
+    width: 100%;
+    height: 50px;
+    cursor: move;
+    -webkit-app-region: drag;
+
+}
+#container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 50;
+}
+.verseBox{
+    position: fixed;
+    left: 0;
+    top: 50;
     height: 100%;
     width: 100%;
     
@@ -23,5 +39,6 @@
     font-size: 5vw;
     
     box-sizing: border-box;
+    
     
 }

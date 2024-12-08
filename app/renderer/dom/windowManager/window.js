@@ -2,7 +2,7 @@ var windows = {}
 
 function openNewWindow(filename,name){
     
-    var newWind = window.open(filename,"_blank","width=1000,height=500")
+    var newWind = window.open(filename,"_blank","width=1000,height=500,frame=false")
     
     windows[name] = newWind
 }

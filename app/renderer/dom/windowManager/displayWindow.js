@@ -35,10 +35,10 @@ function updateWindow(){
     console.log("passes")
     
     var doc = displayWind.document
-    var body = doc.body
-    body.innerHTML = ''
+    var container = doc.getElementById("container")
+    container.innerHTML = ''
 
-    body.appendChild(verse.cloneNode(true))
+    container.appendChild(verse.cloneNode(true))
 }
 
 export { updateWindow, loadVerse, prevVerse, nextVerse }
