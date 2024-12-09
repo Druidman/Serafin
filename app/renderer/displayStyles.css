@@ -12,6 +12,7 @@
     -webkit-app-region: drag;
 
 }
+
 #container{
     height: 100%;
     width: 100%;
@@ -19,6 +20,7 @@
     left: 0;
     top: 50;
 }
+
 .verseBox{
     position: fixed;
     left: 0;

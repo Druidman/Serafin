@@ -21,16 +21,16 @@ body{
     
 
 }
-header{
+/* header{
     height: 10%;
     width: 100%;
     background-color: #363f4b;
     display: flex;
     justify-content: center;
    
-}
+} */
 main{
-    height: 90%;
+    height: 100%;
     width: 100%;
    
     display: flex;

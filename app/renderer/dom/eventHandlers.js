@@ -5,6 +5,7 @@ import { updatePlayView } from "./elementUpdaters.js"
 import * as windManager from "./windowManager/window.js"
 import * as displayWind from "./windowManager/displayWindow.js"
 
+//playlist events
 function playlistRecord_click_event(event){
     if (event.target.tagName === "BUTTON"){
         return
@@ -32,6 +33,7 @@ function add_playlistRecord_click_event(playlistRecord){
         
 }
 
+//db record buttons events
 function db_record_button_click_event(event){
     var button = event.currentTarget
     switch (button.textContent){
@@ -47,17 +49,20 @@ function db_record_button_click_event(event){
 function add_db_record_button_click_event(button){
     button.addEventListener("click",db_record_button_click_event)
 }
-
-document.getElementById("databaseSearch").addEventListener("keydown",(event)=>{
-    
+//database events
+function db_search_submit_event(event){
     if (event.key == "Enter"){
        
         var previews = getSongsByPrefix(event.target.value)
         load_previews(previews)
         
     }
+}
+document.getElementById("databaseSearch").addEventListener("keydown",db_search_submit_event)
+    
+    
 
-})
+
 
 document.getElementById("play").addEventListener("click",()=>{
     var firstverse = document.getElementsByClassName("verseBox")[0]
