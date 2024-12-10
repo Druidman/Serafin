@@ -9,18 +9,25 @@ function loadVerse(firstverse){
 
 function nextVerse(){
     if (verse.nextSibling == null){
-        return
+        return false
     }
     verse = verse.nextSibling
-    updateWindow()
+    if (!updateWindow()){
+        return false
+    }
+
+    return true
 }
 
 function prevVerse(){
     if (verse.previousSibling == null){
-        return
+        return false
     }
     verse = verse.previousSibling
-    updateWindow()
+    if (!updateWindow()){
+        return false
+    }
+    return true
     
 }
 
@@ -30,7 +37,7 @@ function updateWindow(){
     console.log(verse)
 
     if (!displayWind || !verse){
-        return
+        return false
     }
     console.log("passes")
     
@@ -39,6 +46,7 @@ function updateWindow(){
     container.innerHTML = ''
 
     container.appendChild(verse.cloneNode(true))
+    return true
 }
 
-export { updateWindow, loadVerse, prevVerse, nextVerse }
+export { updateWindow, loadVerse, prevVerse, nextVerse, verse }

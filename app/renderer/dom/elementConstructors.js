@@ -14,6 +14,7 @@ function construct_verse(verse){
 
 function construct_db_record(element){
     var dbRecord = document.createElement("div")
+
     dbRecord.classList.add("dbRecord")
     dbRecord.id = element["id"]
 

@@ -20,7 +20,19 @@
         "electron": "^33.2.0"
     },
     "dependencies": {
+        "electron-builder": "^25.1.8",
         "jquery": "^3.7.1",
         "sqlite3": "^5.1.7"
+    },
+    "build": {
+        "appId": "com.serafin.id",
+        "productName": "Serafin",
+        
+        "win": {
+            "target": "nsis"
+        },
+        "linux": {
+            "target": "AppImage"
+        }
     }
 }

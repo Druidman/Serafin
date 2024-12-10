@@ -1,5 +1,6 @@
 import * as Buttons from "./buttons.js"
-import { getSongsByPrefix, getSongsFullById, getSongFullById } from "./ipcHandlers.js"
+import { getSongsByPrefix, getSongFullById } from "./ipcHandlers.js"
+import { scrollPlayView } from "./viewModifiers.js"
 import { load_previews } from "./dbutils.js"
 import { updatePlayView } from "./elementUpdaters.js"
 import * as windManager from "./windowManager/window.js"
@@ -60,10 +61,6 @@ function db_search_submit_event(event){
 }
 document.getElementById("databaseSearch").addEventListener("keydown",db_search_submit_event)
     
-    
-
-
-
 document.getElementById("play").addEventListener("click",()=>{
     var firstverse = document.getElementsByClassName("verseBox")[0]
     console.log(firstverse)
@@ -82,13 +79,21 @@ document.getElementById("play").addEventListener("click",()=>{
 })
 
 document.getElementById("next").addEventListener("click",()=>{
-    console.log("next verse")
-    displayWind.nextVerse()
+
+    if (!displayWind.nextVerse()){
+        return
+    }
+    scrollPlayView("down")
     
 })
+
 document.getElementById("prev").addEventListener("click",()=>{
-    console.log("prev verse")
-    displayWind.prevVerse()
+   
+    if (!displayWind.prevVerse()){
+        return
+    }
+    scrollPlayView("up")
+    
     
 })
 
