@@ -32,6 +32,15 @@ function construct_db_record(element){
     dbRecord.appendChild(dbButton)
 
     return dbRecord
+}
+
+function construct_spaceTaker(){
+    var body = document.createElement("div")
+    var text = document.createElement("p")
+    body.appendChild(text)
+
+    body.classList.add("spaceTaker")
+    return body
 
 }
-export { construct_db_record, construct_verse }
+export { construct_db_record, construct_verse, construct_spaceTaker }

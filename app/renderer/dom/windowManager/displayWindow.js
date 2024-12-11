@@ -5,13 +5,17 @@ var verse = null
 
 function loadVerse(firstverse){
     verse = firstverse
+    verse.style.backgroundColor = "#ffffb5"
 }
 
 function nextVerse(){
-    if (verse.nextSibling == null){
+    if (verse.nextSibling == null || !verse.nextSibling.classList.contains("verseBox")){
         return false
     }
+    verse.style.backgroundColor = ""
+
     verse = verse.nextSibling
+    verse.style.backgroundColor = "#ffffb5"
     if (!updateWindow()){
         return false
     }
@@ -20,10 +24,13 @@ function nextVerse(){
 }
 
 function prevVerse(){
-    if (verse.previousSibling == null){
+    if (verse.previousSibling == null || !verse.previousSibling.classList.contains("verseBox")){
         return false
     }
+    verse.style.backgroundColor = ""
+
     verse = verse.previousSibling
+    verse.style.backgroundColor = "#ffffb5"
     if (!updateWindow()){
         return false
     }

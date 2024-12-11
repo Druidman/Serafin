@@ -1,4 +1,4 @@
-import { construct_verse } from "./elementConstructors.js"
+import { construct_verse, construct_spaceTaker } from "./elementConstructors.js"
 import { add_playlistRecord_click_event, playlistRecord_click_event } from "./eventHandlers.js"
 
 
@@ -7,11 +7,22 @@ import { add_playlistRecord_click_event, playlistRecord_click_event } from "./ev
 function updatePlayView(song){
     var playview = document.getElementById("playView")
     playview.innerHTML = ""
+
     
+    
+
     for (var verse of song){
         var verseElement = construct_verse(verse)
         playview.appendChild(verseElement)
     }
+    
+    var spaceTaker = construct_spaceTaker()
+    playview.appendChild(spaceTaker)
+    var spaceTaker = construct_spaceTaker()
+    playview.appendChild(spaceTaker)
+    
+    
+    
     
 }
 

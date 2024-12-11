@@ -104,6 +104,15 @@ main{
     align-items: center;
     justify-content: center;
 }
+.spaceTaker{
+    
+    width: 100%;
+    min-height: 30%;
+    
+    
+    margin-bottom: 5px;
+    flex-shrink: 0; /* Zapobiega zmniejszaniu się elementów */
+}
 
 
 
