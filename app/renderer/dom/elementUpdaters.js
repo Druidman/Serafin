@@ -7,6 +7,7 @@ import { add_playlistRecord_click_event, playlistRecord_click_event } from "./ev
 function updatePlayView(song){
     var playview = document.getElementById("playView")
     playview.innerHTML = ""
+    playview.scrollTop = 0
 
     
     

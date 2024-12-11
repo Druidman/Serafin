@@ -4,15 +4,15 @@ function scrollPlayView(direction){
     
     switch (direction){
         case "up":
-            var scrollVal = -verse.offsetHeight
+            var scrollVal = -verse.offsetHeight - 5
             break
         case "down":
-            var scrollVal = verse.offsetHeight
+            var scrollVal = verse.offsetHeight + 5
             break
     }
     console.log("val", scrollVal)
     var verseHolder = document.getElementById("playView")
-    verseHolder.scrollBy({ top: scrollVal, behavior: 'smooth' })
+    verseHolder.scrollBy({ top: scrollVal})
 
 }
 export{ scrollPlayView }

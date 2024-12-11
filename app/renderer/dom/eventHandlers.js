@@ -83,7 +83,6 @@ document.getElementById("next").addEventListener("click",()=>{
     if (!displayWind.nextVerse()){
         return
     }
-    scrollPlayView("down")
     
 })
 
@@ -92,7 +91,6 @@ document.getElementById("prev").addEventListener("click",()=>{
     if (!displayWind.prevVerse()){
         return
     }
-    scrollPlayView("up")
     
     
 })

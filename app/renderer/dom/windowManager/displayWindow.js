@@ -1,4 +1,5 @@
 import { getWindow } from "./window.js"
+import { scrollPlayView } from "../viewModifiers.js"
 
 
 var verse = null
@@ -13,9 +14,11 @@ function nextVerse(){
         return false
     }
     verse.style.backgroundColor = ""
+    scrollPlayView("down")
 
     verse = verse.nextSibling
     verse.style.backgroundColor = "#ffffb5"
+    
     if (!updateWindow()){
         return false
     }
@@ -28,9 +31,11 @@ function prevVerse(){
         return false
     }
     verse.style.backgroundColor = ""
+    scrollPlayView("up")
 
     verse = verse.previousSibling
     verse.style.backgroundColor = "#ffffb5"
+    
     if (!updateWindow()){
         return false
     }
@@ -52,7 +57,10 @@ function updateWindow(){
     var container = doc.getElementById("container")
     container.innerHTML = ''
 
-    container.appendChild(verse.cloneNode(true))
+    var versecopy = verse.cloneNode(true)
+    versecopy.style.backgroundColor = "black"
+
+    container.appendChild(versecopy)
     return true
 }
 
