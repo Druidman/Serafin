@@ -63,12 +63,10 @@ document.getElementById("databaseSearch").addEventListener("keydown",db_search_s
     
 document.getElementById("play").addEventListener("click",()=>{
     var firstverse = document.getElementsByClassName("verseBox")[0]
-    console.log(firstverse)
+    
     const windName = "displayWind"
     const filename = "display.html"
 
-    console.log("checking window active")
-    console.log(windManager.check_window_active(windName))
     if (!windManager.check_window_active(windName)){
         
         windManager.openNewWindow(filename,windName)

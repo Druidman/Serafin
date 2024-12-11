@@ -10,7 +10,7 @@ function scrollPlayView(direction){
             var scrollVal = verse.offsetHeight + 5
             break
     }
-    console.log("val", scrollVal)
+  
     var verseHolder = document.getElementById("playView")
     verseHolder.scrollBy({ top: scrollVal})
 

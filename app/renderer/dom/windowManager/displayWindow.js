@@ -45,13 +45,12 @@ function prevVerse(){
 
 function updateWindow(){
     var displayWind = getWindow("displayWind")
-    console.log(displayWind)
-    console.log(verse)
+   
 
     if (!displayWind || !verse){
         return false
     }
-    console.log("passes")
+
     
     var doc = displayWind.document
     var container = doc.getElementById("container")

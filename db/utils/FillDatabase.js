@@ -35,31 +35,6 @@ async function FillWithSampleData(db){
                 }
             });
         });
-        // const row = await new Promise((resolve,reject)=>{
-        //     check.get(sample[0],(err,result_row)=>{
-        //         if (err){
-        //             console.error("An error occured while checking data existance in db: ", err.message)
-        //             reject(err)
-        //         }
-        //         else {
-        //             resolve(result_row)
-
-        //         }
-        //     })
-        // })
-        // if (row){
-        //     continue
-        // }
-        // await new Promise((resolve, reject) => {
-        //     fill.run(sample[0], sample[1], (err) => {
-        //         if (err) {
-        //             console.error("error while inserting")
-        //             reject(err)
-        //         } else {
-        //             resolve()
-        //         }
-        //     })
-        // })
 
         
     }
