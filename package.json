@@ -1,12 +1,15 @@
 {
     "name": "serafin",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Serafin app to control text in church",
     "main": "app/main/main.js",
     "author": "Mateusz Kowalski",
     "license": "MIT",
     "scripts": {
-        "start": "electron ."
+        "start": "electron .",
+        "build": "electron-builder"
+        
+        
     },
     "repository": {
         "type": "git",
@@ -20,9 +23,23 @@
         "electron": "^33.2.0"
     },
     "dependencies": {
-        "electron-builder": "^25.1.8",
         "jquery": "^3.7.1",
         "sqlite3": "^5.1.7"
+    },
+  
+    "build": {
+        "appId": "com.mateusz.serafin",
+        "productName": "Serafin",
+        "linux": {
+            "target": "AppImage",
+            "category": "Utility"
+        },
+        "extraResources": [
+            {
+                "from": "Songs.db",
+                "to": "Songs.db"
+            }
+        ]
     }
     
 }
