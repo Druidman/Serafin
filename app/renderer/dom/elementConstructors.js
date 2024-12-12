@@ -1,4 +1,4 @@
-import { add_db_record_button_click_event } from "./eventHandlers.js"
+import { add_db_record_button_click_event, add_verseBox_click_event } from "./eventHandlers.js"
 
 function construct_verse(verse){
     var box = document.createElement("div")
@@ -9,6 +9,7 @@ function construct_verse(verse){
     p_tag.innerText = verse
 
     box.appendChild(p_tag)
+    add_verseBox_click_event(box)
     return box
 }
 

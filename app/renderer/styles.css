@@ -93,11 +93,12 @@ main{
 .verseBox{
     
     width: 100%;
-    min-height: 200px;
+    height: fit-content;
     
     background-color: #FFFFFF;
     border-radius: 5px;
     margin-bottom: 5px;
+    font-size: 1.75em;
     
     padding: 10px;
     box-sizing: border-box;
@@ -106,6 +107,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+}
+.currentVerse {
+    background-color: #ffffb5;
 }
 .spaceTaker{
     

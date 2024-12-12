@@ -10,12 +10,15 @@ function updatePlayView(song){
     playview.scrollTop = 0
 
     
-    
+    var firstVerseElement = construct_verse(song[0])
+    firstVerseElement.classList.add("currentVerse")
+    playview.appendChild(firstVerseElement)
 
-    for (var verse of song){
+    for (var verse of song.slice(1)){
         var verseElement = construct_verse(verse)
         playview.appendChild(verseElement)
     }
+    
     
     var spaceTaker = construct_spaceTaker()
     playview.appendChild(spaceTaker)
