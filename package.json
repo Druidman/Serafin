@@ -6,10 +6,8 @@
     "author": "Mateusz Kowalski",
     "license": "MIT",
     "scripts": {
-        "start": "electron .",
+        "start": "npx electron .",
         "build": "electron-builder"
-        
-        
     },
     "repository": {
         "type": "git",
@@ -20,19 +18,30 @@
     },
     "homepage": "https://github.com/Druidman/Serafin#readme",
     "devDependencies": {
-        "electron": "^33.2.0"
+        "electron": "^33.2.0",
+        "electron-builder": "^25.1.8"
     },
     "dependencies": {
         "jquery": "^3.7.1",
         "sqlite3": "^5.1.7"
     },
-  
     "build": {
         "appId": "com.mateusz.serafin",
         "productName": "Serafin",
-        "linux": {
-            "target": "AppImage",
-            "category": "Utility"
+        "directories": {
+            "output": "dist"
+        },
+        "files": [
+            "app/**/*",
+            "package.json",
+            "db/**/*",
+            "Songs.db"
+        ],
+       
+        "win": {
+            "target": [
+                "nsis"
+            ]
         },
         "extraResources": [
             {
@@ -41,5 +50,4 @@
             }
         ]
     }
-    
 }
