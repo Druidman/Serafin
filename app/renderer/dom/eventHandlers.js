@@ -46,12 +46,12 @@ function verseBox_click_event(event){
     
 }
 function db_search_submit_event(event){
-    if (event.key == "Enter"){
-       
-        var previews = getSongsByPrefix(event.target.value)
-        load_previews(previews)
-        
-    }
+    
+
+    var previews = getSongsByPrefix(event.target.value)
+    load_previews(previews)
+    
+    
 }
 
 function add_playlistRecord_click_event(playlistRecord){
