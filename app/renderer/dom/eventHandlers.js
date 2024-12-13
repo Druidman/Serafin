@@ -83,12 +83,13 @@ document.getElementById("play").addEventListener("click",(event)=>{
     if (button.innerHTML == "Show"){
         displayWind.updateWindow()
         button.innerHTML = "Hid"
-        button.style.backgroundColor = "#66666"
+        console.log("button")
+        button.style["background-color"] = "#666666"
     }
     else if (button.innerHTML == "Hid"){
         displayWind.hidWindow()
         button.innerHTML = "Show"
-        button.style.backgroundColor = "#FFFFF"
+        button.style["background-color"] = "#FFFFFF"
 
 
     }
