@@ -24,7 +24,7 @@ function updatePlayView(song){
     playview.appendChild(spaceTaker)
     var spaceTaker = construct_spaceTaker()
     playview.appendChild(spaceTaker)
-    
+  
     
     
     
