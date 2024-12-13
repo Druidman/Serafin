@@ -5,7 +5,7 @@ var verse = null
 function nextVerse(){
     verse = document.getElementsByClassName("currentVerse")[0]
     if (!verse || verse.nextSibling == null || !verse.nextSibling.classList.contains("verseBox")){
-        return falses
+        return false
     }
     verse.classList.remove("currentVerse")
 
