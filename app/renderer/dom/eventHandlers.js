@@ -1,6 +1,6 @@
 import * as Buttons from "./buttons.js"
 import { getSongsByPrefix, getSongFullById } from "./ipcHandlers.js"
-
+import { scrollPlayView } from "./viewModifiers.js"
 import { load_previews } from "./dbutils.js"
 import { updatePlayView } from "./elementUpdaters.js"
 import * as windManager from "./windowManager/window.js"
@@ -105,6 +105,7 @@ document.getElementById("next").addEventListener("click",()=>{
     if (!displayWind.nextVerse()){
         return
     }
+    scrollPlayView("s")
     
 })
 
@@ -113,6 +114,7 @@ document.getElementById("prev").addEventListener("click",()=>{
     if (!displayWind.prevVerse()){
         return
     }
+    scrollPlayView("s")
     
     
 })

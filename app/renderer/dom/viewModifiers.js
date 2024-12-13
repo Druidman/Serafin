@@ -1,18 +1,18 @@
-import { verse } from "./windowManager/displayWindow.js"
 
-function scrollPlayView(direction){
-    
-    switch (direction){
-        case "up":
-            var scrollVal = -verse.offsetHeight - 5
-            break
-        case "down":
-            var scrollVal = verse.offsetHeight + 5
-            break
+
+function scrollPlayView(){
+    var currVerse = document.getElementsByClassName("currentVerse")[0]
+    var rect = currVerse.getBoundingClientRect()
+
+    var playView = document.getElementById("playView")
+
+    if (rect.bottom > playView.clientHeight){
+        playView.scrollBy({"top": rect.top})
+
     }
-  
-    var verseHolder = document.getElementById("playView")
-    verseHolder.scrollBy({ top: scrollVal})
-
+    else if (rect.top < 0){
+        playView.scrollBy({"top": rect.bottom-playView.clientHeight})
+    }
+    
 }
 export{ scrollPlayView }
