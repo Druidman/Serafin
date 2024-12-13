@@ -42,6 +42,7 @@ function verseBox_click_event(event){
     }
     curr.classList.remove("currentVerse")
     event.currentTarget.classList.add("currentVerse")
+    displayWind.updateWindow()
     
 }
 function db_search_submit_event(event){
