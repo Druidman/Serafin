@@ -1,12 +1,12 @@
 import * as Buttons from "./buttons.js"
 import { getSongsByPrefix, getSongFullById } from "./ipcHandlers.js"
-import { scrollPlayView } from "./viewModifiers.js"
+
 import { load_previews } from "./dbutils.js"
 import { updatePlayView } from "./elementUpdaters.js"
 import * as windManager from "./windowManager/window.js"
 import * as displayWind from "./windowManager/displayWindow.js"
 
-//playlist events
+
 function playlistRecord_click_event(event){
     if (event.target.tagName === "BUTTON"){
         return
@@ -24,17 +24,6 @@ function playlistRecord_click_event(event){
 
 
 }
-
-function add_playlistRecord_click_event(playlistRecord){
-
-
-    playlistRecord.addEventListener("click",playlistRecord_click_event)
-    
-    
-        
-}
-
-//db record buttons events
 function db_record_button_click_event(event){
     var button = event.currentTarget
     switch (button.textContent){
@@ -46,11 +35,16 @@ function db_record_button_click_event(event){
             break;
     }
 }
-
-function add_db_record_button_click_event(button){
-    button.addEventListener("click",db_record_button_click_event)
+function verseBox_click_event(event){
+    var curr = document.getElementsByClassName("currentVerse")[0]
+    if (!curr){
+        return
+    }
+    curr.classList.remove("currentVerse")
+    event.currentTarget.classList.add("currentVerse")
+    displayWind.updateWindow()
+    
 }
-//database events
 function db_search_submit_event(event){
     if (event.key == "Enter"){
        
@@ -59,25 +53,55 @@ function db_search_submit_event(event){
         
     }
 }
+
+function add_playlistRecord_click_event(playlistRecord){
+
+
+    playlistRecord.addEventListener("click",playlistRecord_click_event)
+    
+    
+        
+}
+function add_db_record_button_click_event(button){
+    button.addEventListener("click",db_record_button_click_event)
+}
+function add_verseBox_click_event(verse){
+    verse.addEventListener("click",verseBox_click_event)
+}
+
+
 document.getElementById("databaseSearch").addEventListener("keydown",db_search_submit_event)
     
-document.getElementById("play").addEventListener("click",()=>{
-    var firstverse = document.getElementsByClassName("verseBox")[0]
-    
+document.getElementById("play").addEventListener("click",(event)=>{
+    var button = event.currentTarget
     const windName = "displayWind"
     const filename = "display.html"
 
     if (!windManager.check_window_active(windName)){
-        
+            
         windManager.openNewWindow(filename,windName)
     }
+    if (button.innerHTML == "Show"){
+        displayWind.updateWindow()
+        button.innerHTML = "Hid"
+        console.log("button")
+        button.style["background-color"] = "#666666"
+    }
+    else if (button.innerHTML == "Hid"){
+        displayWind.hidWindow()
+        button.innerHTML = "Show"
+        button.style["background-color"] = "#FFFFFF"
 
-    displayWind.loadVerse(firstverse)
-    displayWind.updateWindow()
+
+    }
+    
 })
 
 document.getElementById("next").addEventListener("click",()=>{
-
+    var playbutton = document.getElementById("play")
+    if (playbutton.innerHTML == "Show"){
+        return
+    }
     if (!displayWind.nextVerse()){
         return
     }
@@ -93,4 +117,8 @@ document.getElementById("prev").addEventListener("click",()=>{
     
 })
 
-export { add_db_record_button_click_event, playlistRecord_click_event, add_playlistRecord_click_event }
+export { 
+    add_db_record_button_click_event, 
+    playlistRecord_click_event, 
+    add_playlistRecord_click_event,
+    add_verseBox_click_event }

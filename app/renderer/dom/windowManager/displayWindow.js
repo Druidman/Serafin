@@ -1,23 +1,15 @@
 import { getWindow } from "./window.js"
-import { scrollPlayView } from "../viewModifiers.js"
-
 
 var verse = null
 
-function loadVerse(firstverse){
-    verse = firstverse
-    verse.style.backgroundColor = "#ffffb5"
-}
-
 function nextVerse(){
-    if (verse.nextSibling == null || !verse.nextSibling.classList.contains("verseBox")){
+    verse = document.getElementsByClassName("currentVerse")[0]
+    if (!verse || verse.nextSibling == null || !verse.nextSibling.classList.contains("verseBox")){
         return false
     }
-    verse.style.backgroundColor = ""
-    scrollPlayView("down")
+    verse.classList.remove("currentVerse")
 
-    verse = verse.nextSibling
-    verse.style.backgroundColor = "#ffffb5"
+    verse.nextSibling.classList.add("currentVerse")
     
     if (!updateWindow()){
         return false
@@ -27,14 +19,13 @@ function nextVerse(){
 }
 
 function prevVerse(){
-    if (verse.previousSibling == null || !verse.previousSibling.classList.contains("verseBox")){
+    verse = document.getElementsByClassName("currentVerse")[0]
+    if (!verse || verse.previousSibling == null || !verse.previousSibling.classList.contains("verseBox")){
         return false
     }
-    verse.style.backgroundColor = ""
-    scrollPlayView("up")
+    verse.classList.remove("currentVerse")
 
-    verse = verse.previousSibling
-    verse.style.backgroundColor = "#ffffb5"
+    verse.previousSibling.classList.add("currentVerse")
     
     if (!updateWindow()){
         return false
@@ -45,7 +36,7 @@ function prevVerse(){
 
 function updateWindow(){
     var displayWind = getWindow("displayWind")
-   
+    verse = document.getElementsByClassName("currentVerse")[0]
 
     if (!displayWind || !verse){
         return false
@@ -57,10 +48,17 @@ function updateWindow(){
     container.innerHTML = ''
 
     var versecopy = verse.cloneNode(true)
-    versecopy.style.backgroundColor = "black"
+    versecopy.classList.remove("currentVerse")
 
     container.appendChild(versecopy)
     return true
 }
 
-export { updateWindow, loadVerse, prevVerse, nextVerse, verse }
+function hidWindow(){
+    var doc = getWindow("displayWind").document
+    var container = doc.getElementById("container")
+    container.innerHTML = ''
+
+}
+
+export { updateWindow, prevVerse, nextVerse, hidWindow }
