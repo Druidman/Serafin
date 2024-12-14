@@ -46,12 +46,12 @@ function verseBox_click_event(event){
     
 }
 function db_search_submit_event(event){
-    if (event.key == "Enter"){
-       
-        var previews = getSongsByPrefix(event.target.value)
-        load_previews(previews)
-        
-    }
+    
+
+    var previews = getSongsByPrefix(event.target.value)
+    load_previews(previews)
+    
+    
 }
 
 function add_playlistRecord_click_event(playlistRecord){
@@ -70,7 +70,7 @@ function add_verseBox_click_event(verse){
 }
 
 
-document.getElementById("databaseSearch").addEventListener("keydown",db_search_submit_event)
+document.getElementById("databaseSearch").addEventListener("input",db_search_submit_event)
     
 document.getElementById("play").addEventListener("click",(event)=>{
     var button = event.currentTarget
