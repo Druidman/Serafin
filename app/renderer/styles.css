@@ -66,6 +66,23 @@ main{
     background-color: #fcf5fb;
 }
 
+.playlistRecord {
+    font-size: larger;
+    background-color: #FFFFFF;
+    width: 100%;
+    border-radius: 5px;
+    height: 10%;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+
+}
+.playlistRecord:not(.selected):hover {
+    background-color: #fcf5fb;
+}
+
 .selected {
     background-color: #ffffb5;
 

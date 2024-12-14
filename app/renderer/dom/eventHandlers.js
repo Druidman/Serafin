@@ -1,8 +1,8 @@
-import * as Buttons from "./buttons.js"
+
 import { getSongsByPrefix, getSongFullById } from "./ipcHandlers.js"
 import { scrollPlayView } from "./viewModifiers.js"
 import { load_previews } from "./dbutils.js"
-import { updatePlayView } from "./elementUpdaters.js"
+import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as windManager from "./windowManager/window.js"
 import * as displayWind from "./windowManager/displayWindow.js"
 
@@ -24,17 +24,18 @@ function playlistRecord_click_event(event){
 
 
 }
+
 function db_record_button_click_event(event){
     var button = event.currentTarget
-    switch (button.textContent){
-        case "+":
-            Buttons.convert_to_minus_button(button)
-            break;
-        case "-":
-            Buttons.convert_to_plus_button(button)
-            break;
-    }
+
+    var dbRecord = button.parentNode.cloneNode(true)
+    appendToPlaylist(dbRecord)
 }
+function playlist_record_button_click_event(event){
+    var button = event.currentTarget
+    removeFromPlaylist(event.currentTarget.parentNode)
+}
+
 function verseBox_click_event(event){
     var curr = document.getElementsByClassName("currentVerse")[0]
     if (!curr){
@@ -45,6 +46,7 @@ function verseBox_click_event(event){
     displayWind.updateWindow()
     
 }
+
 function db_search_submit_event(event){
     
 
@@ -53,17 +55,18 @@ function db_search_submit_event(event){
     
     
 }
+
 function add_playlistRecord_click_event(playlistRecord){
-
-
-    playlistRecord.addEventListener("click",playlistRecord_click_event)
-    
-    
-        
+    playlistRecord.addEventListener("click",playlistRecord_click_event) 
 }
+function add_playlistRecord_button_click_event(button){
+    button.addEventListener("click",playlist_record_button_click_event)
+}
+
 function add_db_record_button_click_event(button){
     button.addEventListener("click",db_record_button_click_event)
 }
+
 function add_verseBox_click_event(verse){
     verse.addEventListener("click",verseBox_click_event)
 }
@@ -120,6 +123,7 @@ document.getElementById("prev").addEventListener("click",()=>{
 
 export { 
     add_db_record_button_click_event, 
+    add_playlistRecord_button_click_event,
     playlistRecord_click_event, 
     add_playlistRecord_click_event,
     add_verseBox_click_event }

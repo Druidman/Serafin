@@ -1,4 +1,9 @@
-import { add_db_record_button_click_event, add_verseBox_click_event } from "./eventHandlers.js"
+import { 
+    add_playlistRecord_click_event, 
+    add_playlistRecord_button_click_event,
+    add_db_record_button_click_event, 
+    add_verseBox_click_event 
+} from "./eventHandlers.js"
 
 function construct_verse(verse){
     var box = document.createElement("div")
@@ -25,7 +30,6 @@ function construct_db_record(element){
     var dbButton = document.createElement("button")
     dbButton.textContent = "+"
     dbButton.classList.add("dbRecordButton")
-    dbButton.classList.add("plus")
 
     add_db_record_button_click_event(dbButton)
 
@@ -44,4 +48,33 @@ function construct_spaceTaker(){
     return body
 
 }
-export { construct_db_record, construct_verse, construct_spaceTaker }
+
+function construct_playlist_record(dbRecord){
+
+    var text = dbRecord.getElementsByTagName("p")[0].innerHTML
+    
+
+
+    var playlistRecord = document.createElement("div")
+    playlistRecord.classList.add("playlistRecord")
+    playlistRecord.setAttribute("id",dbRecord.id)
+
+    var textHolder = document.createElement("p")
+    textHolder.innerHTML = text
+
+    var button = document.createElement("button")
+    button.classList.add("playlistRecordButton")
+    button.textContent = "-"
+
+    add_playlistRecord_button_click_event(button)
+
+    playlistRecord.append(textHolder)
+    playlistRecord.append(button)
+
+    add_playlistRecord_click_event(playlistRecord)
+
+    return playlistRecord
+
+}
+
+export { construct_db_record, construct_verse, construct_spaceTaker, construct_playlist_record }

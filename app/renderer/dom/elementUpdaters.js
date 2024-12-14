@@ -1,5 +1,9 @@
-import { construct_verse, construct_spaceTaker } from "./elementConstructors.js"
-import { add_playlistRecord_click_event, playlistRecord_click_event } from "./eventHandlers.js"
+import { 
+    construct_verse, 
+    construct_spaceTaker, 
+    construct_playlist_record 
+} from "./elementConstructors.js"
+
 
 
 
@@ -29,32 +33,14 @@ function updatePlayView(song){
     
     
 }
-
-function updatePlaylist(dbRecord){
-    
-
-    dbRecord.classList.add("playlistRecord")
-    add_playlistRecord_click_event(dbRecord)
-    
-
+function appendToPlaylist(dbRecord){
+    var playlistRecord = construct_playlist_record(dbRecord)
     var playlist = document.getElementById("playlist")
-    
-    playlist.append(dbRecord)
+    playlist.append(playlistRecord)
+}
+function removeFromPlaylist(playlistRecord){
+    var playlist = document.getElementById("playlist")
+    playlist.removeChild(playlistRecord)
 }
 
-function updateDatabaseViewer(dbRecord){
-    dbRecord.classList.remove("playlistRecord")
-    
-        
-    dbRecord.classList.remove("selected")
-    
-
-    dbRecord.removeEventListener("click",playlistRecord_click_event)
-
-
-
-    var playlist = document.getElementById("databaseViewer")
-    playlist.append(dbRecord)
-}
-
-export { updatePlayView, updatePlaylist, updateDatabaseViewer }
+export { updatePlayView, removeFromPlaylist, appendToPlaylist }
