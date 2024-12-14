@@ -10,12 +10,15 @@ function nextVerse(){
     verse.classList.remove("currentVerse")
 
     verse.nextSibling.classList.add("currentVerse")
-    
+    var button = document.getElementById("play")
+    if (button.innerHTML == "Show"){
+        return true
+    }
     if (!updateWindow()){
         return false
     }
-
     return true
+    
 }
 
 function prevVerse(){
@@ -26,7 +29,10 @@ function prevVerse(){
     verse.classList.remove("currentVerse")
 
     verse.previousSibling.classList.add("currentVerse")
-    
+    var button = document.getElementById("play")
+    if (button.innerHTML == "Show"){
+        return true
+    }
     if (!updateWindow()){
         return false
     }

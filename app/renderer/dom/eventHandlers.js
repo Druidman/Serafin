@@ -33,7 +33,19 @@ function db_record_button_click_event(event){
 }
 function playlist_record_button_click_event(event){
     var button = event.currentTarget
-    removeFromPlaylist(event.currentTarget.parentNode)
+    var playlistRecord = event.currentTarget.parentNode
+    removeFromPlaylist(playlistRecord)
+    if (playlistRecord.classList.contains("selected")){
+        var playView = document.getElementById("playView")
+        playView.innerHTML = ""
+
+        var playButton = document.getElementById("play")
+        playButton.innerHTML = "Show"
+        displayWind.hidWindow()
+        playButton.style["background-color"] = "#FFFFFF"
+    }   
+    
+    
 }
 
 function verseBox_click_event(event){
@@ -43,7 +55,11 @@ function verseBox_click_event(event){
     }
     curr.classList.remove("currentVerse")
     event.currentTarget.classList.add("currentVerse")
-    displayWind.updateWindow()
+    var button = document.getElementById("play")
+    if (button.innerHTML == "Hid"){
+        displayWind.updateWindow()
+    }
+    
     
 }
 
@@ -86,7 +102,6 @@ document.getElementById("play").addEventListener("click",(event)=>{
     if (button.innerHTML == "Show"){
         displayWind.updateWindow()
         button.innerHTML = "Hid"
-        console.log("button")
         button.style["background-color"] = "#666666"
     }
     else if (button.innerHTML == "Hid"){
@@ -100,14 +115,12 @@ document.getElementById("play").addEventListener("click",(event)=>{
 })
 
 document.getElementById("next").addEventListener("click",()=>{
-    var playbutton = document.getElementById("play")
-    if (playbutton.innerHTML == "Show"){
-        return
-    }
+    
+    
     if (!displayWind.nextVerse()){
         return
     }
-    scrollPlayView("s")
+    scrollPlayView()
     
 })
 
@@ -116,7 +129,7 @@ document.getElementById("prev").addEventListener("click",()=>{
     if (!displayWind.prevVerse()){
         return
     }
-    scrollPlayView("s")
+    scrollPlayView()
     
     
 })
