@@ -2,7 +2,7 @@
 
 function preview(amount,db){
     return new Promise((resolve, reject)=>{
-        db.all("SELECT title,id FROM songs LIMIT ?",[amount],(err,rows)=>{
+        db.all("SELECT title,id FROM songs ORDER BY title ASC LIMIT ? ",[amount],(err,rows)=>{
             if (err){
                 console.error(err.message)
                 reject(err)
@@ -17,7 +17,7 @@ function preview(amount,db){
 
 function getByPrefix(prefix,db){
     return new Promise((resolve,reject)=>{
-        db.all("SELECT title,id FROM songs WHERE title LIKE ? ",[prefix + "%"],(err,rows)=>{
+        db.all("SELECT title,id FROM songs WHERE title LIKE ? ORDER BY title ASC",[prefix + "%"],(err,rows)=>{
             if (err) {
                 console.error(err.message)
                 reject(err)
