@@ -37,7 +37,7 @@
             "db/**/*",
             "Songs.db"
         ],
-        "lnux":{
+        "linux":{
             "target":[
                 "AppImage"
             ]
