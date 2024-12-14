@@ -53,7 +53,6 @@ function db_search_submit_event(event){
     
     
 }
-
 function add_playlistRecord_click_event(playlistRecord){
 
 
