@@ -1,6 +1,6 @@
 {
     "name": "serafin",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Serafin app to control text in church",
     "main": "app/main/main.js",
     "author": "Mateusz Kowalski",
@@ -37,6 +37,12 @@
             "db/**/*",
             "Songs.db"
         ],
+        "lnux":{
+            "target":[
+                "AppImage"
+            ]
+        
+        },
        
         "win": {
             "target": [
