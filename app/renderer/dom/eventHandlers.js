@@ -70,7 +70,7 @@ function add_verseBox_click_event(verse){
 }
 
 
-document.getElementById("databaseSearch").addEventListener("keydown",db_search_submit_event)
+document.getElementById("databaseSearch").addEventListener("input",db_search_submit_event)
     
 document.getElementById("play").addEventListener("click",(event)=>{
     var button = event.currentTarget
