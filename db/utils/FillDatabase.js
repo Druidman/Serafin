@@ -5,13 +5,20 @@ async function CheckIfRecordExists(title){
     const checkIfExists = db.prepare("SELECT * FROM songs WHERE title =? ")
 
     return await new Promise((resolve,reject)=>{
-        checkIfExists.get(title,(err)=>{
+        checkIfExists.get(title,(err,row)=>{
             if (err){
                 console.log("Error while checking if record already exists during insertion in db")
                 reject(err)
             }
             else{
-                resolve("")
+                if (!row){
+                    resolve(false)
+                }
+                else{
+                    resolve(true)
+                }  
+                
+                
             }
         })
     })
