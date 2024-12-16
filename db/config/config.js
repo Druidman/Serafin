@@ -1,5 +1,5 @@
 const migrations = require("../Migrations/migrations")
-const { FillWithSampleData } = require("../utils/FillDatabase")
+const { FillWithData } = require("../utils/FillDatabase")
 
 async function Config(db){
     console.debug("CONFIG STARTED")
@@ -9,7 +9,7 @@ async function Config(db){
         
 
     })
-    await FillWithSampleData(db)
+    await FillWithData(db)
     console.debug("CONFIG ENDED")
     
 
