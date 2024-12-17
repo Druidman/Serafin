@@ -1,5 +1,5 @@
-function getSongsPreview(amount){
-    var data = window.electronAPI.getSongsPreview(amount)
+function getSongsPreview(amount,categoryName){
+    var data = window.electronAPI.getSongsPreview(amount,categoryName)
     return data
 }
 
@@ -14,8 +14,8 @@ function getSongFullById(id){
     return song
 }
 
-function getSongsByPrefix(prefix){
-    var data = window.electronAPI.getSongsByPrefix(prefix)
+function getSongsByPrefix(prefix,categoryName){
+    var data = window.electronAPI.getSongsByPrefix(prefix,categoryName)
     return data
 }
 

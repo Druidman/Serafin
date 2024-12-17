@@ -4,13 +4,13 @@ const database = require('../../db/database')
 
 function setupIpcHandlers(db){
     
-    ipcMain.on("getSongsPreview",(Event,amount)=>{
-        database.getSongsPreview(Event,amount,db)
+    ipcMain.on("getSongsPreview",(Event,amount,categoryName)=>{
+        database.getSongsPreview(Event,amount,categoryName,db)
         console.debug("getSongsPreview: IPC")
     })
 
-    ipcMain.on("getSongsByPrefix",(Event,prefix)=>{
-        database.getSongsByPrefix(Event,prefix,db)
+    ipcMain.on("getSongsByPrefix",(Event,prefix,categoryName)=>{
+        database.getSongsByPrefix(Event,prefix,categoryName,db)
         console.debug("getSongsByPrefix: IPC")
     })
     ipcMain.on("getSongsFullById",(Event,ids)=>{

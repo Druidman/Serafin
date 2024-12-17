@@ -2,7 +2,8 @@ import {
     add_playlistRecord_click_event, 
     add_playlistRecord_button_click_event,
     add_db_record_button_click_event, 
-    add_verseBox_click_event 
+    add_verseBox_click_event,
+    add_categoryRecord_click_event 
 } from "./eventHandlers.js"
 
 function construct_verse(verse){
@@ -43,12 +44,13 @@ function construct_category_record(element){
     categoryRecord.classList.add("categoryRecord")
 
     categoryRecord.classList.add("categoryRecord")
-
+    
     var title_p = document.createElement("p")
     console.log(element)
-    title_p.textContent = element["category"].toUpperCase()
+    title_p.textContent = element["category"]
 
     categoryRecord.appendChild(title_p)
+    add_categoryRecord_click_event(categoryRecord)
  
     return categoryRecord
 }
