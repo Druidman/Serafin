@@ -67,11 +67,12 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.2s;
+    transition: 0.15s;
 
 }
 .dbRecord:not(.selected):hover {
     background-color: #fcf5fb;
+    font-size: x-large;
 }
 
 .playlistRecord {
@@ -84,11 +85,12 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.2s;
+    transition: 0.15s;
 
 }
 .playlistRecord:not(.selected):hover {
     background-color: #fcf5fb;
+    font-size: x-large;
 }
 .categoryRecord{
     font-size: larger;
@@ -100,11 +102,12 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.2s;
+    transition: 0.15s;
     cursor: pointer;
 }
 .categoryRecord:not(.selected):hover {
     background-color: #fcf5fb;
+    font-size: x-large;
 }
 
 
@@ -133,6 +136,7 @@ main{
 }
 .verseHolder::-webkit-scrollbar{
     display: none;
+    
 }
 
 .verseBox{
@@ -203,6 +207,7 @@ main{
 }
 #dbViewChanger:hover {
     background-color: #fcf5fb;
+    
 }
 
 
