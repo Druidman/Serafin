@@ -1,8 +1,9 @@
 
 
-function preview(amount,db){
-    return new Promise((resolve, reject)=>{
-        db.all("SELECT title,id FROM songs ORDER BY title ASC LIMIT ? ",[amount],(err,rows)=>{
+async function getPreviews(amount,categoryName,db){
+    return await new Promise((resolve, reject)=>{
+    
+        db.all("SELECT title,id FROM songs WHERE category=? ORDER BY title ASC LIMIT ? ",[categoryName,amount],(err,rows)=>{
             if (err){
                 console.error(err.message)
                 reject(err)
@@ -15,9 +16,9 @@ function preview(amount,db){
     })
 }
 
-function getByPrefix(prefix,db){
-    return new Promise((resolve,reject)=>{
-        db.all("SELECT title,id FROM songs WHERE title LIKE ? ORDER BY title ASC",[prefix + "%"],(err,rows)=>{
+async function getByPrefix(prefix,categoryName,db){
+    return await new Promise((resolve,reject)=>{
+        db.all("SELECT title,id FROM songs WHERE title LIKE ? AND category=? ORDER BY title ASC",[prefix + "%",categoryName],(err,rows)=>{
             if (err) {
                 console.error(err.message)
                 reject(err)
@@ -53,6 +54,21 @@ async function getFullById(ids,db){
     
     return songs
 }
+
+async function getCategories(db){
+    return await new Promise((resolve,reject)=>{
+        db.all("SELECT DISTINCT category FROM songs", (err,rows)=>{
+            if (err){
+                console.debug("Error while fetching category rows from db: ", err.message)
+                reject(err)
+            }
+            else{
+                resolve(rows)
+            }
+        })
+
+    })
+}
     
     
     
@@ -60,4 +76,4 @@ async function getFullById(ids,db){
     
 
 
-module.exports = { preview, getByPrefix, getFullById }
+module.exports = { getPreviews, getByPrefix, getFullById, getCategories }

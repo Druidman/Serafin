@@ -1,11 +1,32 @@
 
-import { getSongsByPrefix, getSongFullById } from "./ipcHandlers.js"
+import { 
+    getSongsByPrefix, 
+    getSongFullById,
+    getSongsPreview,
+    getSongCategories } from "./ipcHandlers.js"
 import { scrollPlayView } from "./viewModifiers.js"
-import { load_previews } from "./dbutils.js"
+import { load_categories, load_previews } from "./dbutils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as windManager from "./windowManager/window.js"
 import * as displayWind from "./windowManager/displayWindow.js"
 
+
+function categoryRecord_click_event(event){
+    var categoryRecord = event.currentTarget
+    var textHolder = categoryRecord.getElementsByTagName("p")[0]
+    var categoryName = textHolder.innerHTML
+
+    var prevs = getSongsPreview(100,categoryName)
+    load_previews(prevs)
+
+    var dbViewChangeButton = document.getElementById("dbViewChanger")
+    
+    dbViewChangeButton.innerHTML = categoryName
+}
+function add_categoryRecord_click_event(categoryRecord){
+    categoryRecord.addEventListener("click",categoryRecord_click_event)
+    
+}
 
 function playlistRecord_click_event(event){
     if (event.target.tagName === "BUTTON"){
@@ -65,8 +86,12 @@ function verseBox_click_event(event){
 
 function db_search_submit_event(event){
     
-
-    var previews = getSongsByPrefix(event.target.value)
+    var categoryName = document.getElementById("dbViewChanger").innerHTML
+    if (!categoryName){
+        return
+    }
+   
+    var previews = getSongsByPrefix(event.target.value,categoryName)
     load_previews(previews)
     
     
@@ -134,9 +159,23 @@ document.getElementById("prev").addEventListener("click",()=>{
     
 })
 
+document.getElementById("dbViewChanger").addEventListener("click",(event)=>{
+    var button = event.currentTarget
+    var categories = getSongCategories()
+    load_categories(categories)
+
+    button.innerHTML = ""
+
+
+
+})
+
+
+
 export { 
     add_db_record_button_click_event, 
     add_playlistRecord_button_click_event,
     playlistRecord_click_event, 
     add_playlistRecord_click_event,
-    add_verseBox_click_event }
+    add_verseBox_click_event,
+    add_categoryRecord_click_event }

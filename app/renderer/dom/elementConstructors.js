@@ -2,7 +2,8 @@ import {
     add_playlistRecord_click_event, 
     add_playlistRecord_button_click_event,
     add_db_record_button_click_event, 
-    add_verseBox_click_event 
+    add_verseBox_click_event,
+    add_categoryRecord_click_event 
 } from "./eventHandlers.js"
 
 function construct_verse(verse){
@@ -37,6 +38,21 @@ function construct_db_record(element){
     dbRecord.appendChild(dbButton)
 
     return dbRecord
+}
+function construct_category_record(element){
+    var categoryRecord = document.createElement("div")
+    categoryRecord.classList.add("categoryRecord")
+
+    categoryRecord.classList.add("categoryRecord")
+    
+    var title_p = document.createElement("p")
+    console.log(element)
+    title_p.textContent = element["category"]
+
+    categoryRecord.appendChild(title_p)
+    add_categoryRecord_click_event(categoryRecord)
+ 
+    return categoryRecord
 }
 
 function construct_spaceTaker(){
@@ -77,4 +93,9 @@ function construct_playlist_record(dbRecord){
 
 }
 
-export { construct_db_record, construct_verse, construct_spaceTaker, construct_playlist_record }
+export { 
+    construct_db_record,
+    construct_category_record,
+    construct_verse, 
+    construct_spaceTaker, 
+    construct_playlist_record }

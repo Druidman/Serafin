@@ -1,11 +1,11 @@
 const fs = require("fs")
 const path = require("path")
 
-async function CheckIfRecordExists(title){
-    const checkIfExists = db.prepare("SELECT * FROM songs WHERE title =? ")
+async function CheckIfRecordExists(title,category){
+    const checkIfExists = db.prepare("SELECT * FROM songs WHERE title =? AND category =?")
 
     return await new Promise((resolve,reject)=>{
-        checkIfExists.get(title,(err,row)=>{
+        checkIfExists.get(title,category,(err,row)=>{
             if (err){
                 console.log("Error while checking if record already exists during insertion in db")
                 reject(err)
@@ -13,9 +13,12 @@ async function CheckIfRecordExists(title){
             else{
                 if (!row){
                     resolve(false)
+                    
                 }
                 else{
                     resolve(true)
+                    console.log("exists: ", title)
+                    
                 }  
                 
                 
@@ -58,7 +61,7 @@ async function FillWithData(db){
         for (var song of songs){
             var title = song["title"]
             var lyrics = song["lyrics"]
-            if (await CheckIfRecordExists(title)){
+            if (await CheckIfRecordExists(title,category)){
                 continue
             }
 
