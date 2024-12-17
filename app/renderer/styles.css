@@ -90,6 +90,23 @@ main{
 .playlistRecord:not(.selected):hover {
     background-color: #fcf5fb;
 }
+.categoryRecord{
+    font-size: larger;
+    background-color: #FFFFFF;
+    min-width: 100%;
+    border-radius: 5px;
+    min-height: 10%;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.categoryRecord:not(.selected):hover {
+    background-color: #fcf5fb;
+}
+
 
 .selected {
     background-color: #ffffb5;

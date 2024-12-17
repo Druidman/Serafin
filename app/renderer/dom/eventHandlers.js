@@ -134,6 +134,12 @@ document.getElementById("prev").addEventListener("click",()=>{
     
 })
 
+document.getElementById("dbViewChanger").addEventListener("click",()=>{
+    
+})
+
+
+
 export { 
     add_db_record_button_click_event, 
     add_playlistRecord_button_click_event,

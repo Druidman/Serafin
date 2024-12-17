@@ -21,9 +21,12 @@ function setupIpcHandlers(db){
     ipcMain.on("getSongFullById", (Event,id)=>{
         database.getSongFullById(Event,id,db)
         console.debug("getSongFullById: IPC")
-        
-        
+    })
+    ipcMain.on("getSongCategories", (Event)=>{
+        database.getSongCategories(Event,db)
+        console.debug("getSongCategories: IPC")
     })
 }
+
 
 module.exports = { setupIpcHandlers }

@@ -38,6 +38,20 @@ function construct_db_record(element){
 
     return dbRecord
 }
+function construct_category_record(element){
+    var categoryRecord = document.createElement("div")
+    categoryRecord.classList.add("categoryRecord")
+
+    categoryRecord.classList.add("categoryRecord")
+
+    var title_p = document.createElement("p")
+    console.log(element)
+    title_p.textContent = element["category"].toUpperCase()
+
+    categoryRecord.appendChild(title_p)
+ 
+    return categoryRecord
+}
 
 function construct_spaceTaker(){
     var body = document.createElement("div")
@@ -77,4 +91,9 @@ function construct_playlist_record(dbRecord){
 
 }
 
-export { construct_db_record, construct_verse, construct_spaceTaker, construct_playlist_record }
+export { 
+    construct_db_record,
+    construct_category_record,
+    construct_verse, 
+    construct_spaceTaker, 
+    construct_playlist_record }

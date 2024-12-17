@@ -19,4 +19,9 @@ function getSongsByPrefix(prefix){
     return data
 }
 
-export { getSongsFullById, getSongsPreview, getSongsByPrefix, getSongFullById }
+function getSongCategories(){
+    var data = window.electronAPI.getSongCategories()
+    return data
+}
+
+export { getSongsFullById, getSongsPreview, getSongsByPrefix, getSongFullById, getSongCategories }
