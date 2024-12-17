@@ -92,9 +92,12 @@ main{
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    
-   
 }
+
+.recordHolder::-webkit-scrollbar{
+    display: none;
+}
+
 .verseHolder {
     display: flex;
     flex-direction: column;
