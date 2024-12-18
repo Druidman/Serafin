@@ -15,13 +15,14 @@ function categoryRecord_click_event(event){
     var categoryRecord = event.currentTarget
     var textHolder = categoryRecord.getElementsByTagName("p")[0]
     var categoryName = textHolder.innerHTML
+    
 
     var prevs = getSongsPreview(100,categoryName)
     load_previews(prevs)
-
-    var dbViewChangeButton = document.getElementById("dbViewChanger")
     
-    dbViewChangeButton.innerHTML = categoryName
+    var categorySelector = document.getElementById("categorySelector")
+    categorySelector.setAttribute("data-value",categoryName)
+ 
 }
 function add_categoryRecord_click_event(categoryRecord){
     categoryRecord.addEventListener("click",categoryRecord_click_event)
@@ -86,7 +87,7 @@ function verseBox_click_event(event){
 
 function db_search_submit_event(event){
     
-    var categoryName = document.getElementById("dbViewChanger").innerHTML
+    var categoryName = document.getElementById("categorySelector").getAttribute("data-value")
     if (!categoryName){
         return
     }
@@ -159,15 +160,10 @@ document.getElementById("prev").addEventListener("click",()=>{
     
 })
 
-document.getElementById("dbViewChanger").addEventListener("click",(event)=>{
-    var button = event.currentTarget
+document.getElementById("categorySelector").addEventListener("click",(event)=>{
     var categories = getSongCategories()
+    
     load_categories(categories)
-
-    button.innerHTML = ""
-
-
-
 })
 
 

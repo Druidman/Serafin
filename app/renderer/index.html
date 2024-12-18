@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
         <section id="headerDbSection">
-          <button class="headerButton" id="dbViewChanger"></button>  
+          <button class="headerButton" id="categorySelector" data-value="wszystko"><i class="fa fa-bars"></i></button>  
           <input placeholder="Search..." id="databaseSearch">
         </section>
         <section id="headerPlayerSection">
@@ -23,8 +24,6 @@
         
         <div class="mainBox recordHolder" id="databaseViewer">
           <div class="dbRecord">
-            <p>example title</p>
-            <button class="dbRecordButton"></button>
           </div>
         </div>
       </section>

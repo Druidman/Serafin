@@ -13,7 +13,9 @@ function load_previews(data){
 function load_categories(data){
     var dataBox = document.getElementById("databaseViewer")
     dataBox.innerHTML = ""
-
+  
+    var db_record = construct_category_record({"category": "wszystko"})
+    dataBox.appendChild(db_record)
     for (var element of data){
         var db_record = construct_category_record(element)
         dataBox.appendChild(db_record)

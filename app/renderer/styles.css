@@ -202,10 +202,10 @@ main{
     
     padding: 5px;
 }
-#dbViewChanger{
+#categorySelector{
     transition: 0.2s;
 }
-#dbViewChanger:hover {
+#categorySelector:hover {
     background-color: #fcf5fb;
     
 }
