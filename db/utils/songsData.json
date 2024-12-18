@@ -729,72 +729,6 @@
                     "lyrics": []
                 }
             ],
-            "Cykle mszalne": [
-                {
-                    "title": "W czasie smutnym, adwentowym",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [ks. I. Pawlak]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [ks. K. Pasionek]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [ks. K. Mrowiec CM]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [S. Stuligrosz]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [ks. Z. Piasecki]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [R. Dwornik]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [o. J. \u015acibor CSsR]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [na Bo\u017ce Narodzenie, Pasterska]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Missa \"primitiva\"",
-                    "lyrics": []
-                },
-                {
-                    "title": "Missa VIII De Angelis",
-                    "lyrics": []
-                },
-                {
-                    "title": "Missa XI Orbis factor",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [misyjna]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [ks. A. Chlondowski SDB]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [M. J. D\u0105browa]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Msza [M. Machura]",
-                    "lyrics": []
-                }
-            ],
             "Pie\u015bni dla dzieci": [
                 {
                     "title": "Do Serca Swojego mnie tulisz",
@@ -1011,7 +945,332 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni na drug\u0105 cz\u0119\u015b\u0107 Adwentu": [
+            "Adwent": [
+                {
+                    "title": "Bliskie jest Kr\u00f3lestwo Bo\u017ce",
+                    "lyrics": [
+                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.\n\r\n",
+                        " B\u00f3g jest \u015bwiat\u0142o\u015bci\u0105 * i nie ma w Nim \u017cadnej ciemno\u015bci. Ref.\r\n",
+                        " Je\u017celi chodzimy w \u015bwiat\u0142o\u015bci, * wtedy mamy \u0142\u0105czno\u015b\u0107 mi\u0119dzy sob\u0105. Ref.\r\n",
+                        " Krew Jezusa, Jego Syna, * oczyszcza nas z wszelkiego grzechu. Ref.\r\n",
+                        " Je\u017celi m\u00f3wimy, \u017ce nie mamy grzechu, * to samych siebie oszukujemy. Ref.\r\n",
+                        " Je\u017celi wyznajemy nasze grzechy, * B\u00f3g oczy\u015bci nas z wszelkiej nieprawo\u015bci. Ref.\r\n",
+                        " Je\u015bliby nawet kto\u015b zgrzeszy\u0142, * mamy Rzecznika wobec Ojca \u2013 Jezusa Chrystusa. Ref.\r\n",
+                        " On jest ofiar\u0105 przeb\u0142agaln\u0105 za nasze grzechy, * a tak\u017ce za grzechy ca\u0142ego \u015bwiata. Ref.\r\n",
+                        " Dost\u0119pujemy odpuszczenia grzech\u00f3w * ze wzgl\u0119du na Jego imi\u0119. Ref."
+                    ]
+                },
+                {
+                    "title": "Ju\u017c d\u017awi\u0119czny g\u0142os si\u0119 rozlega",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lestwo niebieskie, ju\u017c ku nam si\u0119 zbli\u017ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zdrowa\u015b Maryjo [Msza roratnia]",
+                    "lyrics": []
+                },
+                {
+                    "title": "W tym \u015bwi\u0119tym czasie oczekiwania",
+                    "lyrics": [
+                        " W tym \u015bwi\u0119tym czasie oczekiwania * r\u00f3wnajmy \u015bcie\u017cki naszego \u017cycia, * by Pan nas zasta\u0142 przygotowanych * na swoje przyj\u015bcie.\n\r\n",
+                        " Niech si\u0119 obni\u017c\u0105 wynios\u0142e szczyty, * niech si\u0119 doliny podnios\u0105 w g\u00f3r\u0119, * a wszelka droga pod\u0105\u017ca prosto * do swego celu.\n\r\n",
+                        " Bo ju\u017c si\u0119 zbli\u017ca Zbawiciel \u015bwiata, * przynosz\u0105c \u015bwiat\u0142o zb\u0142\u0105kanym w mroku, * i ka\u017cdy cz\u0142owiek zobaczy S\u0142owo * wcielone dla nas.\n\r\n",
+                        " A kiedy wr\u00f3ci na ko\u0144cu czas\u00f3w, * by s\u0105dzi\u0107 ludzi za ich uczynki, * niech Jego \u0142aska i mi\u0142osierdzie * przewa\u017c\u0105 win\u0119.\n\r\n",
+                        " Wielbimy Ciebie, Odkupicielu, * i Twego Ojca z p\u0142omiennym Duchem: * niech b\u0119dzie chwa\u0142a przez wieczno\u015b\u0107 ca\u0142\u0105 * Naj\u015bwi\u0119tszej Tr\u00f3jcy. Amen."
+                    ]
+                },
+                {
+                    "title": "Z powag\u0105 przygotujcie",
+                    "lyrics": [
+                        " Z powag\u0105 przygotujcie o, ludzie, serca swe * i godnie oczekujcie, Pan w nich zamieszka\u0107 chce. * = Jezus Zbawiciel, nasz w\u00f3dz niezwyci\u0119\u017cony, * przez Boga przeznaczony, chce zn\u00f3w odwiedzi\u0107 nas.\n\r\n",
+                        " Dla Go\u015bcia tak wielkiego gotujcie drog\u0119 ju\u017c; * prostujcie \u015bcie\u017cki Jego, co z\u0142e wyrzu\u0107cie z dusz. * = G\u00f3ry si\u0119 zni\u017c\u0105, niech stan\u0105 si\u0119 r\u00f3wnin\u0105, * przeszkody niechaj zgin\u0105 i to, co krzywe, z\u0142e.\n\r\n",
+                        " Bo serce ukorzone najwy\u017cej ceni B\u00f3g, * a pych\u0105 przepe\u0142nione w\u015br\u00f3d strasznych zginie trw\u00f3g. * = Kto z nas jest szczery i wierzy w S\u0142owo Bo\u017ce, * z rado\u015bci\u0105 czeka\u0107 mo\u017ce, do niego przyjdzie Pan."
+                    ]
+                },
+                {
+                    "title": "Chwalmy Boga wszechmocnego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Odkupiciela",
+                    "lyrics": [
+                        " Matko Odkupiciela, z niewiast najs\u0142awniejsza, * Gwiazdo morska, do nieba \u015bcie\u017cko najpro\u015bciejsza. * Ty\u015b jest przechodni\u0105 bram\u0105 do raju wiecznego, * Ty\u015b jedyn\u0105 nadziej\u0105 cz\u0142owieka grzesznego.\r\n",
+                        " Racz pod\u017awign\u0105\u0107, prosimy, lud upadaj\u0105cy, * w grzechach swych uwik\u0142any, powsta\u0107 z nich pragn\u0105cy, * Ty\u015b cudownie zrodzi\u0142a \u015bwiatu Zbawiciela, * Ty\u015b sama wykarmi\u0142a Twego Stworzyciela.\r\n",
+                        " Panno przedtem i potem, z \u015bwiata podziwieniem * uczczona Gabryjela wdzi\u0119cznym pozdrowieniem, * racz si\u0119 wstawi\u0107, o Panno, za nami grzesznymi. * Ratuj nas, opiekuj si\u0119 s\u0142ugami Twoimi."
+                    ]
+                },
+                {
+                    "title": "Gwiazdo morza g\u0142\u0119bokiego",
+                    "lyrics": [
+                        " Gwiazdo morza g\u0142\u0119bokiego, * Matko Boga Najwy\u017cszego, * Panienko, b\u0105d\u017a pozdrowiona, * Furto rajska otworzona.\r\n",
+                        " Od anio\u0142a\u015b pozdrowiona, * gdy\u015b pocz\u0119\u0142a w sobie Pana; * imi\u0119 matki, naszej Ewy, * odmieniaj ku pokojowi.\r\n",
+                        " Rozwi\u0105\u017c zwi\u0105zki zad\u0142u\u017conym, * przynie\u015b \u015bwiat\u0142o za\u015blepionym, * odmie\u0144, co z\u0142e z naszej strony, * nie wypuszczaj nas z obrony.\r\n",
+                        " I\u017ce\u015b Matk\u0105, niech poznamy! * Gdy si\u0119 wi\u0119c modlisz za nami, * niechaj Ci\u0119 Syn Tw\u00f3j wys\u0142ucha, * ku nam grzesznym sk\u0142oni ucha."
+                    ]
+                },
+                {
+                    "title": "Przyb\u0105d\u017a, Panie, bo czekamy",
+                    "lyrics": [
+                        " Przyb\u0105d\u017a, Panie, bo czekamy, * Twego przyj\u015bcia wygl\u0105damy, * bo nam \u017ale \u017cy\u0107 bez Ciebie!\n\r\nRefren: Gotujmy drog\u0119 Panu, * prostujmy \u015bcie\u017cki Jego, * przemie\u0144my swoje \u017cycie, * odwr\u00f3\u0107my si\u0119 od z\u0142ego.\n\r\n",
+                        " Noc min\u0119\u0142a, dzie\u0144 jest blisko, * w jasnym \u015bwietle czy\u0144my wszystko. * Ze snu powsta\u0107 ju\u017c pora! Ref.\n\r\n",
+                        " Pan jest blisko, mi\u0119dzy nami, * w t\u0142umie ludzi gdzie\u015b wmieszany. * Czy Go umiem zobaczy\u0107? Ref.\n\r\n",
+                        " Pan jest blisko i te\u017c czeka, * czy przyj\u015b\u0107 mo\u017ce do cz\u0142owieka. * Czy Go kocham prawdziwie? Ref.\n"
+                    ]
+                },
+                {
+                    "title": "Oto Panna pocznie i porodzi Syna [Msza roratnia]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Spu\u015b\u0107cie nam na ziemskie niwy",
+                    "lyrics": [
+                        " \u201eSpu\u015b\u0107cie nam na ziemskie niwy * Zbawc\u0119 z niebios, ob\u0142oki\u201d. * \u015awiat przez grzechy nieszcz\u0119\u015bliwy * wo\u0142a\u0142 w nocy g\u0142\u0119bokiej; * gdy w\u015br\u00f3d odst\u0119pstwa od Boga * czart panowa\u0142, \u015bmier\u0107 i trwoga, * a ci\u0119\u017ckie przewinienia zamk\u0142y bramy zbawienia.\r\n",
+                        " Ale Ojciec si\u0119 zlitowa\u0142 * nad n\u0119dzn\u0105 ludzi dol\u0105, * Syn si\u0119 ch\u0119tnie ofiarowa\u0142, * by spe\u0142ni\u0107 wieczn\u0105 wol\u0119; * zaraz Gabryjel zst\u0119puje * i Maryi to zwiastuje, * i \u017ce z Ducha \u015awi\u0119tego * pocznie Syna Bo\u017cego.\r\n",
+                        " Panna przeczysta w pokorze * wyrokom si\u0119 poddaje, * iszcz\u0105 si\u0119 wyroki Bo\u017ce, * S\u0142owo Cia\u0142em si\u0119 staje. * Ach! Ciesz si\u0119, Adama plemi\u0119, * Zbawiciel zejdzie na ziemi\u0119; * dr\u017cyj, piek\u0142o, On twe mocy * w wiecznej pogr\u0105\u017cy nocy."
+                    ]
+                },
+                {
+                    "title": "Jasny P\u0142omieniu mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "O miasto \u015bwi\u0119te, Jeruzalem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak b\u0142yskawica znak Tw\u00f3j ja\u015bnieje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Grzechem Adama ludzie uwik\u0142ani",
+                    "lyrics": [
+                        " Grzechem Adama ludzie uwik\u0142ani, * wygnani z raju wo\u0142ali z otch\u0142ani: * = \u201eSpu\u015b\u0107cie, niebiosa, deszcz na ziemskie niwy * i niech z ob\u0142ok\u00f3w zst\u0105pi Sprawiedliwy\u201d.\r\n",
+                        " B\u0142\u0105ka\u0142 si\u0119 cz\u0142owiek w\u015br\u00f3d okropnej nocy, * bola\u0142 i nikt go nie wspom\u00f3g\u0142 w niemocy, * = p\u00f3ki nie przysz\u0142a wiekami \u017c\u0105dana * z judzkiej krainy Dziewica wybrana.\r\n",
+                        " Ona pokor\u0105 i oczy skromnymi * Boga samego \u015bci\u0105gn\u0119\u0142a ku ziemi: * = \u017ce, kt\u00f3rego \u015bwiat nie obj\u0105\u0142 wielko\u015bci, * tego dziewicze zamkn\u0119\u0142y wn\u0119trzno\u015bci.\r\n",
+                        " Nie nasz\u0105 jak\u0105 zas\u0142ug\u0105 \u015bci\u0105gniony; * mi\u0142o\u015b\u0107 Go sama wiod\u0142a w ziemskie strony; * = wzi\u0105\u0142 cia\u0142o ludzkie w nim b\u00f3l, niedostatki, * zbrata\u0142 si\u0119 z nami, by\u0142 Synem u Matki.\r\n",
+                        " Dajmy\u017c Mu za to dzi\u0119ki, ludu wierny, * \u017ce kochaj\u0105c nas, by\u0142 nam mi\u0142osierny, * = i, wznosz\u0105c r\u0119ce ku niebu jasnemu, * \u015bpiewajmy chwa\u0142\u0119 Bogu Najwy\u017cszemu."
+                    ]
+                },
+                {
+                    "title": "Przyjd\u017a Zbawicielu, przynie\u015b nam \u015bwiat\u0142o",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto Pan B\u00f3g przyjdzie",
+                    "lyrics": [
+                        "Antyfona: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119-tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.\n\r\nlub tekst \u0142aci\u0144ski Ecce Dominus veniet \u2013 p. nr ",
+                        "\r\nAntyfon\u0119 mo\u017cna przeplata\u0107 wersetami z Ap ",
+                        ".\n\r\n",
+                        " O Miasto \u015awi\u0119te, Jeruzalem, zst\u0119puj\u0105ce z nieba, maj\u0105ce chwa\u0142\u0119 Boga, * \u017ar\u00f3d\u0142o twego \u015bwiat\u0142a po-dobne do kamienia drogocennego, * jakby do ja-spisu o przejrzysto\u015bci kryszta\u0142u. Ant.\n\r\n",
+                        " Miastu nie trzeba s\u0142o\u0144ca ni ksi\u0119\u017cyca, by mu \u015bwieci\u0142y, * bo chwa\u0142a Boga je o\u015bwietli\u0142a * a jego lamp\u0105 Baranek. Ant.\n\r\n",
+                        " I w jego \u015bwietle b\u0119d\u0105 chodzi\u0142y narody * i wnios\u0105 do niego kr\u00f3lowie ziemi sw\u00f3j przepych * i za dnia bramy jego nie b\u0119d\u0105 zamkni\u0119te, bo ju\u017c nie b\u0119dzie tam nocy. Ant.\n\r\n",
+                        " I odt\u0105d nocy ju\u017c nie b\u0119dzie, a nie potrzeba im \u015bwiat\u0142a lampy i \u015bwiat\u0142a s\u0142o\u0144ca, * bo Pan B\u00f3g b\u0119-dzie \u015bwieci\u0142 nad nimi * i b\u0119d\u0105 kr\u00f3lowa\u0107 na wieki wiek\u00f3w. Ant."
+                    ]
+                },
+                {
+                    "title": "Stworzycielu gwiazd \u015bwiec\u0105cych",
+                    "lyrics": [
+                        " Stworzycielu gwiazd \u015bwiec\u0105cych, * wieczne \u015bwiat\u0142o nas wierz\u0105cych, * Zbawicielu wszystkich ludzi, * niech Ci\u0119 g\u0142os pokornych wzbudzi.\r\n",
+                        " Ty \u017ca\u0142uj\u0105c \u015bwiata wszego, * \u015bmiertelnie zachorza\u0142ego, * przynios\u0142e\u015b lekarstwo drogie, * leczy\u0107 grzesznym rany srogie.\r\n",
+                        " Ju\u017c si\u0119 mia\u0142 \u015bwiat ku zmrokowi, * gdy\u015b r\u00f3wien Oblubie\u0144cowi, * wyszed\u0142, jako zdr\u00f3j z krynicy, * z Matki, przeczystej Dziewicy.\r\n",
+                        " Prosim, Panie lito\u015bciwy, * przysz\u0142y S\u0119dzio sprawiedliwy, * bro\u0144 nas, dok\u0105d czas jest tego, * od szatana zdradliwego.\r\n",
+                        " Chwa\u0142a Ojcu Przedwiecznemu * i Synowi Mu r\u00f3wnemu, * i z Duchem \u015awi\u0119tym spo\u0142ecznie, * niechaj nie ustanie wiecznie."
+                    ]
+                },
+                {
+                    "title": "S\u0142ycha\u0107 g\u0142os stra\u017cnika w dali",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja... Zdrowa\u015b Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Hejna\u0142 wszyscy za\u015bpiewajmy",
+                    "lyrics": [
+                        " Hejna\u0142 wszyscy za\u015bpiewajmy, * cze\u015b\u0107 i chwa\u0142\u0119 Panu dajmy, * nabo\u017cnie k\u2019Niemu wo\u0142ajmy.\r\n",
+                        " Mocny Bo\u017ce z wysoko\u015bci, * Ty \u015bwiat\u0142em swej wszechmocno\u015bci * rozp\u0119d\u017a piekielne ciemno\u015bci.\r\n",
+                        " Ju\u017cci ona noc min\u0119\u0142a, * co wszystek \u015bwiat ucisn\u0119\u0142a, * a pocz\u0105tek z grzechu wzi\u0119\u0142a.\r\n",
+                        " Na to Bo\u017cy Syn jedyny, * by ciemno\u015bci zni\u00f3s\u0142 i winy, * w \u017cywot zst\u0105pi\u0142 \u015awi\u0119tej Panny.\r\n",
+                        " Temu B\u00f3g da\u0142 nas w opiek\u0119, * by czartowsk\u0105 zni\u00f3s\u0142 z nas r\u0119k\u0119 * i piekieln\u0105 odj\u0105\u0142 m\u0119k\u0119.\r\n",
+                        " Ten \u0142askawie nas przyjmuje, * z wiecznych ciemno\u015bci wyjmuje, * \u015bwiat\u0142o\u015b\u0107 zbawienn\u0105 gotuje.\r\n",
+                        " Bo\u017ce, prawdziwa \u015bwiat\u0142o\u015bci, * Ty o\u015bwie\u0107 nasze ciemno\u015bci, * wiod\u0105c do swojej jasno\u015bci.\n\r\nHejna\u0142 (z w\u0119g. hajnal = jutrzenka, poranek) \u2013 pie\u015b\u0144 budz\u0105ca, poranna pobudka. Hejna\u0142 wszyscy\u2026 jest jedn\u0105 z dw\u00f3ch (II \u2013 Bo\u017ce wieczny) dawnych melodii hejna\u0142owych \u015bpiewanych do dzi\u015b w Adwencie."
+                    ]
+                },
+                {
+                    "title": "Po upadku cz\u0142owieka grzesznego",
+                    "lyrics": [
+                        " Po upadku cz\u0142owieka grzesznego * u\u017cali\u0142 si\u0119 Pan stworzenia swego; * zes\u0142a\u0142 na \u015bwiat archanio\u0142a cnego.\r\n",
+                        " Id\u017a do Panny, imi\u0119 Jej Maryja, * spraw poselstwo: \u201eZdrowa\u015b, \u0142aski pe\u0142na, * Pan jest z Tob\u0105, nie b\u0105d\u017a\u017ce troskliwa\u201d.\r\n",
+                        " Panna natenczas psa\u0142terz czyta\u0142a, * gdy pozdrowienie to us\u0142ysza\u0142a, * na s\u0142owa si\u0119 anielskie zdu-mia\u0142a.\r\n",
+                        " Archanio\u0142, widz\u0105c Pann\u0119 troskliw\u0105, * j\u0105\u0142 J\u0105 cieszy\u0107 mow\u0105 \u0142agodliw\u0105: * \u201ePanno, nie l\u0119kaj si\u0119, Pan jest z Tob\u0105.\r\n",
+                        " Znalaz\u0142a\u015b \u0142ask\u0119 u Pana swego, * Ty si\u0119 masz sta\u0107 Matk\u0105 Syna Jego, * ta jest wola Boga Wszechmocnego\u201d."
+                    ]
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czysta Dziewico, Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy\u017c przyjdzie Sprawiedliwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Otw\u00f3rzcie si\u0119 szeroko",
+                    "lyrics": [
+                        " Otw\u00f3rzcie si\u0119 szeroko, podwoje \u015bwi\u0105ty\u0144 bram, * Kr\u00f3l wieczny si\u0119 przybli\u017ca, zbawienie niesie nam. * Kt\u00f3\u017c jest tym Kr\u00f3lem chwa\u0142y? To niebios mo\u017cny Pan! * W wierno\u015bci On jest ca\u0142y, a z wszechpot\u0119gi znan.\n\r\n",
+                        " Otw\u00f3rzcie si\u0119 szeroko, podwoje \u015bwi\u0105ty\u0144 bram, * Kr\u00f3l wieczny si\u0119 przybli\u017ca, zbawienie niesie nam. * Kt\u00f3\u017c jest tym Panem chwa\u0142y? To wiecznie wierny B\u00f3g, * zast\u0119p\u00f3w Pan wspania\u0142y! W proch starty przeze\u0144 wr\u00f3g.\n\r\n",
+                        " B\u0105d\u017a chwa\u0142a Tobie, Chryste, przes\u0142awny Kr\u00f3lu nasz, * co z Ojcem, Duchem \u015awi\u0119tym, odwieczn\u0105 chwa\u0142\u0119 masz. * Kr\u00f3lestwo Twoje w Tobie opok\u0119 wieczn\u0105 ma, * wi\u0119c wieki go nie zwalcz\u0105, tak jak od wiek\u00f3w trwa."
+                    ]
+                },
+                {
+                    "title": "Niech b\u0119d\u0105 przepasane biodra wasze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Posy\u0142a do Panny nie lada Anio\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pragniemy Ciebie, jak ziemia spalona",
+                    "lyrics": [
+                        " Pragniemy Ciebie, jak ziemia spalona * przez \u017car s\u0142oneczny spragniona jest deszczu, * by j\u0105 nasyci\u0142 i plonem obdarzy\u0142 * nowego \u017cycia.\n\r\n",
+                        " Szukamy Ciebie, jak \u0142ania d\u0105\u017c\u0105ca * do ch\u0142odnej wody przejrzystych strumieni, * by si\u0119 napoi\u0107 i si\u0142y odzyska\u0107 * na dalsz\u0105 drog\u0119.\n\r\n",
+                        " Czekamy, Panie, na Twe narodzenie, * jak nocne stra\u017ce na \u015bwit oczekuj\u0105; * \u0142akniemy Ciebie, jak cz\u0142owiek zg\u0142odnia\u0142y * po\u017c\u0105da chleba.\n\r\n",
+                        " Baranku Bo\u017cy, pos\u0142any przez Ojca, * by\u015b swoj\u0105 \u015bmierci\u0105 odkupi\u0142 grzesznik\u00f3w, * nie zwlekaj d\u0142u\u017cej, lecz przyjd\u017a i zamieszkaj * w cz\u0142owieczych sercach.\n\r\n",
+                        " Nadziejo \u015bwiata i Nowe Przymierze, * Emmanuelu odwiecznej mi\u0142o\u015bci, * niech Tobie z Ojcem i Duchem p\u0142omiennym * rozbrzmiewa chwa\u0142a. Amen."
+                    ]
+                },
+                {
+                    "title": "Tobie nad pomys\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z rado\u015bci\u0105 idziemy na spotkanie Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a, Panie Jezu",
+                    "lyrics": [
+                        " Przyjd\u017a, Panie Jezu, \u015bwiat na Ciebie czeka, * Twoje Kr\u00f3lestwo jeszcze nie spe\u0142nione. * Przyjd\u017a, bo si\u0119 wa\u017cy ci\u0105gle los cz\u0142owieka, * pragnienie dobra z grzechem w nim z\u0142\u0105czone. * Przyjd\u017a, Panie, wybaw nas, przyjd\u017a, Panie, bo ju\u017c czas, * bez Ciebie zginie \u015bwiat w\u015br\u00f3d walk i zdrad. * Ton\u0105cym podaj d\u0142o\u0144, gin\u0105cych wspieraj, bro\u0144, * b\u0142\u0105dz\u0105cym drog\u0119 wska\u017c, przyjd\u017a, Panie nasz!\n\r\n",
+                        " Przyjd\u017a, Panie Jezu, mi\u0142o\u015b\u0107 w nas rozpali\u0107. * Przyjd\u017a, bo bez Ciebie z grzech\u00f3w nie powstaniem. * Przyjd\u017a, Panie Jezu, aby nas ocali\u0107, * w Tobie nadzieja, w Tobie zaufanie. * Przyjd\u017a, Panie, wybaw nas, przyjd\u017a, Panie, bo ju\u017c czas, * do szcz\u0119\u015bcia daj nam klucz, mi\u0142o\u015bci ucz! * Bo mi\u0142o\u015b\u0107 szcz\u0119\u015bciem jest, a przebaczenia gest * otworzy drog\u0119 nam do szcz\u0119\u015bcia bram."
+                    ]
+                },
+                {
+                    "title": "Oczekujemy Zbawiciela \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona jeste\u015b, Maryjo",
+                    "lyrics": [
+                        " B\u0142ogos\u0142awiona jeste\u015b, Maryjo * i wywy\u017cszona przez Pana. * On wielkich rzeczy w Tobie dokona\u0142, * Niepokalana.\r\n",
+                        " Ty, kt\u00f3ra\u015b S\u0142owo z wiar\u0105 przyj\u0119\u0142a, * by w Tobie Cia\u0142em si\u0119 sta\u0142o, * zrodzi\u0142a\u015b \u015bwiatu Jutrzenk\u0119 Now\u0105, * przedwieczn\u0105 \u015awiat\u0142o\u015b\u0107.\r\n",
+                        " B\u0105d\u017a nam obron\u0105, Bogarodzico, * gdy si\u0119 b\u0142\u0105kamy w ciemno\u015bci. * Do \u015bwiat\u0142a wiary prowad\u017a na nowo, * drog\u0105 \u015bwi\u0119to\u015bci."
+                    ]
+                },
+                {
+                    "title": "Pan jest blisko, ju\u017c przychodzi",
+                    "lyrics": [
+                        "Antyfona: Pan jest blisko, ju\u017c przychodzi, * by zbawienie ludziom da\u0107.\n\r\n",
+                        " Wys\u0142uchaj Pasterzu pro\u015bby ludu Twego * i prowad\u017a nas jak nar\u00f3d wybrany. Ant.\n\r\n",
+                        " Ty, kt\u00f3ry panujesz nad narodami * oka\u017c si\u0119 ludowi Twemu. Ant.\n\r\n",
+                        " Panie, wzbud\u017a pot\u0119g\u0119 Twoj\u0105 * i przyb\u0105d\u017a, by nas zbawi\u0107. Ant.\n\r\n",
+                        " O Bo\u017ce, odn\u00f3w ducha naszego, * aby\u015bmy byli zbawieni. Ant."
+                    ]
+                },
+                {
+                    "title": "B\u0142ogos\u0142awieni ubodzy i cisi, bo ich jest niebo",
+                    "lyrics": [
+                        " B\u0142ogos\u0142awieni ubodzy i cisi, * bo ich jest niebo Bo\u017cej obecno\u015bci, * wi\u0119ksze od ziemi zbyt ma\u0142ej dla ducha * i ludzkich pragnie\u0144.\n\r\n",
+                        " B\u0142ogos\u0142awieni p\u0142acz\u0105cy samotnie, * bo otrzyma-j\u0105 rado\u015b\u0107 i pociech\u0119. * Pok\u00f3j czyni\u0105cy zostan\u0105 nazwani * synami Boga.\n\r\n",
+                        " B\u0142ogos\u0142awieni, co s\u0142u\u017c\u0105 swym braciom * przez mi\u0142osierdzie, bowiem go dost\u0105pi\u0105; * serca czystego wpatrywa\u0107 si\u0119 b\u0119d\u0105 * w oblicze Pana.\n\r\n",
+                        " B\u0142ogos\u0142awieni wierz\u0105cy w nadej\u015bcie * Kr\u00f3lestwa prawdy i sprawiedliwo\u015bci; * wzgard\u0105 okryci, \u017cyj\u0105cy w ucisku, * posi\u0105d\u0105 ziemi\u0119.\n\r\n",
+                        " B\u0142ogos\u0142awiony niech b\u0119dzie na wieki * nasz B\u00f3g jedyny w Tr\u00f3jcy niepoj\u0119tej, * \u017ar\u00f3d\u0142o, pocz\u0105tek i Dawca \u0142askawy * doskona\u0142o\u015bci."
+                    ]
+                },
+                {
+                    "title": "Creator alme siderum",
+                    "lyrics": [
+                        " Creator alme siderum, * aeterna lux credentium, * Iesu, Redemptor omnium, * intende votis supplicum.\r\n",
+                        " Qui daemonis ne fraudibus * periret orbis, impetu * amoris actus, languidi * mundi medela factus es.\r\n",
+                        " Commune qui mundi nefas * ut expiares, ad crucem * e Virginis sacrario * intacta prodis victima.\r\n",
+                        " Cuius potestas gloriae, * nomenque cum primum sonat, * et caelites et inferi * tremente curvantur genu.\r\n",
+                        " Te deprecamur, ultimae * magnum diei Iudicem, * armis supernae gratiae * defende nos ab hostibus.\r\n",
+                        " Virtus, honor, laus, gloria * Deo Patri cum Filio, * Sancto simul Paraclito, * in saeculorum saecula. Amen."
+                    ]
+                },
+                {
+                    "title": "Podnie\u015bcie w g\u00f3r\u0119 bramy, szczyty wasze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto Pan przybywa, prostujcie drogi swego \u017cycia",
+                    "lyrics": [
+                        "Refren: Oto Pan przybywa, * prostujcie drogi swego \u017cycia.\n\r\n",
+                        " Po\u015bpiesz nam, Bo\u017ce, z pomoc\u0105, * wyzw\u00f3l nas z p\u0119t grzech\u00f3w naszych. * Po\u015bpiesz, a d\u0142u\u017cej nie zwlekaj, * wzbud\u017a w nas pot\u0119g\u0119 sw\u0105 na nowo. Ref.\n\r\n",
+                        " O Bo\u017ce, tchnij nowe \u017cycie * i oka\u017c swe mi\u0142osierdzie. * Ciebie czekamy z t\u0119sknot\u0105, * obiecanego Zbawiciela. Ref.\n\r\n",
+                        " Oto nadchodzi nasz Zbawca, * aby panowa\u0107 nad nami. * Moc\u0105 swej wielkiej ofiary, * On zg\u0142adzi grzechy ca\u0142ej ziemi. Ref.\n\r\n",
+                        " Uka\u017c nam blask Twojej drogi, * kt\u00f3r\u0105 do Ciebie idziemy. * Prawdy \u015bwiat\u0142o\u015bci\u0105 nas o\u015bwie\u0107, * by\u015bmy zd\u0105\u017cali do Kr\u00f3lestwa. Ref."
+                    ]
+                },
+                {
+                    "title": "Raduj si\u0119, ziemio",
+                    "lyrics": [
+                        " Raduj si\u0119, ziemio! Go\u015b\u0107 z nieba przychodzi, * co Boga z ludem, lud z Bogiem pogodzi: * syn\u00f3w Adama z czartowskiej niewoli * wyrwie, wyzwoli.\r\n",
+                        " Raduj si\u0119, ziemio! \u015apiewaj z anio\u0142ami, * wychwalaj Boga, ciesz si\u0119 z niebianami: * ju\u017c nie podn\u00f3\u017ckiem jeste\u015b Najwy\u017cszego, * lecz tronem Jego.\r\n",
+                        " Raduj si\u0119, ziemio! Oto \u015bwiat\u0142o wschodzi, * kt\u00f3re ka\u017cdego, co na \u015bwiat przychodzi, * blaskiem o\u015bwieca, a wnet znikn\u0105 wsz\u0119dy * ciemno\u015b\u0107 i b\u0142\u0119dy.\r\n",
+                        " Raduj si\u0119, ziemio! Masz Kr\u00f3la u siebie, * Pana, co w\u0142ada na ziemi i w niebie: * Kr\u00f3lestwo Jego ko\u0144ca mie\u0107 nie b\u0119dzie, * gdy tron posi\u0105dzie.\r\n",
+                        " Raduj si\u0119, ziemio! Witaj Tego Pana * i ludy wszystkie zegnijcie kolana: * bo wam przynosi przez swe narodzenie * wieczne zbawienie."
+                    ]
+                },
+                {
+                    "title": "Z pomoc\u0105 Boga mi\u0142ego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Rorate caeli",
+                    "lyrics": [
+                        "Refren: Rorate caeli desuper et nubes pluant iustum.\r\n",
+                        " Ne irascaris, Domine, * ne ultra memineris iniquitatis, * ecce civitas Sancti facta est deserta, * Sion deserta facta est, * Ierusalem desolata est, * domus sanctificationis tuae et gloriae tuae, * ubi laudaverunt te patres nostri. Ref.\r\n",
+                        " Peccavimus, et facti sumus tamquam immundus nos * et cecidimus * quasi folium universi, * et iniquitates nostrae quasi ventus abstulerunt nos * abscondisti faciem tuam a nobis, * et allisisti nos in manu iniquitatis nostrae. Ref.\r\n",
+                        " Vide Domine afflictionem populi tui * et mitte quem missurus es, * emitte Agnum dominatorem terrae * de Petra deserti ad montem filiae Sion, * ut auferat ipse iugum captivitatis nostrae. Ref.\r\n",
+                        " Consolamini, consolamini, popule meus: * cito veniet salus tua, * quare maerore consumeris, * quia innovavit te dolor? * Salvabo te, noli timere, * ego enim sum Dominus Deus tuus, * Sanctus Israel, Redemptor tuus. Ref."
+                    ]
+                },
+                {
+                    "title": "Radujcie si\u0119 zawsze w Panu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszyscy wierni \u015bpiewajmy",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Gospodze uwielbiona",
+                    "lyrics": []
+                },
+                {
+                    "title": "Stw\u00f3rco gwia\u017adzistych przestworzy",
+                    "lyrics": [
+                        " Stw\u00f3rco gwia\u017adzistych przestworzy * i wieczne \u015bwiat\u0142o wierz\u0105cych, * Chryste, co\u015b wszystkich odkupi\u0142, * wys\u0142uchaj nasz\u0105 modlitw\u0119.\n\r\n",
+                        " Zdj\u0119ty lito\u015bci\u0105 nad \u015bwiatem, * kt\u00f3remu \u015bmier\u0107 zagra\u017ca\u0142a, * Jego zbawieniem si\u0119 sta\u0142e\u015b * i uzdrowi\u0142e\u015b z niemocy.\n\r\n",
+                        " \u015awiat ju\u017c pogr\u0105\u017ca\u0142 si\u0119 w mroku, * lecz Ty, jak s\u0142o\u0144ce promienne, * z \u0142ona Dziewicy wyszed\u0142e\u015b, * zrodzony przez Ni\u0105 w czysto\u015bci.\n\r\n",
+                        " Byty niebia\u0144skie i ziemskie, * pos\u0142uszne Twoim rozkazom, * ho\u0142d Ci sk\u0142adaj\u0105 w pokorze * i s\u0142awi\u0105 Twoj\u0105 pot\u0119g\u0119.\n\r\n",
+                        " Ciebie, Naj\u015bwi\u0119tszy, prosimy: * nim przyjdziesz s\u0105dzi\u0107 sumienia, * obro\u0144 nas w \u017cyciu doczesnym * od przewrotno\u015bci szatana.\n\r\n",
+                        " Chryste, nasz Kr\u00f3lu \u0142agodny, * niech Tobie z Ojcem i Duchem * b\u0119dzie podzi\u0119ka i chwa\u0142a * przez ca\u0142\u0105 wieczno\u015b\u0107 bez kresu. Amen."
+                    ]
+                },
+                {
+                    "title": "Cztery \u015bwiece",
+                    "lyrics": []
+                },
                 {
                     "title": "Alleluja... Zdrowa\u015b Maryjo",
                     "lyrics": []
@@ -1459,9 +1718,9 @@
                     "lyrics": []
                 }
             ],
-            "Obrz\u0119dy Mszy \u015bwi\u0119tej": [
+            "Części stałe": [
                 {
-                    "title": "Oto wielka tajemnica wiary",
+                    "title": "Panie zmiłuj się nad nami",
                     "lyrics": []
                 },
                 {
@@ -6048,333 +6307,6 @@
                 },
                 {
                     "title": "Pan jest wielkim Bogiem",
-                    "lyrics": []
-                }
-            ],
-            "Pie\u015bni na pierwsz\u0105 cz\u0119\u015b\u0107 Adwentu": [
-                {
-                    "title": "Bliskie jest Kr\u00f3lestwo Bo\u017ce",
-                    "lyrics": [
-                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.\n\r\n",
-                        " B\u00f3g jest \u015bwiat\u0142o\u015bci\u0105 * i nie ma w Nim \u017cadnej ciemno\u015bci. Ref.\r\n",
-                        " Je\u017celi chodzimy w \u015bwiat\u0142o\u015bci, * wtedy mamy \u0142\u0105czno\u015b\u0107 mi\u0119dzy sob\u0105. Ref.\r\n",
-                        " Krew Jezusa, Jego Syna, * oczyszcza nas z wszelkiego grzechu. Ref.\r\n",
-                        " Je\u017celi m\u00f3wimy, \u017ce nie mamy grzechu, * to samych siebie oszukujemy. Ref.\r\n",
-                        " Je\u017celi wyznajemy nasze grzechy, * B\u00f3g oczy\u015bci nas z wszelkiej nieprawo\u015bci. Ref.\r\n",
-                        " Je\u015bliby nawet kto\u015b zgrzeszy\u0142, * mamy Rzecznika wobec Ojca \u2013 Jezusa Chrystusa. Ref.\r\n",
-                        " On jest ofiar\u0105 przeb\u0142agaln\u0105 za nasze grzechy, * a tak\u017ce za grzechy ca\u0142ego \u015bwiata. Ref.\r\n",
-                        " Dost\u0119pujemy odpuszczenia grzech\u00f3w * ze wzgl\u0119du na Jego imi\u0119. Ref."
-                    ]
-                },
-                {
-                    "title": "Ju\u017c d\u017awi\u0119czny g\u0142os si\u0119 rozlega",
-                    "lyrics": []
-                },
-                {
-                    "title": "Kr\u00f3lestwo niebieskie, ju\u017c ku nam si\u0119 zbli\u017ca",
-                    "lyrics": []
-                },
-                {
-                    "title": "Zdrowa\u015b Maryjo [Msza roratnia]",
-                    "lyrics": []
-                },
-                {
-                    "title": "W tym \u015bwi\u0119tym czasie oczekiwania",
-                    "lyrics": [
-                        " W tym \u015bwi\u0119tym czasie oczekiwania * r\u00f3wnajmy \u015bcie\u017cki naszego \u017cycia, * by Pan nas zasta\u0142 przygotowanych * na swoje przyj\u015bcie.\n\r\n",
-                        " Niech si\u0119 obni\u017c\u0105 wynios\u0142e szczyty, * niech si\u0119 doliny podnios\u0105 w g\u00f3r\u0119, * a wszelka droga pod\u0105\u017ca prosto * do swego celu.\n\r\n",
-                        " Bo ju\u017c si\u0119 zbli\u017ca Zbawiciel \u015bwiata, * przynosz\u0105c \u015bwiat\u0142o zb\u0142\u0105kanym w mroku, * i ka\u017cdy cz\u0142owiek zobaczy S\u0142owo * wcielone dla nas.\n\r\n",
-                        " A kiedy wr\u00f3ci na ko\u0144cu czas\u00f3w, * by s\u0105dzi\u0107 ludzi za ich uczynki, * niech Jego \u0142aska i mi\u0142osierdzie * przewa\u017c\u0105 win\u0119.\n\r\n",
-                        " Wielbimy Ciebie, Odkupicielu, * i Twego Ojca z p\u0142omiennym Duchem: * niech b\u0119dzie chwa\u0142a przez wieczno\u015b\u0107 ca\u0142\u0105 * Naj\u015bwi\u0119tszej Tr\u00f3jcy. Amen."
-                    ]
-                },
-                {
-                    "title": "Z powag\u0105 przygotujcie",
-                    "lyrics": [
-                        " Z powag\u0105 przygotujcie o, ludzie, serca swe * i godnie oczekujcie, Pan w nich zamieszka\u0107 chce. * = Jezus Zbawiciel, nasz w\u00f3dz niezwyci\u0119\u017cony, * przez Boga przeznaczony, chce zn\u00f3w odwiedzi\u0107 nas.\n\r\n",
-                        " Dla Go\u015bcia tak wielkiego gotujcie drog\u0119 ju\u017c; * prostujcie \u015bcie\u017cki Jego, co z\u0142e wyrzu\u0107cie z dusz. * = G\u00f3ry si\u0119 zni\u017c\u0105, niech stan\u0105 si\u0119 r\u00f3wnin\u0105, * przeszkody niechaj zgin\u0105 i to, co krzywe, z\u0142e.\n\r\n",
-                        " Bo serce ukorzone najwy\u017cej ceni B\u00f3g, * a pych\u0105 przepe\u0142nione w\u015br\u00f3d strasznych zginie trw\u00f3g. * = Kto z nas jest szczery i wierzy w S\u0142owo Bo\u017ce, * z rado\u015bci\u0105 czeka\u0107 mo\u017ce, do niego przyjdzie Pan."
-                    ]
-                },
-                {
-                    "title": "Chwalmy Boga wszechmocnego",
-                    "lyrics": []
-                },
-                {
-                    "title": "Matko Odkupiciela",
-                    "lyrics": [
-                        " Matko Odkupiciela, z niewiast najs\u0142awniejsza, * Gwiazdo morska, do nieba \u015bcie\u017cko najpro\u015bciejsza. * Ty\u015b jest przechodni\u0105 bram\u0105 do raju wiecznego, * Ty\u015b jedyn\u0105 nadziej\u0105 cz\u0142owieka grzesznego.\r\n",
-                        " Racz pod\u017awign\u0105\u0107, prosimy, lud upadaj\u0105cy, * w grzechach swych uwik\u0142any, powsta\u0107 z nich pragn\u0105cy, * Ty\u015b cudownie zrodzi\u0142a \u015bwiatu Zbawiciela, * Ty\u015b sama wykarmi\u0142a Twego Stworzyciela.\r\n",
-                        " Panno przedtem i potem, z \u015bwiata podziwieniem * uczczona Gabryjela wdzi\u0119cznym pozdrowieniem, * racz si\u0119 wstawi\u0107, o Panno, za nami grzesznymi. * Ratuj nas, opiekuj si\u0119 s\u0142ugami Twoimi."
-                    ]
-                },
-                {
-                    "title": "Gwiazdo morza g\u0142\u0119bokiego",
-                    "lyrics": [
-                        " Gwiazdo morza g\u0142\u0119bokiego, * Matko Boga Najwy\u017cszego, * Panienko, b\u0105d\u017a pozdrowiona, * Furto rajska otworzona.\r\n",
-                        " Od anio\u0142a\u015b pozdrowiona, * gdy\u015b pocz\u0119\u0142a w sobie Pana; * imi\u0119 matki, naszej Ewy, * odmieniaj ku pokojowi.\r\n",
-                        " Rozwi\u0105\u017c zwi\u0105zki zad\u0142u\u017conym, * przynie\u015b \u015bwiat\u0142o za\u015blepionym, * odmie\u0144, co z\u0142e z naszej strony, * nie wypuszczaj nas z obrony.\r\n",
-                        " I\u017ce\u015b Matk\u0105, niech poznamy! * Gdy si\u0119 wi\u0119c modlisz za nami, * niechaj Ci\u0119 Syn Tw\u00f3j wys\u0142ucha, * ku nam grzesznym sk\u0142oni ucha."
-                    ]
-                },
-                {
-                    "title": "Przyb\u0105d\u017a, Panie, bo czekamy",
-                    "lyrics": [
-                        " Przyb\u0105d\u017a, Panie, bo czekamy, * Twego przyj\u015bcia wygl\u0105damy, * bo nam \u017ale \u017cy\u0107 bez Ciebie!\n\r\nRefren: Gotujmy drog\u0119 Panu, * prostujmy \u015bcie\u017cki Jego, * przemie\u0144my swoje \u017cycie, * odwr\u00f3\u0107my si\u0119 od z\u0142ego.\n\r\n",
-                        " Noc min\u0119\u0142a, dzie\u0144 jest blisko, * w jasnym \u015bwietle czy\u0144my wszystko. * Ze snu powsta\u0107 ju\u017c pora! Ref.\n\r\n",
-                        " Pan jest blisko, mi\u0119dzy nami, * w t\u0142umie ludzi gdzie\u015b wmieszany. * Czy Go umiem zobaczy\u0107? Ref.\n\r\n",
-                        " Pan jest blisko i te\u017c czeka, * czy przyj\u015b\u0107 mo\u017ce do cz\u0142owieka. * Czy Go kocham prawdziwie? Ref.\n"
-                    ]
-                },
-                {
-                    "title": "Oto Panna pocznie i porodzi Syna [Msza roratnia]",
-                    "lyrics": []
-                },
-                {
-                    "title": "Spu\u015b\u0107cie nam na ziemskie niwy",
-                    "lyrics": [
-                        " \u201eSpu\u015b\u0107cie nam na ziemskie niwy * Zbawc\u0119 z niebios, ob\u0142oki\u201d. * \u015awiat przez grzechy nieszcz\u0119\u015bliwy * wo\u0142a\u0142 w nocy g\u0142\u0119bokiej; * gdy w\u015br\u00f3d odst\u0119pstwa od Boga * czart panowa\u0142, \u015bmier\u0107 i trwoga, * a ci\u0119\u017ckie przewinienia zamk\u0142y bramy zbawienia.\r\n",
-                        " Ale Ojciec si\u0119 zlitowa\u0142 * nad n\u0119dzn\u0105 ludzi dol\u0105, * Syn si\u0119 ch\u0119tnie ofiarowa\u0142, * by spe\u0142ni\u0107 wieczn\u0105 wol\u0119; * zaraz Gabryjel zst\u0119puje * i Maryi to zwiastuje, * i \u017ce z Ducha \u015awi\u0119tego * pocznie Syna Bo\u017cego.\r\n",
-                        " Panna przeczysta w pokorze * wyrokom si\u0119 poddaje, * iszcz\u0105 si\u0119 wyroki Bo\u017ce, * S\u0142owo Cia\u0142em si\u0119 staje. * Ach! Ciesz si\u0119, Adama plemi\u0119, * Zbawiciel zejdzie na ziemi\u0119; * dr\u017cyj, piek\u0142o, On twe mocy * w wiecznej pogr\u0105\u017cy nocy."
-                    ]
-                },
-                {
-                    "title": "Jasny P\u0142omieniu mi\u0142o\u015bci",
-                    "lyrics": []
-                },
-                {
-                    "title": "O miasto \u015bwi\u0119te, Jeruzalem",
-                    "lyrics": []
-                },
-                {
-                    "title": "Jak b\u0142yskawica znak Tw\u00f3j ja\u015bnieje",
-                    "lyrics": []
-                },
-                {
-                    "title": "Grzechem Adama ludzie uwik\u0142ani",
-                    "lyrics": [
-                        " Grzechem Adama ludzie uwik\u0142ani, * wygnani z raju wo\u0142ali z otch\u0142ani: * = \u201eSpu\u015b\u0107cie, niebiosa, deszcz na ziemskie niwy * i niech z ob\u0142ok\u00f3w zst\u0105pi Sprawiedliwy\u201d.\r\n",
-                        " B\u0142\u0105ka\u0142 si\u0119 cz\u0142owiek w\u015br\u00f3d okropnej nocy, * bola\u0142 i nikt go nie wspom\u00f3g\u0142 w niemocy, * = p\u00f3ki nie przysz\u0142a wiekami \u017c\u0105dana * z judzkiej krainy Dziewica wybrana.\r\n",
-                        " Ona pokor\u0105 i oczy skromnymi * Boga samego \u015bci\u0105gn\u0119\u0142a ku ziemi: * = \u017ce, kt\u00f3rego \u015bwiat nie obj\u0105\u0142 wielko\u015bci, * tego dziewicze zamkn\u0119\u0142y wn\u0119trzno\u015bci.\r\n",
-                        " Nie nasz\u0105 jak\u0105 zas\u0142ug\u0105 \u015bci\u0105gniony; * mi\u0142o\u015b\u0107 Go sama wiod\u0142a w ziemskie strony; * = wzi\u0105\u0142 cia\u0142o ludzkie w nim b\u00f3l, niedostatki, * zbrata\u0142 si\u0119 z nami, by\u0142 Synem u Matki.\r\n",
-                        " Dajmy\u017c Mu za to dzi\u0119ki, ludu wierny, * \u017ce kochaj\u0105c nas, by\u0142 nam mi\u0142osierny, * = i, wznosz\u0105c r\u0119ce ku niebu jasnemu, * \u015bpiewajmy chwa\u0142\u0119 Bogu Najwy\u017cszemu."
-                    ]
-                },
-                {
-                    "title": "Przyjd\u017a Zbawicielu, przynie\u015b nam \u015bwiat\u0142o",
-                    "lyrics": []
-                },
-                {
-                    "title": "Oto Pan B\u00f3g przyjdzie",
-                    "lyrics": [
-                        "Antyfona: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119-tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.\n\r\nlub tekst \u0142aci\u0144ski Ecce Dominus veniet \u2013 p. nr ",
-                        "\r\nAntyfon\u0119 mo\u017cna przeplata\u0107 wersetami z Ap ",
-                        ".\n\r\n",
-                        " O Miasto \u015awi\u0119te, Jeruzalem, zst\u0119puj\u0105ce z nieba, maj\u0105ce chwa\u0142\u0119 Boga, * \u017ar\u00f3d\u0142o twego \u015bwiat\u0142a po-dobne do kamienia drogocennego, * jakby do ja-spisu o przejrzysto\u015bci kryszta\u0142u. Ant.\n\r\n",
-                        " Miastu nie trzeba s\u0142o\u0144ca ni ksi\u0119\u017cyca, by mu \u015bwieci\u0142y, * bo chwa\u0142a Boga je o\u015bwietli\u0142a * a jego lamp\u0105 Baranek. Ant.\n\r\n",
-                        " I w jego \u015bwietle b\u0119d\u0105 chodzi\u0142y narody * i wnios\u0105 do niego kr\u00f3lowie ziemi sw\u00f3j przepych * i za dnia bramy jego nie b\u0119d\u0105 zamkni\u0119te, bo ju\u017c nie b\u0119dzie tam nocy. Ant.\n\r\n",
-                        " I odt\u0105d nocy ju\u017c nie b\u0119dzie, a nie potrzeba im \u015bwiat\u0142a lampy i \u015bwiat\u0142a s\u0142o\u0144ca, * bo Pan B\u00f3g b\u0119-dzie \u015bwieci\u0142 nad nimi * i b\u0119d\u0105 kr\u00f3lowa\u0107 na wieki wiek\u00f3w. Ant."
-                    ]
-                },
-                {
-                    "title": "Stworzycielu gwiazd \u015bwiec\u0105cych",
-                    "lyrics": [
-                        " Stworzycielu gwiazd \u015bwiec\u0105cych, * wieczne \u015bwiat\u0142o nas wierz\u0105cych, * Zbawicielu wszystkich ludzi, * niech Ci\u0119 g\u0142os pokornych wzbudzi.\r\n",
-                        " Ty \u017ca\u0142uj\u0105c \u015bwiata wszego, * \u015bmiertelnie zachorza\u0142ego, * przynios\u0142e\u015b lekarstwo drogie, * leczy\u0107 grzesznym rany srogie.\r\n",
-                        " Ju\u017c si\u0119 mia\u0142 \u015bwiat ku zmrokowi, * gdy\u015b r\u00f3wien Oblubie\u0144cowi, * wyszed\u0142, jako zdr\u00f3j z krynicy, * z Matki, przeczystej Dziewicy.\r\n",
-                        " Prosim, Panie lito\u015bciwy, * przysz\u0142y S\u0119dzio sprawiedliwy, * bro\u0144 nas, dok\u0105d czas jest tego, * od szatana zdradliwego.\r\n",
-                        " Chwa\u0142a Ojcu Przedwiecznemu * i Synowi Mu r\u00f3wnemu, * i z Duchem \u015awi\u0119tym spo\u0142ecznie, * niechaj nie ustanie wiecznie."
-                    ]
-                },
-                {
-                    "title": "S\u0142ycha\u0107 g\u0142os stra\u017cnika w dali",
-                    "lyrics": []
-                },
-                {
-                    "title": "Alleluja... Zdrowa\u015b Maryjo",
-                    "lyrics": []
-                },
-                {
-                    "title": "Hejna\u0142 wszyscy za\u015bpiewajmy",
-                    "lyrics": [
-                        " Hejna\u0142 wszyscy za\u015bpiewajmy, * cze\u015b\u0107 i chwa\u0142\u0119 Panu dajmy, * nabo\u017cnie k\u2019Niemu wo\u0142ajmy.\r\n",
-                        " Mocny Bo\u017ce z wysoko\u015bci, * Ty \u015bwiat\u0142em swej wszechmocno\u015bci * rozp\u0119d\u017a piekielne ciemno\u015bci.\r\n",
-                        " Ju\u017cci ona noc min\u0119\u0142a, * co wszystek \u015bwiat ucisn\u0119\u0142a, * a pocz\u0105tek z grzechu wzi\u0119\u0142a.\r\n",
-                        " Na to Bo\u017cy Syn jedyny, * by ciemno\u015bci zni\u00f3s\u0142 i winy, * w \u017cywot zst\u0105pi\u0142 \u015awi\u0119tej Panny.\r\n",
-                        " Temu B\u00f3g da\u0142 nas w opiek\u0119, * by czartowsk\u0105 zni\u00f3s\u0142 z nas r\u0119k\u0119 * i piekieln\u0105 odj\u0105\u0142 m\u0119k\u0119.\r\n",
-                        " Ten \u0142askawie nas przyjmuje, * z wiecznych ciemno\u015bci wyjmuje, * \u015bwiat\u0142o\u015b\u0107 zbawienn\u0105 gotuje.\r\n",
-                        " Bo\u017ce, prawdziwa \u015bwiat\u0142o\u015bci, * Ty o\u015bwie\u0107 nasze ciemno\u015bci, * wiod\u0105c do swojej jasno\u015bci.\n\r\nHejna\u0142 (z w\u0119g. hajnal = jutrzenka, poranek) \u2013 pie\u015b\u0144 budz\u0105ca, poranna pobudka. Hejna\u0142 wszyscy\u2026 jest jedn\u0105 z dw\u00f3ch (II \u2013 Bo\u017ce wieczny) dawnych melodii hejna\u0142owych \u015bpiewanych do dzi\u015b w Adwencie."
-                    ]
-                },
-                {
-                    "title": "Po upadku cz\u0142owieka grzesznego",
-                    "lyrics": [
-                        " Po upadku cz\u0142owieka grzesznego * u\u017cali\u0142 si\u0119 Pan stworzenia swego; * zes\u0142a\u0142 na \u015bwiat archanio\u0142a cnego.\r\n",
-                        " Id\u017a do Panny, imi\u0119 Jej Maryja, * spraw poselstwo: \u201eZdrowa\u015b, \u0142aski pe\u0142na, * Pan jest z Tob\u0105, nie b\u0105d\u017a\u017ce troskliwa\u201d.\r\n",
-                        " Panna natenczas psa\u0142terz czyta\u0142a, * gdy pozdrowienie to us\u0142ysza\u0142a, * na s\u0142owa si\u0119 anielskie zdu-mia\u0142a.\r\n",
-                        " Archanio\u0142, widz\u0105c Pann\u0119 troskliw\u0105, * j\u0105\u0142 J\u0105 cieszy\u0107 mow\u0105 \u0142agodliw\u0105: * \u201ePanno, nie l\u0119kaj si\u0119, Pan jest z Tob\u0105.\r\n",
-                        " Znalaz\u0142a\u015b \u0142ask\u0119 u Pana swego, * Ty si\u0119 masz sta\u0107 Matk\u0105 Syna Jego, * ta jest wola Boga Wszechmocnego\u201d."
-                    ]
-                },
-                {
-                    "title": "B\u0142ogos\u0142awiona Maryjo",
-                    "lyrics": []
-                },
-                {
-                    "title": "Czysta Dziewico, Maryjo",
-                    "lyrics": []
-                },
-                {
-                    "title": "Kiedy\u017c przyjdzie Sprawiedliwy",
-                    "lyrics": []
-                },
-                {
-                    "title": "Otw\u00f3rzcie si\u0119 szeroko",
-                    "lyrics": [
-                        " Otw\u00f3rzcie si\u0119 szeroko, podwoje \u015bwi\u0105ty\u0144 bram, * Kr\u00f3l wieczny si\u0119 przybli\u017ca, zbawienie niesie nam. * Kt\u00f3\u017c jest tym Kr\u00f3lem chwa\u0142y? To niebios mo\u017cny Pan! * W wierno\u015bci On jest ca\u0142y, a z wszechpot\u0119gi znan.\n\r\n",
-                        " Otw\u00f3rzcie si\u0119 szeroko, podwoje \u015bwi\u0105ty\u0144 bram, * Kr\u00f3l wieczny si\u0119 przybli\u017ca, zbawienie niesie nam. * Kt\u00f3\u017c jest tym Panem chwa\u0142y? To wiecznie wierny B\u00f3g, * zast\u0119p\u00f3w Pan wspania\u0142y! W proch starty przeze\u0144 wr\u00f3g.\n\r\n",
-                        " B\u0105d\u017a chwa\u0142a Tobie, Chryste, przes\u0142awny Kr\u00f3lu nasz, * co z Ojcem, Duchem \u015awi\u0119tym, odwieczn\u0105 chwa\u0142\u0119 masz. * Kr\u00f3lestwo Twoje w Tobie opok\u0119 wieczn\u0105 ma, * wi\u0119c wieki go nie zwalcz\u0105, tak jak od wiek\u00f3w trwa."
-                    ]
-                },
-                {
-                    "title": "Niech b\u0119d\u0105 przepasane biodra wasze",
-                    "lyrics": []
-                },
-                {
-                    "title": "Posy\u0142a do Panny nie lada Anio\u0142a",
-                    "lyrics": []
-                },
-                {
-                    "title": "Pragniemy Ciebie, jak ziemia spalona",
-                    "lyrics": [
-                        " Pragniemy Ciebie, jak ziemia spalona * przez \u017car s\u0142oneczny spragniona jest deszczu, * by j\u0105 nasyci\u0142 i plonem obdarzy\u0142 * nowego \u017cycia.\n\r\n",
-                        " Szukamy Ciebie, jak \u0142ania d\u0105\u017c\u0105ca * do ch\u0142odnej wody przejrzystych strumieni, * by si\u0119 napoi\u0107 i si\u0142y odzyska\u0107 * na dalsz\u0105 drog\u0119.\n\r\n",
-                        " Czekamy, Panie, na Twe narodzenie, * jak nocne stra\u017ce na \u015bwit oczekuj\u0105; * \u0142akniemy Ciebie, jak cz\u0142owiek zg\u0142odnia\u0142y * po\u017c\u0105da chleba.\n\r\n",
-                        " Baranku Bo\u017cy, pos\u0142any przez Ojca, * by\u015b swoj\u0105 \u015bmierci\u0105 odkupi\u0142 grzesznik\u00f3w, * nie zwlekaj d\u0142u\u017cej, lecz przyjd\u017a i zamieszkaj * w cz\u0142owieczych sercach.\n\r\n",
-                        " Nadziejo \u015bwiata i Nowe Przymierze, * Emmanuelu odwiecznej mi\u0142o\u015bci, * niech Tobie z Ojcem i Duchem p\u0142omiennym * rozbrzmiewa chwa\u0142a. Amen."
-                    ]
-                },
-                {
-                    "title": "Tobie nad pomys\u0142",
-                    "lyrics": []
-                },
-                {
-                    "title": "Z rado\u015bci\u0105 idziemy na spotkanie Pana",
-                    "lyrics": []
-                },
-                {
-                    "title": "Przyjd\u017a, Panie Jezu",
-                    "lyrics": [
-                        " Przyjd\u017a, Panie Jezu, \u015bwiat na Ciebie czeka, * Twoje Kr\u00f3lestwo jeszcze nie spe\u0142nione. * Przyjd\u017a, bo si\u0119 wa\u017cy ci\u0105gle los cz\u0142owieka, * pragnienie dobra z grzechem w nim z\u0142\u0105czone. * Przyjd\u017a, Panie, wybaw nas, przyjd\u017a, Panie, bo ju\u017c czas, * bez Ciebie zginie \u015bwiat w\u015br\u00f3d walk i zdrad. * Ton\u0105cym podaj d\u0142o\u0144, gin\u0105cych wspieraj, bro\u0144, * b\u0142\u0105dz\u0105cym drog\u0119 wska\u017c, przyjd\u017a, Panie nasz!\n\r\n",
-                        " Przyjd\u017a, Panie Jezu, mi\u0142o\u015b\u0107 w nas rozpali\u0107. * Przyjd\u017a, bo bez Ciebie z grzech\u00f3w nie powstaniem. * Przyjd\u017a, Panie Jezu, aby nas ocali\u0107, * w Tobie nadzieja, w Tobie zaufanie. * Przyjd\u017a, Panie, wybaw nas, przyjd\u017a, Panie, bo ju\u017c czas, * do szcz\u0119\u015bcia daj nam klucz, mi\u0142o\u015bci ucz! * Bo mi\u0142o\u015b\u0107 szcz\u0119\u015bciem jest, a przebaczenia gest * otworzy drog\u0119 nam do szcz\u0119\u015bcia bram."
-                    ]
-                },
-                {
-                    "title": "Oczekujemy Zbawiciela \u015bwiata",
-                    "lyrics": []
-                },
-                {
-                    "title": "B\u0142ogos\u0142awiona jeste\u015b, Maryjo",
-                    "lyrics": [
-                        " B\u0142ogos\u0142awiona jeste\u015b, Maryjo * i wywy\u017cszona przez Pana. * On wielkich rzeczy w Tobie dokona\u0142, * Niepokalana.\r\n",
-                        " Ty, kt\u00f3ra\u015b S\u0142owo z wiar\u0105 przyj\u0119\u0142a, * by w Tobie Cia\u0142em si\u0119 sta\u0142o, * zrodzi\u0142a\u015b \u015bwiatu Jutrzenk\u0119 Now\u0105, * przedwieczn\u0105 \u015awiat\u0142o\u015b\u0107.\r\n",
-                        " B\u0105d\u017a nam obron\u0105, Bogarodzico, * gdy si\u0119 b\u0142\u0105kamy w ciemno\u015bci. * Do \u015bwiat\u0142a wiary prowad\u017a na nowo, * drog\u0105 \u015bwi\u0119to\u015bci."
-                    ]
-                },
-                {
-                    "title": "Pan jest blisko, ju\u017c przychodzi",
-                    "lyrics": [
-                        "Antyfona: Pan jest blisko, ju\u017c przychodzi, * by zbawienie ludziom da\u0107.\n\r\n",
-                        " Wys\u0142uchaj Pasterzu pro\u015bby ludu Twego * i prowad\u017a nas jak nar\u00f3d wybrany. Ant.\n\r\n",
-                        " Ty, kt\u00f3ry panujesz nad narodami * oka\u017c si\u0119 ludowi Twemu. Ant.\n\r\n",
-                        " Panie, wzbud\u017a pot\u0119g\u0119 Twoj\u0105 * i przyb\u0105d\u017a, by nas zbawi\u0107. Ant.\n\r\n",
-                        " O Bo\u017ce, odn\u00f3w ducha naszego, * aby\u015bmy byli zbawieni. Ant."
-                    ]
-                },
-                {
-                    "title": "B\u0142ogos\u0142awieni ubodzy i cisi, bo ich jest niebo",
-                    "lyrics": [
-                        " B\u0142ogos\u0142awieni ubodzy i cisi, * bo ich jest niebo Bo\u017cej obecno\u015bci, * wi\u0119ksze od ziemi zbyt ma\u0142ej dla ducha * i ludzkich pragnie\u0144.\n\r\n",
-                        " B\u0142ogos\u0142awieni p\u0142acz\u0105cy samotnie, * bo otrzyma-j\u0105 rado\u015b\u0107 i pociech\u0119. * Pok\u00f3j czyni\u0105cy zostan\u0105 nazwani * synami Boga.\n\r\n",
-                        " B\u0142ogos\u0142awieni, co s\u0142u\u017c\u0105 swym braciom * przez mi\u0142osierdzie, bowiem go dost\u0105pi\u0105; * serca czystego wpatrywa\u0107 si\u0119 b\u0119d\u0105 * w oblicze Pana.\n\r\n",
-                        " B\u0142ogos\u0142awieni wierz\u0105cy w nadej\u015bcie * Kr\u00f3lestwa prawdy i sprawiedliwo\u015bci; * wzgard\u0105 okryci, \u017cyj\u0105cy w ucisku, * posi\u0105d\u0105 ziemi\u0119.\n\r\n",
-                        " B\u0142ogos\u0142awiony niech b\u0119dzie na wieki * nasz B\u00f3g jedyny w Tr\u00f3jcy niepoj\u0119tej, * \u017ar\u00f3d\u0142o, pocz\u0105tek i Dawca \u0142askawy * doskona\u0142o\u015bci."
-                    ]
-                },
-                {
-                    "title": "Creator alme siderum",
-                    "lyrics": [
-                        " Creator alme siderum, * aeterna lux credentium, * Iesu, Redemptor omnium, * intende votis supplicum.\r\n",
-                        " Qui daemonis ne fraudibus * periret orbis, impetu * amoris actus, languidi * mundi medela factus es.\r\n",
-                        " Commune qui mundi nefas * ut expiares, ad crucem * e Virginis sacrario * intacta prodis victima.\r\n",
-                        " Cuius potestas gloriae, * nomenque cum primum sonat, * et caelites et inferi * tremente curvantur genu.\r\n",
-                        " Te deprecamur, ultimae * magnum diei Iudicem, * armis supernae gratiae * defende nos ab hostibus.\r\n",
-                        " Virtus, honor, laus, gloria * Deo Patri cum Filio, * Sancto simul Paraclito, * in saeculorum saecula. Amen."
-                    ]
-                },
-                {
-                    "title": "Podnie\u015bcie w g\u00f3r\u0119 bramy, szczyty wasze",
-                    "lyrics": []
-                },
-                {
-                    "title": "Oto Pan przybywa, prostujcie drogi swego \u017cycia",
-                    "lyrics": [
-                        "Refren: Oto Pan przybywa, * prostujcie drogi swego \u017cycia.\n\r\n",
-                        " Po\u015bpiesz nam, Bo\u017ce, z pomoc\u0105, * wyzw\u00f3l nas z p\u0119t grzech\u00f3w naszych. * Po\u015bpiesz, a d\u0142u\u017cej nie zwlekaj, * wzbud\u017a w nas pot\u0119g\u0119 sw\u0105 na nowo. Ref.\n\r\n",
-                        " O Bo\u017ce, tchnij nowe \u017cycie * i oka\u017c swe mi\u0142osierdzie. * Ciebie czekamy z t\u0119sknot\u0105, * obiecanego Zbawiciela. Ref.\n\r\n",
-                        " Oto nadchodzi nasz Zbawca, * aby panowa\u0107 nad nami. * Moc\u0105 swej wielkiej ofiary, * On zg\u0142adzi grzechy ca\u0142ej ziemi. Ref.\n\r\n",
-                        " Uka\u017c nam blask Twojej drogi, * kt\u00f3r\u0105 do Ciebie idziemy. * Prawdy \u015bwiat\u0142o\u015bci\u0105 nas o\u015bwie\u0107, * by\u015bmy zd\u0105\u017cali do Kr\u00f3lestwa. Ref."
-                    ]
-                },
-                {
-                    "title": "Raduj si\u0119, ziemio",
-                    "lyrics": [
-                        " Raduj si\u0119, ziemio! Go\u015b\u0107 z nieba przychodzi, * co Boga z ludem, lud z Bogiem pogodzi: * syn\u00f3w Adama z czartowskiej niewoli * wyrwie, wyzwoli.\r\n",
-                        " Raduj si\u0119, ziemio! \u015apiewaj z anio\u0142ami, * wychwalaj Boga, ciesz si\u0119 z niebianami: * ju\u017c nie podn\u00f3\u017ckiem jeste\u015b Najwy\u017cszego, * lecz tronem Jego.\r\n",
-                        " Raduj si\u0119, ziemio! Oto \u015bwiat\u0142o wschodzi, * kt\u00f3re ka\u017cdego, co na \u015bwiat przychodzi, * blaskiem o\u015bwieca, a wnet znikn\u0105 wsz\u0119dy * ciemno\u015b\u0107 i b\u0142\u0119dy.\r\n",
-                        " Raduj si\u0119, ziemio! Masz Kr\u00f3la u siebie, * Pana, co w\u0142ada na ziemi i w niebie: * Kr\u00f3lestwo Jego ko\u0144ca mie\u0107 nie b\u0119dzie, * gdy tron posi\u0105dzie.\r\n",
-                        " Raduj si\u0119, ziemio! Witaj Tego Pana * i ludy wszystkie zegnijcie kolana: * bo wam przynosi przez swe narodzenie * wieczne zbawienie."
-                    ]
-                },
-                {
-                    "title": "Z pomoc\u0105 Boga mi\u0142ego",
-                    "lyrics": []
-                },
-                {
-                    "title": "Rorate caeli",
-                    "lyrics": [
-                        "Refren: Rorate caeli desuper et nubes pluant iustum.\r\n",
-                        " Ne irascaris, Domine, * ne ultra memineris iniquitatis, * ecce civitas Sancti facta est deserta, * Sion deserta facta est, * Ierusalem desolata est, * domus sanctificationis tuae et gloriae tuae, * ubi laudaverunt te patres nostri. Ref.\r\n",
-                        " Peccavimus, et facti sumus tamquam immundus nos * et cecidimus * quasi folium universi, * et iniquitates nostrae quasi ventus abstulerunt nos * abscondisti faciem tuam a nobis, * et allisisti nos in manu iniquitatis nostrae. Ref.\r\n",
-                        " Vide Domine afflictionem populi tui * et mitte quem missurus es, * emitte Agnum dominatorem terrae * de Petra deserti ad montem filiae Sion, * ut auferat ipse iugum captivitatis nostrae. Ref.\r\n",
-                        " Consolamini, consolamini, popule meus: * cito veniet salus tua, * quare maerore consumeris, * quia innovavit te dolor? * Salvabo te, noli timere, * ego enim sum Dominus Deus tuus, * Sanctus Israel, Redemptor tuus. Ref."
-                    ]
-                },
-                {
-                    "title": "Radujcie si\u0119 zawsze w Panu",
-                    "lyrics": []
-                },
-                {
-                    "title": "Wszyscy wierni \u015bpiewajmy",
-                    "lyrics": []
-                },
-                {
-                    "title": "O Gospodze uwielbiona",
-                    "lyrics": []
-                },
-                {
-                    "title": "Stw\u00f3rco gwia\u017adzistych przestworzy",
-                    "lyrics": [
-                        " Stw\u00f3rco gwia\u017adzistych przestworzy * i wieczne \u015bwiat\u0142o wierz\u0105cych, * Chryste, co\u015b wszystkich odkupi\u0142, * wys\u0142uchaj nasz\u0105 modlitw\u0119.\n\r\n",
-                        " Zdj\u0119ty lito\u015bci\u0105 nad \u015bwiatem, * kt\u00f3remu \u015bmier\u0107 zagra\u017ca\u0142a, * Jego zbawieniem si\u0119 sta\u0142e\u015b * i uzdrowi\u0142e\u015b z niemocy.\n\r\n",
-                        " \u015awiat ju\u017c pogr\u0105\u017ca\u0142 si\u0119 w mroku, * lecz Ty, jak s\u0142o\u0144ce promienne, * z \u0142ona Dziewicy wyszed\u0142e\u015b, * zrodzony przez Ni\u0105 w czysto\u015bci.\n\r\n",
-                        " Byty niebia\u0144skie i ziemskie, * pos\u0142uszne Twoim rozkazom, * ho\u0142d Ci sk\u0142adaj\u0105 w pokorze * i s\u0142awi\u0105 Twoj\u0105 pot\u0119g\u0119.\n\r\n",
-                        " Ciebie, Naj\u015bwi\u0119tszy, prosimy: * nim przyjdziesz s\u0105dzi\u0107 sumienia, * obro\u0144 nas w \u017cyciu doczesnym * od przewrotno\u015bci szatana.\n\r\n",
-                        " Chryste, nasz Kr\u00f3lu \u0142agodny, * niech Tobie z Ojcem i Duchem * b\u0119dzie podzi\u0119ka i chwa\u0142a * przez ca\u0142\u0105 wieczno\u015b\u0107 bez kresu. Amen."
-                    ]
-                },
-                {
-                    "title": "Cztery \u015bwiece",
                     "lyrics": []
                 }
             ],

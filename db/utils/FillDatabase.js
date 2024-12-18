@@ -1,7 +1,7 @@
 const fs = require("fs")
 const path = require("path")
 
-async function CheckIfRecordExists(title,category){
+async function CheckIfRecordExists(title,category,db){
     const checkIfExists = db.prepare("SELECT * FROM songs WHERE title =? AND category =?")
 
     return await new Promise((resolve,reject)=>{
@@ -27,7 +27,7 @@ async function CheckIfRecordExists(title,category){
     })
 }
 
-async function FillDbRow(title,lyrics,category){
+async function FillDbRow(title,lyrics,category,db){
     const fillDbRow = db.prepare("INSERT INTO songs(title,lyrics,category) VALUES (?,?,?)")
 
     return await new Promise((resolve,reject) =>{
@@ -61,11 +61,11 @@ async function FillWithData(db){
         for (var song of songs){
             var title = song["title"]
             var lyrics = song["lyrics"]
-            if (await CheckIfRecordExists(title,category)){
+            if (await CheckIfRecordExists(title,category,db)){
                 continue
             }
 
-            await FillDbRow(title,lyrics,category)
+            await FillDbRow(title,lyrics,category,db)
 
         }
     }    

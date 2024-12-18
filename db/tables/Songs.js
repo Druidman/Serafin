@@ -87,7 +87,7 @@ async function getFullById(ids,db){
 
 async function getCategories(db){
     return await new Promise((resolve,reject)=>{
-        db.all("SELECT DISTINCT category FROM songs", (err,rows)=>{
+        db.all("SELECT DISTINCT category FROM songs ORDER BY category ASC", (err,rows)=>{
             if (err){
                 console.debug("Error while fetching category rows from db: ", err.message)
                 reject(err)
