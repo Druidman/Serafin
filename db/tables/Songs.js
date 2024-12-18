@@ -1,41 +1,18 @@
 
 
 async function getPreviews(amount,categoryName,db){
-    
     return await new Promise((resolve, reject)=>{
-        if (categoryName){
-            var getPreviewsByCategory = db.prepare("SELECT title,id FROM songs WHERE category=? ORDER BY title ASC LIMIT ?")
-        }
-        else{
-            var getPreviews = db.prepare("SELECT title,id FROM songs ORDER BY title ASC LIMIT ?")
-        }
-        if (categoryName){
-            getPreviewsByCategory.all([categoryName,amount],(err,rows)=>{
-                if (err){
-                    console.error(err.message)
-                    reject(err)
-                }
-                else {
-                    resolve(rows)
-                
-                }
-            })
-        }
-        else{
-            getPreviews.all([amount],(err,rows)=>{
-                if (err){
-                    console.error(err.message)
-                    reject(err)
-                }
-                else {
-                    resolve(rows)
-                
-                }
-            })
-        }
-        
     
-        
+        db.all("SELECT title,id FROM songs WHERE category=? ORDER BY title ASC LIMIT ? ",[categoryName,amount],(err,rows)=>{
+            if (err){
+                console.error(err.message)
+                reject(err)
+            }
+            else {
+                resolve(rows)
+            
+            }
+        })
     })
 }
 
