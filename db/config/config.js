@@ -9,7 +9,7 @@ async function Config(db){
         
 
     })
-    await FillWithData(db)
+    // await FillWithData(db)
     console.debug("CONFIG ENDED")
     
 
