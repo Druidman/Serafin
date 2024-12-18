@@ -160,6 +160,7 @@ document.getElementById("prev").addEventListener("click",()=>{
 })
 
 document.getElementById("dbViewChanger").addEventListener("click",(event)=>{
+    
     var button = event.currentTarget
     var categories = getSongCategories()
     load_categories(categories)
