@@ -3,6 +3,7 @@ import { construct_db_record, construct_category_record } from "./elementConstru
 function load_previews(data){
     var dataBox = document.getElementById("databaseViewer")
     dataBox.innerHTML = ""
+    dataBox.scrollTop = 0
 
     for (var element of data){
         var db_record = construct_db_record(element)
@@ -13,6 +14,7 @@ function load_previews(data){
 function load_categories(data){
     var dataBox = document.getElementById("databaseViewer")
     dataBox.innerHTML = ""
+    dataBox.scrollTop = 0
   
     var category_record = construct_category_record({"category": "wszystko"})
     category_record.classList.add("specialCategory")

@@ -17,7 +17,7 @@ function categoryRecord_click_event(event){
     var categoryName = textHolder.innerHTML
     
 
-    var prevs = getSongsPreview(100,categoryName)
+    var prevs = getSongsPreview(10000,categoryName)
     load_previews(prevs)
     
     var categorySelector = document.getElementById("categorySelector")

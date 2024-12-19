@@ -6,7 +6,7 @@ import { load_categories, load_previews } from "./dom/dbutils.js"
 import { getSongCategories, getSongsPreview } from "./dom/ipcHandlers.js"
 import { openNewWindow } from "./dom/windowManager/window.js"
 
-var previews = getSongsPreview(100,"wszystko")
+var previews = getSongsPreview(10000,"wszystko")
 load_previews(previews)
 
 openNewWindow("display.html","displayWind")
