@@ -1036,10 +1036,7 @@
                     "title": "Jasny P\u0142omieniu mi\u0142o\u015bci",
                     "lyrics": []
                 },
-                {
-                    "title": "O miasto \u015bwi\u0119te, Jeruzalem",
-                    "lyrics": []
-                },
+                
                 {
                     "title": "Jak b\u0142yskawica znak Tw\u00f3j ja\u015bnieje",
                     "lyrics": []
@@ -1191,17 +1188,7 @@
                         " B\u0142ogos\u0142awiony niech b\u0119dzie na wieki * nasz B\u00f3g jedyny w Tr\u00f3jcy niepoj\u0119tej, * \u017ar\u00f3d\u0142o, pocz\u0105tek i Dawca \u0142askawy * doskona\u0142o\u015bci."
                     ]
                 },
-                {
-                    "title": "Creator alme siderum",
-                    "lyrics": [
-                        " Creator alme siderum, * aeterna lux credentium, * Iesu, Redemptor omnium, * intende votis supplicum.\r\n",
-                        " Qui daemonis ne fraudibus * periret orbis, impetu * amoris actus, languidi * mundi medela factus es.\r\n",
-                        " Commune qui mundi nefas * ut expiares, ad crucem * e Virginis sacrario * intacta prodis victima.\r\n",
-                        " Cuius potestas gloriae, * nomenque cum primum sonat, * et caelites et inferi * tremente curvantur genu.\r\n",
-                        " Te deprecamur, ultimae * magnum diei Iudicem, * armis supernae gratiae * defende nos ab hostibus.\r\n",
-                        " Virtus, honor, laus, gloria * Deo Patri cum Filio, * Sancto simul Paraclito, * in saeculorum saecula. Amen."
-                    ]
-                },
+                
                 {
                     "title": "Podnie\u015bcie w g\u00f3r\u0119 bramy, szczyty wasze",
                     "lyrics": []
@@ -1304,10 +1291,7 @@
                     "title": "Bo\u017ca M\u0105dro\u015bci, co ogarniasz wszystko",
                     "lyrics": []
                 },
-                {
-                    "title": "Otw\u00f3rz si\u0119, niebo pokryte chmurami",
-                    "lyrics": []
-                },
+                
                 {
                     "title": "Na przyj\u015bcie Chrystusa Kr\u00f3la",
                     "lyrics": []
@@ -1324,14 +1308,7 @@
                     "title": "Prorocy pe\u0142ni natchnienia",
                     "lyrics": []
                 },
-                {
-                    "title": "Oto Panna pocznie i porodzi Syna",
-                    "lyrics": []
-                },
-                {
-                    "title": "Zdrowa\u015b Maryjo [Msza roratnia]",
-                    "lyrics": []
-                },
+                
                 {
                     "title": "Urz\u0105d zbawienia ludzkiego",
                     "lyrics": []
@@ -1340,10 +1317,7 @@
                     "title": "Przyjd\u017a, Kr\u00f3lu chwa\u0142y, Emmanuelu",
                     "lyrics": []
                 },
-                {
-                    "title": "O Gospodze uwielbiona",
-                    "lyrics": []
-                },
+               
                 {
                     "title": "Matko Bo\u017ca Adwentowa, chronisz",
                     "lyrics": []
@@ -1400,10 +1374,6 @@
                     "lyrics": []
                 },
                 {
-                    "title": "Bo\u017ca M\u0105dro\u015bci, Ty ogarniasz wszystko",
-                    "lyrics": []
-                },
-                {
                     "title": "Tobie nad pomys\u0142",
                     "lyrics": []
                 },
@@ -1415,10 +1385,7 @@
                     "title": "S\u0142owo zrodzone przed \u015bwiat\u0142em",
                     "lyrics": []
                 },
-                {
-                    "title": "Pan jest blisko, ju\u017c przychodzi by zbawienie ludziom da\u0107",
-                    "lyrics": []
-                },
+               
                 {
                     "title": "Niech si\u0119 raduj\u0105 niebiosa i ziemia",
                     "lyrics": [
@@ -1473,10 +1440,7 @@
                     "title": "Czuwajmy w gotowo\u015bci, B\u00f3g sam przyjdzie nas zbawi\u0107",
                     "lyrics": []
                 },
-                {
-                    "title": "Raduj si\u0119, niebo, wesel si\u0119, ziemio",
-                    "lyrics": []
-                },
+                
                 {
                     "title": "Jasny P\u0142omieniu mi\u0142o\u015bci",
                     "lyrics": []
@@ -1554,6 +1518,17 @@
                         " Gdy na krzy\u017cu kona\u0142, * s\u0142o\u0144ce si\u0119 za\u0107mi\u0142o, * ziemia si\u0119 zatrz\u0119s\u0142a, * wszystko si\u0119 spe\u0142ni\u0142o. Ref.\r\n",
                         " Oto Boski Zbawca * zamki \u015bmierci skruszy\u0142, * zburzy\u0142 straszne odrzwia, * duszom \u017cycie zwr\u00f3ci\u0142. Ref.\r\n",
                         " Zmia\u017cd\u017cy\u0142 w\u0142adz\u0119 czarta * moc\u0105 B\u00f3stwa swego * i ujarzmi\u0142 pych\u0119 * wroga piekielnego. Ref."
+                    ]
+                },
+                {
+                    "title": "Creator alme siderum",
+                    "lyrics": [
+                        " Creator alme siderum, * aeterna lux credentium, * Iesu, Redemptor omnium, * intende votis supplicum.\r\n",
+                        " Qui daemonis ne fraudibus * periret orbis, impetu * amoris actus, languidi * mundi medela factus es.\r\n",
+                        " Commune qui mundi nefas * ut expiares, ad crucem * e Virginis sacrario * intacta prodis victima.\r\n",
+                        " Cuius potestas gloriae, * nomenque cum primum sonat, * et caelites et inferi * tremente curvantur genu.\r\n",
+                        " Te deprecamur, ultimae * magnum diei Iudicem, * armis supernae gratiae * defende nos ab hostibus.\r\n",
+                        " Virtus, honor, laus, gloria * Deo Patri cum Filio, * Sancto simul Paraclito, * in saeculorum saecula. Amen."
                     ]
                 },
                 {
