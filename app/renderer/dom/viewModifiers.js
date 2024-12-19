@@ -5,13 +5,16 @@ function scrollPlayView(){
     var rect = currVerse.getBoundingClientRect()
 
     var playView = document.getElementById("playView")
+    var header = document.getElementsByTagName("header")[0].offsetHeight
 
-    if (rect.bottom > playView.clientHeight){
-        playView.scrollBy({"top": rect.top})
+    if (rect.bottom > playView.clientHeight+header){
+        playView.scrollBy({"top": rect.top-header})
+        
 
     }
-    else if (rect.top < 0){
+    else if (rect.top < header){
         playView.scrollBy({"top": rect.bottom-playView.clientHeight})
+        
     }
     
 }

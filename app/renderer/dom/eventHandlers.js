@@ -117,7 +117,12 @@ function add_verseBox_click_event(verse){
 document.getElementById("databaseSearch").addEventListener("input",db_search_submit_event)
     
 document.getElementById("play").addEventListener("click",(event)=>{
+    if (event.pointerType !== 'mouse') {
+        return;
+    }
+    event.stopPropagation();
     var button = event.currentTarget
+    
     const windName = "displayWind"
     const filename = "display.html"
 
@@ -128,12 +133,12 @@ document.getElementById("play").addEventListener("click",(event)=>{
     if (button.innerHTML == "Show"){
         displayWind.updateWindow()
         button.innerHTML = "Hid"
-        button.style["background-color"] = "#666666"
+        button.style["background-color"] = "#FFFFFF"
     }
     else if (button.innerHTML == "Hid"){
         displayWind.hidWindow()
         button.innerHTML = "Show"
-        button.style["background-color"] = "#FFFFFF"
+        button.style["background-color"] = "#8b8b8b"
 
 
     }
