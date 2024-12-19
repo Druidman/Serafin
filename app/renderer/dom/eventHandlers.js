@@ -140,6 +140,7 @@ document.getElementById("play").addEventListener("click",(event)=>{
     
 })
 
+
 document.getElementById("next").addEventListener("click",()=>{
     
     
@@ -165,6 +166,32 @@ document.getElementById("categorySelector").addEventListener("click",(event)=>{
     
     load_categories(categories)
 })
+
+document.onkeydown = function (e){
+    var keyPressed = e.code
+
+    switch(keyPressed){
+        case "Space":
+            if (!displayWind.nextVerse()){
+                return
+            }
+            scrollPlayView()
+            break
+        case "ArrowRight":
+            if (!displayWind.nextVerse()){
+                return
+            }
+            scrollPlayView()
+            break
+        case "ArrowLeft":
+            if (!displayWind.prevVerse()){
+                return
+            }
+            scrollPlayView()
+            break
+
+    }
+}
 
 
 
