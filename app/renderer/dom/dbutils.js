@@ -25,6 +25,7 @@ function load_previews(data){
     data = sortPreviews(data)
 
     for (var element of data){
+        
         var db_record = construct_db_record(element)
         dataBox.appendChild(db_record)
     }
@@ -42,6 +43,7 @@ function load_categories(data){
     data = sortCategories(data)
     
     for (var element of data){
+        
         var category_record = construct_category_record(element)
         dataBox.appendChild(category_record)
     }

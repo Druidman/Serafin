@@ -178,6 +178,7 @@ main{
     height: 100%;
     min-width: 5%;
     background-color: #FFFFFF;
+    margin: 5px;
 }
 .specialCategory {
     font-weight: bolder;
@@ -190,7 +191,7 @@ main{
     
     padding: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }   
 

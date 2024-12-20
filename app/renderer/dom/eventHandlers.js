@@ -65,17 +65,13 @@ function add_db_record_button_click_event(button){
 //
 
 function playlist_record_button_click_event(event){
-    var button = event.currentTarget
+    
     var playlistRecord = event.currentTarget.parentNode
     removeFromPlaylist(playlistRecord)
     if (playlistRecord.classList.contains("selected")){
         var playView = document.getElementById("playView")
         playView.innerHTML = ""
 
-        // var playButton = document.getElementById("play")
-        // playButton.innerHTML = "Show"
-        // displayWind.hidWindow()
-        // playButton.style["background-color"] = "#FFFFFF"
     }   
     
     
@@ -159,12 +155,23 @@ function handleCategorySelectorEvent(event){
     
     load_categories(categories)
 }
+function handleStashButtonEvent(event){
+    var button = event.currentTarget
+    
+    if (button.getAttribute("data-value") == "hide"){
+        button.setAttribute("data-value","show")
+    }
+    else if (button.getAttribute("data-value") == "show"){
+        button.setAttribute("data-value","hide")
+    }
+}
 
 document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
 document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
 document.getElementById("next").addEventListener("click",handleNextVerseEvent)
 document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
 document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
+document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
 
 export { 
     add_db_record_button_click_event, 
