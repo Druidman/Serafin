@@ -57,7 +57,7 @@
                     "lyrics": []
                 }
             ],
-            "\u015apiewy \u015blubne": [
+            "Śpiewy ślubne": [
                 {
                     "title": "B\u00f3g u\u015bwi\u0119ca wasz zwi\u0105zek",
                     "lyrics": []
@@ -167,7 +167,7 @@
                     ]
                 }
             ],
-            "\u015apiewy na pokropienie": [
+            "Śpiewy na pokropienie": [
                 {
                     "title": "Pragniemy Twojej wody \u017cywej",
                     "lyrics": []
@@ -260,7 +260,7 @@
                     ]
                 }
             ],
-            "Pie\u015bni do Ducha \u015awi\u0119tego": [
+            "Duch Święty": [
                 {
                     "title": "Boski nasz Pocieszycielu",
                     "lyrics": []
@@ -424,7 +424,7 @@
                     ]
                 }
             ],
-            "Pie\u015bni Maryjne (pozosta\u0142e okresy)": [
+            "Maryjne skibidi": [
                 {
                     "title": "R\u00f3\u017ca\u0144cowa Pani, Kr\u00f3lowo, Tobie si\u0119 zawierzamy",
                     "lyrics": []
@@ -743,7 +743,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni dla dzieci": [
+            "Dzieci": [
                 {
                     "title": "Do Serca Swojego mnie tulisz",
                     "lyrics": []
@@ -797,7 +797,7 @@
                     "lyrics": []
                 }
             ],
-            "\u015apiewy cerkiewne (Ko\u015bcio\u0142y greckokatolickie)": [
+            "Śpiewy cerkiewne": [
                 {
                     "title": "O\u017cyjcie, up\u0142ynione wieki",
                     "lyrics": []
@@ -1368,11 +1368,11 @@
                 {
                     "title": "Otw\u00f3rz si\u0119 niebo pokryte chmurami",
                     "lyrics": [
-                        "1.  Otw\u00f3rz si\u0119 niebo pokryte chmurami, i Sprawiedliwy niech zejdzie z ob\u0142ok\u00f3w jak deszcz o\u017cywczy, co zwil\u017cy pustyni\u0119 naszego serca. ",
-                        "2.  Otw\u00f3rz si\u0119 ziemio i wydaj sw\u00f3j Owoc  zrodzony z Ojca i czystej Dziewicy,  gdy\u017c On przyniesie zbawienie i pok\u00f3j  ca\u0142emu \u015bwiatu.",
-                        "3.  Przyjd\u017a, Pojednanie, ju\u017c wi\u0119cej nie zwlekaj; niech Twa obecno\u015b\u0107 przywr\u00f3ci nam \u0142ask\u0119, i wprowad\u017a wszystkich znu\u017conych w\u0119drowc\u00f3w do domu Ojca. ",
-                        "4.  Znak Tw\u00f3j na niebie zab\u0142y\u015bnie narodom,  gdy zn\u00f3w nadejdziesz, by s\u0105dzi\u0107 sumienia;  Pami\u0119taj wtedy, \u017ce\u015b mieszka\u0142 wcielony  pomi\u0119dzy nami.",
-                        "5.  Bo\u017cy Baranku, czekamy na Ciebie i pie\u015bni\u0105 chwa\u0142y wielbimy Tw\u0105 dobro\u0107; S\u0142awimy r\u00f3wnie\u017c i Ojca i Ducha w jedno\u015bci z Tob\u0105."
+                        "1. Otw\u00f3rz si\u0119 niebo pokryte chmurami, i Sprawiedliwy niech zejdzie z ob\u0142ok\u00f3w jak deszcz o\u017cywczy, co zwil\u017cy pustyni\u0119 naszego serca. ",
+                        "2. Otw\u00f3rz si\u0119 ziemio i wydaj sw\u00f3j Owoc  zrodzony z Ojca i czystej Dziewicy,  gdy\u017c On przyniesie zbawienie i pok\u00f3j  ca\u0142emu \u015bwiatu.",
+                        "3. Przyjd\u017a, Pojednanie, ju\u017c wi\u0119cej nie zwlekaj; niech Twa obecno\u015b\u0107 przywr\u00f3ci nam \u0142ask\u0119, i wprowad\u017a wszystkich znu\u017conych w\u0119drowc\u00f3w do domu Ojca. ",
+                        "4. Znak Tw\u00f3j na niebie zab\u0142y\u015bnie narodom,  gdy zn\u00f3w nadejdziesz, by s\u0105dzi\u0107 sumienia;  Pami\u0119taj wtedy, \u017ce\u015b mieszka\u0142 wcielony  pomi\u0119dzy nami.",
+                        "5. Bo\u017cy Baranku, czekamy na Ciebie i pie\u015bni\u0105 chwa\u0142y wielbimy Tw\u0105 dobro\u0107; S\u0142awimy r\u00f3wnie\u017c i Ojca i Ducha w jedno\u015bci z Tob\u0105."
                     ]
                 },
                 {
@@ -1560,9 +1560,220 @@
                     "lyrics": [
                         "Ecce Dominus veniet, * et omnes sancti eius cum eo: * et erit in die illa * lux magna, alleluia."
                     ]
+                },{
+                    "title": "Alleluja... Zdorwaś Maryjo",
+                    "lyrics": [
+                        "Alleluja, * alleluja. Zdrowaś Maryjo, łaski pełna Pan z Tobą, * błogosławionaś Ty między niewiastami. * Alleluja\r\n"
+                      ]
+                },
+                {
+                    "title": "A ja czekam na Ciebie mój Jezu",
+                    "lyrics": [
+                        "1. A ja czekam na Ciebie mój Jezu, tak jak kiedyś inni czekali. * A ja czekam na Ciebie mój Jezu, tam w oddali światełko się pali.\r\n",
+                        "Refren: Jezu przyjdź wołam Cię Jezu przyjdź.\r\n",
+                        "2. A ja czekam na Ciebie mój Jezu, abyś przyszedł pomiędzy ludzi * a ja czekam na Ciebie mój Jezu, byś drzemiące serca obudził. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Adwentowa lampka lśni",
+                    "lyrics": [
+                        "Adwentowa lampka lśni, Panie Jezu przyjdź. * Wszystkie dzieci oczekują Cię, pukasz w nasze drzwi stuk stuk.\r\n"
+                      ]
+                },
+                {
+                    "title": "Bóg między nami zamieszkał",
+                    "lyrics": [
+                        "1. Może nam się zdawało albo się tylko przyśniło, * ktoś noc wymalował na biało i dziecię się narodziło. * Dziecię się narodziło całe w jasności i bieli, * a potem przyszli w gości, a potem przyszli w gości * Święci Anieli.\r\n",
+                        "Ref: Bóg między nami zamieszkał, przez serce prowadzi tam ścieżka. * Bóg do nas wreszcie wyruszył by dotrzeć do naszej duszy.\r\n",
+                        "2. Nawet zwierzęta poczuły łaskę boską i w wielkie ludzkie święto zaczęły mówić po polsku. * Buczały, meczały, ćwierkały, gdakały, że dziś świat cały pełen jest boskiej chwały. Ref.\r\n",
+                        "3. Tak powiedziały zwierzęta, każdy to dobrze pamięta, * a one się mylić nie mogą jak gwiazdy nad szopą ubogą * toteż przed Świętą Panienką trzeba przepięknie uklęknąć ,uścisnąć Józefa dłonie i długo tak trwać * i długo tak trwać i długo tak trwać w pokłonie bo Ref.\r\n",
+                        "4. Małemu zaś dzieciątku będziemy znów od początku śpiewać wszystkie kolędy * tak pełne radości i biedy, będziemy śpiewać kolędy tak pełne radości i biedy, * a kiedy do domu wróci może je sobie zanuci. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Chrystus Król do nas przychodzi",
+                    "lyrics": [
+                        "Ref. Chrystus Król do nas przychodzi, pójdźmy wszyscy z pokłonem.\r\n",
+                        "1. Ożywczą rosą zstąp na ziemię. Oczekujemy Cię, Panie. Ref.\r\n",
+                        "2. Miłością rozgrzej zimne serca i weź je w swoje władanie. Ref.\r\n",
+                        "3. Odrzu(my smutek, ból i troski, Pan niesie 'wiatu zbawienie. Ref.\r\n",
+                        "4. Zwycięzca śmierci zakróluje, cieszy się wszelkie stworzenie. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Ciebie Chryste, Władco wieków",
+                    "lyrics": [
+                        "1. Ciebie Chryste Władco wieków, wyznajemy Królem ziemi, * Tobie bowiem są poddane dusze, serca i narody.\r\n",
+                        "2. Ciebie wielbią chóry nieba i aniołów hymn wychwala, * także my wielbimy Ciebie, jako Pana wszystkich ludzi.\r\n",
+                        "3. Ty, coś Księciem jest pokoju, poddaj sobie zbuntowanych, * i w owczarni jednej zgromadź zabłąkanych na bezdrożach.\r\n",
+                        "4. Po to przecież krzyż przyjąłeś i otwarłeś swe ramiona, * serce zaś przebite włócznią ukazało nam Twą miłość.\r\n",
+                        "5. Po to kryjesz się w ofierze Chleba i świętego Wina, * udzielając wiernym łaski, z rany boku otwartego.\r\n",
+                        "6. Tobie Jezu, który rządzisz całym światem Twą miłoscią, * chwała teraz i na zawsze z Ojcem oraz Duchem Świętym.\r\n"
+                      ]
+                },
+                {
+                    "title": "Gdy roratniej świecy płomień",
+                    "lyrics": [
+                        "1. Gdy roratniej świecy płomień mrok rozjaśnia adwentowy, * kiedy dusza czuje głód, gdy potrzebny jest jej Bóg.\r\n",
+                        "Refren: Oczekuję, wypatruję Zbawiciela, którym Jezus Chrystus jest. * On napełni mnie radością, gdy przyjdzie.\r\n",
+                        "2. Kiedy czeka się z miłością, to czekanie jest radością. * I choć czasem dłuży się, nigdy nie zniechęci mnie. Ref.\r\n",
+                        "3. A Bóg czekać długo nie da. Przyjdzie pod postacią Chleba. *Jeszcze chwila, jeszcze krok i rozjaśni duszy mrok. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Hymn Nowenna do Dzieciątka Jezus (Głos czysty płynie)",
+                    "lyrics": [
+                        "[]Głos czysty płynie z niebios chmur, * ponury zgłuszył duchów wrzask. * Pasterzu, odpędź marę snu, * bo Jezus śpieszy pełen łask! \r\n",
+                        "[]Baranek Boży śpieszy tu, * umorzyć darmo grzechów dług. * Łzy szczęścia toczą się bez słów, * że tak jest dobry Ojciec Bóg! \r\n",
+                        "[]Ten bowiem, który stworzył świat, * Ciało swych sług przyoblec chciał. * Wśród ludzi stanął jako brat, * By zbawić, gdy już życie dał. \r\n",
+                        "[]Z oczu Maryi spada łza * Z Ducha Świętego Owoc swój. * Poczęła; serce szczęściem drga * Syci je łask niebieskich zdrój.\r\n",
+                        "[]Jej piersi czystej żywy dom * Na swą świątynię zmienia Syn. * W Jej sercu swój założy tron * Ono Mu nuci święty hymn.\r\n",
+                        "[]Niech chwała Ojcu zawsze brzmi * Synowi z Duchem Świętym wraz. * Na ziemi, w niebie, w równej czci * Po nieskończony wieków czas. * Amen.\r\n"
+                      ]
+                },
+                {
+                    "title": "Kiedyś powróci Pan",
+                    "lyrics": [
+                        "1. Kiedyś powróci Pan, kiedyś powróci Pan, * Obiecał to, powróci w noc, gdy się nie czeka Nań. * Kiedyś powróci pan, kiedyś powróci Pan. * Obiecał to, niech twardy sen, nie zmorzy cię w tę noc. *\r\n",
+                        "[]Do Niego wołam w tęsknocie mej: Boże, czy przyjdziesz już nocy tej? * Kiedyś powróci Pan, niech twardy sen, nie zmorzy cię w tę noc.\r\n",
+                        "2. Niech świeci lampka twa, niech świeci lampka twa, * byś drogę Mu do duszy swej jasno oświetlić mógł. * Niech lampka duszy twej, niech lampka duszy twej, * wciąż jasno lśni, ażeby Pan odnalazł łatwo cię. *\r\n",
+                        "[]Do Niego wołam w tęsknocie mej: Boże czy przyjdziesz już nocy tej? * Niech lampka duszy twej, Wciąż jasno lśni, by Pan odnalazł cię.\r\n",
+                        "3. Czekaj Nań w sercu swym, czekaj Nań w sercu swym. * I nie łudź się, byś szczęście swe, mógł znaleźć poza Nim. * Czekaj Nań w sercu swym, czekaj Nań w sercu swym. * Bo tylko z Nim dobroci blask rozjaśni dziś twój dom. * \r\n",
+                        "[]Do Niego wołam w tęsknocie mej: Boże, czy przyjdziesz już nocy tej? * Czekaj Nań w sercu swym, by jasny był i dobry dziś twój dom.\r\n"
+                      ]
+                },
+                {
+                    "title": "Marana tha! Przyjdź, Jezu Panie",
+                    "lyrics": [
+                        "Refren: Marana tha! * Przyjdź, Jezu Panie, * w swej chwale do nas zejdź! * Marana tha! Usłysz wołanie, * gdy się wypełnią wieki.\r\n",
+                        "1. Jak rosy chłód na spragniony grunt, * jak dobry chleb na głodnego dłoń! Ref.\r\n",
+                        "2. W Kościele Twym, gdzie dajesz się nam, * przez Ciała, Krwi, tajemniczą moc. Ref.\r\n",
+                        "3. Gdy miłość swą okażemy wkrąg, * przychodzisz już dziś na ziemię swą. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Na adwent naszego czekania",
+                    "lyrics": [
+                        "1. Na adwent naszego czekania i w mroki życia ludzkiego * zejdź Mario w blaskach świtania, zejdź Matko do ludu swojego. *\r\n",
+                        "[]Połóż Matko dobre swe dłonie na zimne serca i dusze. * Niech miłość znowu zapłonie o to błagamy Cię w skrusze.\r\n",
+                        "2. Na przyjście Pana czekamy i radość w sercu nam gości. * On łaską swoją rozproszy smutki i grzechu ciemności. * \r\n",
+                        "[]Daruj nam swoją miłość, przynieś nam swojego Syna. * Bo Ty jesteś dobra Matka, pociecha nasza jedyna.\r\n",
+                        "3. Pod Twoim Matko wejrzeniem i w blasku Twojej czułości * życie lepszym się stanie, rozbłyśnie słońce miłości. * \r\n",
+                        "[]Matko przez miłość do ludzi stań w progu życia naszego. * Proś za nami nieustannie Jezusa Syn Twojego.\r\n"
+                      ]
+                },
+                {
+                    "title": "O Gospodzie uwielbiona",
+                    "lyrics": [
+                        "1. O Gospodzie uwielbiona! Nad niebiosa wywyższona; * Stwórcęś swego porodziła, mlekiemeś go swem karmiła.\r\n",
+                        "2. Co Ewa smętna straciła, Tyś przez Syna naprawiła; * Oknem się stałaś do nieba, cmucić się nam nie potrzeba.\r\n",
+                        "3. Drzwiamiś Króla niebieskiego i fórtą Raju świętego; * Wszyscy jej ludzie śpiewajcie, bo przez nią zbawienie macie.\r\n",
+                        "4. Maryja Matko miłości! Matko wszelakiej litości! * Broń nas od skonania złego, i od czarta przeklętego.\r\n",
+                        "5. Maryja Panno nad Panny, niech twój Syn przez cię błagany,  * wszystkie winy nam odpuści, a do łaski swej przypuści.\r\n",
+                        "6. Przez Syna Panno twojego, Ojca i Ducha świętego, * przybądź na nasze skonanie, a daj dobre dokonanie.\r\n",
+                        "7. Chwała bądź Panu naszemu z Dziewice narodzonemu, * i Ojcu jego Wiecznemu, także Duchowi świętemu."
+                      ]
+                },
+                {
+                    "title": "Oczekuję, wypatruję",
+                    "lyrics": [
+                        "[]Oczekuję, wypatruję Zbawiciela, którym Jezus Chrystus jest. * On napełni mnie radością, gdy przyjdzie.\r\n"
+                      ]
+                },
+                {
+                    "title": "Oczekujemy Zbawiciela świata",
+                    "lyrics": [
+                        "[]Oczekujemy Zbawiciela świata, który przemieni ciało nasze śmiertelne w chwalebne. * Przeto żyjmy trzeźwo, pobożnie i sprawiedliwie, * oczekując nadziei i chwały przyjścia wielkiego Boga * i Zbawiciela naszego, Jezusa Chrystusa. * Amen.\r\n"
+                      ]
+                },
+                {
+                    "title": "Oto Panna pocznie i porodzi Syna",
+                    "lyrics": [
+                        "Refren: Oto Panna pocznie i porodzi Syna, * i nazwą go imieniem: Emmanuel.\r\n",
+                        "1. Za dni Jego zakwitnie sprawiedliwość * i wielki pokój aż księżyc nie zgaśnie. Ref.\r\n",
+                        "2. Będzie panował od morza do morza, * od rzeki aż po krańce ziemi. Ref.\r\n",
+                        "3. Wyzwoli bowiem biedaka, który Go wzywa * i ubogiego co nie ma opieki. Ref.\r\n",
+                        "4. Zmiłuj się nad biednym i ubogim, * nędzarza ocali od śmierci. Ref.\r\n",
+                        "5. Chwała Ojcu i Synowi i Duchowi Świętemu, * jak była na początku, teraz i zawsze, i na wieki wieków. Amen. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Podnieście w górę bramy, szczyty wasze",
+                    "lyrics": [
+                        "Refren: Podnieście w górę bramy, szczyty wasze, * rozstąpcie się odwieczne drzwi. * Niech wnijdzie chwały Król, chwały Król.\r\n",
+                        "1. Któż godzien wstąpić na górę Pańską lub kto może stanąć na świętym miejscu Jego? * Człowiek rąk niewinnych i czystego serca. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Prorocy pełni natchnienia",
+                    "lyrics": [
+                        "1. Prorocy pełni natchnienia zwiastują Bożą nowinę: * już wkrótce Chrystus nadejdzie, zbawienie niosąc ludzkości.\r\n",
+                        "2. Dlatego światło poranka przenika serca weselem, * a przyszłej chwały zapowiedź już dźwięczy w hymnie radosnym.\r\n",
+                        "3. Gdy pierwszy raz Jezus przyszedł, to nie dla sądu nad światem, * lecz aby rany uleczyć i uratować ginących.\r\n",
+                        "4. A drugie przyjście ostrzega, że Pan do bramy kołacze; * Nagrodzi wtedy wybranych wiecznością swego królestwa.\r\n",
+                        "5. Szukamy Ciebie, o Chryste, by ujrzeć Twoje oblicze, * a mając udział w Twym szczęściu, wysławiać Trójcę na wieki. * Amen.\r\n"
+                      ]
+                },
+                {
+                    "title": "Przyjdź do nas, przyjdź",
+                    "lyrics": [
+                        "1. Przyjdź do nas, przyjdź, Panie Jezu, Amen! * Przyjdź do nas, przyjdź, wszyscy Cię czekamy. * Marana tha! Przyjdź, Panie, przyjdź!\r\n",
+                        "2. Wśród walk i zdrad obdarz nas pokojem, * przemień ten świat, przyjdź Królestwo Twoje! * Marana tha! Przyjdź, Panie, przyjdź!\r\n",
+                        "3. Przyjdź, Panie nasz, Tobie służyć chcemy * niech wola Twoja spełni się na ziemi! * Marana tha! Przyjdź, Panie, przyjdź!\r\n"
+                      ]
+                },
+                {
+                    "title": "Słychać głos strażnika w dali",
+                    "lyrics": [
+                        "1. Słychać głos strażnika w dali, On woła nas, abyśmy wstali. * Jeruzalem zbudź się ze snu. * Jasny głos w pośrodku nocy, podnosi nas ze snu niemocy, * o panny mądre stańcie tu!\r\n",
+                        "[]Pan młody zbliża się, zgotujcie lampy swe. Alleluja! * On wzywa was na godów czas, musicie wyjść naprzeciw Mu.",
+                        "2. Syjon wstał, zbył się senności, a serca im biją z radości; * Gotowi stają już u bram: * Niebios Pan w swej prawdy sile z bogactwem łask przyjdzie za chwilę, * już gwiazda Jego świeci nam!\r\n",
+                        "[]Przyjdź, Panie, zbaw od win, Tyś Jezus, Boży Syn, O hosanna. * Do uczty swej, nas przyjąć chciej, wesele wieczne w serca wlej!",
+                        "3. Gloria, głos się już budzi: Aniołów śpiew zstąpił na ludzi, * już grają harfy, bije dzwon! * Bramy te z pereł dwunastu, otwarte są dla nas ku Miastu, * gdzie wśród aniołów jest Twój tron.\r\n",
+                        "Nie pojął ludzki duch, nie poznał wzrok ni słuch, co nas czeka. * Daj stanąć nam i śpiewać tam, na wieki, gdzie Ty mieszkasz sam.\r\n"
+                      ]
+                },
+                {
+                    "title": "Spuśćcie rosę, niebiosa z góry",
+                    "lyrics": [
+                        "Refren: Spuśćcie rosęm niebiosa z góry, * a obłoki niech spuszczą * z deszczem Sprawiedliwego. * Niech się otworzy ziemia, * Niech się otworzy ziemia * i zrodzi Zbawiciela.\r\n",
+                        "1. Niebiosa opowiadają chwałę Bogu, * a widnokrąg rozgłasza dzieła rąk Jego. Ref.\r\n",
+                        "2. Chwała Ojcu i Synowi i Duchowi Świętemu, * jak była na początku, teraz i zawsze, i na wieki wieków. Amen. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Tobie nad pomysł",
+                    "lyrics": [
+                        "1. Tobie nad pomysł, piękno i wymowę, * wznawiamy Panno rzecz Gabryelowę: * Któraś od niego w te słowa uczczona, * bądź pozdrowiona.\r\n",
+                        "2. U ciebie jednej niebieskie są dary, * któremi cię Bóg obdarzył bez miary: * Tyś napełniona łaską pożądaną, * od Boga daną.\r\n",
+                        "3. Pan z tobą, ciebie przed czasy wszystkiemi, * przeznaczył sobie przybytkiem na ziemi: * Zkąd cię do nieba przeniósł nad obłoki, * na tron wysoki.\r\n",
+                        "4. Nad inne panny, które zachowały * swe Bogu śluby, masz przywilej cały: * Z białychgłów żadna bez wady wszelakiej, * czci nie ma takiej.\r\n",
+                        "5. Dla tego słusznie ciebie wychwalamy, * i twej u Syna pomocy żądamy, * by nam odpuścił z twej świętej zasługi, * Bóg nasze długi.\r\n"
+                      ]
+                },
+                {
+                    "title": "Usłysz, dobry Boże",
+                    "lyrics": [
+                        "1. Usłysz, dobry Boże, prośbę dzieci żywą: * Niech do serc spragnionych przyjdzie sprawiedliwy.\r\n",
+                        "Refren: O, niebiosa spuśćcie rosę i ożywcie łany. * Przyjdź, o Jezu, do serc naszych, * Jezu ukochany.\r\n",
+                        "2. Bez Twej łaski Panie, dobrym być nie mogę. * Tyś mym ukochaniem, Prawdą, Światłem, Drogą. Ref.\r\n"
+                      ]
+                },
+                {
+                    "title": "Wypatrujcie tęsknie wieszczonego Pana",
+                    "lyrics": [
+                        "1. Wypatrujcie tęsknie wieszczonego Pana, * który ludziom Ziemi wolność niesie w dani. * \r\n",
+                        "[]Zbawca świata wspaniały, * z nim zaś szczęście w królestwie chwały.\r\n",
+                        "2. Czekajcie maluczko, niebawem się zjawi; * nie będzie jak marmur tawrdy lecz łaskawy. * \r\n",
+                        "[]Wszelkiej prośby rad słucha, * która z głębi wypływa ducha.\r\n",
+                        "3. Wielkoduszny zamysł On jednak odwleka, * by Gość upragniony kiedy nań czeka.\r\n",
+                        "[]W żarze tęsknoty świętej * został wdzięcznym sercem przyjęty.\r\n",
+                        "4. O, Kryniczny Zdroju, ponad kryształ czysty, * dziś zrodzon w niebiosach, bijący wieczyście.\r\n",
+                        "[]Ku nam spłyń z górnych źródeł, * ugaś żary spragnionego ludu.\r\n"
+                      ]
                 }
             ],
-            "Pie\u015bni na Wielki Tydzie\u0144": [
+            "Wielki Tydzień": [
                 {
                     "title": "Odszed\u0142 Pasterz od nas",
                     "lyrics": [
@@ -1754,7 +1965,7 @@
                     "lyrics": []
                 }
             ],
-            "Cz\u0119\u015bci sta\u0142e": [
+            "Części stałe": [
                 {
                     "title": "Panie zmi\u0142uj si\u0119 nad nami",
                     "lyrics": []
@@ -1776,7 +1987,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni do Chrystusa Kr\u00f3la": [
+            "Chrystus Król": [
                 {
                     "title": "Chrystus Pan, wczoraj i dzi\u015b",
                     "lyrics": [
@@ -1877,7 +2088,7 @@
                     ]
                 }
             ],
-            "Pie\u015bni na Wniebowst\u0105pienie": [
+            "Wniebowstąpienie": [
                 {
                     "title": "Ciesz si\u0119, Kr\u00f3lowo Anielska",
                     "lyrics": [
@@ -1949,7 +2160,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni na okres Wielkanocny": [
+            "Wielkanoc": [
                 {
                     "title": "Weso\u0142y nam dzie\u0144 nasta\u0142, gdy Pan Chrystus zwyci\u0119\u017cy\u0142",
                     "lyrics": []
@@ -2411,7 +2622,7 @@
                     "lyrics": []
                 }
             ],
-            "Gorzkie \u017cale": [
+            "Gorzkie żale": [
                 {
                     "title": "B\u0105d\u017a pozdrowiony, b\u0105d\u017a pochwalony",
                     "lyrics": []
@@ -2452,7 +2663,7 @@
                     ]
                 }
             ],
-            "Pie\u015bni do \u015bwi\u0119tych": [
+            "Święci": [
                 {
                     "title": "Bo\u017ce, Ojcze wszechmog\u0105cy",
                     "lyrics": [
@@ -3374,342 +3585,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni pokutne (1 cz\u0119\u015b\u0107 Wielkiego Postu)": [
-                {
-                    "title": "Attende Domine",
-                    "lyrics": [
-                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
-                        " Ad te Rex summe, omnium Redemptor, * oculos nostros sublevamus flentes: * exaudi, Christe, supplicantum preces. ",
-                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
-                        " Dextera Patris, lapis angularis, * via salutis, ianua caelestis, * ablue nostri maculas delicti. ",
-                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
-                        " Rogamus, Deus, tuam maiestatem: * auribus sacris gemitus exaudi: * crimina nostra placidus indulge. ",
-                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
-                        " Tibi fatemur crimina admissa: * contrito corde pandimus occulta: * tua, Redemptor, pietas ignoscat. ",
-                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
-                        " Innocens captus, nec repugnans ductus, * testibus falsis pro impiis damnatus: * quos redemisti, tu conserva, Christe. ",
-                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n"
-                    ]
-                },
-                {
-                    "title": "Wielbimy Krzy\u017c Tw\u00f3j, Panie",
-                    "lyrics": [
-                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.\n\r\n",
-                        " Niech B\u00f3g si\u0119 zmi\u0142uje nad nami i nam b\u0142ogos\u0142awi, * niech nam uka\u017ce pogodne oblicze.\r\nAby na ziemi znano Jego drog\u0119, * Jego zbawienie w\u015br\u00f3d wszystkich narod\u00f3w. Ant.\r\n",
-                        " Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nNiech si\u0119 narody ciesz\u0105 i wesel\u0105, \u2020 bo rz\u0105dzisz ludami sprawiedliwie * i kierujesz narodami na ziemi. Ant.\r\n",
-                        " Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nZiemia wyda\u0142a sw\u00f3j owoc, * B\u00f3g, nasz B\u00f3g, nam pob\u0142ogos\u0142awi\u0142.\r\nNiech nam B\u00f3g b\u0142ogos\u0142awi * i niech cze\u015b\u0107 Mu oddaj\u0105 wszystkie kra\u0144ce ziemi. Ant."
-                    ]
-                },
-                {
-                    "title": "O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j",
-                    "lyrics": [
-                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n",
-                        " Pozw\u00f3l mi na nowo cieszy\u0107 si\u0119 weselem, * d\u017awignij z poni\u017cenia, rado\u015b\u0107 wr\u00f3\u0107! * Nie patrz na me grzechy, odwr\u00f3\u0107 od nich wzrok, * wyma\u017c wszystkie przewinienia! ",
-                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n",
-                        " Serce daj mi czyste, przywr\u00f3\u0107 si\u0142\u0119 ducha, * pozw\u00f3l mi przy Tobie blisko trwa\u0107! * I Twojego ducha nie odbieraj mi, * niech si\u0119 ciesz\u0119 Twym zbawieniem. ",
-                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n",
-                        " Wzmocnij we mnie, Panie, ducha szlachetnego, * bym grzesznik\u00f3w uczy\u0142 Twoich dr\u00f3g. * Wybaw mnie od kary, Bo\u017ce, Zbawco m\u00f3j, * bym Tw\u0105 dobro\u0107 czci\u0142 rado\u015bnie! ",
-                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n",
-                        " Otw\u00f3rz usta moje, niech Tw\u0105 chwa\u0142\u0119 g\u0142osz\u0105, * niech cze\u015b\u0107 Twoja p\u0142ynie z moich warg. * Gdyby\u015b \u017c\u0105da\u0142 ofiar, ch\u0119tnie bym je da\u0142, * lecz nie pragniesz ca\u0142opale\u0144. ",
-                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n"
-                    ]
-                },
-                {
-                    "title": "O cz\u0142owiecze, wspomnij sobie",
-                    "lyrics": [
-                        " O cz\u0142owiecze, wspomnij sobie, * \u017ce\u015b we wszystkiej swej ozdobie * prochem, kt\u00f3ry legnie w grobie.\r\n",
-                        " Czy\u0144 pokut\u0119 bez zwlekania, * niech si\u0119 serce twe nie wzbrania, * szukaj z Bogiem pojednania.\r\n",
-                        " Bo, gdy \u017cycie twoje minie * i pokuty czas up\u0142ynie, * dusza twoja wiecznie zginie.\r\n",
-                        " Na tym \u015bwiecie nic trwa\u0142ego, * pr\u00f3\u017cno garniesz si\u0119 do niego, * gardz\u0105c \u0142ask\u0105 Boga swego.\r\n",
-                        " B\u0142agaj Boga wszechw\u0142adnego, * z wiar\u0105 serca skruszonego, * o popraw\u0119 \u017cycia swego.\r\n",
-                        " B\u0142agaj Ojca w wysoko\u015bci * o niebieski dar m\u0105dro\u015bci * i o \u017cywot w pobo\u017cno\u015bci.\r\n",
-                        " Wierz w Jezusa, Zbawc\u0119 swego, * rz\u0105d\u017a swe serce s\u0142owem Jego, * by\u015b do \u017cycia wszed\u0142 wiecznego.\r\n",
-                        " Chryste, Panie nasz nad pany * w mi\u0142osierdziu nieprzebrany, * racz\u017ce zbawi\u0107 lud wybrany."
-                    ]
-                },
-                {
-                    "title": "Odkupicielu, ratuj swe stworzenie",
-                    "lyrics": []
-                },
-                {
-                    "title": "Padnijmy twarz\u0105 na ziemi\u0119",
-                    "lyrics": [
-                        " Padnijmy twarz\u0105 na ziemi\u0119, * b\u0142agajmy Boga ze skruch\u0105, * przed S\u0119dzi\u0105 \u0142zy wylewajmy, * by Jego gniew si\u0119 u\u015bmierzy\u0142.\r\n",
-                        " Tak cz\u0119sto, Ojcze najlepszy, * grzechami Ci\u0119 obra\u017camy, * lecz Ty si\u0119 zmi\u0142uj nad nami * i ze\u015blij swe przebaczenie.\r\n",
-                        " Bo chocia\u017c bardzo niegodni, * jeste\u015bmy Twoim stworzeniem, * wi\u0119c wspomnij na to i pom\u00f3\u017c * wys\u0142awia\u0107 \u017cyciem Twe imi\u0119.\r\n",
-                        " Od z\u0142a nas wyzw\u00f3l dawnego, * a dobro pomn\u00f3\u017c sw\u0105 \u0142ask\u0105, * i uczy\u0144 Tobie mi\u0142ymi * ju\u017c dzi\u015b i w ca\u0142ej wieczno\u015bci.\r\n",
-                        " Niech Tobie, w Tr\u00f3jcy jedyny, * majestat b\u0119dzie i chwa\u0142a, * a Ty nam udziel owoc\u00f3w * zbawczego czasu pokuty. Amen."
-                    ]
-                },
-                {
-                    "title": "Oto teraz czas w\u0142a\u015bciwy",
-                    "lyrics": []
-                },
-                {
-                    "title": "Duchu Bo\u017cy, \u015bwiat\u0142o sumie\u0144",
-                    "lyrics": []
-                },
-                {
-                    "title": "Witam Ci\u0119, witam",
-                    "lyrics": [
-                        " Witam Ci\u0119, witam, Przenaj\u015bwi\u0119tsze Cia\u0142o, * kt\u00f3re\u015b na krzy\u017cu sromotnie wisia\u0142o, * za nasze winy, Synu jedyny * Ojca wiecznego, Boga prawego, * m\u0119ki te znosi\u0142e\u015b.\r\n",
-                        " Dajem Ci pok\u0142on, Bogu prawdziwemu, * w tym Sakramencie dziwnie zakrytemu; * \u017cebrzem lito\u015bci i Twej mi\u0142o\u015bci, * by\u015b gniew sw\u00f3j srogi, o Jezu drogi, * pohamowa\u0107 raczy\u0142.\r\n",
-                        " Zmi\u0142uj si\u0119, zmi\u0142uj nad nami grzesznymi, * nie racz pogardza\u0107 pro\u015bbami naszymi; * zgrom hardych si\u0142y, daj pok\u00f3j mi\u0142y, * wyniszcz z\u0142e rady, wykorze\u0144 zdrady * po\u015br\u00f3d ludu swego.\r\n",
-                        " A kiedy przyjdzie z \u015bwiatem tym rozstanie, * ratuj nas, ratuj, dobrotliwy Panie! * Niech z Cia\u0142a Twego Przenaj\u015bwi\u0119tszego * posi\u0142ek mamy i ogl\u0105damy * Ciebie \u0142askawego."
-                    ]
-                },
-                {
-                    "title": "Jezu kochany, chc\u0119 dzi\u015b na nowo",
-                    "lyrics": []
-                },
-                {
-                    "title": "B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy",
-                    "lyrics": [
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " B\u0142ogos\u0142awiony, komu Pan nie poczytuje grzechu, * a w duchu jego nie masz ob\u0142udy. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " Dop\u00f3kim nie uzna\u0142 winy, * wysycha\u0142y ko\u015bci moje w\u015br\u00f3d ustawicznych zgryzot. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " Gdy\u017c r\u0119ka Twoja nade mn\u0105 ci\u0105\u017cy\u0142a dniem i noc\u0105, * si\u0142a moja niszcza\u0142a jak w letnie upa\u0142y. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " Wreszcie wyjawi\u0142em grzech sw\u00f3j przed Tob\u0105, * i winy swojej d\u0142u\u017cej nie kry\u0142em. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " Wyznaj\u0119, rzek\u0142em, sw\u0105 nieprawo\u015b\u0107 Panu * i Ty\u015b darowa\u0142 z\u0142o\u015b\u0107 mojego grzechu. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " Niech si\u0119 wi\u0119c modli do Ciebie ka\u017cdy wierny, * ilekro\u0107 mu grozi niedola. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " A gdy uderz\u0105 fale utrapienia, * z pewno\u015bci\u0105 jego nie dosi\u0119gn\u0105. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " Ty\u015b dla mnie ostoj\u0105, wyrwiesz mnie z ucisku, * i nape\u0142nisz mnie rado\u015bci\u0105 zbawienia. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        " \u201ePoucz\u0119 ciebie i wska\u017c\u0119 jak\u0105 masz i\u015b\u0107 drog\u0105, * podam ci rady, kieruj\u0105c na ci\u0119 swe oczy. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        ". Nie b\u0105d\u017a\u017ce tedy niby ko\u0144 lub mu\u0142 nierozumny; * w\u0119dzid\u0142em i uzd\u0105 w biegu kie\u0142zna\u0107 je trzeba, inaczej nie s\u0105 ci powolne!\u201d ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        ". Rozliczne ch\u0142osty gn\u0119bi\u0105 bezbo\u017cnika, * a ufaj\u0105cych Panu os\u0142ania \u0142askawo\u015b\u0107. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
-                        ". Weselcie si\u0119 w Panu i radujcie, sprawiedliwi; * \u015bpiewajcie weso\u0142o, wszyscy prawego serca. ",
-                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n"
-                    ]
-                },
-                {
-                    "title": "Nawr\u00f3\u0107 si\u0119, ludu, w pokorze",
-                    "lyrics": [
-                        " Nawr\u00f3\u0107 si\u0119, ludu, w pokorze, * w po\u015bcie i w p\u0142aczu, i w \u017calu, * a \u015bwiat\u0142o\u015b\u0107 twoja jak zorze * rozb\u0142y\u015bnie nad Jeruzalem.\r\n",
-                        " Nawr\u00f3\u0107 si\u0119, c\u00f3rko Syjonu * do Pana, Boga swojego. * Tu\u0142aczy przyjmij do domu, * \u0142akn\u0105cych obdaruj chlebem.\r\n",
-                        " Obmyj si\u0119 dzi\u015b \u017cyw\u0105 wod\u0105, * bo B\u00f3g ci przebaczy\u0107 got\u00f3w, * jak orze\u0142 odn\u00f3w sw\u0105 m\u0142odo\u015b\u0107 * i wzmocnij skrzyd\u0142a do lotu.\r\n",
-                        " Wtedy Pa\u0144skiego imienia * zawezwiesz, a On odpowie, * wprowadzi w bramy zbawienia, * pasterzem b\u0119dzie swych owiec."
-                    ]
-                },
-                {
-                    "title": "Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107",
-                    "lyrics": [
-                        "Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.\n\r\n",
-                        " Do Ciebie, Zbawco i Kr\u00f3lu Najwy\u017cszy, * zalane \u0142zami podnosimy oczy. * O, wejrzyj, Chryste, na b\u0142aganie nasze. Ant.\r\n",
-                        " Prawico Ojca, kamieniu w\u0119gielny, * drogo zbawienia i do niebios bramo, * ach, obmyj we krwi wszystkie nasze winy. Ant.\r\n",
-                        " Stajemy, Bo\u017ce, przed Twym majestatem. * Otw\u00f3rz swe uszy na nasze wzdychanie, * przebacz \u0142askawie nasze przewinienia! Ant.\r\n",
-                        " \u017be\u015bmy zgrzeszyli, szczerze wyznajemy, * z sercem skruszonym winy ujawniamy. * Ty nam je odpu\u015b\u0107, Zbawco lito\u015bciwy! Ant.\r\n",
-                        " Chocia\u017c niewinny, by\u0142e\u015b os\u0105dzony * na mocy k\u0142amstwa \u015bwiadk\u00f3w niegodziwych. * Zachowaj, Chryste, przez Ci\u0119 odkupionych! Ant."
-                    ]
-                },
-                {
-                    "title": "Parce Domine",
-                    "lyrics": [
-                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
-                        " Flectamus iram vindicem, * ploremus ante Iudicem; * clamemus ore supplici, * dicamus omnes cernui: ",
-                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
-                        " Nostris malis offendimus * tuam Deus clementiam * effunde nobis desuper * remissor indulgentiam. ",
-                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
-                        " Dans tempus acceptabile, * da lacrimarum rivulis * lavare cordis victimam, * quam laeta adurat caritas. ",
-                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
-                        " Audi, benigne Conditor, * nostras preces cum fletibus * in hoc sacro ieiunio * fusas quadragenario. ",
-                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
-                        " Scrutator alme cordium, * infirma tu scis virium; * ad te reversis exhibe * remissionis gratiam. ",
-                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n"
-                    ]
-                },
-                {
-                    "title": "Wys\u0142uchaj, Stw\u00f3rco \u0142askawy",
-                    "lyrics": []
-                },
-                {
-                    "title": "Nim \u015bwit si\u0119 zbli\u017cy do kresu istnienia",
-                    "lyrics": []
-                },
-                {
-                    "title": "Umi\u0142owany Synu Bo\u017cy, poprowad\u017a, Ciebie chcemy s\u0142ucha\u0107",
-                    "lyrics": []
-                },
-                {
-                    "title": "Ubi caritas est vera",
-                    "lyrics": [
-                        "Antyfona: Ubi caritas est vera, Deus ibi est.\r\n",
-                        " Congregavit nos in unum Christi amor. * Exsultemus, et in ipso iucundemur. * Timeamus, et amemus Deum vivum. * Et ex corde diligamus nos sincero. Ant.\r\n",
-                        " Simul ergo cum in unum congregamur. * Ne nos mente dividamur, caveamus. * Cessent iurgia maligna, cessent lites. * Et in medio nostri sit Christus Deus. Ant.\r\n",
-                        " Simul quoque cum beatis videamus. * Glorianter vultum tuum, Christe Deus. * Gaudium quod est immensum, atque probum. * Saecula per infinita saeculorum. Amen."
-                    ]
-                },
-                {
-                    "title": "Niech b\u0142ogos\u0142awiony b\u0119dzie B\u00f3g i Ojciec",
-                    "lyrics": [
-                        "Refren: Niech b\u0142ogos\u0142awiony b\u0119dzie B\u00f3g i Ojciec * Pana naszego Jezusa Chrystusa, * darowa\u0142 nam nowe \u017cycie, * bo jest pe\u0142en mi\u0142osierdzia.\r\n",
-                        " Zmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, w mi\u0142osierdziu swoim, * w ogromie swej lito\u015bci zg\u0142ad\u017a nieprawo\u015b\u0107 moj\u0105.\r\nObmyj mnie zupe\u0142nie z mojej winy * i oczy\u015b\u0107 mnie z grzechu mojego. ",
-                        "Refren: Niech b\u0142ogos\u0142awiony b\u0119dzie B\u00f3g i Ojciec * Pana naszego Jezusa Chrystusa, * darowa\u0142 nam nowe \u017cycie, * bo jest pe\u0142en mi\u0142osierdzia.\r\n",
-                        " Stw\u00f3rz, o Bo\u017ce, we mnie serce czyste * i odn\u00f3w we mnie moc ducha.\r\nPanie, otw\u00f3rz wargi moje, * a usta moje b\u0119d\u0105 g\u0142osi\u0142y Tw\u0105 chwa\u0142\u0119. ",
-                        "Refren: Niech b\u0142ogos\u0142awiony b\u0119dzie B\u00f3g i Ojciec * Pana naszego Jezusa Chrystusa, * darowa\u0142 nam nowe \u017cycie, * bo jest pe\u0142en mi\u0142osierdzia.\r\n"
-                    ]
-                },
-                {
-                    "title": "Sprawiedliwo\u015bci S\u0142o\u0144ce, Chryste",
-                    "lyrics": []
-                },
-                {
-                    "title": "Zmi\u0142uj si\u0119 nade mn\u0105 w mi\u0142osierdziu swoim",
-                    "lyrics": []
-                },
-                {
-                    "title": "Zastan\u00f3w si\u0119, o cz\u0142owiecze",
-                    "lyrics": []
-                },
-                {
-                    "title": "Zmi\u0142uj si\u0119, Stw\u00f3rco",
-                    "lyrics": [
-                        " Zmi\u0142uj si\u0119 Stw\u00f3rco, nad swoim ludem, * kiedy Ci\u0119 b\u0142aga w tym czasie postu; * us\u0142ysz modlitw\u0119 zroszon\u0105 \u0142zami, * kt\u00f3r\u0105 wznosimy przez dni czterdzie\u015bci.\r\n",
-                        " Patrzysz w g\u0142\u0119bin\u0119 naszego serca, * znasz ludzk\u0105 s\u0142abo\u015b\u0107 i bezw\u0142ad woli, * przeto nam oka\u017c swe mi\u0142osierdzie, * kiedy do Ciebie wracamy, Bo\u017ce.\r\n",
-                        " Chocia\u017c tak bardzo jeste\u015bmy winni, * przebacz, bo Tobie ufamy, Panie; * ws\u0142aw Twoje imi\u0119 i ulecz n\u0119dznych, * kt\u00f3rych chorob\u0105 s\u0105 w\u0142asne grzechy.\r\n",
-                        " Udziel nam si\u0142y, niech czas pokuty * cia\u0142o oczy\u015bci i my\u015bl o\u015bwieci; * z\u0142udne pokusy niech nas nie wi\u0105\u017c\u0105 * z tym, co nam grozi wieczyst\u0105 zgub\u0105.\r\n",
-                        " Bo\u017ce jedyny w Naj\u015bwi\u0119tszej Tr\u00f3jcy, * spraw, aby skrucha i umartwienie * by\u0142y owocne dla Twoich wiernych, * kt\u00f3rzy Ci\u0119 wielbi\u0105 wieczornym hymnem. Amen."
-                    ]
-                },
-                {
-                    "title": "Bo\u017ce, co\u015b przyrzek\u0142",
-                    "lyrics": [
-                        " Bo\u017ce, co\u015b przyrzek\u0142, \u017ce cho\u0107 me grzechy * s\u0105 jak purpura, b\u0119d\u0105 jak we\u0142na. * O, \u0179r\u00f3d\u0142o \u017cycia, Dawco pociechy, * spraw, niech Twa wola na nas si\u0119 spe\u0142nia!\r\n",
-                        " Panie, co szkar\u0142at zmieniasz w biel \u015bniegu, * odn\u00f3w we wn\u0119trzu mym serce czyste, * bo ju\u017c nieprawo\u015b\u0107 dosz\u0142a do brzeg\u00f3w * i tylko Ty nas zbawisz, o Chryste.\r\n",
-                        " Ojcze, co kochasz wieczn\u0105 mi\u0142o\u015bci\u0105, * kt\u00f3ry si\u0119 korn\u0105 skruch\u0105 zachwycasz, * obmyj i odn\u00f3w Miasto swe, Ko\u015bci\u00f3\u0142 * chro\u0144 nieskalan\u0105 Oblubienic\u0119."
-                    ]
-                },
-                {
-                    "title": "Da\u0142e\u015b nam przyk\u0142ad, o Jezu",
-                    "lyrics": [
-                        " Da\u0142e\u015b nam przyk\u0142ad, o Jezu, * czterdziestu dni umartwienia; * aby w nas ducha odnowi\u0107, * wymagasz postu i skruchy.\r\n",
-                        " Sta\u0144 wi\u0119c po\u015brodku Ko\u015bcio\u0142a * i sp\u00f3jrz na jego pokut\u0119; * Ciebie pokornie prosimy, * by\u015b przez ni\u0105 z grzechu nas obmy\u0142.\r\n",
-                        " Z\u0142o pope\u0142nione w przesz\u0142o\u015bci * niech Twoja \u0142aska zniweczy; * chro\u0144 nas od dalszych upadk\u00f3w * i otocz swoj\u0105 opiek\u0105.\r\n",
-                        " Daj przez doroczn\u0105 pokut\u0119 * dost\u0105pi\u0107 win odpuszczenia, * by\u015bmy z rado\u015bci\u0105 czekali * na \u015bwiat\u0142o Nocy Paschalnej.\r\n",
-                        " W Tr\u00f3jcy jedyny nasz Bo\u017ce, * niech Ciebie wszech\u015bwiat wys\u0142awia; * pie\u015b\u0144 now\u0105 Tobie \u015bpiewamy * za odrodzenie przez \u0142ask\u0119. Amen."
-                    ]
-                },
-                {
-                    "title": "Miserere mei Deus",
-                    "lyrics": [
-                        "Antyfona: Miserere mei, Deus, * miserere mei.\r\n",
-                        " Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nEt secundum multitudinem miserationum tuarum, * dele iniquitatem meam. Ant.\r\n",
-                        " Amplius lava me ab iniquitate mea: * et a peccato meo munda me.\r\nQuoniam iniquitatem meam ego cognosco: * et peccatum meum contra me est semper. Ant.\r\n",
-                        " Tibi soli peccavi, et malum coram te feci: * ut iustificeris in sermonibus tuis, * et vincas cum iudicaris.\r\nEcce enim in iniquitatibus conceptus sum: * et in peccatis concepit me mater mea. Ant."
-                    ]
-                },
-                {
-                    "title": "Jak nar\u00f3d wybrany idziemy za Tob\u0105",
-                    "lyrics": []
-                },
-                {
-                    "title": "Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca",
-                    "lyrics": [
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
-                        " Ku Tobie, Bo\u017ce, wznosz\u0119 dusz\u0119 moj\u0105, * Tobie ja ufam, niech nie doznam wstydu. ",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
-                        " Na n\u0119dz\u0119 moj\u0105 i na trud m\u00f3j popatrz * i racz odpu\u015bci\u0107 wszystkie grzechy moje. ",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
-                        " Nie wstrzymuj Twoich wzgl\u0119dem mnie zmi\u0142owa\u0144, * Twa \u0142aska i wierno\u015b\u0107 niech mnie zawsze strzeg\u0105. ",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
-                        " Zmi\u0142uj si\u0119, Bo\u017ce, w mi\u0142osierdziu swoim, * w wielkiej lito\u015bci zg\u0142ad\u017a nieprawo\u015b\u0107 moj\u0105. ",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
-                        " Do Ciebie, Panie, \u015bl\u0119 modlitw\u0119 moj\u0105, * us\u0142ysz mnie wed\u0142ug wielkiej Twej dobroci. ",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
-                        " Przywr\u00f3\u0107 mi rado\u015b\u0107 Twojego zbawienia, * usta me b\u0119d\u0105 g\u0142osi\u0107 Twoj\u0105 chwa\u0142\u0119. ",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n"
-                    ]
-                },
-                {
-                    "title": "Posypmy g\u0142owy popio\u0142em",
-                    "lyrics": [
-                        " Posypmy g\u0142owy popio\u0142em, * uderzmy przed Panem czo\u0142em; * zapustne \u015bmiechy na stron\u0119, * cierniow\u0105 wijmy koron\u0119.\r\n",
-                        " Posypmy g\u0142owy popio\u0142em, * grzmi niebo g\u0142osem surowym: * \u201ePokut\u0119 czy\u0144cie za grzechy, * na stron\u0119 teraz uciechy\u201d.\r\n",
-                        " Posypmy g\u0142owy popio\u0142em, * otoczmy Pana pospo\u0142em, * bo Pa\u0144ski s\u0105d sprawiedliwy, * a dla grzesznika straszliwy.\r\n",
-                        " Posypmy g\u0142owy popio\u0142em, * ju\u017c Zbawca cierpie\u0107 gotowy * ponosi\u0107 m\u0119ki katusze, * by nasze odkupi\u0107 dusze.\r\n",
-                        " Posypmy g\u0142owy popio\u0142em, * o \u015bmierci my\u015blmy pospo\u0142em; * nim g\u0142osu Twego wezwanie * na s\u0105d Tw\u00f3j stawi nas, Panie.\r\n",
-                        " Posypmy g\u0142owy popio\u0142em, * z Chrystusem nie\u015bmy krzy\u017c spo\u0142em, * aby\u015bmy z nim zmartwychwstali * i hymn Mu chwa\u0142y \u015bpiewali."
-                    ]
-                },
-                {
-                    "title": "Bo\u017ce, Ojcze wszechmog\u0105cy",
-                    "lyrics": [
-                        " Bo\u017ce, Ojcze Wszechmog\u0105cy, do Ciebie wo\u0142amy: Ulituj si\u0119 nad nami dobry Bo\u017ce!\r\n",
-                        " Przebacz nasze przewinienia, o to Ci\u0119 b\u0142agamy: Ulituj si\u0119\u2026\r\n",
-                        " Jezu Chryste, Synu Bo\u017cy, za nas ukarany: Ulituj si\u0119\u2026\r\n",
-                        " Ty\u015b przez ludzi, kt\u00f3rych kochasz, by\u0142 ukrzy\u017co-wany: Ulituj si\u0119\u2026\r\n",
-                        " O Duchu \u015awi\u0119ty, mi\u0142o\u015bci Bo\u017ca rozlana w naszych sercach: Ulituj si\u0119\u2026\r\n",
-                        " Pomn\u00f3\u017c swe dary, nape\u0142nij \u0142ask\u0105, daj si\u0142\u0119 w \u017cycia trudach: Ulituj si\u0119\u2026\r\n",
-                        " Tr\u00f3jco \u015awi\u0119ta, Bo\u017ce wielki, zmi\u0142uj si\u0119 nad nami: Ulituj si\u0119\u2026"
-                    ]
-                },
-                {
-                    "title": "Z otch\u0142ani grzechu wo\u0142amy do Ciebie",
-                    "lyrics": []
-                },
-                {
-                    "title": "Pan Jezus grzechy nasze",
-                    "lyrics": [
-                        " Pan Jezus grzechy nasze na krzy\u017c ze sob\u0105 wzi\u0105\u0142 * i tam je wszystkie zg\u0142adzi\u0142 niewinn\u0105 \u015bmierci\u0105 sw\u0105. * O przebacz, dobry Jezu, \u017cem grzechem zrani\u0142 Ci\u0119! * I udziel mi swej \u0142aski, bym z niego podni\u00f3s\u0142 si\u0119.\r\n",
-                        " Chrystus krzy\u017cow\u0105 \u015bmierci\u0105 wys\u0142u\u017cy\u0142 \u0142ask\u0119 nam, * otworzy\u0142 dla nas niebo, chce wszystkich widzie\u0107 tam. * O, Zbawco m\u00f3j i Panie, ju\u017c b\u0119d\u0119 lepiej \u017cy\u0142, * bym Ciebie ujrza\u0142 w niebie, na zawsze z Tob\u0105 by\u0142.\r\n",
-                        " Pan Jezus, cho\u0107 umiera, zwyci\u0119skim Kr\u00f3lem jest! * Na krzy\u017cu wszak pokona\u0142 ciemno\u015bci z\u0142a i \u015bmier\u0107! * K\u0142aniamy Ci si\u0119, Panie, b\u0142ogos\u0142awimy wraz, * \u017ce\u015b przez sw\u0105 \u015bmier\u0107 z mi\u0142o\u015bci odkupi\u0107 raczy\u0142 nas."
-                    ]
-                },
-                {
-                    "title": "W pokorze ducha przyjmijmy popi\u00f3\u0142",
-                    "lyrics": []
-                },
-                {
-                    "title": "Ach, m\u00f3j Jezu, jak Ty kl\u0119czysz",
-                    "lyrics": [
-                        " Ach, m\u00f3j Jezu, jak Ty kl\u0119czysz, * w Ogrojcu zakrwawiony! * Tam Ci\u0119 anio\u0142 w smutku cieszy\u0142, * sk\u0105d by\u0142 \u015bwiat pocieszony.\n\r\n",
-                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
-                        " Ach, m\u00f3j Jezu, jake\u015b srodze * do s\u0142upa przywi\u0105zany, * za tak ci\u0119\u017ckie grzechy nasze * okrutnie biczowany. ",
-                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
-                        " Ach, m\u00f3j Jezu, co za bole\u015b\u0107 * cierpisz w ostrej koronie, * twarz naj\u015bwi\u0119tsza zakrwawiona, * g\u0142owa wszystka w krwi tonie. ",
-                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
-                        " Ach, m\u00f3j Jezu, gdy wychodzisz * na G\u00f3r\u0119 Kalwaryjsk\u0105, * trzykro\u0107 pod ci\u0119\u017carem krzy\u017ca * upadasz bardzo ci\u0119\u017cko. ",
-                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
-                        " A gdy, m\u00f3j najmilszy Jezu, * na krzy\u017cu ju\u017c umierasz, * dajesz ducha w Ojca r\u0119ce, * grzesznym niebo otwierasz. ",
-                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
-                        " Ach, m\u00f3j Jezu, gdy czas przyjdzie, * \u017ce ju\u017c umiera\u0107 trzeba, * wspomnij na sw\u0105 gorzk\u0105 m\u0119k\u0119, * nie chciej zawiera\u0107 nieba. ",
-                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n"
-                    ]
-                },
-                {
-                    "title": "Przed Tob\u0105, Ojcze, stajemy skruszeni",
-                    "lyrics": []
-                },
-                {
-                    "title": "Z pokor\u0105 wielk\u0105",
-                    "lyrics": []
-                },
-                {
-                    "title": "Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105",
-                    "lyrics": [
-                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n",
-                        " Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105, * oka\u017c mi\u0142osierdzie, grzech m\u00f3j zma\u017c! * Obmyj mnie zupe\u0142nie z brudu mojej winy, * racz oczy\u015bci\u0107 z grzechu mego. ",
-                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n",
-                        " Widz\u0119 i uznaj\u0119 z\u0142o\u015b\u0107 mej nieprawo\u015bci, * wci\u0105\u017c mi przed oczyma stoi grzech, * przeciw Tobiem zgrzeszy\u0142, z\u0142a si\u0119 dopu\u015bci\u0142em, * kt\u00f3rym Ty si\u0119 brzydzisz, Bo\u017ce. ",
-                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n",
-                        " Przeto si\u0119 oka\u017cesz prawy w swych wyrokach, * s\u0142uszny, sprawiedliwy jest Tw\u00f3j s\u0105d: * otom si\u0119 narodzi\u0142 win\u0105 obci\u0105\u017cony, * matka w grzechu mnie pocz\u0119\u0142a. ",
-                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n",
-                        " Ty, w szczero\u015bci serca masz upodobanie, * m\u0105dro\u015b\u0107 Twoja sp\u0142ywa w duszy g\u0142\u0105b, * pokrop mnie hyzopem, niech si\u0119 czystym stan\u0119, * ponad \u015bnieg niech wybielej\u0119. ",
-                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n"
-                    ]
-                }
-            ],
-            "Pie\u015bni do Serca Jezusowego": [
+            "Pieśni do Serca Jezusowego": [
                 {
                     "title": "B\u0142ogi czas nam teraz \u015bwieci",
                     "lyrics": [
@@ -4337,7 +4213,7 @@
                     "lyrics": []
                 }
             ],
-            "Uwielbienie po komunii \u015bwi\u0119tej": [
+            "Uwielbienie": [
                 {
                     "title": "\u015apiewaj sercem ca\u0142ym",
                     "lyrics": []
@@ -5084,7 +4960,7 @@
                     "lyrics": []
                 }
             ],
-            "\u015apiewy pogrzebowe i za zmar\u0142ych": [
+            "Za zmarłych": [
                 {
                     "title": "B\u00f3g mi\u0142osierny daje odkupienie",
                     "lyrics": []
@@ -5393,7 +5269,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni do Tr\u00f3jcy \u015awi\u0119tej": [
+            "Trójca przenajświętsza": [
                 {
                     "title": "Ojcze, chwa\u0142a Tobie",
                     "lyrics": []
@@ -5484,7 +5360,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni przygodne": [
+            "Przygodne": [
                 {
                     "title": "My, Ko\u015bci\u00f3\u0142 \u015bwi\u0119ty, Rodzina Dzieci Bo\u017cych",
                     "lyrics": []
@@ -6671,7 +6547,7 @@
                     "lyrics": []
                 }
             ],
-            "\u015apiewy eucharystyczne": [
+            "Eucharystyczne": [
                 {
                     "title": "To Ty, o Panie, Chlebie nasz",
                     "lyrics": [
@@ -7468,7 +7344,7 @@
                     "lyrics": []
                 }
             ],
-            "\u015apiewy \u0142aci\u0144skie": [
+            "Łacińskie": [
                 {
                     "title": "Regina caeli laetare",
                     "lyrics": [
@@ -8013,7 +7889,7 @@
                     ]
                 }
             ],
-            "Nieprzyporz\u0105dkowane": [
+            "Nieprzepisane do kategorii": [
                 {
                     "title": "Wiara si\u0119 rodzi ze s\u0142uchania S\u0142owa",
                     "lyrics": []
@@ -8091,7 +7967,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni na okres Bo\u017cego Narodzenia": [
+            "Boże Narodzenie": [
                 {
                     "title": "Przyst\u0105pmy do szopy",
                     "lyrics": [
@@ -9071,7 +8947,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni Maryjne (Okres Zwyk\u0142y)": [
+            "Nmp": [
                 {
                     "title": "B\u0105d\u017a pozdrowiona, Maryjo",
                     "lyrics": []
@@ -9995,7 +9871,7 @@
                     "lyrics": []
                 }
             ],
-            "Pie\u015bni mszalne": [
+            "Mszalne": [
                 {
                     "title": "Baranku Bo\u017ce, grzesznik niegodzien mi\u0142o\u015bci",
                     "lyrics": []
@@ -10614,7 +10490,7 @@
                     ]
                 }
             ],
-            "Pie\u015bni pasyjne (2 cz\u0119\u015b\u0107 Wielkiego Postu)": [
+            "Wielki Post": [
                 {
                     "title": "O duszo wszelka nabo\u017cna",
                     "lyrics": []
@@ -11164,8 +11040,342 @@
                 {
                     "title": "Krzy\u017cu Chrystusa, w Tobie nasza si\u0142a",
                     "lyrics": []
+                },
+                {
+                    "title": "Attende Domine",
+                    "lyrics": [
+                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
+                        " Ad te Rex summe, omnium Redemptor, * oculos nostros sublevamus flentes: * exaudi, Christe, supplicantum preces. ",
+                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
+                        " Dextera Patris, lapis angularis, * via salutis, ianua caelestis, * ablue nostri maculas delicti. ",
+                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
+                        " Rogamus, Deus, tuam maiestatem: * auribus sacris gemitus exaudi: * crimina nostra placidus indulge. ",
+                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
+                        " Tibi fatemur crimina admissa: * contrito corde pandimus occulta: * tua, Redemptor, pietas ignoscat. ",
+                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n",
+                        " Innocens captus, nec repugnans ductus, * testibus falsis pro impiis damnatus: * quos redemisti, tu conserva, Christe. ",
+                        "Refren: Attende Domine, * et miserere, * quia peccavimus tibi.\r\n"
+                    ]
+                },
+                {
+                    "title": "Wielbimy Krzy\u017c Tw\u00f3j, Panie",
+                    "lyrics": [
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.\n\r\n",
+                        " Niech B\u00f3g si\u0119 zmi\u0142uje nad nami i nam b\u0142ogos\u0142awi, * niech nam uka\u017ce pogodne oblicze.\r\nAby na ziemi znano Jego drog\u0119, * Jego zbawienie w\u015br\u00f3d wszystkich narod\u00f3w. Ant.\r\n",
+                        " Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nNiech si\u0119 narody ciesz\u0105 i wesel\u0105, \u2020 bo rz\u0105dzisz ludami sprawiedliwie * i kierujesz narodami na ziemi. Ant.\r\n",
+                        " Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nZiemia wyda\u0142a sw\u00f3j owoc, * B\u00f3g, nasz B\u00f3g, nam pob\u0142ogos\u0142awi\u0142.\r\nNiech nam B\u00f3g b\u0142ogos\u0142awi * i niech cze\u015b\u0107 Mu oddaj\u0105 wszystkie kra\u0144ce ziemi. Ant."
+                    ]
+                },
+                {
+                    "title": "O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j",
+                    "lyrics": [
+                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n",
+                        " Pozw\u00f3l mi na nowo cieszy\u0107 si\u0119 weselem, * d\u017awignij z poni\u017cenia, rado\u015b\u0107 wr\u00f3\u0107! * Nie patrz na me grzechy, odwr\u00f3\u0107 od nich wzrok, * wyma\u017c wszystkie przewinienia! ",
+                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n",
+                        " Serce daj mi czyste, przywr\u00f3\u0107 si\u0142\u0119 ducha, * pozw\u00f3l mi przy Tobie blisko trwa\u0107! * I Twojego ducha nie odbieraj mi, * niech si\u0119 ciesz\u0119 Twym zbawieniem. ",
+                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n",
+                        " Wzmocnij we mnie, Panie, ducha szlachetnego, * bym grzesznik\u00f3w uczy\u0142 Twoich dr\u00f3g. * Wybaw mnie od kary, Bo\u017ce, Zbawco m\u00f3j, * bym Tw\u0105 dobro\u0107 czci\u0142 rado\u015bnie! ",
+                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n",
+                        " Otw\u00f3rz usta moje, niech Tw\u0105 chwa\u0142\u0119 g\u0142osz\u0105, * niech cze\u015b\u0107 Twoja p\u0142ynie z moich warg. * Gdyby\u015b \u017c\u0105da\u0142 ofiar, ch\u0119tnie bym je da\u0142, * lecz nie pragniesz ca\u0142opale\u0144. ",
+                        "Refren: O Bo\u017ce m\u00f3j, o Zbawicielu m\u00f3j.\n\r\n"
+                    ]
+                },
+                {
+                    "title": "O cz\u0142owiecze, wspomnij sobie",
+                    "lyrics": [
+                        " O cz\u0142owiecze, wspomnij sobie, * \u017ce\u015b we wszystkiej swej ozdobie * prochem, kt\u00f3ry legnie w grobie.\r\n",
+                        " Czy\u0144 pokut\u0119 bez zwlekania, * niech si\u0119 serce twe nie wzbrania, * szukaj z Bogiem pojednania.\r\n",
+                        " Bo, gdy \u017cycie twoje minie * i pokuty czas up\u0142ynie, * dusza twoja wiecznie zginie.\r\n",
+                        " Na tym \u015bwiecie nic trwa\u0142ego, * pr\u00f3\u017cno garniesz si\u0119 do niego, * gardz\u0105c \u0142ask\u0105 Boga swego.\r\n",
+                        " B\u0142agaj Boga wszechw\u0142adnego, * z wiar\u0105 serca skruszonego, * o popraw\u0119 \u017cycia swego.\r\n",
+                        " B\u0142agaj Ojca w wysoko\u015bci * o niebieski dar m\u0105dro\u015bci * i o \u017cywot w pobo\u017cno\u015bci.\r\n",
+                        " Wierz w Jezusa, Zbawc\u0119 swego, * rz\u0105d\u017a swe serce s\u0142owem Jego, * by\u015b do \u017cycia wszed\u0142 wiecznego.\r\n",
+                        " Chryste, Panie nasz nad pany * w mi\u0142osierdziu nieprzebrany, * racz\u017ce zbawi\u0107 lud wybrany."
+                    ]
+                },
+                {
+                    "title": "Odkupicielu, ratuj swe stworzenie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Padnijmy twarz\u0105 na ziemi\u0119",
+                    "lyrics": [
+                        " Padnijmy twarz\u0105 na ziemi\u0119, * b\u0142agajmy Boga ze skruch\u0105, * przed S\u0119dzi\u0105 \u0142zy wylewajmy, * by Jego gniew si\u0119 u\u015bmierzy\u0142.\r\n",
+                        " Tak cz\u0119sto, Ojcze najlepszy, * grzechami Ci\u0119 obra\u017camy, * lecz Ty si\u0119 zmi\u0142uj nad nami * i ze\u015blij swe przebaczenie.\r\n",
+                        " Bo chocia\u017c bardzo niegodni, * jeste\u015bmy Twoim stworzeniem, * wi\u0119c wspomnij na to i pom\u00f3\u017c * wys\u0142awia\u0107 \u017cyciem Twe imi\u0119.\r\n",
+                        " Od z\u0142a nas wyzw\u00f3l dawnego, * a dobro pomn\u00f3\u017c sw\u0105 \u0142ask\u0105, * i uczy\u0144 Tobie mi\u0142ymi * ju\u017c dzi\u015b i w ca\u0142ej wieczno\u015bci.\r\n",
+                        " Niech Tobie, w Tr\u00f3jcy jedyny, * majestat b\u0119dzie i chwa\u0142a, * a Ty nam udziel owoc\u00f3w * zbawczego czasu pokuty. Amen."
+                    ]
+                },
+                {
+                    "title": "Oto teraz czas w\u0142a\u015bciwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchu Bo\u017cy, \u015bwiat\u0142o sumie\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witam Ci\u0119, witam",
+                    "lyrics": [
+                        " Witam Ci\u0119, witam, Przenaj\u015bwi\u0119tsze Cia\u0142o, * kt\u00f3re\u015b na krzy\u017cu sromotnie wisia\u0142o, * za nasze winy, Synu jedyny * Ojca wiecznego, Boga prawego, * m\u0119ki te znosi\u0142e\u015b.\r\n",
+                        " Dajem Ci pok\u0142on, Bogu prawdziwemu, * w tym Sakramencie dziwnie zakrytemu; * \u017cebrzem lito\u015bci i Twej mi\u0142o\u015bci, * by\u015b gniew sw\u00f3j srogi, o Jezu drogi, * pohamowa\u0107 raczy\u0142.\r\n",
+                        " Zmi\u0142uj si\u0119, zmi\u0142uj nad nami grzesznymi, * nie racz pogardza\u0107 pro\u015bbami naszymi; * zgrom hardych si\u0142y, daj pok\u00f3j mi\u0142y, * wyniszcz z\u0142e rady, wykorze\u0144 zdrady * po\u015br\u00f3d ludu swego.\r\n",
+                        " A kiedy przyjdzie z \u015bwiatem tym rozstanie, * ratuj nas, ratuj, dobrotliwy Panie! * Niech z Cia\u0142a Twego Przenaj\u015bwi\u0119tszego * posi\u0142ek mamy i ogl\u0105damy * Ciebie \u0142askawego."
+                    ]
+                },
+                {
+                    "title": "Jezu kochany, chc\u0119 dzi\u015b na nowo",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy",
+                    "lyrics": [
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " B\u0142ogos\u0142awiony, komu Pan nie poczytuje grzechu, * a w duchu jego nie masz ob\u0142udy. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " Dop\u00f3kim nie uzna\u0142 winy, * wysycha\u0142y ko\u015bci moje w\u015br\u00f3d ustawicznych zgryzot. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " Gdy\u017c r\u0119ka Twoja nade mn\u0105 ci\u0105\u017cy\u0142a dniem i noc\u0105, * si\u0142a moja niszcza\u0142a jak w letnie upa\u0142y. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " Wreszcie wyjawi\u0142em grzech sw\u00f3j przed Tob\u0105, * i winy swojej d\u0142u\u017cej nie kry\u0142em. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " Wyznaj\u0119, rzek\u0142em, sw\u0105 nieprawo\u015b\u0107 Panu * i Ty\u015b darowa\u0142 z\u0142o\u015b\u0107 mojego grzechu. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " Niech si\u0119 wi\u0119c modli do Ciebie ka\u017cdy wierny, * ilekro\u0107 mu grozi niedola. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " A gdy uderz\u0105 fale utrapienia, * z pewno\u015bci\u0105 jego nie dosi\u0119gn\u0105. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " Ty\u015b dla mnie ostoj\u0105, wyrwiesz mnie z ucisku, * i nape\u0142nisz mnie rado\u015bci\u0105 zbawienia. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        " \u201ePoucz\u0119 ciebie i wska\u017c\u0119 jak\u0105 masz i\u015b\u0107 drog\u0105, * podam ci rady, kieruj\u0105c na ci\u0119 swe oczy. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        ". Nie b\u0105d\u017a\u017ce tedy niby ko\u0144 lub mu\u0142 nierozumny; * w\u0119dzid\u0142em i uzd\u0105 w biegu kie\u0142zna\u0107 je trzeba, inaczej nie s\u0105 ci powolne!\u201d ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        ". Rozliczne ch\u0142osty gn\u0119bi\u0105 bezbo\u017cnika, * a ufaj\u0105cych Panu os\u0142ania \u0142askawo\u015b\u0107. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n",
+                        ". Weselcie si\u0119 w Panu i radujcie, sprawiedliwi; * \u015bpiewajcie weso\u0142o, wszyscy prawego serca. ",
+                        "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.\n\r\n"
+                    ]
+                },
+                {
+                    "title": "Nawr\u00f3\u0107 si\u0119, ludu, w pokorze",
+                    "lyrics": [
+                        " Nawr\u00f3\u0107 si\u0119, ludu, w pokorze, * w po\u015bcie i w p\u0142aczu, i w \u017calu, * a \u015bwiat\u0142o\u015b\u0107 twoja jak zorze * rozb\u0142y\u015bnie nad Jeruzalem.\r\n",
+                        " Nawr\u00f3\u0107 si\u0119, c\u00f3rko Syjonu * do Pana, Boga swojego. * Tu\u0142aczy przyjmij do domu, * \u0142akn\u0105cych obdaruj chlebem.\r\n",
+                        " Obmyj si\u0119 dzi\u015b \u017cyw\u0105 wod\u0105, * bo B\u00f3g ci przebaczy\u0107 got\u00f3w, * jak orze\u0142 odn\u00f3w sw\u0105 m\u0142odo\u015b\u0107 * i wzmocnij skrzyd\u0142a do lotu.\r\n",
+                        " Wtedy Pa\u0144skiego imienia * zawezwiesz, a On odpowie, * wprowadzi w bramy zbawienia, * pasterzem b\u0119dzie swych owiec."
+                    ]
+                },
+                {
+                    "title": "Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107",
+                    "lyrics": [
+                        "Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.\n\r\n",
+                        " Do Ciebie, Zbawco i Kr\u00f3lu Najwy\u017cszy, * zalane \u0142zami podnosimy oczy. * O, wejrzyj, Chryste, na b\u0142aganie nasze. Ant.\r\n",
+                        " Prawico Ojca, kamieniu w\u0119gielny, * drogo zbawienia i do niebios bramo, * ach, obmyj we krwi wszystkie nasze winy. Ant.\r\n",
+                        " Stajemy, Bo\u017ce, przed Twym majestatem. * Otw\u00f3rz swe uszy na nasze wzdychanie, * przebacz \u0142askawie nasze przewinienia! Ant.\r\n",
+                        " \u017be\u015bmy zgrzeszyli, szczerze wyznajemy, * z sercem skruszonym winy ujawniamy. * Ty nam je odpu\u015b\u0107, Zbawco lito\u015bciwy! Ant.\r\n",
+                        " Chocia\u017c niewinny, by\u0142e\u015b os\u0105dzony * na mocy k\u0142amstwa \u015bwiadk\u00f3w niegodziwych. * Zachowaj, Chryste, przez Ci\u0119 odkupionych! Ant."
+                    ]
+                },
+                {
+                    "title": "Parce Domine",
+                    "lyrics": [
+                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
+                        " Flectamus iram vindicem, * ploremus ante Iudicem; * clamemus ore supplici, * dicamus omnes cernui: ",
+                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
+                        " Nostris malis offendimus * tuam Deus clementiam * effunde nobis desuper * remissor indulgentiam. ",
+                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
+                        " Dans tempus acceptabile, * da lacrimarum rivulis * lavare cordis victimam, * quam laeta adurat caritas. ",
+                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
+                        " Audi, benigne Conditor, * nostras preces cum fletibus * in hoc sacro ieiunio * fusas quadragenario. ",
+                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n",
+                        " Scrutator alme cordium, * infirma tu scis virium; * ad te reversis exhibe * remissionis gratiam. ",
+                        "Refren: Parce, Domine, * parce populo tuo: * ne in aeternum irascaris nobis.\r\n"
+                    ]
+                },
+                {
+                    "title": "Wys\u0142uchaj, Stw\u00f3rco \u0142askawy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nim \u015bwit si\u0119 zbli\u017cy do kresu istnienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Umi\u0142owany Synu Bo\u017cy, poprowad\u017a, Ciebie chcemy s\u0142ucha\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ubi caritas est vera",
+                    "lyrics": [
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.\r\n",
+                        " Congregavit nos in unum Christi amor. * Exsultemus, et in ipso iucundemur. * Timeamus, et amemus Deum vivum. * Et ex corde diligamus nos sincero. Ant.\r\n",
+                        " Simul ergo cum in unum congregamur. * Ne nos mente dividamur, caveamus. * Cessent iurgia maligna, cessent lites. * Et in medio nostri sit Christus Deus. Ant.\r\n",
+                        " Simul quoque cum beatis videamus. * Glorianter vultum tuum, Christe Deus. * Gaudium quod est immensum, atque probum. * Saecula per infinita saeculorum. Amen."
+                    ]
+                },
+                {
+                    "title": "Niech b\u0142ogos\u0142awiony b\u0119dzie B\u00f3g i Ojciec",
+                    "lyrics": [
+                        "Refren: Niech b\u0142ogos\u0142awiony b\u0119dzie B\u00f3g i Ojciec * Pana naszego Jezusa Chrystusa, * darowa\u0142 nam nowe \u017cycie, * bo jest pe\u0142en mi\u0142osierdzia.\r\n",
+                        " Zmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, w mi\u0142osierdziu swoim, * w ogromie swej lito\u015bci zg\u0142ad\u017a nieprawo\u015b\u0107 moj\u0105.\r\nObmyj mnie zupe\u0142nie z mojej winy * i oczy\u015b\u0107 mnie z grzechu mojego. ",
+                        "Refren: Niech b\u0142ogos\u0142awiony b\u0119dzie B\u00f3g i Ojciec * Pana naszego Jezusa Chrystusa, * darowa\u0142 nam nowe \u017cycie, * bo jest pe\u0142en mi\u0142osierdzia.\r\n",
+                        " Stw\u00f3rz, o Bo\u017ce, we mnie serce czyste * i odn\u00f3w we mnie moc ducha.\r\nPanie, otw\u00f3rz wargi moje, * a usta moje b\u0119d\u0105 g\u0142osi\u0142y Tw\u0105 chwa\u0142\u0119. ",
+                        "Refren: Niech b\u0142ogos\u0142awiony b\u0119dzie B\u00f3g i Ojciec * Pana naszego Jezusa Chrystusa, * darowa\u0142 nam nowe \u017cycie, * bo jest pe\u0142en mi\u0142osierdzia.\r\n"
+                    ]
+                },
+                {
+                    "title": "Sprawiedliwo\u015bci S\u0142o\u0144ce, Chryste",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zmi\u0142uj si\u0119 nade mn\u0105 w mi\u0142osierdziu swoim",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zastan\u00f3w si\u0119, o cz\u0142owiecze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zmi\u0142uj si\u0119, Stw\u00f3rco",
+                    "lyrics": [
+                        " Zmi\u0142uj si\u0119 Stw\u00f3rco, nad swoim ludem, * kiedy Ci\u0119 b\u0142aga w tym czasie postu; * us\u0142ysz modlitw\u0119 zroszon\u0105 \u0142zami, * kt\u00f3r\u0105 wznosimy przez dni czterdzie\u015bci.\r\n",
+                        " Patrzysz w g\u0142\u0119bin\u0119 naszego serca, * znasz ludzk\u0105 s\u0142abo\u015b\u0107 i bezw\u0142ad woli, * przeto nam oka\u017c swe mi\u0142osierdzie, * kiedy do Ciebie wracamy, Bo\u017ce.\r\n",
+                        " Chocia\u017c tak bardzo jeste\u015bmy winni, * przebacz, bo Tobie ufamy, Panie; * ws\u0142aw Twoje imi\u0119 i ulecz n\u0119dznych, * kt\u00f3rych chorob\u0105 s\u0105 w\u0142asne grzechy.\r\n",
+                        " Udziel nam si\u0142y, niech czas pokuty * cia\u0142o oczy\u015bci i my\u015bl o\u015bwieci; * z\u0142udne pokusy niech nas nie wi\u0105\u017c\u0105 * z tym, co nam grozi wieczyst\u0105 zgub\u0105.\r\n",
+                        " Bo\u017ce jedyny w Naj\u015bwi\u0119tszej Tr\u00f3jcy, * spraw, aby skrucha i umartwienie * by\u0142y owocne dla Twoich wiernych, * kt\u00f3rzy Ci\u0119 wielbi\u0105 wieczornym hymnem. Amen."
+                    ]
+                },
+                {
+                    "title": "Bo\u017ce, co\u015b przyrzek\u0142",
+                    "lyrics": [
+                        " Bo\u017ce, co\u015b przyrzek\u0142, \u017ce cho\u0107 me grzechy * s\u0105 jak purpura, b\u0119d\u0105 jak we\u0142na. * O, \u0179r\u00f3d\u0142o \u017cycia, Dawco pociechy, * spraw, niech Twa wola na nas si\u0119 spe\u0142nia!\r\n",
+                        " Panie, co szkar\u0142at zmieniasz w biel \u015bniegu, * odn\u00f3w we wn\u0119trzu mym serce czyste, * bo ju\u017c nieprawo\u015b\u0107 dosz\u0142a do brzeg\u00f3w * i tylko Ty nas zbawisz, o Chryste.\r\n",
+                        " Ojcze, co kochasz wieczn\u0105 mi\u0142o\u015bci\u0105, * kt\u00f3ry si\u0119 korn\u0105 skruch\u0105 zachwycasz, * obmyj i odn\u00f3w Miasto swe, Ko\u015bci\u00f3\u0142 * chro\u0144 nieskalan\u0105 Oblubienic\u0119."
+                    ]
+                },
+                {
+                    "title": "Da\u0142e\u015b nam przyk\u0142ad, o Jezu",
+                    "lyrics": [
+                        " Da\u0142e\u015b nam przyk\u0142ad, o Jezu, * czterdziestu dni umartwienia; * aby w nas ducha odnowi\u0107, * wymagasz postu i skruchy.\r\n",
+                        " Sta\u0144 wi\u0119c po\u015brodku Ko\u015bcio\u0142a * i sp\u00f3jrz na jego pokut\u0119; * Ciebie pokornie prosimy, * by\u015b przez ni\u0105 z grzechu nas obmy\u0142.\r\n",
+                        " Z\u0142o pope\u0142nione w przesz\u0142o\u015bci * niech Twoja \u0142aska zniweczy; * chro\u0144 nas od dalszych upadk\u00f3w * i otocz swoj\u0105 opiek\u0105.\r\n",
+                        " Daj przez doroczn\u0105 pokut\u0119 * dost\u0105pi\u0107 win odpuszczenia, * by\u015bmy z rado\u015bci\u0105 czekali * na \u015bwiat\u0142o Nocy Paschalnej.\r\n",
+                        " W Tr\u00f3jcy jedyny nasz Bo\u017ce, * niech Ciebie wszech\u015bwiat wys\u0142awia; * pie\u015b\u0144 now\u0105 Tobie \u015bpiewamy * za odrodzenie przez \u0142ask\u0119. Amen."
+                    ]
+                },
+                {
+                    "title": "Miserere mei Deus",
+                    "lyrics": [
+                        "Antyfona: Miserere mei, Deus, * miserere mei.\r\n",
+                        " Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nEt secundum multitudinem miserationum tuarum, * dele iniquitatem meam. Ant.\r\n",
+                        " Amplius lava me ab iniquitate mea: * et a peccato meo munda me.\r\nQuoniam iniquitatem meam ego cognosco: * et peccatum meum contra me est semper. Ant.\r\n",
+                        " Tibi soli peccavi, et malum coram te feci: * ut iustificeris in sermonibus tuis, * et vincas cum iudicaris.\r\nEcce enim in iniquitatibus conceptus sum: * et in peccatis concepit me mater mea. Ant."
+                    ]
+                },
+                {
+                    "title": "Jak nar\u00f3d wybrany idziemy za Tob\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca",
+                    "lyrics": [
+                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
+                        " Ku Tobie, Bo\u017ce, wznosz\u0119 dusz\u0119 moj\u0105, * Tobie ja ufam, niech nie doznam wstydu. ",
+                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
+                        " Na n\u0119dz\u0119 moj\u0105 i na trud m\u00f3j popatrz * i racz odpu\u015bci\u0107 wszystkie grzechy moje. ",
+                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
+                        " Nie wstrzymuj Twoich wzgl\u0119dem mnie zmi\u0142owa\u0144, * Twa \u0142aska i wierno\u015b\u0107 niech mnie zawsze strzeg\u0105. ",
+                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
+                        " Zmi\u0142uj si\u0119, Bo\u017ce, w mi\u0142osierdziu swoim, * w wielkiej lito\u015bci zg\u0142ad\u017a nieprawo\u015b\u0107 moj\u0105. ",
+                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
+                        " Do Ciebie, Panie, \u015bl\u0119 modlitw\u0119 moj\u0105, * us\u0142ysz mnie wed\u0142ug wielkiej Twej dobroci. ",
+                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n",
+                        " Przywr\u00f3\u0107 mi rado\u015b\u0107 Twojego zbawienia, * usta me b\u0119d\u0105 g\u0142osi\u0107 Twoj\u0105 chwa\u0142\u0119. ",
+                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.\n\r\n"
+                    ]
+                },
+                {
+                    "title": "Posypmy g\u0142owy popio\u0142em",
+                    "lyrics": [
+                        " Posypmy g\u0142owy popio\u0142em, * uderzmy przed Panem czo\u0142em; * zapustne \u015bmiechy na stron\u0119, * cierniow\u0105 wijmy koron\u0119.\r\n",
+                        " Posypmy g\u0142owy popio\u0142em, * grzmi niebo g\u0142osem surowym: * \u201ePokut\u0119 czy\u0144cie za grzechy, * na stron\u0119 teraz uciechy\u201d.\r\n",
+                        " Posypmy g\u0142owy popio\u0142em, * otoczmy Pana pospo\u0142em, * bo Pa\u0144ski s\u0105d sprawiedliwy, * a dla grzesznika straszliwy.\r\n",
+                        " Posypmy g\u0142owy popio\u0142em, * ju\u017c Zbawca cierpie\u0107 gotowy * ponosi\u0107 m\u0119ki katusze, * by nasze odkupi\u0107 dusze.\r\n",
+                        " Posypmy g\u0142owy popio\u0142em, * o \u015bmierci my\u015blmy pospo\u0142em; * nim g\u0142osu Twego wezwanie * na s\u0105d Tw\u00f3j stawi nas, Panie.\r\n",
+                        " Posypmy g\u0142owy popio\u0142em, * z Chrystusem nie\u015bmy krzy\u017c spo\u0142em, * aby\u015bmy z nim zmartwychwstali * i hymn Mu chwa\u0142y \u015bpiewali."
+                    ]
+                },
+                {
+                    "title": "Bo\u017ce, Ojcze wszechmog\u0105cy",
+                    "lyrics": [
+                        " Bo\u017ce, Ojcze Wszechmog\u0105cy, do Ciebie wo\u0142amy: Ulituj si\u0119 nad nami dobry Bo\u017ce!\r\n",
+                        " Przebacz nasze przewinienia, o to Ci\u0119 b\u0142agamy: Ulituj si\u0119\u2026\r\n",
+                        " Jezu Chryste, Synu Bo\u017cy, za nas ukarany: Ulituj si\u0119\u2026\r\n",
+                        " Ty\u015b przez ludzi, kt\u00f3rych kochasz, by\u0142 ukrzy\u017co-wany: Ulituj si\u0119\u2026\r\n",
+                        " O Duchu \u015awi\u0119ty, mi\u0142o\u015bci Bo\u017ca rozlana w naszych sercach: Ulituj si\u0119\u2026\r\n",
+                        " Pomn\u00f3\u017c swe dary, nape\u0142nij \u0142ask\u0105, daj si\u0142\u0119 w \u017cycia trudach: Ulituj si\u0119\u2026\r\n",
+                        " Tr\u00f3jco \u015awi\u0119ta, Bo\u017ce wielki, zmi\u0142uj si\u0119 nad nami: Ulituj si\u0119\u2026"
+                    ]
+                },
+                {
+                    "title": "Z otch\u0142ani grzechu wo\u0142amy do Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan Jezus grzechy nasze",
+                    "lyrics": [
+                        " Pan Jezus grzechy nasze na krzy\u017c ze sob\u0105 wzi\u0105\u0142 * i tam je wszystkie zg\u0142adzi\u0142 niewinn\u0105 \u015bmierci\u0105 sw\u0105. * O przebacz, dobry Jezu, \u017cem grzechem zrani\u0142 Ci\u0119! * I udziel mi swej \u0142aski, bym z niego podni\u00f3s\u0142 si\u0119.\r\n",
+                        " Chrystus krzy\u017cow\u0105 \u015bmierci\u0105 wys\u0142u\u017cy\u0142 \u0142ask\u0119 nam, * otworzy\u0142 dla nas niebo, chce wszystkich widzie\u0107 tam. * O, Zbawco m\u00f3j i Panie, ju\u017c b\u0119d\u0119 lepiej \u017cy\u0142, * bym Ciebie ujrza\u0142 w niebie, na zawsze z Tob\u0105 by\u0142.\r\n",
+                        " Pan Jezus, cho\u0107 umiera, zwyci\u0119skim Kr\u00f3lem jest! * Na krzy\u017cu wszak pokona\u0142 ciemno\u015bci z\u0142a i \u015bmier\u0107! * K\u0142aniamy Ci si\u0119, Panie, b\u0142ogos\u0142awimy wraz, * \u017ce\u015b przez sw\u0105 \u015bmier\u0107 z mi\u0142o\u015bci odkupi\u0107 raczy\u0142 nas."
+                    ]
+                },
+                {
+                    "title": "W pokorze ducha przyjmijmy popi\u00f3\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, m\u00f3j Jezu, jak Ty kl\u0119czysz",
+                    "lyrics": [
+                        " Ach, m\u00f3j Jezu, jak Ty kl\u0119czysz, * w Ogrojcu zakrwawiony! * Tam Ci\u0119 anio\u0142 w smutku cieszy\u0142, * sk\u0105d by\u0142 \u015bwiat pocieszony.\n\r\n",
+                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
+                        " Ach, m\u00f3j Jezu, jake\u015b srodze * do s\u0142upa przywi\u0105zany, * za tak ci\u0119\u017ckie grzechy nasze * okrutnie biczowany. ",
+                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
+                        " Ach, m\u00f3j Jezu, co za bole\u015b\u0107 * cierpisz w ostrej koronie, * twarz naj\u015bwi\u0119tsza zakrwawiona, * g\u0142owa wszystka w krwi tonie. ",
+                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
+                        " Ach, m\u00f3j Jezu, gdy wychodzisz * na G\u00f3r\u0119 Kalwaryjsk\u0105, * trzykro\u0107 pod ci\u0119\u017carem krzy\u017ca * upadasz bardzo ci\u0119\u017cko. ",
+                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
+                        " A gdy, m\u00f3j najmilszy Jezu, * na krzy\u017cu ju\u017c umierasz, * dajesz ducha w Ojca r\u0119ce, * grzesznym niebo otwierasz. ",
+                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n",
+                        " Ach, m\u00f3j Jezu, gdy czas przyjdzie, * \u017ce ju\u017c umiera\u0107 trzeba, * wspomnij na sw\u0105 gorzk\u0105 m\u0119k\u0119, * nie chciej zawiera\u0107 nieba. ",
+                        "Refren: Przyjd\u017a, m\u00f3j Jezu, przyjd\u017a, m\u00f3j Jezu, * przyjd\u017a, m\u00f3j Jezu, pociesz mnie, * bo Ci\u0119 kocham serdecznie.\n\r\n"
+                    ]
+                },
+                {
+                    "title": "Przed Tob\u0105, Ojcze, stajemy skruszeni",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z pokor\u0105 wielk\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105",
+                    "lyrics": [
+                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n",
+                        " Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105, * oka\u017c mi\u0142osierdzie, grzech m\u00f3j zma\u017c! * Obmyj mnie zupe\u0142nie z brudu mojej winy, * racz oczy\u015bci\u0107 z grzechu mego. ",
+                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n",
+                        " Widz\u0119 i uznaj\u0119 z\u0142o\u015b\u0107 mej nieprawo\u015bci, * wci\u0105\u017c mi przed oczyma stoi grzech, * przeciw Tobiem zgrzeszy\u0142, z\u0142a si\u0119 dopu\u015bci\u0142em, * kt\u00f3rym Ty si\u0119 brzydzisz, Bo\u017ce. ",
+                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n",
+                        " Przeto si\u0119 oka\u017cesz prawy w swych wyrokach, * s\u0142uszny, sprawiedliwy jest Tw\u00f3j s\u0105d: * otom si\u0119 narodzi\u0142 win\u0105 obci\u0105\u017cony, * matka w grzechu mnie pocz\u0119\u0142a. ",
+                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n",
+                        " Ty, w szczero\u015bci serca masz upodobanie, * m\u0105dro\u015b\u0107 Twoja sp\u0142ywa w duszy g\u0142\u0105b, * pokrop mnie hyzopem, niech si\u0119 czystym stan\u0119, * ponad \u015bnieg niech wybielej\u0119. ",
+                        "Refren: Bo\u017ce lito\u015bciwy, zmi\u0142uj si\u0119 nade mn\u0105!\n\r\n"
+                    ]
                 }
             ]
+       
         }
     }
 }
