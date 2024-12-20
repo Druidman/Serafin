@@ -44,6 +44,7 @@ function playlistRecord_click_event(event){
     var id = event.currentTarget.id
     var song = getSongFullById(id)
     updatePlayView(song)
+    
 
 
 }
@@ -71,10 +72,10 @@ function playlist_record_button_click_event(event){
         var playView = document.getElementById("playView")
         playView.innerHTML = ""
 
-        var playButton = document.getElementById("play")
-        playButton.innerHTML = "Show"
-        displayWind.hidWindow()
-        playButton.style["background-color"] = "#FFFFFF"
+        // var playButton = document.getElementById("play")
+        // playButton.innerHTML = "Show"
+        // displayWind.hidWindow()
+        // playButton.style["background-color"] = "#FFFFFF"
     }   
     
     
