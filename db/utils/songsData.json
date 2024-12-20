@@ -424,7 +424,7 @@
                     ]
                 }
             ],
-            "Maryjne skibidi": [
+            "Maryjne": [
                 {
                     "title": "R\u00f3\u017ca\u0144cowa Pani, Kr\u00f3lowo, Tobie si\u0119 zawierzamy",
                     "lyrics": []
@@ -480,7 +480,18 @@
                 },
                 {
                     "title": "Urz\u0105d zbawienia ludzkiego",
-                    "lyrics": []
+                    "lyrics": [
+                        "1. Urząd zbawienia ludzkiego Potrzebował pilnie tego, By upadek Bóg naprawił, Człowieka grzesznego zbawił.",
+                        "2. Pan Bóg w Trójcy świętej radził, By świat zbawił, grzechy zgładził, Przez wcielenie Syna Swego Sprawą Ducha Najświętszego.",
+                        "3. Panna od wieków przejrzana, Archaniołem obesłana, Żeby na to przyzwoliła, Matką Najwyższego była.",
+                        "4. Mówiąc: Zdrowa bądź Marya, Łaskiś pełna, żadna inna, Pan jest z tobą od stworzenia, Nie lękaj się pozdrowienia.",
+                        "5. Oto poczniesz Najwyższego Syna Boga wszechmocnego I porodzisz Boską mocą, Ducha świętego pomocą.",
+                        "6. Panna się z tego zdumiała, Czego przedtem nie słyszała, Wolą Bożą być baczyła, Aniołowi przyzwoliła.",
+                        "7. O czem sprawnie wysłuchawszy, Rzekła posłowi powstawszy: Służebniczkam Pana mego, Stań się według słowa twego.",
+                        "8. Duch święty natychmiast zstąpił, Ciało panieńskie zastąpił: Słowo Boże jest wcielone, Ludzki plemię wybawione.",
+                        "9. Przy tej tak wdzięcznej nowinie, Którąć Aniół prawi ninie, Pełna łaski Panno, prosim, Łaskę Pańską niech odnosim.",
+                        "10. W tobie łask obfitość wszelka, A w nas jej potrzeba wielka; Marya, morzem łask słynąc, Dozwól łaskom na nas spłynąć. Amen."
+                    ]
                 },
                 {
                     "title": "Ziemia o\u017cy\u0142a, niebo tryumf gra\u0142o",
@@ -1132,7 +1143,14 @@
                 },
                 {
                     "title": "B\u0142ogos\u0142awiona Maryjo",
-                    "lyrics": []
+                    "lyrics": [
+                        "1. Błogosławiona Maryjo, przyjmij w swe łono dziewicze Słowo przez Ojca zrodzone, Słowo naszego zbawienia.",
+                        "2. Cień Wszechmocnego Cię okrył,  Duch życiodajny napełnił,  abyś nosiła Chrystusa  Ojcu równego we wszystkim.",
+                        "3. Bramo Bożego przybytku, łaską wybrania zamknięta, tylko samemu Królowi święte podwoje otwarłaś.",
+                        "4. Ten, co się zrodził przed zorzą,  głosem proroków wieszczony,  kiedy Go anioł zwiastował,  przyszedł przez Ciebie na ziemię.",
+                        "5. Cieszą się chóry niebieskie, radość ogarnia narody: Oto Najwyższy przychodzi, aby ratować ginących.",
+                        "6. Chryste, nasz Królu łagodny,  Synu przeczystej Dziewicy,  Tobie i Ojcu wraz z Duchem  chwała niech będzie na wieki. "
+                    ]
                 },
                 {
                     "title": "Czysta Dziewico, Maryjo",
@@ -1327,7 +1345,13 @@
                 },
                 {
                     "title": "Bo\u017ca M\u0105dro\u015bci, co ogarniasz wszystko",
-                    "lyrics": []
+                    "lyrics": [
+                        "1.  Boża Mądrości, co ogarniasz wszystko i wszystkim rządzisz z mocą i słodyczą, ludu swojego Wodzu i Pasterzu, przyjdź do nas, Panie!",
+                        "2.  Szczepie Jessego, Znaku dla narodów, któremu władcy milcząc cześć oddają, Kluczu Dawida, Berło Izraela, przyjdź do nas, Panie!",
+                        "3.  Wschodzie bez kresu, Blasku nieśmiertelny, Sprawiedliwości Słońce najjaśniejsze, więzi łącząca ziemię i niebiosa, przyjdź do nas, Panie!",
+                        "4.  Królu wszechświata i nasz Prawodawco, Węgielny Głazie, który spajasz ludzkość, Zbawco człowieka i Emmanuelu, przyjdź do nas, Panie!",
+                        "5.  Czas już się zbliża, abyś nas odkupił przez Twoje życie, śmierć i zmartwychwstanie; Tobie i Ojcu z Duchem pocieszenia chwała niech będzie."
+                    ]
                 },
                 {
                     "title": "Na przyj\u015bcie Chrystusa Kr\u00f3la",
@@ -1560,11 +1584,12 @@
                     "lyrics": [
                         "Ecce Dominus veniet, * et omnes sancti eius cum eo: * et erit in die illa * lux magna, alleluia."
                     ]
-                },{
+                },
+                {
                     "title": "Alleluja... Zdorwaś Maryjo",
                     "lyrics": [
                         "Alleluja, * alleluja. Zdrowaś Maryjo, łaski pełna Pan z Tobą, * błogosławionaś Ty między niewiastami. * Alleluja\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "A ja czekam na Ciebie mój Jezu",
@@ -1572,13 +1597,13 @@
                         "1. A ja czekam na Ciebie mój Jezu, tak jak kiedyś inni czekali. * A ja czekam na Ciebie mój Jezu, tam w oddali światełko się pali.\r\n",
                         "Refren: Jezu przyjdź wołam Cię Jezu przyjdź.\r\n",
                         "2. A ja czekam na Ciebie mój Jezu, abyś przyszedł pomiędzy ludzi * a ja czekam na Ciebie mój Jezu, byś drzemiące serca obudził. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Adwentowa lampka lśni",
                     "lyrics": [
                         "Adwentowa lampka lśni, Panie Jezu przyjdź. * Wszystkie dzieci oczekują Cię, pukasz w nasze drzwi stuk stuk.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Bóg między nami zamieszkał",
@@ -1588,7 +1613,7 @@
                         "2. Nawet zwierzęta poczuły łaskę boską i w wielkie ludzkie święto zaczęły mówić po polsku. * Buczały, meczały, ćwierkały, gdakały, że dziś świat cały pełen jest boskiej chwały. Ref.\r\n",
                         "3. Tak powiedziały zwierzęta, każdy to dobrze pamięta, * a one się mylić nie mogą jak gwiazdy nad szopą ubogą * toteż przed Świętą Panienką trzeba przepięknie uklęknąć ,uścisnąć Józefa dłonie i długo tak trwać * i długo tak trwać i długo tak trwać w pokłonie bo Ref.\r\n",
                         "4. Małemu zaś dzieciątku będziemy znów od początku śpiewać wszystkie kolędy * tak pełne radości i biedy, będziemy śpiewać kolędy tak pełne radości i biedy, * a kiedy do domu wróci może je sobie zanuci. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Chrystus Król do nas przychodzi",
@@ -1598,7 +1623,7 @@
                         "2. Miłością rozgrzej zimne serca i weź je w swoje władanie. Ref.\r\n",
                         "3. Odrzu(my smutek, ból i troski, Pan niesie 'wiatu zbawienie. Ref.\r\n",
                         "4. Zwycięzca śmierci zakróluje, cieszy się wszelkie stworzenie. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Ciebie Chryste, Władco wieków",
@@ -1609,7 +1634,7 @@
                         "4. Po to przecież krzyż przyjąłeś i otwarłeś swe ramiona, * serce zaś przebite włócznią ukazało nam Twą miłość.\r\n",
                         "5. Po to kryjesz się w ofierze Chleba i świętego Wina, * udzielając wiernym łaski, z rany boku otwartego.\r\n",
                         "6. Tobie Jezu, który rządzisz całym światem Twą miłoscią, * chwała teraz i na zawsze z Ojcem oraz Duchem Świętym.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Gdy roratniej świecy płomień",
@@ -1618,7 +1643,7 @@
                         "Refren: Oczekuję, wypatruję Zbawiciela, którym Jezus Chrystus jest. * On napełni mnie radością, gdy przyjdzie.\r\n",
                         "2. Kiedy czeka się z miłością, to czekanie jest radością. * I choć czasem dłuży się, nigdy nie zniechęci mnie. Ref.\r\n",
                         "3. A Bóg czekać długo nie da. Przyjdzie pod postacią Chleba. *Jeszcze chwila, jeszcze krok i rozjaśni duszy mrok. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Hymn Nowenna do Dzieciątka Jezus (Głos czysty płynie)",
@@ -1629,7 +1654,17 @@
                         "[]Z oczu Maryi spada łza * Z Ducha Świętego Owoc swój. * Poczęła; serce szczęściem drga * Syci je łask niebieskich zdrój.\r\n",
                         "[]Jej piersi czystej żywy dom * Na swą świątynię zmienia Syn. * W Jej sercu swój założy tron * Ono Mu nuci święty hymn.\r\n",
                         "[]Niech chwała Ojcu zawsze brzmi * Synowi z Duchem Świętym wraz. * Na ziemi, w niebie, w równej czci * Po nieskończony wieków czas. * Amen.\r\n"
-                      ]
+                    ]
+                },
+                {
+                    "title": "W czasie świętym, adwentowym",
+                    "lyrics": [
+                        "1. W czasie świętym, adwentowym, jak przed przyjściem Chrystusowym, z żalem serca rozważamy, z patriarchami wołamy.",
+                        "2. Spuśćcie nam Zbawcę niebiosa, ziemię nich użyźni rosa, dobroć Boga wszechmocnego niech nam da Sprawiedliwego. ",
+                        "3. Przyjmij Ojcze nasze dary, w dowód czci, miłości, wiary. Ty nam dajesz Syna swego, my Ci Zbawcę znów naszego.",
+                        "4. Panie Jezu, nim my Ciebie godni będziem widzieć w niebie, zasilaj nas Ciałem swoim i obdarz świętym pokojem.",
+                        "5. Pobłogosław nas, o Panie! Niech się szczęście nam dostanie, na ziemi tutaj w udziale, a zupełnie w Twojej chwale."
+                    ]
                 },
                 {
                     "title": "Kiedyś powróci Pan",
@@ -1640,7 +1675,7 @@
                         "[]Do Niego wołam w tęsknocie mej: Boże czy przyjdziesz już nocy tej? * Niech lampka duszy twej, Wciąż jasno lśni, by Pan odnalazł cię.\r\n",
                         "3. Czekaj Nań w sercu swym, czekaj Nań w sercu swym. * I nie łudź się, byś szczęście swe, mógł znaleźć poza Nim. * Czekaj Nań w sercu swym, czekaj Nań w sercu swym. * Bo tylko z Nim dobroci blask rozjaśni dziś twój dom. * \r\n",
                         "[]Do Niego wołam w tęsknocie mej: Boże, czy przyjdziesz już nocy tej? * Czekaj Nań w sercu swym, by jasny był i dobry dziś twój dom.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Marana tha! Przyjdź, Jezu Panie",
@@ -1649,7 +1684,7 @@
                         "1. Jak rosy chłód na spragniony grunt, * jak dobry chleb na głodnego dłoń! Ref.\r\n",
                         "2. W Kościele Twym, gdzie dajesz się nam, * przez Ciała, Krwi, tajemniczą moc. Ref.\r\n",
                         "3. Gdy miłość swą okażemy wkrąg, * przychodzisz już dziś na ziemię swą. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Na adwent naszego czekania",
@@ -1660,7 +1695,7 @@
                         "[]Daruj nam swoją miłość, przynieś nam swojego Syna. * Bo Ty jesteś dobra Matka, pociecha nasza jedyna.\r\n",
                         "3. Pod Twoim Matko wejrzeniem i w blasku Twojej czułości * życie lepszym się stanie, rozbłyśnie słońce miłości. * \r\n",
                         "[]Matko przez miłość do ludzi stań w progu życia naszego. * Proś za nami nieustannie Jezusa Syn Twojego.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "O Gospodzie uwielbiona",
@@ -1672,19 +1707,19 @@
                         "5. Maryja Panno nad Panny, niech twój Syn przez cię błagany,  * wszystkie winy nam odpuści, a do łaski swej przypuści.\r\n",
                         "6. Przez Syna Panno twojego, Ojca i Ducha świętego, * przybądź na nasze skonanie, a daj dobre dokonanie.\r\n",
                         "7. Chwała bądź Panu naszemu z Dziewice narodzonemu, * i Ojcu jego Wiecznemu, także Duchowi świętemu."
-                      ]
+                    ]
                 },
                 {
                     "title": "Oczekuję, wypatruję",
                     "lyrics": [
                         "[]Oczekuję, wypatruję Zbawiciela, którym Jezus Chrystus jest. * On napełni mnie radością, gdy przyjdzie.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Oczekujemy Zbawiciela świata",
                     "lyrics": [
                         "[]Oczekujemy Zbawiciela świata, który przemieni ciało nasze śmiertelne w chwalebne. * Przeto żyjmy trzeźwo, pobożnie i sprawiedliwie, * oczekując nadziei i chwały przyjścia wielkiego Boga * i Zbawiciela naszego, Jezusa Chrystusa. * Amen.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Oto Panna pocznie i porodzi Syna",
@@ -1695,14 +1730,14 @@
                         "3. Wyzwoli bowiem biedaka, który Go wzywa * i ubogiego co nie ma opieki. Ref.\r\n",
                         "4. Zmiłuj się nad biednym i ubogim, * nędzarza ocali od śmierci. Ref.\r\n",
                         "5. Chwała Ojcu i Synowi i Duchowi Świętemu, * jak była na początku, teraz i zawsze, i na wieki wieków. Amen. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Podnieście w górę bramy, szczyty wasze",
                     "lyrics": [
                         "Refren: Podnieście w górę bramy, szczyty wasze, * rozstąpcie się odwieczne drzwi. * Niech wnijdzie chwały Król, chwały Król.\r\n",
                         "1. Któż godzien wstąpić na górę Pańską lub kto może stanąć na świętym miejscu Jego? * Człowiek rąk niewinnych i czystego serca. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Prorocy pełni natchnienia",
@@ -1712,7 +1747,7 @@
                         "3. Gdy pierwszy raz Jezus przyszedł, to nie dla sądu nad światem, * lecz aby rany uleczyć i uratować ginących.\r\n",
                         "4. A drugie przyjście ostrzega, że Pan do bramy kołacze; * Nagrodzi wtedy wybranych wiecznością swego królestwa.\r\n",
                         "5. Szukamy Ciebie, o Chryste, by ujrzeć Twoje oblicze, * a mając udział w Twym szczęściu, wysławiać Trójcę na wieki. * Amen.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Przyjdź do nas, przyjdź",
@@ -1720,7 +1755,7 @@
                         "1. Przyjdź do nas, przyjdź, Panie Jezu, Amen! * Przyjdź do nas, przyjdź, wszyscy Cię czekamy. * Marana tha! Przyjdź, Panie, przyjdź!\r\n",
                         "2. Wśród walk i zdrad obdarz nas pokojem, * przemień ten świat, przyjdź Królestwo Twoje! * Marana tha! Przyjdź, Panie, przyjdź!\r\n",
                         "3. Przyjdź, Panie nasz, Tobie służyć chcemy * niech wola Twoja spełni się na ziemi! * Marana tha! Przyjdź, Panie, przyjdź!\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Słychać głos strażnika w dali",
@@ -1731,7 +1766,7 @@
                         "[]Przyjdź, Panie, zbaw od win, Tyś Jezus, Boży Syn, O hosanna. * Do uczty swej, nas przyjąć chciej, wesele wieczne w serca wlej!",
                         "3. Gloria, głos się już budzi: Aniołów śpiew zstąpił na ludzi, * już grają harfy, bije dzwon! * Bramy te z pereł dwunastu, otwarte są dla nas ku Miastu, * gdzie wśród aniołów jest Twój tron.\r\n",
                         "Nie pojął ludzki duch, nie poznał wzrok ni słuch, co nas czeka. * Daj stanąć nam i śpiewać tam, na wieki, gdzie Ty mieszkasz sam.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Spuśćcie rosę, niebiosa z góry",
@@ -1739,7 +1774,7 @@
                         "Refren: Spuśćcie rosęm niebiosa z góry, * a obłoki niech spuszczą * z deszczem Sprawiedliwego. * Niech się otworzy ziemia, * Niech się otworzy ziemia * i zrodzi Zbawiciela.\r\n",
                         "1. Niebiosa opowiadają chwałę Bogu, * a widnokrąg rozgłasza dzieła rąk Jego. Ref.\r\n",
                         "2. Chwała Ojcu i Synowi i Duchowi Świętemu, * jak była na początku, teraz i zawsze, i na wieki wieków. Amen. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Tobie nad pomysł",
@@ -1749,7 +1784,7 @@
                         "3. Pan z tobą, ciebie przed czasy wszystkiemi, * przeznaczył sobie przybytkiem na ziemi: * Zkąd cię do nieba przeniósł nad obłoki, * na tron wysoki.\r\n",
                         "4. Nad inne panny, które zachowały * swe Bogu śluby, masz przywilej cały: * Z białychgłów żadna bez wady wszelakiej, * czci nie ma takiej.\r\n",
                         "5. Dla tego słusznie ciebie wychwalamy, * i twej u Syna pomocy żądamy, * by nam odpuścił z twej świętej zasługi, * Bóg nasze długi.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Usłysz, dobry Boże",
@@ -1757,7 +1792,7 @@
                         "1. Usłysz, dobry Boże, prośbę dzieci żywą: * Niech do serc spragnionych przyjdzie sprawiedliwy.\r\n",
                         "Refren: O, niebiosa spuśćcie rosę i ożywcie łany. * Przyjdź, o Jezu, do serc naszych, * Jezu ukochany.\r\n",
                         "2. Bez Twej łaski Panie, dobrym być nie mogę. * Tyś mym ukochaniem, Prawdą, Światłem, Drogą. Ref.\r\n"
-                      ]
+                    ]
                 },
                 {
                     "title": "Wypatrujcie tęsknie wieszczonego Pana",
@@ -1770,7 +1805,7 @@
                         "[]W żarze tęsknoty świętej * został wdzięcznym sercem przyjęty.\r\n",
                         "4. O, Kryniczny Zdroju, ponad kryształ czysty, * dziś zrodzon w niebiosach, bijący wieczyście.\r\n",
                         "[]Ku nam spłyń z górnych źródeł, * ugaś żary spragnionego ludu.\r\n"
-                      ]
+                    ]
                 }
             ],
             "Wielki Tydzień": [
@@ -2676,7 +2711,6 @@
                         " Tr\u00f3jco \u015awi\u0119ta, Bo\u017ce wielki, zmi\u0142uj si\u0119 nad nami: Ulituj si\u0119\u2026"
                     ]
                 },
-                
                 {
                     "title": "Bo\u017ce, co w \u015bwi\u0119tych",
                     "lyrics": [
@@ -7157,6 +7191,19 @@
                     ]
                 },
                 {
+                    "title": "Pozdrowiona bądź, królowo",
+                    "lyrics": [
+                        "1. Pozdrowiona bądź, Królowo, Święta Maryjo! * Tyś jest matką Chrystusową, Święta Maryjo!\n\rRefren: Nućcie, niebianie, Najświętszej Pannie * pieśń na powitanie: * zdrowaś, zdrowaś, * zdrowaś Maryjo!",
+                        "2. Tyś jest Matka litościwa, Święta Maryjo! * Opiekunka tak troskliwa, Święta Maryjo! Ref.",
+                        "3. Ty jak gwiazda w mrokach świecisz, Święta Maryjo! * Tyś nadzieja grzesznych dzieci, Święta Maryjo! Ref.",
+                        "4. Dzieci Ewy, my tułacze, Święta Maryjo! * Przychodzimy, Matko z płaczem, Święta Maryjo! Ref.",
+                        "5. Wciąż tęsknimy i wzdychamy, Święta Maryjo! * Z łez padołu w niebios bramy, Święta Maryjo! Ref.",
+                        "6. Zwróć swe oczy, Pośredniczko, Święta Maryjo! * Wspomóż nas, Orędowniczko, Święta Maryjo! Ref.",
+                        "7. Ukaż nam, Błogosławiona, Święta Maryjo! * Syna owoc Twego łona, Święta Maryjo! Ref.",
+                        "8. Gdy się skończy to wygnanie, Święta Maryjo! * Uproś z Tobą królowanie, Święta Maryjo! Ref."
+                    ]
+                },
+                {
                     "title": "O Jezu m\u00f3j i Panie, ukryty w Hostii tej",
                     "lyrics": []
                 },
@@ -11375,7 +11422,6 @@
                     ]
                 }
             ]
-       
         }
     }
 }
