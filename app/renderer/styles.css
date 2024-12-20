@@ -275,6 +275,9 @@ main{
 
 
 }
+#player #play:focus {
+    outline: none;
+}
 
 #controlPanel #playView {
     width: 100%;

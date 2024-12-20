@@ -126,10 +126,10 @@ function handlePrevVerseEvent(event){
     scrollPlayView()
 }
 function handlePlayButtonEvent(event){
-    // if (event.pointerType !== 'mouse') {
-    //     return;
-    // }
-    // event.stopPropagation();
+    if (event.pointerType !== 'mouse') {
+        return;
+    }
+    event.stopPropagation();
     var button = event.currentTarget
     
     const windName = "displayWind"
@@ -166,12 +166,80 @@ function handleStashButtonEvent(event){
     }
 }
 
+function handleNextPlaylistRecord(event){
+    var selected = document.getElementsByClassName("selected")[0]
+    if (selected == null){
+        return
+    }
+
+    var nextSelected = selected.nextElementSibling
+    console.log(nextSelected)
+    if (nextSelected == null){
+        return
+    }
+
+    selected.classList.remove("selected")
+    nextSelected.classList.add("selected")
+    var id = nextSelected.id
+    var song = getSongFullById(id)
+    updatePlayView(song)
+}
+function handlePrevPlaylistRecord(event){
+    var selected = document.getElementsByClassName("selected")[0]
+    
+    if (!selected){
+        return
+    }
+
+    var prevSelected = selected.previousElementSibling
+    console.log(prevSelected)
+    if (!prevSelected){
+        return
+    }
+
+    selected.classList.remove("selected")
+    prevSelected.classList.add("selected")
+    var id = prevSelected.id
+    var song = getSongFullById(id)
+    updatePlayView(song)
+}
+
 document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
 document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
 document.getElementById("next").addEventListener("click",handleNextVerseEvent)
 document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
 document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
 document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
+
+
+document.addEventListener("keydown",(event)=>{
+    switch (event.code){
+        case "ArrowLeft":
+        case "Numpad4":
+            handlePrevVerseEvent(event)
+            break
+
+        case "ArrowRight":
+        case "Numpad6":
+        case "Space":
+            handleNextVerseEvent(event)
+            break
+        
+        case "ArrowUp":
+        case "Numpad8":
+            handlePrevPlaylistRecord(event)
+            break
+
+        case "ArrowDown":
+        case "Numpad2":
+            handleNextPlaylistRecord(event)
+            break
+
+        case "Numpad0":
+            //pokaż ukryj
+    }
+})
+
 
 export { 
     add_db_record_button_click_event, 
