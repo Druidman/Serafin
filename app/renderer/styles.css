@@ -133,6 +133,8 @@ main{
     overflow: scroll;
     box-sizing: border-box;
     width: 100%;
+   
+
 }
 .verseHolder::-webkit-scrollbar{
     display: none;
