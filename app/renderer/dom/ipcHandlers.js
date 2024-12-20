@@ -1,3 +1,6 @@
+
+
+
 function getSongsPreview(amount,categoryName){
     var data = window.electronAPI.getSongsPreview(amount,categoryName)
     return data
