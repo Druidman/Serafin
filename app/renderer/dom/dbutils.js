@@ -19,6 +19,7 @@ function load_categories(data){
     var category_record = construct_category_record({"category": "wszystko"})
     category_record.classList.add("specialCategory")
     dataBox.appendChild(category_record)
+    
     for (var element of data){
         var category_record = construct_category_record(element)
         dataBox.appendChild(category_record)

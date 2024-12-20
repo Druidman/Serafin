@@ -28,6 +28,7 @@ function add_categoryRecord_click_event(categoryRecord){
     categoryRecord.addEventListener("click",categoryRecord_click_event)
     
 }
+//
 
 function playlistRecord_click_event(event){
     if (event.target.tagName === "BUTTON"){
@@ -46,6 +47,10 @@ function playlistRecord_click_event(event){
 
 
 }
+function add_playlistRecord_click_event(playlistRecord){
+    playlistRecord.addEventListener("click",playlistRecord_click_event) 
+}
+//
 
 function db_record_button_click_event(event){
     var button = event.currentTarget
@@ -53,6 +58,11 @@ function db_record_button_click_event(event){
     var dbRecord = button.parentNode.cloneNode(true)
     appendToPlaylist(dbRecord)
 }
+function add_db_record_button_click_event(button){
+    button.addEventListener("click",db_record_button_click_event)
+}
+//
+
 function playlist_record_button_click_event(event){
     var button = event.currentTarget
     var playlistRecord = event.currentTarget.parentNode
@@ -69,6 +79,10 @@ function playlist_record_button_click_event(event){
     
     
 }
+function add_playlistRecord_button_click_event(button){
+    button.addEventListener("click",playlist_record_button_click_event)
+}
+//
 
 function verseBox_click_event(event){
     var curr = document.getElementsByClassName("currentVerse")[0]
@@ -84,8 +98,13 @@ function verseBox_click_event(event){
     
     
 }
+function add_verseBox_click_event(verse){
+    verse.addEventListener("click",verseBox_click_event)
+}
+//
 
-function db_search_submit_event(event){
+
+function dbSearchEvent(event){
     
     var categoryName = document.getElementById("categorySelector").getAttribute("data-value")
     if (!categoryName){
@@ -97,39 +116,32 @@ function db_search_submit_event(event){
     
     
 }
-
-function add_playlistRecord_click_event(playlistRecord){
-    playlistRecord.addEventListener("click",playlistRecord_click_event) 
-}
-function add_playlistRecord_button_click_event(button){
-    button.addEventListener("click",playlist_record_button_click_event)
-}
-
-function add_db_record_button_click_event(button){
-    button.addEventListener("click",db_record_button_click_event)
-}
-
-function add_verseBox_click_event(verse){
-    verse.addEventListener("click",verseBox_click_event)
-}
-
-
-document.getElementById("databaseSearch").addEventListener("input",db_search_submit_event)
-    
-document.getElementById("play").addEventListener("click",(event)=>{
-    if (event.pointerType !== 'mouse') {
-        return;
+function handleNextVerseEvent(event){
+    if (!displayWind.nextVerse()){
+        return
     }
-    event.stopPropagation();
+    scrollPlayView()
+}
+function handlePrevVerseEvent(event){
+    if (!displayWind.prevVerse()){
+        return
+    }
+    scrollPlayView()
+}
+function handlePlayButtonEvent(event){
+    // if (event.pointerType !== 'mouse') {
+    //     return;
+    // }
+    // event.stopPropagation();
     var button = event.currentTarget
     
     const windName = "displayWind"
     const filename = "display.html"
 
     if (!windManager.check_window_active(windName)){
-            
         windManager.openNewWindow(filename,windName)
     }
+
     if (button.innerHTML == "Show"){
         displayWind.updateWindow()
         button.innerHTML = "Hid"
@@ -139,66 +151,25 @@ document.getElementById("play").addEventListener("click",(event)=>{
         displayWind.hidWindow()
         button.innerHTML = "Show"
         button.style["background-color"] = "#8b8b8b"
-
-
     }
-    
-})
-
-
-document.getElementById("next").addEventListener("click",()=>{
-    
-    
-    if (!displayWind.nextVerse()){
-        return
-    }
-    scrollPlayView()
-    
-})
-
-document.getElementById("prev").addEventListener("click",()=>{
-   
-    if (!displayWind.prevVerse()){
-        return
-    }
-    scrollPlayView()
-    
-    
-})
-
-document.getElementById("categorySelector").addEventListener("click",(event)=>{
+}
+function handleCategorySelectorEvent(event){
     var categories = getSongCategories()
     
     load_categories(categories)
-})
-
-document.onkeydown = function (e){
-    var keyPressed = e.code
-
-    switch(keyPressed){
-        case "Space":
-            if (!displayWind.nextVerse()){
-                return
-            }
-            scrollPlayView()
-            break
-        case "ArrowRight":
-            if (!displayWind.nextVerse()){
-                return
-            }
-            scrollPlayView()
-            break
-        case "ArrowLeft":
-            if (!displayWind.prevVerse()){
-                return
-            }
-            scrollPlayView()
-            break
-
-    }
 }
 
 
+
+
+
+
+
+document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
+document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
+document.getElementById("next").addEventListener("click",handleNextVerseEvent)
+document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
+document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
 
 export { 
     add_db_record_button_click_event, 

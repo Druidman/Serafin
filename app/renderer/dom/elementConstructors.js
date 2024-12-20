@@ -46,7 +46,7 @@ function construct_category_record(element){
     categoryRecord.classList.add("categoryRecord")
     
     var title_p = document.createElement("p")
-    console.log(element)
+
     title_p.textContent = element["category"]
 
     categoryRecord.appendChild(title_p)
