@@ -21,6 +21,7 @@ function getSongsByPrefix(prefix,categoryName){
 
 function getSongCategories(){
     var data = window.electronAPI.getSongCategories()
+    
     return data
 }
 
