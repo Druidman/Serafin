@@ -1087,9 +1087,7 @@
                 {
                     "title": "Oto Pan B\u00f3g przyjdzie",
                     "lyrics": [
-                        "Antyfona: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119-tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.\n\r\nlub tekst \u0142aci\u0144ski Ecce Dominus veniet \u2013 p. nr ",
-                        "\r\nAntyfon\u0119 mo\u017cna przeplata\u0107 wersetami z Ap ",
-                        ".\n\r\n",
+                        "Antyfona: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.",
                         " O Miasto \u015awi\u0119te, Jeruzalem, zst\u0119puj\u0105ce z nieba, maj\u0105ce chwa\u0142\u0119 Boga, * \u017ar\u00f3d\u0142o twego \u015bwiat\u0142a po-dobne do kamienia drogocennego, * jakby do ja-spisu o przejrzysto\u015bci kryszta\u0142u. Ant.\n\r\n",
                         " Miastu nie trzeba s\u0142o\u0144ca ni ksi\u0119\u017cyca, by mu \u015bwieci\u0142y, * bo chwa\u0142a Boga je o\u015bwietli\u0142a * a jego lamp\u0105 Baranek. Ant.\n\r\n",
                         " I w jego \u015bwietle b\u0119d\u0105 chodzi\u0142y narody * i wnios\u0105 do niego kr\u00f3lowie ziemi sw\u00f3j przepych * i za dnia bramy jego nie b\u0119d\u0105 zamkni\u0119te, bo ju\u017c nie b\u0119dzie tam nocy. Ant.\n\r\n",
@@ -1181,8 +1179,10 @@
                 {
                     "title": "Przyjd\u017a, Panie Jezu",
                     "lyrics": [
-                        " Przyjd\u017a, Panie Jezu, \u015bwiat na Ciebie czeka, * Twoje Kr\u00f3lestwo jeszcze nie spe\u0142nione. * Przyjd\u017a, bo si\u0119 wa\u017cy ci\u0105gle los cz\u0142owieka, * pragnienie dobra z grzechem w nim z\u0142\u0105czone. * Przyjd\u017a, Panie, wybaw nas, przyjd\u017a, Panie, bo ju\u017c czas, * bez Ciebie zginie \u015bwiat w\u015br\u00f3d walk i zdrad. * Ton\u0105cym podaj d\u0142o\u0144, gin\u0105cych wspieraj, bro\u0144, * b\u0142\u0105dz\u0105cym drog\u0119 wska\u017c, przyjd\u017a, Panie nasz!\n\r\n",
-                        " Przyjd\u017a, Panie Jezu, mi\u0142o\u015b\u0107 w nas rozpali\u0107. * Przyjd\u017a, bo bez Ciebie z grzech\u00f3w nie powstaniem. * Przyjd\u017a, Panie Jezu, aby nas ocali\u0107, * w Tobie nadzieja, w Tobie zaufanie. * Przyjd\u017a, Panie, wybaw nas, przyjd\u017a, Panie, bo ju\u017c czas, * do szcz\u0119\u015bcia daj nam klucz, mi\u0142o\u015bci ucz! * Bo mi\u0142o\u015b\u0107 szcz\u0119\u015bciem jest, a przebaczenia gest * otworzy drog\u0119 nam do szcz\u0119\u015bcia bram."
+                        " Przyjd\u017a, Panie Jezu, \u015bwiat na Ciebie czeka, * Twoje Kr\u00f3lestwo jeszcze nie spe\u0142nione. * Przyjd\u017a, bo si\u0119 wa\u017cy ci\u0105gle los cz\u0142owieka, * pragnienie dobra z grzechem w nim z\u0142\u0105czone.",
+                        " Przyjd\u017a, Panie, wybaw nas, przyjd\u017a, Panie, bo ju\u017c czas, * bez Ciebie zginie \u015bwiat w\u015br\u00f3d walk i zdrad. * Ton\u0105cym podaj d\u0142o\u0144, gin\u0105cych wspieraj, bro\u0144, * b\u0142\u0105dz\u0105cym drog\u0119 wska\u017c, przyjd\u017a, Panie nasz!\n\r\n",
+                        " Przyjd\u017a, Panie Jezu, mi\u0142o\u015b\u0107 w nas rozpali\u0107. * Przyjd\u017a, bo bez Ciebie z grzech\u00f3w nie powstaniem. * Przyjd\u017a, Panie Jezu, aby nas ocali\u0107, * w Tobie nadzieja, w Tobie zaufanie.",
+                        " Przyjd\u017a, Panie, wybaw nas, przyjd\u017a, Panie, bo ju\u017c czas, * do szcz\u0119\u015bcia daj nam klucz, mi\u0142o\u015bci ucz! * Bo mi\u0142o\u015b\u0107 szcz\u0119\u015bciem jest, a przebaczenia gest * otworzy drog\u0119 nam do szcz\u0119\u015bcia bram."
                     ]
                 },
                 {
@@ -1297,7 +1297,7 @@
                 {
                     "title": "Niebiosa, ros\u0119 \u015blijcie nam z g\u00f3ry",
                     "lyrics": [
-                        "Refren: Niebiosa, ros\u0119 \u015blijcie nam z g\u00f3ry, * niech serca nawiedzi Zbawca nasz.\n\r\nAlbo\n\r\nRefren: Rorate caeli desuper * et nubes pluant iustum.\n\r\n",
+                        "Refren: Niebiosa, ros\u0119 \u015blijcie nam z g\u00f3ry, * niech serca nawiedzi Zbawca nasz.\n\r",
                         " Nie b\u0105d\u017a zagniewany, Panie, * nie pomnij d\u0142u\u017cej nieprawo\u015bci naszych. * Wszak\u017ce Ty\u015b Ojcem naszym, * a my r\u0105k Twoich dzie\u0142em. * Wejrzyj przeto z mi\u0142osierdzia swego; * pom\u00f3\u017c nam by\u0107 wiernym ludem Twoim, * by\u015bmy Ci\u0119 chwalili, jak ojcowie nasi. ",
                         "Refren: Niebiosa, ros\u0119 \u015blijcie nam z g\u00f3ry, * niech serca nawiedzi Zbawca nasz.\n\r\nAlbo\n\r\nRefren: Rorate caeli desuper * et nubes pluant iustum.\n\r\n",
                         " My\u015bmy grzeszni i nieczy\u015bci, * opadli\u015bmy wszyscy tak, jak zwi\u0119d\u0142e li\u015bcie. * Nieprawo\u015bci nasze * porwa\u0142y nas niby wicher, * bo imienia Twego nikt nie wzywa\u0142; * albowiem skry\u0142e\u015b przed nami oblicze swoje * i odda\u0142e\u015b nas w niewol\u0119 nieprawo\u015bci naszych. ",
@@ -1500,6 +1500,7 @@
                     "title": "Niebiosa, ros\u0119 spu\u015b\u0107cie nam z g\u00f3ry",
                     "lyrics": [
                         " Niebiosa, ros\u0119 spu\u015b\u0107cie nam z g\u00f3ry; * Sprawiedliwego wylejcie chmury. * O, wstrzymaj, wstrzymaj, Twoje zagniewanie * i grzech\u00f3w naszych zapomnij ju\u017c, Panie.\r\n",
+                        " Niebiosa rosę... Grzech nas oszpecił i w nędznej postaci * stoim przed Tobą, jakby trędowaci.",
                         " Niebiosa, ros\u0119\u2026 O, spojrzyj, spojrzyj na lud Tw\u00f3j zn\u0119kany * i ze\u015blij Tego, co ma by\u0107 zes\u0142any.\r\n",
                         " Niebiosa, ros\u0119\u2026 Pociesz si\u0119, ludu, pociesz w twej niedoli, * ju\u017c si\u0119 przybli\u017ca kres twojej niewoli.\r\n",
                         " Niebiosa, ros\u0119\u2026 Roztw\u00f3rz si\u0119 ziemio i z \u0142ona twojego * wydaj nam, wydaj ju\u017c Zbawc\u0119 naszego!"
@@ -2464,10 +2465,7 @@
                         " Tr\u00f3jco \u015awi\u0119ta, Bo\u017ce wielki, zmi\u0142uj si\u0119 nad nami: Ulituj si\u0119\u2026"
                     ]
                 },
-                {
-                    "title": "",
-                    "lyrics": []
-                },
+                
                 {
                     "title": "Bo\u017ce, co w \u015bwi\u0119tych",
                     "lyrics": [

@@ -159,12 +159,6 @@ function handleCategorySelectorEvent(event){
     load_categories(categories)
 }
 
-
-
-
-
-
-
 document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
 document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
 document.getElementById("next").addEventListener("click",handleNextVerseEvent)
