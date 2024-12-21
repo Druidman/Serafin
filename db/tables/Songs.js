@@ -71,8 +71,10 @@ async function getFullById(ids,db){
                 }
                 else{
                     row = JSON.parse(row.lyrics)
-                    
                     resolve(row)
+
+                    
+                   
                 
                 }
 

@@ -10,8 +10,9 @@ function nextVerse(){
     verse.classList.remove("currentVerse")
 
     verse.nextSibling.classList.add("currentVerse")
-    var button = document.getElementById("play")
-    if (button.innerHTML == "Show"){
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state == "hidden"){
         return true
     }
     if (!updateWindow()){
@@ -29,8 +30,9 @@ function prevVerse(){
     verse.classList.remove("currentVerse")
 
     verse.previousSibling.classList.add("currentVerse")
-    var button = document.getElementById("play")
-    if (button.innerHTML == "Show"){
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state == "hidden"){
         return true
     }
     if (!updateWindow()){
@@ -41,6 +43,12 @@ function prevVerse(){
 }
 
 function updateWindow(){
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state != "shown"){
+        return false
+    }
+
     var displayWind = getWindow("displayWind")
     verse = document.getElementsByClassName("currentVerse")[0]
 
@@ -60,11 +68,13 @@ function updateWindow(){
     return true
 }
 
-function hidWindow(){
+function hideWindow(){
     var doc = getWindow("displayWind").document
     var container = doc.getElementById("container")
     container.innerHTML = ''
-
+}
+function showWindow(){
+    updateWindow()
 }
 
-export { updateWindow, prevVerse, nextVerse, hidWindow }
+export { updateWindow, prevVerse, nextVerse, hideWindow,showWindow }

@@ -41,9 +41,20 @@ function playlistRecord_click_event(event){
     }
     
     event.currentTarget.classList.add("selected")
+    
     var id = event.currentTarget.id
     var song = getSongFullById(id)
+    
     updatePlayView(song)
+    
+
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state == "shown"){
+        displayWind.updateWindow()
+    }
+
+
     
 
 
@@ -130,25 +141,34 @@ function handlePlayButtonEvent(event){
         return;
     }
     event.stopPropagation();
-    var button = event.currentTarget
-    
     const windName = "displayWind"
     const filename = "display.html"
+
+    var playButton = event.currentTarget
+    var state = playButton.getAttribute("data-value")
 
     if (!windManager.check_window_active(windName)){
         windManager.openNewWindow(filename,windName)
     }
 
-    if (button.innerHTML == "Show"){
-        displayWind.updateWindow()
-        button.innerHTML = "Hid"
-        button.style["background-color"] = "#FFFFFF"
+
+    switch(state){
+        case "shown":
+            playButton.innerHTML = "Show"
+            playButton.setAttribute("data-value","hidden")
+            playButton.style["background-color"] = "#8b8b8b"
+            displayWind.hideWindow()
+            
+            break
+        case "hidden":
+            playButton.innerHTML = "Hide"
+            playButton.setAttribute("data-value","shown")
+            playButton.style["background-color"] = "#FFFFFF"
+            displayWind.showWindow()
+
+            break
     }
-    else if (button.innerHTML == "Hid"){
-        displayWind.hidWindow()
-        button.innerHTML = "Show"
-        button.style["background-color"] = "#8b8b8b"
-    }
+    
 }
 function handleCategorySelectorEvent(event){
     var categories = getSongCategories()
@@ -183,6 +203,13 @@ function handleNextPlaylistRecord(event){
     var id = nextSelected.id
     var song = getSongFullById(id)
     updatePlayView(song)
+
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state == "shown"){
+        displayWind.updateWindow()
+    }
+    
 }
 function handlePrevPlaylistRecord(event){
     var selected = document.getElementsByClassName("selected")[0]
@@ -192,16 +219,23 @@ function handlePrevPlaylistRecord(event){
     }
 
     var prevSelected = selected.previousElementSibling
-    console.log(prevSelected)
+    
     if (!prevSelected){
         return
     }
 
     selected.classList.remove("selected")
     prevSelected.classList.add("selected")
+
     var id = prevSelected.id
     var song = getSongFullById(id)
     updatePlayView(song)
+
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state == "shown"){
+        displayWind.updateWindow()
+    }
 }
 
 document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
@@ -236,7 +270,7 @@ document.addEventListener("keydown",(event)=>{
             break
 
         case "Numpad0":
-            //pokaż ukryj
+            displayWind.showWindow()
     }
 })
 
