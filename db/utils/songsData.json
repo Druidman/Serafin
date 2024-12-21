@@ -2047,25 +2047,141 @@
             ],
             "Cz\u0119\u015bci sta\u0142e": [
                 {
-                    "title": "Panie zmi\u0142uj si\u0119 nad nami",
-                    "lyrics": []
-                },
-                {
+                    "title": "Panie zmiłuj się nad nami",
+                    "lyrics": [
+                      "Panie, zmiłuj się nad nami.\r\n",
+                      "Chryste, zmiłuj się nad nami. \r\n",
+                      "Panie, zmiłuj się nad nami.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Kyrie",
+                    "lyrics": [
+                      "Kyrie eleison.\r\n",
+                      "Christe eleison.\r\n",
+                      "Kyrie eleison.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Chwała na wysokości Bogu",
+                    "lyrics": [
+                      "Chwała na wysokości Bogu a na ziemi pokój ludziom dobrej woli. * Chwalimy Cię, * Błogosławimy Cię, * Wielbimy Cię, * Wysławiamy Cię. * Dzięki Ci składamy, bo wielka jets chwała Twoja. * \r\n",
+                      "Panie Boże, Królu nieba, * Boże Ojcze wszechmogący. * Panie, Synu Jednorodzony, * Jezu Chryste. * Panie Boże, Baranku Boży, * Synu Ojca. * Który gładzisz grzechy świata, * przyjm błaganie nasze.\r\n",
+                      "Który siedzisz po prawicy Ojca, * zmiłuj się nad nami. * Albowiem tylko Tyś jest świety, * tylko Tyś jest Panem, * Tylko Tyś najwyższy, * Jezu Chryste. * Z Duchem Świętym w chwale Boga Ojca. * Amen.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Gloria",
+                    "lyrics": [
+                      "Gloria in exselsis Deo * et in terra pax hominibus bonae voluntatis. * Ladamus te. * Benedicimus te. * Glorificamus te. * Gratias agimus tibi * propter magnam gloriam tuamn, * Domine Deus Rex caelestis, *\r\n",
+                      "Deus Pater omnipotens. * Domine Fili unigenite, * Iesu Christe, * Domine Deus, Agnus Dei * Filius Patris. * Qui tollis peccata mundi * miserere nobis. * Qui tollis peccata mundi * suscipe deprecationem nostram. * \r\n",
+                      "Qui sedes ad dexteram Patris, * miserere nobis. * Quoniam Tu solus Sanctus. * Tu solus Dominus. * Tu solus Alltissimus, * Iesu Christe * Cum Sancto Spiritiu * in gloria Dei Patris. * Amen.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Święty, Święty, Święty",
+                    "lyrics": [
+                      "Święty, Święty, Święty, Pan Bóg zastępów. * Pełne są niebiosa i ziemia chwały Twojej. * Hosanna na wysokości. * Błogosławiony, który idzie w Imię Pańskie. * Hosanna na wysokości. \r\n"
+                    ]
+                  },
+                  {
+                    "title": "Sanctus",
+                    "lyrics": [
+                      "Sanctus, Sanctus, Sanctus, * pleni sunt caeli et terra in gloria tua. * Hosanna in excelsis. * Benedictus, qui venit in nomine Domini. * Hosanna in excelsis.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Baranku Boży",
+                    "lyrics": [
+                      "Baranku Boży, który gładzisz grzechy świata, * zmiłuj się nad nami.\r\n",
+                      "Baranku Boży, który gładzisz grzechy świata, * obdarz nas pokojem.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Agnus Dei",
+                    "lyrics": [
+                      "Agnus Dei, qui tollis peccata mundi, * miserere nobis.\r\n",
+                      "Agnus Dei, qui tollis peccata mundi, * dona nobis pacem.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Ojcze nasz",
+                    "lyrics": [
+                      "Ojcze nasz, któryś jest w niebie, * święć się Imię Twoje, * przyjdź Królestwo Twoje, * bądź wola Twoja, * jako w niebie tak i na ziemi. * Chleba naszego powszedniego daj nam dzisiaj, *\r\n",
+                      "i odpuść nam nasze winy, * jako i my odpuszczamy naszym winowajcom, * i nie wódź nas na pokuszenie, * ale nas zbaw ode złego. \r\n"
+                    ]
+                  },
+                  {
                     "title": "Bo Twoje jest kr\u00f3lestwo",
-                    "lyrics": []
-                },
-                {
-                    "title": "Wielka jest tajemnica naszej wiary",
-                    "lyrics": []
-                },
-                {
+                    "lyrics": [
+                      "Bo Twoje jest królestwo * i potęga i chwała na wieki.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Pater noster",
+                    "lyrics": [
+                      "Pater noster, qui es in caelis, * sanctificetur nomen tuum, * adveniat regnum tuum, * fiat voluntas tua * sicut in caelo et in terra, * Panem nostrum quotidianum da nobis hodie; * \r\n",
+                      "et dimitte nobis debita nostra * sicut et nos dimittimus debitoribus nostris, * et ne nos inducas in tentationem, * sed libera nos a malo.\r\n"
+                    ]
+                  },
+                  {
                     "title": "Tajemnica wiary",
-                    "lyrics": []
-                },
-                {
+                    "lyrics": [
+                      "Chrystus umarł, * Chrystus zmartwychwstał, * Chrystus powróci.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Oto wielka tajemnica wiary",
+                    "lyrics": [
+                      "Głosimy śmierć Twoją, Panie Jezu, wyznajemy Twoje zmartwychwstanie, i oczekujemy Twego przyjścia w chwale.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Wielka jest tajemnica naszej wiary",
+                    "lyrics": [
+                      "Ile razy ten chleb spożywamy i pijemy z tego kielicha, * głosimy śmierć Twoją, Panie, oczekując Twego przyjścia w chwale.\r\n"
+                    ]
+                  },
+                  {
                     "title": "Uwielbiajmy tajemnic\u0119 wiary",
-                    "lyrics": []
-                }
+                    "lyrics": [
+                      "Panie, Ty nas wybawiłeś, * przez krzyż i zmartwychwstanie swoje, * Ty jesteś Zbawicielem świata.\r\n"
+                    ]
+                  },
+                  {
+                    "title": "Wierzę w Boga (Credo)",
+                    "lyrics": [
+                      "Wierzę w jednego Boga, Ojca Wszechmogącego, Stworzyciela nieba i ziemi, * Wszystkich rzeczy widzialnych i niewidzialnych. * \r\n",
+                      "I w jednego Pana Jezusa Chrystusa, Syna Bożego Jednorodzonego, * który z Ojca jest zrodzony przed wszystkimi wiekami. * \r\n",
+                      "Bóg z Boga, Światłość ze Światłości. * Bóg prawdziwy z Boga prawdziwego. * \r\n",
+                      "Zrodzony a nie stworzony, współistotny Ojcu, * a przez Niego wszystko się stało. * \r\n",
+                      "On to dla nas ludzi * i dla naszego zbawienia zstąpił z nieba * .\r\n",
+                      "I za sprawą Ducha Świętego przyjął ciało z Maryi Dziewicy * i stał się człowiekiem. * \r\n",
+                      "Ukrzyżowany również za nas, * pod Poncjuszem Piłatem został umęczony i pogrzebany. * \r\n",
+                      "I zmartwychwstał trzeciego dnia jak oznajmia Pismo. * I wstąpił do nieba, siedzi po prawicy Ojca. * \r\n",
+                      "I powtórnie przyjdzie w chwale sądzić żywych i umarłych, * a Królestwu Jego nie będzie końca. * \r\n",
+                      "Wierzę w Ducha Świętego, Pana i Ożywiciela, * który od Ojca i Syna pochodzi, * \r\n",
+                      "Który z Ojcem i Synem współnie odbiera uwielbienie i chwałę, * który mówił przez Proroków. * \r\n",
+                      "Wierzę w jeden, świety, powszechny i apostolski Kościół. * Wyznaję Jeden chrzest na odpuszczenie grzechów. * \r\n",
+                      "I oczekuję wskrzeszenia umarłych * i życia wiecznego w przyszłym świecie. Amen. \r\n"
+                    ]
+                  },
+                  {
+                    "title": "Credo in unum Deum",
+                    "lyrics": [
+                      "Credo in unum Deum: Patrem omnipotentem, factorem caeli et terrae, * visibilium omnium et invisibilium. * \r\n",
+                      "Et in unum Dominum, Iesum Christum, Filium Dei unigenitum. * Et ex Patre natum ante omnia saecula. *\r\n",
+                      "Deum de Deo, lumen de lumine, Deum verum de Deo vero. * Genitum non factum, consubstantialem Patri: \r\n",
+                      "Per quem omnia facta sunt. Qui propter nos homines, et propter nostram salutem descendit de caelis. *\r\n",
+                      "Et incarnatus est de Spiritus Sancto ex Maria Virgine: et homo factus est. * Crucifixus etiam pro nobis: sub Pontio Pilato passus, et sepultus est. *\r\n",
+                      "Et resurrexit tertia die, secundum Scripturas. Et ascendit in caelum: sedet ad dexteram Patris. * \r\n",
+                      "Et iterum venturus est cum gloria iudicare vivos, et mortuos: cuius regni non erit finis. *\r\n",
+                      "Et in Spiritum Sanctum, Dominum et vivificantem: * Qui ex Patre Filioque procedit. * \r\n",
+                      "Qui cum Patre et Filio simul adoratur, et conglorificatur: qui locutus est per Prophetas. *\r\n",
+                      "Et unam, sanctam, catholicam et apostolicam Ecclesiam. * Confiteor unum baptisma in remissionem peccatorum. *\r\n",
+                      "Et exspecto resurrectionem mortuorum. Et vitam venturi saeculi. Amen.\r\n"
+                    ]
+                  }
             ],
             "Chrystus Kr\u00f3l": [
                 {
