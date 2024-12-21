@@ -50,6 +50,7 @@ function updateWindow(){
     }
 
     var displayWind = getWindow("displayWind")
+  
     verse = document.getElementsByClassName("currentVerse")[0]
 
     if (!displayWind || !verse){
