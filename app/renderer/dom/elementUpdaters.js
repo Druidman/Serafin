@@ -12,6 +12,10 @@ function updatePlayView(song){
     var playview = document.getElementById("playView")
     playview.innerHTML = ""
     playview.scrollTop = 0
+    if (!song[0]){
+        return false
+    }
+    
 
     
     var firstVerseElement = construct_verse(song[0])

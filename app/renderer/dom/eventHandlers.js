@@ -41,9 +41,20 @@ function playlistRecord_click_event(event){
     }
     
     event.currentTarget.classList.add("selected")
+    
     var id = event.currentTarget.id
     var song = getSongFullById(id)
+    
     updatePlayView(song)
+    
+
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state == "shown"){
+        displayWind.updateWindow()
+    }
+
+
     
 
 
@@ -65,17 +76,13 @@ function add_db_record_button_click_event(button){
 //
 
 function playlist_record_button_click_event(event){
-    var button = event.currentTarget
+    
     var playlistRecord = event.currentTarget.parentNode
     removeFromPlaylist(playlistRecord)
     if (playlistRecord.classList.contains("selected")){
         var playView = document.getElementById("playView")
         playView.innerHTML = ""
 
-        // var playButton = document.getElementById("play")
-        // playButton.innerHTML = "Show"
-        // displayWind.hidWindow()
-        // playButton.style["background-color"] = "#FFFFFF"
     }   
     
     
@@ -130,34 +137,105 @@ function handlePrevVerseEvent(event){
     scrollPlayView()
 }
 function handlePlayButtonEvent(event){
-    // if (event.pointerType !== 'mouse') {
-    //     return;
-    // }
-    // event.stopPropagation();
-    var button = event.currentTarget
-    
+    if (event.pointerType !== 'mouse') {
+        return;
+    }
+    event.stopPropagation();
     const windName = "displayWind"
     const filename = "display.html"
+
+    var playButton = event.currentTarget
+    var state = playButton.getAttribute("data-value")
 
     if (!windManager.check_window_active(windName)){
         windManager.openNewWindow(filename,windName)
     }
 
-    if (button.innerHTML == "Show"){
-        displayWind.updateWindow()
-        button.innerHTML = "Hid"
-        button.style["background-color"] = "#FFFFFF"
+
+    switch(state){
+        case "shown":
+            playButton.innerHTML = "Show"
+            playButton.setAttribute("data-value","hidden")
+            playButton.style["background-color"] = "#8b8b8b"
+            displayWind.hideWindow()
+            
+            break
+        case "hidden":
+            playButton.innerHTML = "Hide"
+            playButton.setAttribute("data-value","shown")
+            playButton.style["background-color"] = "#FFFFFF"
+            displayWind.showWindow()
+
+            break
     }
-    else if (button.innerHTML == "Hid"){
-        displayWind.hidWindow()
-        button.innerHTML = "Show"
-        button.style["background-color"] = "#8b8b8b"
-    }
+    
 }
 function handleCategorySelectorEvent(event){
     var categories = getSongCategories()
     
     load_categories(categories)
+}
+function handleStashButtonEvent(event){
+    var button = event.currentTarget
+    
+    if (button.getAttribute("data-value") == "hide"){
+        button.setAttribute("data-value","show")
+    }
+    else if (button.getAttribute("data-value") == "show"){
+        button.setAttribute("data-value","hide")
+    }
+}
+
+function handleNextPlaylistRecord(event){
+    var selected = document.getElementsByClassName("selected")[0]
+    if (selected == null){
+        return
+    }
+
+    var nextSelected = selected.nextElementSibling
+    console.log(nextSelected)
+    if (nextSelected == null){
+        return
+    }
+
+    selected.classList.remove("selected")
+    nextSelected.classList.add("selected")
+    var id = nextSelected.id
+    var song = getSongFullById(id)
+    updatePlayView(song)
+
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state == "shown"){
+        displayWind.updateWindow()
+    }
+    
+}
+function handlePrevPlaylistRecord(event){
+    var selected = document.getElementsByClassName("selected")[0]
+    
+    if (!selected){
+        return
+    }
+
+    var prevSelected = selected.previousElementSibling
+    
+    if (!prevSelected){
+        return
+    }
+
+    selected.classList.remove("selected")
+    prevSelected.classList.add("selected")
+
+    var id = prevSelected.id
+    var song = getSongFullById(id)
+    updatePlayView(song)
+
+    var playButton = document.getElementById("play")
+    var state = playButton.getAttribute("data-value")
+    if (state == "shown"){
+        displayWind.updateWindow()
+    }
 }
 
 document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
@@ -165,6 +243,37 @@ document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
 document.getElementById("next").addEventListener("click",handleNextVerseEvent)
 document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
 document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
+document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
+
+
+document.addEventListener("keydown",(event)=>{
+    switch (event.code){
+        case "ArrowLeft":
+        case "Numpad4":
+            handlePrevVerseEvent(event)
+            break
+
+        case "ArrowRight":
+        case "Numpad6":
+        case "Space":
+            handleNextVerseEvent(event)
+            break
+        
+        case "ArrowUp":
+        case "Numpad8":
+            handlePrevPlaylistRecord(event)
+            break
+
+        case "ArrowDown":
+        case "Numpad2":
+            handleNextPlaylistRecord(event)
+            break
+
+        case "Numpad0":
+            displayWind.showWindow()
+    }
+})
+
 
 export { 
     add_db_record_button_click_event, 
