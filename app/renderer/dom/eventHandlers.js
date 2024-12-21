@@ -136,7 +136,7 @@ function handlePrevVerseEvent(event){
     }
     scrollPlayView()
 }
-function handlePlayButtonEvent(event){
+async function handlePlayButtonEvent(event){
     if (event.pointerType !== 'mouse') {
         return;
     }
@@ -148,7 +148,8 @@ function handlePlayButtonEvent(event){
     var state = playButton.getAttribute("data-value")
 
     if (!windManager.check_window_active(windName)){
-        windManager.openNewWindow(filename,windName)
+        await windManager.openNewWindow(filename,windName)
+        
     }
 
 

@@ -1,10 +1,15 @@
 var windows = {}
 
-function openNewWindow(filename,name){
+async function openNewWindow(filename,name){
     
     var newWind = window.open(filename,"_blank","width=1000,height=500,frame=false")
+    return new Promise((resolve,reject)=>{
+        newWind.addEventListener("load",()=>{
+            windows[name] = newWind
+            resolve(newWind)
+        })
+    })
     
-    windows[name] = newWind
 }
 
 function check_window_active(name){
