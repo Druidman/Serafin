@@ -1020,6 +1020,18 @@
                 }
             ],
             "Adwent": [
+                {
+                    "title": "Benedictus (Kantyk Zachariasza)",
+                    "lyrics": [
+                      "Błogosławiony Pan, Bóg Izraela, * bo lud swój nawiedził i wyzwolił * i wzbudził dla nas moc zbawczą * w domu swego sługi Dawida.\r\n",
+                      "Jak zapowiedział od dawna * przez ustaw swych świętych proroków, * że nas wybawi do naszych nieprzyjaciół * i z ręki wszystkich, którzy nas nienawidzą.\r\n",
+                      "Że naszym ojcom okaże miłosierdzie * i wspomni na swe święte przymierze, * na przysięgę którą złożył * ojcu naszemu Abrahamowi",
+                      "Da nam, że z mocy nieprzyjaciół wyrwani, * Służyć Mu będziemy bez trwogi, * w pobożności i sprawiedliwości przed Nim * Po wszystkie dni nasze.\r\n",
+                      "A Ty, dziecię, zwać się będziesz prorokiem Najwyższego, * Gdyż pójdziesz przed Panem przygotować Mu drogi. * Jego ludowi dasz poznać zbawienie * przez odpuszczenie grzechów.\r\n",
+                      "Dzięki serdecznej litości naszego Boga, * z jaką nas nawiedzi z wysoka Wschodzące Słońce, * By oświecić tych, co w mroku i cieniu śmierci mieszkają, * aby nasze kroki skierować na drogę pokoju.\r\n",
+                      "Chwała Ojcu i Synowi, * i Duchowi Świętemu, * jak była na początku, teraz i zawsze * i na wieki wieków. Amen.\r\n"
+                    ]
+                },
                 
                 {
                     "title": "Ju\u017c d\u017awi\u0119czny g\u0142os si\u0119 rozlega",
@@ -1340,10 +1352,7 @@
                     "title": "Cztery \u015bwiece",
                     "lyrics": []
                 },
-                {
-                    "title": "Alleluja... Zdrowa\u015b Maryjo",
-                    "lyrics": []
-                },
+                
                 {
                     "title": "Niebiosa, ros\u0119 \u015blijcie nam z g\u00f3ry",
                     "lyrics": [
@@ -1603,7 +1612,7 @@
                     "lyrics": []
                 },
                 {
-                    "title": "Alleluja... Zdorwa\u015b Maryjo",
+                    "title": "Alleluja... Zdrowa\u015b Maryjo",
                     "lyrics": [
                         "1. Alleluja, * alleluja. Zdrowa\u015b Maryjo, \u0142aski pe\u0142na Pan z Tob\u0105, * b\u0142ogos\u0142awiona\u015b Ty mi\u0119dzy niewiastami. * Alleluja",
                         " "
