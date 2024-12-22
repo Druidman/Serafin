@@ -8,6 +8,7 @@
 </head>
 <style>
     body {
+        
         margin: 0;
         background-color: white;
         font-size: 10vh;
@@ -18,11 +19,29 @@
         height: 100vh;
         width: 100vw;
     }
+  
+   
    
 </style>
 <body>
-    
-    <p>Wczytywanie bazy danych...</p>
-    
+    <p id="textElement">Wczytywanie bazy danych</p>
 </body>
+<script>
+    const text = "Wczytywanie bazy danych"
+    const textElement = document.getElementById("textElement");
+    let index = 0;
+
+    function typeText() {
+        if (index < 4) {
+            textElement.innerHTML += ".";
+            index++;
+        } else {
+            textElement.innerHTML = text;
+            index = 0;
+        }
+    }
+
+    setInterval(typeText, 100);
+
+</script>
 </html>
