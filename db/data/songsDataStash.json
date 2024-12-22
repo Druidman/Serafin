@@ -1,0 +1,4822 @@
+{
+    "data": {
+        "categories": {
+            "Suplikacje": [
+                {
+                    "title": "Daj nam mi\u0142y pok\u00f3j",
+                    "lyrics": []
+                }
+            ],
+            "\u015apiewy \u015blubne": [
+                {
+                    "title": "B\u00f3g u\u015bwi\u0119ca wasz zwi\u0105zek",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed Bogiem ci \u015blubuj\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Umi\u0142owa\u0142e\u015b sw\u00f3j Ko\u015bci\u00f3\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto Bo\u017ce serc tych dwoje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko us\u0142ysz mod\u0142y dzieci",
+                    "lyrics": []
+                }
+            ],
+            "Godzinki": [
+                {
+                    "title": "Witaj, \u015bwi\u0105tynio Boga",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, Matko szlachetna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zawitaj, Pani \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Godzinki o Niepokalanym Pocz\u0119ciu Naj\u015bwi\u0119tszej Maryi Panny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, miasto ucieczki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z pok\u0142onem, Panno \u015awi\u0119ta",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zacznijcie, wargi nasze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, \u015bwiat\u0142o z Gabaon",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zawitaj, Panno m\u0105dra",
+                    "lyrics": []
+                }
+            ],
+            "Sekwencje": [],
+            "\u015apiewy na pokropienie": [
+                {
+                    "title": "Pragniemy Twojej wody \u017cywej",
+                    "lyrics": []
+                },
+                {
+                    "title": "Widzia\u0142em wod\u0119 p\u0142yn\u0105c\u0105",
+                    "lyrics": []
+                }
+            ],
+            "Chrzest": [
+                {
+                    "title": "Z Twojego boku, Chryste, wyp\u0142yn\u0105\u0142 zdr\u00f3j wody \u017cywej",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wy wszyscy, kt\u00f3rzy zostali\u015bcie ochrzczeni",
+                    "lyrics": []
+                }
+            ],
+            "Duch \u015awi\u0119ty": [
+                {
+                    "title": "Boski nasz Pocieszycielu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchu Bo\u017cy, \u015bwiat\u0142o sumie\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a Duchu prawdy i \u015bwiat\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a, Duchu \u015awi\u0119ty, i zapal w nas p\u0142omie\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Veni Sancte Spiritus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchu \u015bwi\u0119ty, o\u015bwie\u0107 nas",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchu \u015bwi\u0119ty, wo\u0142amy do Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Teraz wzywam Ciebie, Duchu ",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panie Jezu, ze\u015blij Ducha Pocieszyciela",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pro\u015bmy dzi\u015b \u015bwi\u0119tego Ducha",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchu przyjd\u017a, odn\u00f3w nas",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyb\u0105d\u017a, Duchu Stworzycielu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchu \u015bwi\u0119ty, odnawiasz nasze \u017cycie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchu \u015bwi\u0119ty, daj nam \u015bwiat\u0142o",
+                    "lyrics": []
+                },
+                {
+                    "title": "Umocnieni Duchem \u015bwi\u0119tym, b\u0105d\u017amy \u015bwiadkami Chrystusa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Umocnij nas Duchu \u015bwi\u0119ty, aby \u015bwiadkiem wiary by\u0107",
+                    "lyrics": []
+                }
+            ],
+            "Maryjne": [
+                {
+                    "title": "R\u00f3\u017ca\u0144cowa Pani, Kr\u00f3lowo, Tobie si\u0119 zawierzamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie wznawiamy Panno",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anio\u0142 Gabryel w poselstwie przychodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielbi dusza moja Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oblecz si\u0119 ziemio w z\u0142otolite szaty",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142uchaj g\u0142osu Gabriela",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielbij, duszo moja, Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przez czy\u015b\u0107cowe upalenia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ziemia o\u017cy\u0142a, niebo tryumf gra\u0142o",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z pomoc\u0105 Boga mi\u0142ego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cierpi\u0105ca Kr\u00f3lowo m\u0119czennik\u00f3w",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, Gwiazdo morska",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Bo\u017ca, Gromniczna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Daj nam, Chryste, wspomo\u017cenie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lowo nieba",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3luj\u0105ca w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mi\u0142osierna Matko Boska",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech zabrzmi\u0105 hymny radosne",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj nieba i nad nieba jasna ozdobo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kto chce Pannie Maryi s\u0142u\u017cy\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryja Panna El\u017cbiet\u0119 nawiedza",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pani Fatimska, przy Tobie stajemy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bolej\u0105ca Matka sta\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "W pierwszym momencie bez zmazy pocz\u0119ta",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gwiazdo morza, kt\u00f3ra\u015b Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bolesna Matko, wci\u0105\u017c czuwasz przy Synu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Co\u0107 Matko, \u017ce\u0107 okiem \u0142zy p\u0142yn\u0105 potokiem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie nad pomys\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Gospodze uwielbiona",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalmy Boga wszechmocnego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czystsza nad s\u0142o\u0144ce oczyszczenia czeka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko r\u00f3\u017ca\u0144ca \u015bwi\u0119tego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Magnificat",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryjo, kt\u00f3ra z mi\u0142o\u015bci\u0105 przyjmujesz pro\u015bby \u015bmiertelnych",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko nasza Mi\u0142osierna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Bo\u017ca Adwentowa, chronisz",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Jutrzenko, zwiastujesz wsch\u00f3d S\u0142o\u0144ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech rozbrzmiewa Bo\u017cej chwa\u0142y pie\u015b\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Uwielbiaj, duszo moja",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Bo\u017ca, co\u015b u krzy\u017ca bolesna sta\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z G\u00f3ry Karmelu Szkaplerza \u015bwi\u0119tego",
+                    "lyrics": []
+                }
+            ],
+            "Dzieci": [
+                {
+                    "title": "Do Serca Swojego mnie tulisz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Szkolny dzwonek ju\u017c nas wzywa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b Komunii cud si\u0119 stanie",
+                    "lyrics": []
+                }
+            ],
+            "\u015apiewy cerkiewne": [
+                {
+                    "title": "O\u017cyjcie, up\u0142ynione wieki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ogromny piorun z iskierk\u0105 w ob\u0142oku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Raj nam jest ten Syon weso\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Od piersi matki mam w Tobie nadziej\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "O\u017cywiaj\u0105cy Duchu \u015bwi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niebo si\u0119 dzi\u015b odzywa",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awi\u0119ta Pustyni, cicho\u015bci odludna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Makryno \u015bwi\u0119ta, per\u0142orodne morze",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142udzy Maryi, wam pewne zbawienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Weselcie si\u0119 nieba, pi\u0119kno\u015bci morza",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142odka nowina, dzi\u015b B\u00f3g dla Syna",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u00f3jdziemy, p\u00f3jdziemy st\u0105d w niewidome krainy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oblecz si\u0119 ziemio w z\u0142otolite szaty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystkie narody przyjd\u017acie na gody",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z drogich pere\u0142 wie\u0144ce Tobie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z nami dzi\u015b niebiosa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zatrzymajcie si\u0119, rozpytajcie si\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z g\u00f3r wiekuistych, z Patryarch\u00f3w \u0142ona",
+                    "lyrics": []
+                },
+                {
+                    "title": "Rozmi\u0142uj\u0119 si\u0119 w Tobie, Bo\u017ce, moc moja",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u00f3g, 2. bytno\u015b\u0107, opatrzno\u015b\u0107, godno\u015b\u0107 Stw\u00f3rcy \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Sp\u0142y\u0144cie dzi\u015b, sp\u0142y\u0144cie wszech matek \u017cale",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a na wysoko\u015bci Bogu, gdzie dusz miliony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czas, czas, ju\u017c nios\u0105 trumn\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciesz si\u0119 niebo, s\u0142uchaj ziemio",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awiat\u0142o\u015bci mi\u0142a Anielskiemu oku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b ludu Maryja\u0144ski Stw\u00f3rcy obietnic\u0119 wspomnij",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142uchaj ziemio, s\u0142yszcie mogi\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ty, co\u015b nieba jest ozdob\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "G\u0142os, g\u0142os, g\u0142os dzi\u015b weso\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Te s\u0105 cuda, kt\u00f3re by\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, wodzu pustelnik\u00f3w",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystko widz\u0105cy Bo\u017ce sprawiedliwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wynijd\u017a serc rozumnych \u015bwi\u0119ty ob\u0142oku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zbi\u00f3r Serafin\u00f3w przeczyste \u017arenice",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z g\u0142\u0119biny wiek\u00f3w",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u0179r\u00f3d\u0142o Istno\u015bci, zwierciad\u0142o przeczyste",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, us\u0142ysz mnie, pragn\u0119 ja",
+                    "lyrics": []
+                },
+                {
+                    "title": "Archanielski g\u0142os o\u015bmiela",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b bogowidne wzlatujcie orl\u0119ta",
+                    "lyrics": []
+                },
+                {
+                    "title": "G\u00f3ry Syo\u0144skie, domie wiecznej chwa\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ocu\u0107 si\u0119, ziemio",
+                    "lyrics": []
+                }
+            ],
+            "Adwent": [
+                {
+                    "title": "Ju\u017c d\u017awi\u0119czny g\u0142os si\u0119 rozlega",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lestwo niebieskie, ju\u017c ku nam si\u0119 zbli\u017ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zdrowa\u015b Maryjo [Msza roratnia]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalmy Boga wszechmocnego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto Panna pocznie i porodzi Syna [Msza roratnia]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jasny P\u0142omieniu mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak b\u0142yskawica znak Tw\u00f3j ja\u015bnieje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a Zbawicielu, przynie\u015b nam \u015bwiat\u0142o",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142ycha\u0107 g\u0142os stra\u017cnika w dali",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czysta Dziewico, Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy\u017c przyjdzie Sprawiedliwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech b\u0119d\u0105 przepasane biodra wasze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Posy\u0142a do Panny nie lada Anio\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie nad pomys\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z rado\u015bci\u0105 idziemy na spotkanie Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oczekujemy Zbawiciela \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Podnie\u015bcie w g\u00f3r\u0119 bramy, szczyty wasze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z pomoc\u0105 Boga mi\u0142ego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Radujcie si\u0119 zawsze w Panu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszyscy wierni \u015bpiewajmy",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Gospodze uwielbiona",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cztery \u015bwiece",
+                    "lyrics": []
+                },
+                {
+                    "title": "Na przyj\u015bcie Chrystusa Kr\u00f3la",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie wznawiamy Panno",
+                    "lyrics": []
+                },
+                {
+                    "title": "Prorocy pe\u0142ni natchnienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Urz\u0105d zbawienia ludzkiego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a, Kr\u00f3lu chwa\u0142y, Emmanuelu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Bo\u017ca Adwentowa, chronisz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystus Kr\u00f3l do nas przychodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a, o Zbawicielu \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czekamy Ci\u0119 z t\u0119sknot\u0105 serc",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Jutrzenko, zwiastujesz wsch\u00f3d S\u0142o\u0144ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Raduj si\u0119, niebo, wesel si\u0119 ziemio",
+                    "lyrics": []
+                },
+                {
+                    "title": "Spu\u015b\u0107cie ros\u0119 niebiosa z g\u00f3ry",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie nad pomys\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Marana tha! Przyb\u0105d\u017a, Panie Jezu",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142owo zrodzone przed \u015bwiat\u0142em",
+                    "lyrics": []
+                },
+                {
+                    "title": "Podnie\u015bcie w g\u00f3r\u0119 bramy, szczyty wasze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a do nas, przyjd\u017a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy\u017c przyjdzie Sprawiedliwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cztery \u015bwiece",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czuwajmy w gotowo\u015bci, B\u00f3g sam przyjdzie nas zbawi\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jasny P\u0142omieniu mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Sz\u00f3sta nadesz\u0142a godzina",
+                    "lyrics": []
+                },
+                {
+                    "title": "Radujcie si\u0119! Raz jeszcze powiem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto Panna pocznie i porodzi Syna [Msza roratnia]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a, o Zbawienie poga\u0144skie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Posy\u0142a do Panny nie lada Anio\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Marana tha! Przyjd\u017a, Jezu Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a, Panie Jezu, t\u0119sknie czekamy",
+                    "lyrics": []
+                }
+            ],
+            "Wielki Tydzie\u0144": [
+                {
+                    "title": "Jezu, m\u0105dro\u015b\u0107 i prawda Ojca Przedwiecznego",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u0142aczmy wszyscy najmilejsi",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u0142acz, p\u0142acz kto \u017cyw",
+                    "lyrics": []
+                },
+                {
+                    "title": "Patris sapientia",
+                    "lyrics": []
+                },
+                {
+                    "title": "O grobie chwalebny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech wszystkich wiernych oczy dzi\u015b gorzkie \u0142zy lej\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto znaki Bo\u017cej m\u0119ki",
+                    "lyrics": []
+                },
+                {
+                    "title": "To ja Twym s\u0119dzi\u0105 by\u0142em",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Jezu, jako\u015b ci\u0119\u017cko skatowany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c Chrystus \u017cycie zako\u0144czy\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Vexilla Regis",
+                    "lyrics": []
+                },
+                {
+                    "title": "Krzy\u017cu, b\u0142ogos\u0142awie\u0144stwo ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ho\u0142d Tobie... Ty jeste\u015b Kr\u00f3lem",
+                    "lyrics": []
+                }
+            ],
+            "Cz\u0119\u015bci sta\u0142e": [],
+            "Chrystus Kr\u00f3l": [
+                {
+                    "title": "Jeste\u015b Kr\u00f3lem Wszech\u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lu wieczno\u015bci i czasu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ty\u015b, Jezu, Kr\u00f3lem Wszech\u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ziemskie kr\u00f3lestwo przemija, ziemska pot\u0119ga upada",
+                    "lyrics": []
+                }
+            ],
+            "Wniebowst\u0105pienie": [
+                {
+                    "title": "Przez Twoje \u015bwi\u0119te Wniebowst\u0105pienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wst\u0105pi\u0142 Pan Chrystus dnia tego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech si\u0119 \u015bwiat raduje od ko\u0144ca do ko\u0144ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cieszcie si\u0119 nieba, Jezus do was wchodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystkie narody klaskajcie r\u0119kami",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, nasz Odkupicielu",
+                    "lyrics": []
+                }
+            ],
+            "Wielkanoc": [
+                {
+                    "title": "Weso\u0142y nam dzie\u0144 nasta\u0142, gdy Pan Chrystus zwyci\u0119\u017cy\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdzie jest, o \u015bmierci",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015apiewajcie Panu now\u0105 pie\u015b\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b nam nasta\u0142 dzie\u0144 ozdobny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zmartwychwsta\u0142 Zbawca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z martwych powsta\u0142 Pan prawdziwie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja [wielkanocne]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Aniele Bo\u017cy, gdzie szuka\u0107 Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Szukajcie tego, co w g\u00f3rze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan zmartwychwsta\u0142 i jezt z nami. Dzi\u0119ki Niemu ...",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu Chryste, Zmartwychwstanie i \u017cycie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lowo nieba",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c wschodzi zorza poranna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zmartwychwsta\u0142 Pan",
+                    "lyrics": []
+                },
+                {
+                    "title": "Raduj si\u0119 ziemio, Chrystus zmartwychwsta\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie chwa\u0142a, Synu Bo\u017cy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Na \u015bwi\u0119tej uczcie Baranka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja! Chrystus Zmartwychwsta\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Najwy\u017cszemu Panu chwa\u0142a, Alleluja",
+                    "lyrics": []
+                },
+                {
+                    "title": "Smutek, \u017cal z odej\u015bcia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Widzia\u0142em wod\u0119 p\u0142yn\u0105c\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, dniu \u015bwi\u0119ty, \u017c\u0105dany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystus dla nas zmartwychwsta\u0142",
+                    "lyrics": []
+                }
+            ],
+            "Gorzkie \u017cale": [
+                {
+                    "title": "B\u0105d\u017a pozdrowiony, b\u0105d\u017a pochwalony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, od posp\u00f3lstwa niewinnie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, ja Matka bole\u015bciwa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, widz\u0119 Syna mojego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duszo ozi\u0119b\u0142a, czemu nie gorejesz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, ja Matka tak \u017ca\u0142osna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, od posp\u00f3lstwa niezbo\u017cnie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, na zabicie okrutne",
+                    "lyrics": []
+                }
+            ],
+            "\u015awi\u0119ci": [
+                {
+                    "title": "Bo\u017ce, Ty\u015b \u017ar\u00f3d\u0142em mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Aby nasz j\u0119zyk i g\u0142os",
+                    "lyrics": []
+                },
+                {
+                    "title": "Andrzeju, niegdy\u015b rybaku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciesz si\u0119 ziemio \u015bl\u0105ska, raduj ca\u0142y kraju",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, najwy\u017csza nagrodo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, Stw\u00f3rco \u015bwiata wszego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Barbaro \u015bwi\u0119ta, Patronko konania",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, z\u0142a Ewa nabroi\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, Ojcze wszechmog\u0105cy, us\u0142ysz nasze korne mod\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0119d\u0105c os\u0142awiony przez ludzkie j\u0119zyki",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142aw Ireneuszu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, kt\u00f3ry mieszkasz w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czym jest dla Ciebie ziemska cze\u015b\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Barbaro b\u0142ogos\u0142awiona, M\u0119czennico uwielbiona",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cieszcie si\u0119 dzisiaj",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, o \u015bwi\u0119ty Wawrzy\u0144cze, \u017car apostolski prowadzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a uwielbiony, Ojcze, Stw\u00f3rco \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Drogi klejnocie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Boga z rado\u015bci\u0105 dzisiaj pochwalmy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bracia, uczcijmy szlachetn\u0105 Monik\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Boga z rado\u015bci\u0105 dzisiaj pochwalmy za \u015bwi\u0119t\u0105 siostr\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cho\u0107by przedwcze\u015bnie umar\u0142 sprawiedliwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zygmuncie natchniony przez \u0142ask\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona mi\u0119dzy niewiastami",
+                    "lyrics": []
+                },
+                {
+                    "title": "Betlejem, miasto szcz\u0119\u015bliwe",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zwi\u0119d\u0142a\u015b, jak kwiecie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bolej\u0105ca Matka sta\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Drogi klejnocie w niebieskiej koronie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dniu rado\u015bci i wesela",
+                    "lyrics": []
+                },
+                {
+                    "title": "Apostolskie prace, trudy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Blask Twej mi\u0142o\u015bci Dziewico",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zwiastunko s\u0142o\u0144ca, Jutrzenka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142o narodu polskiego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chryste \u0142askawy, w\u0142adco ca\u0142ej ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142o narodu polskiego, kap\u0142an\u00f3w wielka ozdobo",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u00f3g Dawidowi z\u0142o\u017cy\u0142 obietnic\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce chwa\u0142y, Ojcze ludu",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony Szymonie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Doroto, \u015bwi\u0119ta Dziewico",
+                    "lyrics": []
+                },
+                {
+                    "title": "Aniele, ty\u015b mi dany",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony ubogi w duchu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u0119ki Ci, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u0141agodny mnichu i czujny pasterzu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zbli\u017ccie si\u0119 niewinne panny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zwiastunie \u0142aski niebia\u0144skiej",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czcijmy \u015bpiewem uroczystym dzie\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ziemia o\u017cy\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalmy Boga z wysoko\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u0119kujmy Bogu za opatrzno\u015b\u0107 Jego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dwa filary s\u0105 Ko\u015bcio\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Chryste, blasku Ojca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Chryste, wobec \u015bwiata wyzna\u0142 Brunon",
+                    "lyrics": []
+                },
+                {
+                    "title": "Aby nasz j\u0119zyk i g\u0142os w dzie\u0144 dzisiejszy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, co w \u015bwi\u0119tych chwa\u0142\u0119 sw\u0105 objawiasz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Agnieszko, \u015awi\u0119ta Dziewico",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dobry pielgrzymie mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anielo \u015bwi\u0119ta, Dziewico",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u00f3g wszechmog\u0105cy, nad wszystko wi\u0119kszy",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142a\u017ceju \u015bwi\u0119ty, od pierwszej m\u0142odo\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u00f3g, kt\u00f3ry \u015bwiatem rz\u0105dzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czym jest dla Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anielskich rzesz Ty\u015b dzielny w\u00f3dz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a Polski zn\u00f3w rozb\u0142ys\u0142a w Janie Pawle Drugim",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Klemensie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Boga w \u015bwi\u0119tych wychwalajmy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czy\u0144my \u015bwi\u0119tej Annie dzi\u0119ki nieustannie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciesz si\u0119, ziemio \u015bl\u0105ska",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalcie, o wierni",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dalekich gwiazd Stworzycielu",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona Polak\u00f3w kraino",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony Benonie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Biegniesz m\u0142odzie\u0144cze z po\u015bpiechem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dawnych prorok\u00f3w zapowied\u017a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b wy\u015bpiewujmy z rado\u015bci\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Droga przed Bogiem \u0142ez okrutnych cena",
+                    "lyrics": []
+                },
+                {
+                    "title": "Da\u0142e\u015b, Panie, w d\u0142oniach Honorata",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u0141odzi z koralu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zamilk\u0142y usta proroka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Biegniesz, m\u0142odzie\u0144cze, z po\u015bpiechem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b rado\u015b\u0107 na Syonie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bogumile, godzien chwa\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce Stw\u00f3rco \u015bwiata wszego",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony, ubogi w duchu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Chryste, wobec \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "C\u00f3ro tarnowskiej ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalmy Kr\u00f3la niebieskiego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Chryste",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystus z nieba jest pos\u0142any",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zawitaj wojsko nieogarnionego Kr\u00f3la",
+                    "lyrics": []
+                },
+                {
+                    "title": "By zdolne by\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bracie Albercie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzie\u0144 ju\u017c zacz\u0119ty, wys\u0142awiajmy Boga",
+                    "lyrics": []
+                },
+                {
+                    "title": "Co\u015b u Boga w wiecznej s\u0142awie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u0119kujmy Bogu za \u015bwiat\u0142o s\u0142oneczne",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Klemensie, czcimy dzi\u015b hymnami",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce wszechmocny, nigdy niepoj\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bezinteresownym darem dla bli\u017aniego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cze\u015b\u0107 Tobie, naszej krainy Patronie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z\u0142o\u017cy\u0142e\u015b Panie, w d\u0142oniach kap\u0142ana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zacznijcie s\u0142awi\u0107 Jadwig\u0119 Ksi\u0119\u017cniczk\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Co si\u0119 sta\u0142o przed laty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzie\u0144 ju\u017c zacz\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Do wy\u017cszych rzeczy jestem stworzony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce niepoj\u0119ty, dzi\u015b Franciszek \u015bwi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anno \u015bwi\u0119ta, wielow\u0142adna",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a z nami Bracie Albercie",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u017byj\u0105c, Tereso, umierasz zraniona",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anio\u0142 Wincenty, \u015bliczno\u015b\u0107 Wincenty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chryste, \u0142askawy W\u0142adco ca\u0142ej ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony\u015b, Janie sprawiedliwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142aw, Ireneuszu, dzie\u0144 radosny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce chwa\u0142y, Ojcze ludu, b\u0105d\u017a uwielbiony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bliskie, dalekie s\u0142awi\u0105 Ciebie kraje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dobry Panie, uczy\u0144 z nas narz\u0119dzia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Tomaszu, wys\u0142awiamy wszyscy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z weselem ducha",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystusowego s\u0142awmy m\u0119czennika",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z\u0142a przygnieceni ci\u0119\u017carem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Jakubie, s\u0142awimy \u015bpiewaj\u0105c Tobie z rado\u015bci\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Drogi klejnocie narodu naszego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cze\u015b\u0107 winn\u0105 Tobie, str\u00f3\u017cu m\u00f3j, Aniele",
+                    "lyrics": []
+                }
+            ],
+            "Pie\u015bni do Serca Jezusowego": [
+                {
+                    "title": "Do Serca Swojego mnie tulisz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Id\u017amy do \u017ar\u00f3d\u0142a Prawdy i Dobra",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, Serca Twego wdzi\u0119ki ",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu cichy i pokornego Serca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Naj\u015bwi\u0119tsze Serce Jezusa mego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Serce Jezusa, ciche, pokorne",
+                    "lyrics": []
+                },
+                {
+                    "title": "Serce najs\u0142odsze Jezusa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Litania pokory Tomasza a Kempis",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, dawco przebaczenia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Naj\u015bwi\u0119tszy Stw\u00f3rco wszech\u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z Chrystusowego Serca zdr\u00f3j mi\u0142osierdzia wyp\u0142ywa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oka\u017c mi, Bo\u017ce, mi\u0142osierdzie swoje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Naj\u015bwi\u0119tsze Serce Pana naszego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kochajmy Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj nam, witaj Zbawco",
+                    "lyrics": []
+                },
+                {
+                    "title": "Serce najs\u0142odsze Jezusa, w Tobie jak w arce zamkni\u0119to prawo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech dzi\u015b z naszych serc i dusz",
+                    "lyrics": []
+                }
+            ],
+            "Hymny": [
+                {
+                    "title": "Zbaw lud, w kt\u00f3rym, Bo\u017ce, masz staranie",
+                    "lyrics": []
+                }
+            ],
+            "Inne": [
+                {
+                    "title": "R\u00f3\u017caniec o Naj\u015bwi\u0119tszym Imieniu Jezus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Koronka o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awi\u0119ty, \u015bwi\u0119ty[...] zawsze \u015bwi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "O pe\u0142na lito\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c id\u0119, bo mnie wo\u0142asz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Uwielbiam, Jezu, oblicze Twoje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Sko\u0144czone nasze rozwa\u017cania",
+                    "lyrics": []
+                },
+                {
+                    "title": "Warto\u015b\u0107 cierpienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ubi caritas et amor",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech rado\u015b\u0107 przenika ten dzie\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Za wszystko dobro z Bo\u017cej r\u0119ki wzi\u0119te",
+                    "lyrics": []
+                },
+                {
+                    "title": "Spis tre\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z Tob\u0105 w sercu wyruszamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Szkolny dzwonek ju\u017c nas wzywa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Koronka do Naj\u015bwi\u0119tszej Maryi Panny Szkaplerza \u015awi\u0119tego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyszli\u015bmy dzi\u0119kowa\u0107 Ci, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "R\u00f3\u017caniec o Naj\u015bwi\u0119tszej Maryi Pannie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Sakramentem namaszczenia chorych wyposa\u017cy\u0142e\u015b dla umocnienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak\u017ce wielkie rzeczy Pan B\u00f3g wam uczyni\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142owo Ojca z wysokiej krainy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezus staje nad Jordanem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzwonek wo\u0142a do ko\u015bcio\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Najs\u0142odszy Jezu, gdy do Przemienienia Twojego",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Chryste, wieczny Kap\u0142anie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niebo i ziemia wielbi\u0105 Ciebie, Chryste",
+                    "lyrics": []
+                },
+                {
+                    "title": "Modlitwa pszczelarzy",
+                    "lyrics": []
+                }
+            ],
+            "Litanie": [
+                {
+                    "title": "Litania do Tr\u00f3jcy Przenaj\u015bwi\u0119tszej",
+                    "lyrics": []
+                },
+                {
+                    "title": "Litania o m\u0119ce Pa\u0144skiej",
+                    "lyrics": []
+                },
+                {
+                    "title": "Litaniae Lauretanae",
+                    "lyrics": []
+                },
+                {
+                    "title": "Litania pokory",
+                    "lyrics": []
+                },
+                {
+                    "title": "Litania do Matki Boskiej Piekarskiej",
+                    "lyrics": []
+                }
+            ],
+            "Uwielbienie": [
+                {
+                    "title": "\u015apiewaj sercem ca\u0142ym",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja, zbawienie, chwa\u0142a i moc",
+                    "lyrics": []
+                },
+                {
+                    "title": "Godzien jeste\u015b",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wykrzykuj, ziemio, g\u0142o\u015bno",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak przedziwne imi\u0119 Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z rado\u015bci\u0105 dzi\u0119kujcie dzi\u015b",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ty jeste\u015b Bogiem mym",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jubilate Deo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niechaj b\u0119dzie uwielbiony B\u00f3g nasz, Pan nad Pany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jerozolimo, chwal Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Najwy\u017cszemu Panu chwa\u0142a, Alleluja",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystkie kra\u0144ce ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielkie i dziwne",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a Tobie Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awcie Pana, wszystkie dzie\u0142a Pa\u0144skie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech uwielbienia hymn z serc rozbrzmiewa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech Ci\u0119, Bo\u017ce, wielbi\u0105 wszystkie ludy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ojcze, chwa\u0142a Tobie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nakarmi\u0142e\u015b lud Tw\u00f3j, o Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan jest wielkim Bogiem",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony Pan B\u00f3g Izraela",
+                    "lyrics": []
+                },
+                {
+                    "title": "Twoja jest chwa\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awcie Pana, wywy\u017cszajcie Kr\u00f3la wiek\u00f3w",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchem ca\u0142ym wielbi\u0119 Boga",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielki jeste\u015b, Panie (wersja ks. Pawlaka)",
+                    "lyrics": []
+                },
+                {
+                    "title": "Uwielbiaj, duszo moja",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony i jedyny W\u0142adco",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezus Najwy\u017csze Imi\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u0119ki, o Bo\u017ce Ojcze",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awi\u0119ty, \u015awi\u0119ty, \u015awi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wychwalajcie Pana, bo ukocha\u0142 nas",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielbij Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielbij, duszo moja, Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Magnificat",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony b\u0105d\u017a Ojcze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystkie narody chwalcie Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panie, nasz Bo\u017ce, uwielbiamy Imi\u0119 Twoje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech ca\u0142y \u015bwiat z rado\u015bci\u0105 s\u0142awi Boga",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142aw, duszo moja, Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panie, Tw\u00f3j tron",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015apiewaj, \u015bpiewaj sercem ca\u0142ym",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u0119ki, Tobie, Bo\u017ce, w tej chwili sk\u0142adamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a Tobie i dzi\u0119ki, Panie wszechstworzenia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Uwielbiajmy Boga Ojca przez pos\u0142usze\u0144stwo Jezusa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Godzien jest",
+                    "lyrics": []
+                },
+                {
+                    "title": "Memu Bogu Kr\u00f3lowi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pie\u015b\u0144 wdzi\u0119czno\u015bci \u015bpiewaj Panu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzisiaj, w pierwszym dniu tygodnia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalcie, o dziatki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Najwy\u017cszej chwa\u0142y godzien jeste\u015b, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015apiewaj Alleluja Panu!",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystko, co \u017cyje, niech wielbi ",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u0119kujmy zawsze za wszystko Bogu Ojcu",
+                    "lyrics": []
+                }
+            ],
+            "Nieszpory": [
+                {
+                    "title": "Chrystus Pan jest kap\u0142anem na wieki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Podnios\u0119 kielich zbawienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalcie Boga naszego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech przyjdzie Panie, Twoje kr\u00f3lestwo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalcie, o dziatki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystus, wieczny kap\u0142an",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielbij, duszo moja, Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzie\u0144 ten nam sam Pan B\u00f3g sprawi\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nim czas si\u0119 pocz\u0105\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto ja s\u0142u\u017cebnica Pa\u0144ska",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan sprawi\u0142, \u017ce trwa pami\u0119\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c s\u0142o\u0144ce (w)schodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panie, Ty jeste\u015b drog\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Je\u017celi domu sam Pan nie zbuduje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zakr\u00f3lowa\u0142 Pan, B\u00f3g nasz wszechmog\u0105cy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, Gwiazdo morska",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ucieszy\u0142a mnie wie\u015b\u0107 po\u017c\u0105dana",
+                    "lyrics": []
+                },
+                {
+                    "title": "O \u015bwi\u0119ta Uczto, na kt\u00f3rej  przyjmujemy Chrystusa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech b\u0119dzie b\u0142ogos\u0142awiony B\u00f3g i Ojciec",
+                    "lyrics": []
+                },
+                {
+                    "title": "Uwielbiaj, duszo moja",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nakarmi\u0142 ich chlebem z nieba",
+                    "lyrics": []
+                },
+                {
+                    "title": "Rzek\u0142 Pan do Pana mego, si\u0105d\u017a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, dniu pierwszy",
+                    "lyrics": []
+                },
+                {
+                    "title": "W blasku \u015bwi\u0119to\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielkie rzeczy uczyni\u0142 mi wszechmocny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Szcz\u0119\u015bliwy i nie zna ka\u017ani",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015apiewajcie Panu z weselem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech dzieci Ko\u015bcio\u0142a raduj\u0105 si\u0119 swoim Kr\u00f3lem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja, zbawienie, chwa\u0142a i moc",
+                    "lyrics": []
+                },
+                {
+                    "title": "Noc nadesz\u0142a po\u017c\u0105dana",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony jeste\u015b, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, wejrzyj ku wspomo\u017ceniu memu",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awcie Pana, wszystkie dzie\u0142a Pa\u0144skie [Nieszpory]",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona jeste\u015b mi\u0119dzy niewiastami ",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony jeste\u015b, Panie, na sklepieniu niebios",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chryste, Synu Boga \u017cywego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed obliczem Pana zadr\u017ca\u0142a ziemia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech pe\u0142na \u0142aski wstawia si\u0119 za nami",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, Kr\u00f3lowo, Matko lito\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielbi dusza moja Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nasz B\u00f3g jest w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjd\u017a kr\u00f3lestwo Twoje, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Stw\u00f3rco \u015bwiat\u0142a wszechmog\u0105cy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy z Egiptu Izrael wychodzi\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Trzej m\u0142odzie\u0144cy w piecu ognistym",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan B\u00f3g wzbudzi\u0142 dla nas moc zbawcz\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan rozci\u0105gnie moc swego ber\u0142a ze Syjonu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panie, Ty jeste\u015b naszym \u017cyciem i zbawieniem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zdrowa\u015b Maryjo, \u0142aski pe\u0142na [Nieszpory]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zadr\u017ca\u0142a ziemia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nie nam, o Panie, nie nam",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015apiewajcie Panu pie\u015b\u0144 now\u0105 [Nieszpory]",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a pozdrowiona, Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony Pan B\u00f3g Izraela",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierz\u0119 w Boga! Tym si\u0119 chlubi\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Stw\u00f3rco \u015bwiat\u0142o\u015bci najlepszy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja, B\u00f3g wskrzesi\u0142 Chrystusa z martwych",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona jeste\u015b, Maryjo, kt\u00f3ra uwierzy\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awieni, kt\u00f3rzy \u0142akn\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto ju\u017c bledn\u0105 mroczne cienie nocy",
+                    "lyrics": []
+                },
+                {
+                    "title": "O \u015bwicie szukam Ciebie, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Rzek\u0142 Pan do Pana mego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Boga naszego chwalcie wszystkie ziemie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech imi\u0119 Pa\u0144skie b\u0119dzie b\u0142ogos\u0142awione",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, m\u00f3j Bo\u017ce, szukam Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ca\u0142ym Ci\u0119 sercem chwali\u0107 b\u0119d\u0119, Panie",
+                    "lyrics": []
+                }
+            ],
+            "Za zmar\u0142ych": [
+                {
+                    "title": "B\u00f3g mi\u0142osierny daje odkupienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, Kr\u00f3lowo, Matko mi\u0142osierdza",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, jeste\u015b ponad \u015bwiatem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wieczny odpoczynek [psalm]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, Ojcze wszechmog\u0105cy i wieczny, Panie \u017cycia i \u015bmierci",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awie\u0144stwo [pogrzeb]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cierpi\u0105cym duszom w czy\u015b\u0107cu po\u017carach",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu Chryste, Zmartwychwstanie i \u017cycie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyb\u0105d\u017acie z nieba na g\u0142os naszych modlitw",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b moj\u0105 dusz\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, w \u0142askowo\u015bci swojej",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zaczynam lament wi\u0119\u017ani\u00f3w j\u0119cz\u0105cych",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyb\u0105d\u017acie, \u015awi\u0119ci Bo\u017cy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech anio\u0142owie zawiod\u0105 ci\u0119 do raju",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z pokor\u0105 wielk\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przez czy\u015b\u0107cowe upalenia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ja jestem zmartwychwstanie i \u017cycie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pogrzebmy\u017c to cia\u0142o w grobie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Jezu, nadziejo moja",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie, Bo\u017ce, wznosim pienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Spojrzyj na Syna Twojego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ufno\u015b\u0107 mia\u0142em nawet wtedy, gdy m\u00f3wi\u0142em",
+                    "lyrics": []
+                },
+                {
+                    "title": "W krainie \u017cycia b\u0119d\u0119 widzia\u0142 Boga",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cierpi\u0105cym duszom w czy\u015bcu po\u017carach",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, Ty p\u0142aka\u0142e\u015b nad \u015bmierci\u0105 \u0141azarza",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Bo\u017ce przedwieczny, odpoczynek wieczny daj duszom wiernych",
+                    "lyrics": []
+                },
+                {
+                    "title": "W \u0142askawo\u015bci niepoj\u0119ty, Ojcze, Synu, Duchu \u015bwi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Procesja na Dzie\u0144 Zaduszny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Postrze\u017c si\u0119 z rozumu obrany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, Kr\u00f3lowo, Matko lito\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mi\u0142uj\u0119 Pana, albowiem us\u0142ysza\u0142",
+                    "lyrics": []
+                }
+            ],
+            "Tr\u00f3jca przenaj\u015bwi\u0119tsza": [
+                {
+                    "title": "Ojcze, chwa\u0142a Tobie",
+                    "lyrics": []
+                },
+                {
+                    "title": "W Tr\u00f3jcy Przenaj\u015bwi\u0119tszej, jedyny nasz Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u00f3g jest Jeden, w Trzech Osobach",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce wszechmocny, w Tr\u00f3jcy niepoj\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie s\u0142awimy, Tr\u00f3jco przenaj\u015bwi\u0119tsza",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Tr\u00f3jco godna chwalenia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ja wasz sercem jestem ca\u0142ym",
+                    "lyrics": []
+                },
+                {
+                    "title": "O \u015awiat\u0142o\u015bci wiekuista, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiony jeste\u015b Bo\u017ce, w jedno\u015bci Tr\u00f3jcy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wed\u0142ug sta\u0142ego porz\u0105dku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c s\u0142o\u0144ce (w)schodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wys\u0142uchaj, wys\u0142uchaj, wys\u0142uchaj",
+                    "lyrics": []
+                },
+                {
+                    "title": "Trzy osoby cze\u015b\u0107 maj\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Koronka o Tr\u00f3jcy Przenaj\u015bwi\u0119tszej",
+                    "lyrics": []
+                },
+                {
+                    "title": "O \u015awiat\u0142o\u015bci wiekuista, Bo\u017ce jeden w Tr\u00f3jcy \u015bwi\u0119tej",
+                    "lyrics": []
+                }
+            ],
+            "Przygodne": [
+                {
+                    "title": "My, Ko\u015bci\u00f3\u0142 \u015bwi\u0119ty, Rodzina Dzieci Bo\u017cych",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c \u017ar\u00f3d\u0142o nieszcz\u0119\u015b\u0107 odkryte",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech Ci\u0119 chwali, Bo\u017ce, owoc naszej pracy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdzie jeste\u015b o \u0179r\u00f3d\u0142o",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gwiazdo morza, kt\u00f3ra\u015b Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Bo\u017ce, Ty mnie nie opuszczaj",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystus odda\u0142 za nas swoje \u017cycie",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awieni ubodzy w duchu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, z Twoich r\u0105k \u017cyjemy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chryste, pokornie prosimy, wys\u0142uchaj naszej modlitwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z mi\u0142o\u015bci\u0105, rado\u015bci\u0105, idziemy do Ciebie, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "G\u0142o\u015bmy Chrystusa ukrzy\u017cowanego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a b\u0105d\u017a Bogu w Tr\u00f3jcy jedynemu",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Panie, ze\u015blij swego Ducha",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, Ty jeste\u015b niezmiern\u0105 dobroci\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Brzmi w sercu trwoga",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z Tob\u0105, Jezu, chcemy \u017cy\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "O naj\u015bwi\u0119tszy Bo\u017ce w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ciebie, Bo\u017ce, chwalimy, Ciebie, Panie, wyznawamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Credo in te, spero in te",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z rado\u015bci\u0105 \u015bpiewajcie Panu wszystkie ziemie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Przedwieczny nasz Panie i Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chryste, Ty\u015b \u017cyciem, dobroci\u0105 i \u015bwiat\u0142em",
+                    "lyrics": []
+                },
+                {
+                    "title": "O, jak jest n\u0119dzny ten \u017cywot cz\u0142owieka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Daj nam mi\u0142y pok\u00f3j",
+                    "lyrics": []
+                },
+                {
+                    "title": "Najs\u0142odszy Jezu, gdy do Przemienienia Twojego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zbaw lud, w kt\u00f3rym, Bo\u017ce, masz staranie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kt\u00f3\u017c mnie pocieszy w biedzie i frasunku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dobry pasterz nie opuszcza trzody",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszechmocny Panie, wiekuisty Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, Twoje zlitowanie dobrze pad\u0142o na cz\u0142owieka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Lucis largitor candide",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystko Tobie dzi\u015b oddaj\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce Ojc\u00f3w naszych, Bo\u017ce Abrahama",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce m\u00f3j, spragniony jestem Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, Zbawicielu \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ojcze wiek\u00f3w pe\u0142en chwa\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystko co oko cz\u0142owieka pod s\u0142o\u0144cem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nie l\u0119kaj si\u0119, wyp\u0142y\u0144 na g\u0142\u0119bi\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce niesko\u0144czony, Stw\u00f3rco nieba, ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, przed wszechmoc\u0105 Twoj\u0105 na kolana padamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, kt\u00f3rego dobro\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c s\u0142o\u0144ce (w)schodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ojcze co\u015b jest w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u00f3g da\u0142 przykazania z mi\u0142o\u015bci do ludzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a uwielbiony, Panie Jezu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wolno\u015b\u0107 jest wsz\u0119dzie tam, gdzie jest Chrystus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Najwy\u017cszej chwa\u0142y godzien jeste\u015b, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a pozdrowiony, Jezu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy jasne s\u0142o\u0144ce ju\u017c wzesz\u0142o",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu zraniony na me duszne rany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nie tak bystro p\u0142ynie rzeka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duszo moja, s\u0142uchaj Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ca\u0142ym Ci\u0119 sercem chwali\u0107 b\u0119d\u0119, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu zwi\u0105zany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mistrzu, jak dobrze, \u017ce tu jeste\u015bmy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ofiara Pa\u0144ska, to dar najcenniejszy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystka moja nadzieja u Boga mojego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, dawco przebaczenia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja... Ca\u0142y \u015bwiat niech si\u0119 w Panu weseli",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdzie\u017c jest Jezus, ma pociecha",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy po\u015br\u00f3d \u017cycia burzy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech Jezus Chrystus b\u0119dzie pochwalony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lu wieczny, b\u0142ogos\u0142aw",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z Bogiem, z Bogiem ka\u017cda sprawa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3l nad kr\u00f3lami i w\u0142adca pokole\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy wieczorne zejd\u0105 zorze",
+                    "lyrics": []
+                },
+                {
+                    "title": "O bezdenna mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ka\u017cde stworzenie \u015bpiewaj",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kap\u0142an\u00f3w swoich da\u0142 nam B\u00f3g",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, ma rado\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zwa\u017c cz\u0142owiecze, zwa\u017c cz\u0142owiecze, aby\u015bmy Boga kochali",
+                    "lyrics": []
+                },
+                {
+                    "title": "Na pocz\u0105tku by\u0142o S\u0142owo",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a pochwalony, Stworzycielu \u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, niesko\u0144czony Bo\u017ce w swej szczodrocie",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u017begnam ci\u0119, m\u00f3j \u015bwiecie weso\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awieni ubodzy i cisi",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Chryste, wznios\u0142a mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jeste\u015b Kr\u00f3lem Wszech\u015bwiata",
+                    "lyrics": []
+                },
+                {
+                    "title": "Fiant Domine",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalcie Boga wszystkie stany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bogu Najwy\u017cszemu niech brzmi wieczna chwa\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dobry Bo\u017ce, szukam Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, Stw\u00f3rco nasz, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Miasto Kr\u00f3la niebieskiego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mi\u0142o\u015b\u0107 jest jedna, od Boga pochodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystkie narody klaskajcie r\u0119kami",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech si\u0119 ze mn\u0105 co chce stanie",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142aw nam Jezu Chryste, Zbawicielu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lestwo Bo\u017ce przychodzi w Jezusie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, co rz\u0105dzisz na ziemi i niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszechmocna mego Opatrzno\u015bci Boga",
+                    "lyrics": []
+                },
+                {
+                    "title": "O, kt\u00f3ry jeste\u015b w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zachowaj Bo\u017ce nam Ojca ludu",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awieni, kt\u00f3rzy zostali wezwani",
+                    "lyrics": []
+                },
+                {
+                    "title": "Naucz nas, Panie, zawsze wype\u0142nia\u0107 wol\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jam jest Pasterz dobry",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awieni ubodzy w duchu (...) Alleluja",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ojcze, modlim si\u0119 do Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "W\u0142adco pot\u0119\u017cny, wierny Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja, alleluja! Chwalcie Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jeszcze raz pozdrowi\u0107 musz\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Daj\u0119 wam przykazanie nowe",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a uwielbiony nasz Stw\u00f3rco i Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chryste, Ty\u015b dniem pe\u0142nym blasku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystko dobrze, co B\u00f3g czyni",
+                    "lyrics": []
+                },
+                {
+                    "title": "Od Chrztu Polski w czasach Mieszka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Drogo, i Prawdo, i \u017bycie, Chrystusie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Co si\u0119 zamy\u015blasz sieroto stroskana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Na swojej d\u0142oni z\u0142o\u017cy\u0142e\u015b nas wszystkich",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mia\u0142em ci ja w sercu",
+                    "lyrics": []
+                },
+                {
+                    "title": "G\u0142o\u015bmy swoim \u017cyciem Mi\u0142osierdzie Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezus Chrystus jest zmartwychwstaniem i \u017cyciem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mi\u0142osierdziem Twoim, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kt\u00f3\u017c nam zagrozi, je\u015bli B\u00f3g jest z nami",
+                    "lyrics": []
+                },
+                {
+                    "title": "My, kr\u00f3lewski szczep Piastowy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Boga naszego chwalcie wszystkie ziemie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wnijd\u0119 do Twego o\u0142tarza, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z Twojego boku, Chryste, wyp\u0142yn\u0105\u0142 zdr\u00f3j wody \u017cywej",
+                    "lyrics": []
+                }
+            ],
+            "Psalmy": [
+                {
+                    "title": "Je\u017celi domu sam Pan nie zbuduje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce m\u00f3j, spragniony jestem Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierz\u0119 w Boga! Tym si\u0119 chlubi\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Rzek\u0142 Pan do Pana mego",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u00f3jd\u017amy, pok\u0142o\u0144my si\u0119 Panu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystko, co \u017cyje, niech wielbi ",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy z Egiptu Izrael wychodzi\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Panie, ze\u015blij swego Ducha",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panie, Ty jeste\u015b dobry i \u0142askawy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mi\u0142uj\u0119 Pana, albowiem us\u0142ysza\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pie\u015b\u0144 wdzi\u0119czno\u015bci \u015bpiewaj Panu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech Ci\u0119, Bo\u017ce, wielbi\u0105 wszystkie ludy",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142aw, duszo moja, Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z g\u0142\u0119boko\u015bci wo\u0142am do Ciebie, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tylko B\u00f3g mi dopomo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z rado\u015bci\u0105 \u015bpiewajcie Panu wszystkie ziemie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ucieszy\u0142a mnie wie\u015b\u0107 po\u017c\u0105dana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wychwalajcie Pana, bo ukocha\u0142 nas",
+                    "lyrics": []
+                },
+                {
+                    "title": "Barnabo \u015bwi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ca\u0142ym Ci\u0119 sercem chwali\u0107 b\u0119d\u0119, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Szcz\u0119\u015bliwy i nie zna ka\u017ani",
+                    "lyrics": []
+                },
+                {
+                    "title": "Od rana wzywam Ci\u0119, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nie nam, o Panie, nie nam",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ufno\u015b\u0107 mia\u0142em nawet wtedy, gdy m\u00f3wi\u0142em",
+                    "lyrics": []
+                },
+                {
+                    "title": "Boga naszego chwalcie wszystkie ziemie",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a pochwalona, Jasnog\u00f3rska Pani",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalcie, o dziatki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszechmocny Panie, wiekuisty Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Przedwieczny nasz Panie i Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech ca\u0142y \u015bwiat z rado\u015bci\u0105 s\u0142awi Boga",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan jest wielkim Bogiem",
+                    "lyrics": []
+                }
+            ],
+            "Eucharystyczne": [
+                {
+                    "title": "Panie i Bo\u017ce, grzesznik\u00f3w chro\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalimy Ci\u0119, Wykupicielu nasz",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a\u017ce pochwalone przenaj\u015bwi\u0119tsze Cia\u0142o",
+                    "lyrics": []
+                },
+                {
+                    "title": "Arcykap\u0142anie Nowego Przymierza",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan uczyni\u0142 wielkie rzeczy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jesu dulcis memoria",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niebo, ziemia, \u015bwiat i morze",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Panie, naucz nas w mi\u0142o\u015bci Twojej trwa\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142aw, j\u0119zyku, pe\u0142n\u0105 chwa\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ecce panis Angelorum",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezusa s\u0142odkie wspomnienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pospieszmy na Uczt\u0119, sam B\u00f3g nas zaprasza",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chlebie \u017cywy z nieba dany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto Chleb Anio\u0142\u00f3w b\u0142ogi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chleb powszedni przynosimy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdzie\u017c jest Jezus, ma pociecha",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy razem si\u0119 schodzimy",
+                    "lyrics": []
+                },
+                {
+                    "title": "O \u015bwi\u0119ta Uczto, w kt\u00f3rej po\u017cywamy Cia\u0142o Chrystusa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chlebem \u017cycia posileni",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, Bo\u017ce utajony",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awieni, kt\u00f3rzy zostali wezwani",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdzie w uroczystej cicho\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "O dobry Jezu m\u00f3j, tu pod postaci\u0105 chleba",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech ziemia i niebo wys\u0142awia Ci\u0119, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak dzi\u0119kowa\u0107, Jezu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zawitaj Cia\u0142o i Krwi Jezusa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chleb Anio\u0142\u00f3w. Manna z nieba",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pan siebie, jako Pokarm \u017bycia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cud przemiany tu si\u0119 dzieje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto Chleb Anio\u0142\u00f3w",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto jest Baranek Bo\u017cy",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Panie, Ty nam dajesz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie ja \u017cyj\u0119, z Ciebie Krynicy",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015apieszmy z rado\u015bci\u0105 na Uczt\u0119 Pa\u0144sk\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce m\u00f3j, spragniony jestem Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "W Eucharystii w\u015br\u00f3d nas stajesz",
+                    "lyrics": []
+                },
+                {
+                    "title": "O s\u0142odki Jezu, wszechmog\u0105cy Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Jezu m\u00f3j i Panie, ukryty w Hostii tej",
+                    "lyrics": []
+                },
+                {
+                    "title": "Winnico Pana, Ko\u015bciele \u015bwi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed Twojego dzi\u015b o\u0142tarza tronem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Id\u017amy do Pa\u0144skiego Sto\u0142u",
+                    "lyrics": []
+                },
+                {
+                    "title": "Na \u015bwi\u0119tej uczcie Baranka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zbawicielu drogi, Panie, Bo\u017ce nasz",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a pozdrowiona rano mego Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b Komunii cud si\u0119 stanie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O milcz\u0105ca Hostio bia\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tu w Komunii \u015bwi\u0119tej dajesz Krew i Cia\u0142o",
+                    "lyrics": []
+                }
+            ],
+            "\u0141aci\u0144skie": [
+                {
+                    "title": "Tota pulchra es Maria",
+                    "lyrics": []
+                },
+                {
+                    "title": "Veni Sancte Spiritus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Missa XI Orbis factor",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mittit ad Virginem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Septimus Tonus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Vexilla Regis",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mittit ad Virginem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Missa VIII De Angelis",
+                    "lyrics": []
+                },
+                {
+                    "title": "Lucis largitor candide",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ecce panis Angelorum",
+                    "lyrics": []
+                },
+                {
+                    "title": "Fiant Domine",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezus, m\u0105dro\u015b\u0107 i prawda",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tonus Peregrinus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Confusus h\u00e6reo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Patris sapientia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Quintus Tonus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Inclytum regni",
+                    "lyrics": []
+                },
+                {
+                    "title": "Primus Tonus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Missa \"primitiva\"",
+                    "lyrics": []
+                },
+                {
+                    "title": "Prosternimur credentes",
+                    "lyrics": []
+                },
+                {
+                    "title": "Infinitae bonitatis",
+                    "lyrics": []
+                },
+                {
+                    "title": "Secundus Tonus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maria, Maria, Tu luna pulchrior",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tertius Tonus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Hodie Christus natus est",
+                    "lyrics": []
+                },
+                {
+                    "title": "In natali Domini",
+                    "lyrics": []
+                },
+                {
+                    "title": "Litaniae Lauretanae",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jesu dulcis memoria",
+                    "lyrics": []
+                },
+                {
+                    "title": "Quartus Tonus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Credo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mentes pi\u00e6 plangite",
+                    "lyrics": []
+                },
+                {
+                    "title": "Credo in te, spero in te",
+                    "lyrics": []
+                },
+                {
+                    "title": "Collaudemus Christum Regem",
+                    "lyrics": []
+                }
+            ],
+            "Nieprzepisane do kategorii": [
+                {
+                    "title": "Wiara si\u0119 rodzi ze s\u0142uchania S\u0142owa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ka\u017cde cierpienie ma wielk\u0105 warto\u015b\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u017bycia czas wype\u0142nia si\u0119, na spotkanie Ojca mknie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O dobry Jezu, Ty chcesz aby ludzie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Podnie\u015bmy g\u0142owy ku niebu, zobaczmy cel",
+                    "lyrics": []
+                },
+                {
+                    "title": "Rado\u015b\u0107 Maryi nasz\u0105 rado\u015bci\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awi\u0119tym by\u0107 - naszym zadaniem",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awi\u0119ta Bo\u017ca Rodzicielko, w ciszy betlejemskiej nocy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Powierzajmy \u017cycie Bo\u017cej Opatrzno\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awiat\u0142o\u015bci \u015bwiata, dajesz \u015bwiat\u0142o \u017cycia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Umieramy w Adamie, nosz\u0105c skutki grzechu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wielbi\u0107 Pana \u017cyciem chc\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed Bogiem staje w rado\u015bci mi\u0142o\u015b\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u00f3jd\u017amy na uczt\u0119 paschaln\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nie mo\u017cna nie widzie\u0107 tak wielkiej Mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pom\u00f3\u017c nam, Panie, wiernie i\u015b\u0107 za Tob\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "U st\u00f3p Chrystusa, stoisz pod Krzy\u017cem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cudown\u0105 Ksi\u0119g\u0119 da\u0142 nam Pan",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u00f3jd\u017a za Mn\u0105, Chrystus wo\u0142a",
+                    "lyrics": []
+                }
+            ],
+            "Bo\u017ce Narodzenie": [
+                {
+                    "title": "Bo\u017ce Dzieci\u0119, witaj nam",
+                    "lyrics": []
+                },
+                {
+                    "title": "Boscy pos\u0142owie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lu anielski, Panie Niebieski",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u00f3g w Tr\u00f3jcy \u015awi\u0119tej sprawi\u0142 to w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oj Jezu, m\u00f3j Synu drogi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kt\u00f3\u017c o tej dobie p\u0142acze we \u017c\u0142obie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Narodzi\u0142 si\u0119 Jezus Chrystus",
+                    "lyrics": []
+                },
+                {
+                    "title": "Narodzi\u0142 si\u0119 Pan",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce i Kr\u00f3lu, jakie\u017c Twoje trony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mamy przyjaciela",
+                    "lyrics": []
+                },
+                {
+                    "title": "C\u00f3\u017c to, prosz\u0119, za nowina",
+                    "lyrics": []
+                },
+                {
+                    "title": "Narodzi\u0142 si\u0119 po\u017c\u0105dany",
+                    "lyrics": []
+                },
+                {
+                    "title": "O b\u0142ogos\u0142awiony \u017c\u0142obie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Otw\u00f3rzcie serca! Pan przychodzi!",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, \u015bliczny kwiecie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdzie\u015bcie, o zacni Kr\u00f3lowie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezus si\u0119 nam narodzi\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "C\u00f3\u017c to za Dzieci\u0119 s\u0142odko \u015bpi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nu\u017ce\u015bmy chrze\u015bcijanie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O, b\u0142ogos\u0142awiony \u017c\u0142obie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O tej dobie le\u017ca\u0142 w \u017c\u0142obie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Miasteczko ma\u0142e, Betlejem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gotuj os\u0142a, J\u00f3zefie, gotuj pr\u0119dko, prosz\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy kr\u00f3l Herod kr\u00f3lowa\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Lata up\u0142ynione, grzechem utopione",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gwiazda \u015awieci nad Betlejem jasnym blaskiem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjmij od nas, Jezu, dzi\u0119ki za Twe narodzenie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyskocz\u0119 ja do z\u0142ej szopy z cicha",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, z\u0142a Ewa nabroi\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kaza\u0142 Anio\u0142 do Betlejem Juda",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kaza\u0142 ci mi kto\u015b",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy s\u0142ysz\u0119 na ob\u0142okach anielskie \u015bpiewanie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Najmilejsi pasterze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Hej, w dzie\u0144 narodzenia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zgi\u0144cie z oczu bogactwa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panna przeczysta Syna porodzi\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Narodzenie Chrystusowe",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czemu Herod dziateczki morduje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Po\u015bpieszcie ju\u017c wszyscy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy \u015bliczna Panna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszyscy niech si\u0119 ciesz\u0105, do Betlejem spiesz\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Betlejem \u015bwi\u0119te, miasteczko ws\u0142awione",
+                    "lyrics": []
+                },
+                {
+                    "title": "Obchodz\u0105c Jezusa dzi\u015b narodzenie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Figurowana r\u00f3\u017cd\u017cka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nie tak bystro p\u0142ynie rzeka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chod\u017acie, pasterze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pasterze bie\u017celi, gdy g\u0142os us\u0142yszeli",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u0141aska nieba g\u00f3rnego dziwn\u0105 rzecz sprawi\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Powiedzcie, pasterze mili, gdzie\u015bcie pod ten czas chodzili",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z raju, pi\u0119knego miasta",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przeszed\u0142 w ubogiej stajni, gwiazda nad nim \u015bwieci\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kiedy s\u0142ysz\u0119 na ob\u0142okach",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przylecieli anio\u0142kowie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszystek \u015bwiat dzisiaj weso\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pastuszkowie ze snu powstali",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cieszmy si\u0119 i pod niebiosy",
+                    "lyrics": []
+                },
+                {
+                    "title": "O \u015awiat\u0142o\u015bci \u015bwiata, male\u0144ka Dziecino",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c nasze serca bij\u0105 rado\u015bnie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nie by\u0142o miejsca dla Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pienia anio\u0142\u00f3w brzmi\u0105 pod niebiosy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bracia, patrzcie jeno",
+                    "lyrics": []
+                },
+                {
+                    "title": "Powiedzcie, pasterze mili",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nies\u0142ychana to nowina",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mo\u017ce teraz by\u0107 weso\u0142ym cz\u0142owiek zw\u0105tpiony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Noc ciemna i zimna rozla\u0142a si\u0119 w kr\u0105g",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezus malusie\u0144ki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anio\u0142 Gabriel z nieba przybywa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Collaudemus Christum Regem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Infinitae bonitatis",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kt\u00f3rego pasterze chwalili",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oj, Malu\u015bki, Malu\u015bki",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Jezu, Jezu, s\u0142odkie Twe wspomnienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Narodzi\u0142 si\u0119 w stajni Jezus ubogi",
+                    "lyrics": []
+                },
+                {
+                    "title": "K\u0119dy wsch\u00f3d s\u0142o\u0144ca i gdzie zapadaj\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, Dziecino w \u017c\u0142\u00f3beczku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zbud\u017acie si\u0119, pasterze",
+                    "lyrics": []
+                },
+                {
+                    "title": "In natali Domini",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przy onej g\u00f3rze \u015bwiec\u0105 si\u0119 zorze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pasterze pa\u015bli trzody na przy\u0142ogu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wstawszy pasterz bardzo rano",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gloria, gloria zawo\u0142ajmy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Alleluja, chwalmy Boga",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c mi\u0142a weso\u0142o\u015b\u0107 dniem naszym rz\u0105dzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Za\u015bnij Dzieci\u0105tko, male\u0144ki Jezu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Albo pi\u0119knie zagrajcie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzie\u0144 ten nam sam Pan B\u00f3g sprawi\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u00f3jd\u017amy wszyscy do stajenki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nowy Rok nadchodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Betlejem \u015bwi\u0119te",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wspomnij, Zbawicielu, sobie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystus si\u0119 narodzi\u0142, przyj\u0105\u0142 cz\u0142owiecze\u0144stwo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mesyasz przyszed\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Powiedzcie nam, pastuszkowie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wsta\u0144cie, wsta\u0144cie, pasterze mili",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pastuszkowie, bracia mili",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c Ojcowie teraz \u015bwi\u0119ci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Hodie Christus natus est",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nad Betlejem Gwiazda \u015bwieci, wok\u00f3\u0142 \u015bwiat\u0142o\u015b\u0107 szerzy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, mi\u0142e Dzieci\u0105tko",
+                    "lyrics": []
+                },
+                {
+                    "title": "Co to za Dzieci\u0119",
+                    "lyrics": []
+                },
+                {
+                    "title": "Noc nadesz\u0142a po\u017c\u0105dana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Powiedzia\u0142y, napisa\u0142y gdzie\u015b Sybille",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niechaj b\u0119dzie pochwalony B\u00f3g w Betlejem narodzony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anielski ch\u00f3r pasterzom og\u0142asza zbawienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dziecina ma\u0142a, B\u00f3g Stw\u00f3rca nieba",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czem, czem, czem, czem ubogo le\u017cysz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak wielka jasno\u015b\u0107 l\u015bni nad Betlejem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panna przedwieczna by\u0142a bezpieczna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Judzk\u0105 krain\u0119 noc okry\u0142a",
+                    "lyrics": []
+                }
+            ],
+            "Nmp": [
+                {
+                    "title": "B\u0105d\u017a pozdrowiona, Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chocia\u017c pragniemy - pozosta\u0144 tu z nami",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gwiazdo morza, kt\u00f3ra\u015b Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalebna i zacna Pani",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kto chce Pannie Maryi s\u0142u\u017cy\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy\u015bmy przyszli do ko\u015bcio\u0142a, Ka\u017cdy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dziewico, Matko i C\u00f3ro Twojego Syna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdzie Matka, tam mi\u0142o\u015b\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cze\u015b\u0107 Maryi, cze\u015b\u0107 i chwa\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dop\u00f3k\u0105d na \u015bwiecie ciemno\u015bci grzechowe",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wzmocnij usta twoje wdzi\u0119czno\u015bci pieniem",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0105d\u017a pozdrowiona, Panno Maryjo, wielbimy Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z dalekiej Fatimy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko, co\u015b mi\u0142o\u015bci zdrojem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech Ciebie chwal\u0105 serca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wzywana b\u0142ogim imieniem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Litaniae Lauretanae",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mi\u0142osierna Matko Boska",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak\u017ce wspania\u0142\u0105 \u015bwiat\u0142o\u015bci\u0105 ja\u015bniejesz [NMP Wspomo\u017cenia Wiernych]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gwiazda niebieska \u015bmier\u0107 wykorzeni\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Naj\u015bwi\u0119tsza, Kr\u00f3lowo Polski",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryjo, kt\u00f3ra z mi\u0142o\u015bci\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona jeste\u015b, Maryjo, i Boski owoc",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lowo Polski, Panno Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lowo Polski, Maryjo, co Jasnej bronisz Cz\u0119stochowy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Magnificat",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ku szczytom nieba pod\u0105\u017ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jutrzenko wschodz\u0105ca przed s\u0142o\u0144cem",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Pani, wielce chwalebna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lowo Polski, czuwamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3luj\u0105ca w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Naj\u015bliczniejsza lilia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zawitaj, Kr\u00f3lowa, b\u0105d\u017a zawsze gotowa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryjo, Ty\u015b dla nas wzorem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anio\u0142\u00f3w ch\u00f3ry",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kto si\u0119 w opiek\u0119 odda Pannie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak\u017ce wspania\u0142\u0105 \u015bwiat\u0142o\u015bci\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Blask Twej mi\u0142o\u015bci Dziewico",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko pot\u0119\u017cna na Niebie i ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryjo, C\u00f3ro kr\u00f3lewska",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u0141odzi z koralu, serc Przewodniczko",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Maryja dobrotliwa, do Ciebie g\u0142os podnosimy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zebrani przed Twoim o\u0142tarzem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kap\u0142an\u00f3w mo\u017cna Kr\u00f3lowo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Naj\u015bwi\u0119tsza, Ciebie prosimy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z wyrok\u00f3w nieba Maryja si\u0119 rodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gwiazdo z niebios l\u015bni\u0105ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryja Panna El\u017cbiet\u0119 nawiedza",
+                    "lyrics": []
+                },
+                {
+                    "title": "O pe\u0142na chwa\u0142y Dziewico",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryjo, czysta Dziewico, jasna jutrzenko zbawienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Kr\u00f3lowo i Dziewico, wzbogacona \u0142ask\u0105 Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niepokalana, ja\u015bniej\u0105ca Pi\u0119kno\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryja, Maryja, witaj ukochana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ile\u017c to razy \u0142askawa Dziewica",
+                    "lyrics": []
+                },
+                {
+                    "title": "Za b\u0142\u0119kitu nieba to\u0144, za pomocn\u0105 Twoj\u0105 d\u0142o\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "O pe\u0142na lito\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Pani nad wszystko s\u0142awniejsza",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Naj\u015bwi\u0119tsza, w obj\u0119ciach Syna",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Maryja, czysta dziewica",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z miasta Rzymu sprowadzona",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maria, Maria, Tu luna pulchrior",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z pomoc\u0105 Boga mi\u0142ego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Idziesz z po\u015bpiechem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy niebo s\u0142awi Twoje wyniesienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Naj\u015bwi\u0119tsza Panno, o Matko Bo\u017ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142awiona mi\u0119dzy niewiastami, Panno, co w Ostrej",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko us\u0142ysz mod\u0142y dzieci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wybra\u0142a\u015b sobie Polsk\u0119, Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jasnog\u00f3rskie \u015bluby narodu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anio\u0142 Gabryel w poselstwie przychodzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak\u017ce wspania\u0142\u0105 \u015bwiat\u0142o\u015bci\u0105 ja\u015bniejesz [NMP Kr\u00f3lowa]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kwiecie Karmelu, Maryjo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cierpi\u0105cym duszom w czy\u015bcu po\u017carach",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kt\u00f3\u017c mnie pocieszy w biedzie i frasunku",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maria, Maria, ave amabilis",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Boska Cz\u0119stochowska, Maryja",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zdrowa\u015b Maryjo, jak zbo\u017cny \u0142an",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, jak smutne jest rozstanie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Przenaj\u015bwi\u0119tsza, Najpobo\u017cniejsza",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Pani \u015bwiata przeczysta",
+                    "lyrics": []
+                },
+                {
+                    "title": "Witaj, o Matko, czysta i \u0142askawa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wzi\u0119ta do nieba Maryja Kr\u00f3lowa, ju\u017c ja\u015bnieje w koronie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zawitaj, ranna Jutrzenko",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wzi\u0119ta\u015b do Nieba, naj\u0142askawsza Pani",
+                    "lyrics": []
+                },
+                {
+                    "title": "Czystsza nad s\u0142o\u0144ce oczyszczenia czeka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystus przej\u0119ty lito\u015bci\u0105 dla ludzi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zawitaj, C\u00f3rko Ojca Przedwiecznego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Koronka do Naj\u015bwi\u0119tszej Maryi Panny Szkaplerza \u015awi\u0119tego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zdrowa\u015b Maryjo, Bogarodzico",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwalmy Boga wszechmocnego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matka Pocieszenia wierny lud wspomaga",
+                    "lyrics": []
+                },
+                {
+                    "title": "Maryja, Maryja, nad ksi\u0119\u017cyc pi\u0119kniejsza",
+                    "lyrics": []
+                },
+                {
+                    "title": "Matko Ko\u015bcio\u0142a, Kr\u00f3lowo matek",
+                    "lyrics": []
+                },
+                {
+                    "title": "Marsz, marsz, me serce, pobudk\u0119 bij\u0105",
+                    "lyrics": []
+                }
+            ],
+            "Mszalne": [
+                {
+                    "title": "Baranku Bo\u017ce, grzesznik niegodzien mi\u0142o\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anio\u0142y z Archanio\u0142ami, W\u0142adz zast\u0119py",
+                    "lyrics": []
+                },
+                {
+                    "title": "W trzech Osobach jednego Boga wyznawamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awi\u0119ty, \u015awi\u0119ty, \u015awi\u0119ty, W\u0142adca Zast\u0119p\u00f3w",
+                    "lyrics": []
+                },
+                {
+                    "title": "S\u0142owo Bo\u017ce nam wskazuje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Panie, Ty przyj\u0105\u0142e\u015b mod\u0142y",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nieogarniony ca\u0142ym \u015bwiatem, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Powsta\u0144cie ludy na g\u0142os niebios Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Msza [na Bo\u017ce Narodzenie, zwyczajna]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, pob\u0142ogos\u0142aw, Bo\u017ce dobrotliwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Msza [w czasie Wielkanocnym]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, Stw\u00f3rco nasz, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto B\u00f3g niebios z nami jest na ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Msza [misyjna]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Racz spojrze\u0107, dobry Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ten, co si\u0119 na krzy\u017cu ofiarowa\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed tronem Twym \u015awi\u0119ci w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto Baranek Bo\u017cy, dla nas um\u0119czony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, ja, grzesznik ",
+                    "lyrics": []
+                },
+                {
+                    "title": "Prosternimur credentes",
+                    "lyrics": []
+                },
+                {
+                    "title": "W \u015bwi\u0119tej utwierdzeni wierze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed Twym tronem upadamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ojcze Przedwieczny, przyjmij tu z\u0142o\u017cone",
+                    "lyrics": []
+                },
+                {
+                    "title": "Anio\u0142owie Tobie, Bo\u017ce, k\u0142aniaj\u0105 si\u0119 w niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ko\u0144czy si\u0119 ofiara ta bezkrwawa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pozw\u00f3lcie, o \u015bwi\u0119ci Anio\u0142owie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech chwa\u0142a, niech Ci, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjmij, Panie, ofiar\u0119 \u015bwi\u0119t\u0105 Twego Syna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wezwa\u0142e\u015b mnie do \u017cycia, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ko\u0144cz\u0105c Ofiar\u0119 \u015bwi\u0119t\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ty\u015b Bogiem wielkiej lito\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Baranku niewinny, kt\u00f3ry znosisz",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdzie szuka\u0107 nam opieki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjmij od nas pok\u0142ony, o Jezu utajony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed Tob\u0105, w tej \u015bwi\u0119to\u015bci skryty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przy tem martwem ciele",
+                    "lyrics": []
+                },
+                {
+                    "title": "W jednego wierz\u0119 Boga wszechmog\u0105cego",
+                    "lyrics": []
+                },
+                {
+                    "title": "W Twej \u015bwi\u0105tyni zgromadzeni, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tego, gdy ju\u017c kap\u0142an sam po\u017cywa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierz\u0119 w Boga jednego, Stw\u00f3rc\u0119 nieba, ziemi [Z pokor\u0105 upadamy]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierz\u0119, \u017ce Tw\u00f3j Duch, o Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie, Bo\u017ce, wznosim pienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierz\u0119 w Boga jedynego, Tw\u00f3rc\u0119 nieba, ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ko\u0144cz\u0105c t\u0119 Ofiar\u0119 \u015bwi\u0119t\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nu\u017c wszyscy prawowierni Boga wychwalajmy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Na Twe s\u0142owo si\u0119 zbli\u017camy",
+                    "lyrics": []
+                },
+                {
+                    "title": "\u015awi\u0119ty, \u015awi\u0119ty, \u015awi\u0119ty, \u015awi\u0119ty jest sam B\u00f3g",
+                    "lyrics": []
+                },
+                {
+                    "title": "Msza [na Bo\u017ce Narodzenie, Pasterska]",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142aw, Bo\u017ce, Twojemu ludowi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy widz\u0119 ogrom tej opieki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cho\u0107 niegodni i duchowo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Racz przyj\u0105\u0107, Bo\u017ce m\u00f3j lito\u015bciwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierzymy w Wszechmog\u0105cego Boga Ojca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przedziwna Matko S\u0142owa wcielonego",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Jezu, w tej tajemnicy",
+                    "lyrics": []
+                },
+                {
+                    "title": "W niebiosach wieczna chwa\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Najwy\u017cszemu Panu chwa\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierzymy, wyznajemy, \u017ce stworzy\u0142 z niczego \u015bwiat B\u00f3g",
+                    "lyrics": []
+                },
+                {
+                    "title": "T\u0119 ofiar\u0119 chleba, wina",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyjmij z r\u0105k Twego kap\u0142ana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bez winy Bo\u017cy Baranku, zmi\u0142uj si\u0119 nad grzesznymi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wznie\u015bmy serca do nieba",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Bo\u017ce przedwieczny, odpoczynek wieczny daj duszom wiernych",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wznie\u015bmy Panu hymn w niebiosy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bogu Zast\u0119p\u00f3w, Panu nad panami",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z Anio\u0142ami \u015bpiewajmy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto B\u00f3g z nieba usty kap\u0142a\u0144skimi sprowadzon",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wesel si\u0119, duszo wierna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Powsta\u0144cie wyznawcy krzy\u017ca",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bo\u017ce, przed wszechmoc\u0105 Twoj\u0105 na kolana padamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "U podn\u00f3\u017cka Twych o\u0142tarzy, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kt\u00f3r\u0105, jak ka\u017cdy wierny",
+                    "lyrics": []
+                },
+                {
+                    "title": "M\u00f3j Zbawco, Mistrzu, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nikt ju\u017c o tym w\u0105tpi\u0107 ani mo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed Tob\u0105 w tej \u015bwi\u0119to\u015bci",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wieczny odpoczynek [Msza]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ty\u015b \u015awi\u0119ty, \u015awi\u0119ty, \u015awi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierz\u0119 w Boga jednego, Stw\u00f3rc\u0119 nieba, ziemi [Na stopniach Twego]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cho\u0107 si\u0119 niegodni czujemy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142\u0119, dzi\u0119ki, cze\u015b\u0107 sk\u0142adamy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a na wysoko\u015bci Bogu wszechmocnemu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nie jestem godzien, Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ty, co pod chleba, wina postaciami",
+                    "lyrics": []
+                },
+                {
+                    "title": "O\u015bwie\u0107 nas, o Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Baranku Bo\u017cy, bez winy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tu si\u0119 Baranek Bo\u017cy w tym Chlebie ukrywa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy\u015bmy ju\u017c wys\u0142uchali Twej Ofiary, Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierzymy w Boga jedynego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a Ci na wysoko\u015bci i cze\u015b\u0107 i dzi\u0119kczynienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ewangelia \u015bwi\u0119ta jest fundament wiary",
+                    "lyrics": []
+                },
+                {
+                    "title": "Msza [w czasie Wielkiego Postu]",
+                    "lyrics": []
+                },
+                {
+                    "title": "Upadajmy na kolana i czcijmy cud niezmierny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Za\u015bpiewajmy: \u015awi\u0119ty, \u015awi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "Racz, Wszechmog\u0105cy Panie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierz\u0119 w Ciebie, Bo\u017ce \u017cywy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c ofiara dokonana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a Bogu wszechmocnemu",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0142ogos\u0142aw nam, Bo\u017ce wielki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a Ci, Bo\u017ce, na wysokim niebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Baranku bez skazy, Ty, co g\u0142adzisz winy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a Tobie i dzi\u0119ki, Panie wszechstworzenia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chryste, Zbawco nasz jedyny",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chwa\u0142a, chwa\u0142a w wysoko\u015bci Bogu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cze\u015b\u0107 dajem w tym sakramencie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Dzi\u015b rado\u015b\u0107 na Syonie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wierzymy, o Panie, co\u015b objawi\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "W trzech Osobach jedynego i Stworzyciela wszystkiego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Racz przyj\u0105\u0107 uwielbienie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Tobie cze\u015b\u0107, Tobie chwa\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Rozp\u0142y\u0144cie si\u0119 z wesele, dusze \u015bwi\u0105tobliwe",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ty\u015b, o Jezu, swoje Cia\u0142o",
+                    "lyrics": []
+                },
+                {
+                    "title": "Na kolana padajcie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zespolone w ch\u00f3ry g\u0142osy niechaj si\u0119 podnosz\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Do Ciebie, odwieczny Panie",
+                    "lyrics": []
+                }
+            ],
+            "Wielki Post": [
+                {
+                    "title": "O duszo wszelka nabo\u017cna",
+                    "lyrics": []
+                },
+                {
+                    "title": "Krzy\u017c m\u0119ki jest tronem Pana, Kr\u00f3la wiek\u00f3w",
+                    "lyrics": []
+                },
+                {
+                    "title": "Cierpi\u0105ca Kr\u00f3lowo m\u0119czennik\u00f3w",
+                    "lyrics": []
+                },
+                {
+                    "title": "B\u0119d\u0105c przestraszony tam dziwnym widokiem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Gdy Ci\u0119, Ukrzy\u017cowanego, przyciskam do serca mego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Confusus h\u00e6reo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Boska dobroci, uderz w serce moje",
+                    "lyrics": []
+                },
+                {
+                    "title": "Krzy\u017cu, b\u0142ogos\u0142awie\u0144stwo ziemi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wspominajmy Bo\u017ce s\u0142owa",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu kochany, chc\u0119 dzi\u015b na nowo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezus, m\u0105dro\u015b\u0107 i prawda",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu, m\u0105dro\u015b\u0107 i prawda Ojca Przedwiecznego",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nadesz\u0142a oto godzina",
+                    "lyrics": []
+                },
+                {
+                    "title": "Niech wszystkich wiernych oczy dzi\u015b gorzkie \u0142zy lej\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Droga naszego \u017cycia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wszyscy mieszka\u0144cy dworu niebieskiego",
+                    "lyrics": []
+                },
+                {
+                    "title": "M\u0105dro\u015b\u0107 Ojca niebieskiego",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u0142acz\u017ce dzisiaj, duszo wszelka",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ju\u017c Chrystus \u017cycie zako\u0144czy\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wys\u0142uchaj, Stw\u00f3rco \u0142askawy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zastan\u00f3w si\u0119, o cz\u0142owiecze",
+                    "lyrics": []
+                },
+                {
+                    "title": "O Jezu, jako\u015b ci\u0119\u017cko skatowany",
+                    "lyrics": []
+                },
+                {
+                    "title": "Uwa\u017c, pobo\u017cny cz\u0142owiecze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przyj\u0105\u0142e\u015b krzy\u017c, by odkupi\u0107 \u015bwiat",
+                    "lyrics": []
+                },
+                {
+                    "title": "Vexilla Regis",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto znaki Bo\u017cej m\u0119ki",
+                    "lyrics": []
+                },
+                {
+                    "title": "Ach, z oczu mego Pana",
+                    "lyrics": []
+                },
+                {
+                    "title": "Bolesna Matko, wci\u0105\u017c czuwasz przy Synu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chrystus skona\u0142, \u015bwiat Odkupi\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chryste. Zbawicielu. Panie m\u00f3j i Bo\u017ce",
+                    "lyrics": []
+                },
+                {
+                    "title": "Co\u0107 Matko, \u017ce\u0107 okiem \u0142zy p\u0142yn\u0105 potokiem",
+                    "lyrics": []
+                },
+                {
+                    "title": "Pie\u015bni podczas Drogi Krzy\u017cowej",
+                    "lyrics": []
+                },
+                {
+                    "title": "To ja Twym s\u0119dzi\u0105 by\u0142em",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kr\u00f3lu wieczno\u015bci i czasu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Mentes pi\u00e6 plangite",
+                    "lyrics": []
+                },
+                {
+                    "title": "O jak srodze jest rozpi\u0119ty",
+                    "lyrics": []
+                },
+                {
+                    "title": "M\u0105dro\u015b\u0107 i prawda",
+                    "lyrics": []
+                },
+                {
+                    "title": "Daj nam, Chryste, wspomo\u017cenie",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u0142acz, p\u0142acz kto \u017cyw",
+                    "lyrics": []
+                },
+                {
+                    "title": "Lament serdeczny w mym sercu",
+                    "lyrics": []
+                },
+                {
+                    "title": "Kl\u0119czysz w Ogr\u00f3jcu, Jezu drogi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Patris sapientia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Chor\u0105giew Kr\u00f3la wiecznego",
+                    "lyrics": []
+                },
+                {
+                    "title": "P\u0142aczmy wszyscy najmilejsi",
+                    "lyrics": []
+                },
+                {
+                    "title": "Id\u0105c w przykr\u0105 g\u00f3r\u0119 krzy\u017cem przywalony",
+                    "lyrics": []
+                },
+                {
+                    "title": "Krzy\u017cu Chrystusa, w Tobie nasza si\u0142a",
+                    "lyrics": []
+                },
+                {
+                    "title": "Odkupicielu, ratuj swe stworzenie",
+                    "lyrics": []
+                },
+                {
+                    "title": "Oto teraz czas w\u0142a\u015bciwy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Duchu Bo\u017cy, \u015bwiat\u0142o sumie\u0144",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jezu kochany, chc\u0119 dzi\u015b na nowo",
+                    "lyrics": []
+                },
+                {
+                    "title": "Wys\u0142uchaj, Stw\u00f3rco \u0142askawy",
+                    "lyrics": []
+                },
+                {
+                    "title": "Nim \u015bwit si\u0119 zbli\u017cy do kresu istnienia",
+                    "lyrics": []
+                },
+                {
+                    "title": "Umi\u0142owany Synu Bo\u017cy, poprowad\u017a, Ciebie chcemy s\u0142ucha\u0107",
+                    "lyrics": []
+                },
+                {
+                    "title": "Sprawiedliwo\u015bci S\u0142o\u0144ce, Chryste",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zmi\u0142uj si\u0119 nade mn\u0105 w mi\u0142osierdziu swoim",
+                    "lyrics": []
+                },
+                {
+                    "title": "Zastan\u00f3w si\u0119, o cz\u0142owiecze",
+                    "lyrics": []
+                },
+                {
+                    "title": "Jak nar\u00f3d wybrany idziemy za Tob\u0105",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z otch\u0142ani grzechu wo\u0142amy do Ciebie",
+                    "lyrics": []
+                },
+                {
+                    "title": "W pokorze ducha przyjmijmy popi\u00f3\u0142",
+                    "lyrics": []
+                },
+                {
+                    "title": "Przed Tob\u0105, Ojcze, stajemy skruszeni",
+                    "lyrics": []
+                },
+                {
+                    "title": "Z pokor\u0105 wielk\u0105",
+                    "lyrics": []
+                }
+            ]
+        }
+    }
+}
