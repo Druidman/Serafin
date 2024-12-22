@@ -7,6 +7,7 @@ function setupIpcHandlers(db){
     ipcMain.on("getSongsPreview",(Event,amount,categoryName)=>{
         database.getSongsPreview(Event,amount,categoryName,db)
         console.debug("getSongsPreview: IPC")
+       
     })
 
     ipcMain.on("getSongsByPrefix",(Event,prefix,categoryName)=>{

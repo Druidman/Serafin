@@ -6,12 +6,16 @@ const { setupIpcHandlers } = require("./ipcHandlers")
 async function setup_app(){
     
     db = database.ConnectDatabase()
+    const win = createWindow()
     
     await database.Config(db)
     
     setupIpcHandlers(db)
+    var path_to_index = path.join(__dirname,"../renderer/index.html")
+    win.loadFile(path_to_index)
 
-    createWindow()
+
+    
 }
 
 const createWindow = () => {
@@ -23,9 +27,11 @@ const createWindow = () => {
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')
     }
+ 
   })
-  var path_to_index = path.join(__dirname,"../renderer/index.html")
-  win.loadFile(path_to_index)
+  var path_to_loading = path.join(__dirname,"../renderer/loading.html")
+  win.loadFile(path_to_loading)
+  return win
 }
 
 
