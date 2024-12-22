@@ -196,15 +196,18 @@
                 {
                     "title": "Pokrop nas, Panie, po\u015bwi\u0119con\u0105 wod\u0105",
                     "lyrics": [
-                        "Refren: Pokrop nas, Panie, po\u015bwi\u0119con\u0105 wod\u0105 * i obmyj z grzech\u00f3w, by\u015bmy byli czy\u015bci. * Obdarz nas moc\u0105, pokojem, weselem * przy Twym o\u0142tarzu, dzi\u015b w Twoim ko\u015bciele.\n\r\nZmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, w mi\u0142osierdziu swoim, * w ogromie swej lito\u015bci zg\u0142ad\u017a nieprawo\u015b\u0107 moj\u0105.\r\nObmyj mnie zupe\u0142nie z mojej winy * i oczy\u015b\u0107 mnie z grzechu mojego. Ref.",
+                        "Refren: Pokrop nas, Panie, po\u015bwi\u0119con\u0105 wod\u0105 * i obmyj z grzech\u00f3w, by\u015bmy byli czy\u015bci. * Obdarz nas moc\u0105, pokojem, weselem * przy Twym o\u0142tarzu, dzi\u015b w Twoim ko\u015bciele.\r\n",
+                        "Zmi\u0142uj si\u0119 nade mn\u0105, Bo\u017ce, w mi\u0142osierdziu swoim, * w ogromie swej lito\u015bci zg\u0142ad\u017a nieprawo\u015b\u0107 moj\u0105.\r\nObmyj mnie zupe\u0142nie z mojej winy * i oczy\u015b\u0107 mnie z grzechu mojego.",
+                        "Refren: Pokrop nas, Panie, po\u015bwi\u0119con\u0105 wod\u0105 * i obmyj z grzech\u00f3w, by\u015bmy byli czy\u015bci. * Obdarz nas moc\u0105, pokojem, weselem * przy Twym o\u0142tarzu, dzi\u015b w Twoim ko\u015bciele.\r\n",
                         " "
                     ]
                 },
                 {
                     "title": "Vidi aquam egredientem",
                     "lyrics": [
-                        "1. Antyfona: Vidi aquam * egredientem de templo, * a latere dextro, * alleluia: * et omnes, ad quos pervenit * aqua ista, * salvi facti sunt, * et dicent, * alleluia, * alleluia.\n\r\nPs",
-                        "2. 7\n\r\nConfitemini Domino quoniam bonus: * quoniam in saeculum misericordia eius.\r\nGloria Patri, et Filio, * et Spiritui Sancto.\r\nSicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen. Ant.",
+                        "Antyfona: Vidi aquam * egredientem de templo, * a latere dextro, * alleluia: * et omnes, ad quos pervenit * aqua ista, * salvi facti sunt, * et dicent, * alleluia, * alleluia.",
+                        "1. Confitemini Domino quoniam bonus: * quoniam in saeculum misericordia eius. * Gloria Patri, et Filio, * et Spiritui Sancto. * Sicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen.",
+                        "Antyfona: Vidi aquam * egredientem de templo, * a latere dextro, * alleluia: * et omnes, ad quos pervenit * aqua ista, * salvi facti sunt, * et dicent, * alleluia, * alleluia.",
                         " "
                     ]
                 },
@@ -222,8 +225,9 @@
                 {
                     "title": "Asperges me, Domine",
                     "lyrics": [
-                        "1. Antyfona: Asperges me, Domine, * hyssopo, et mundabor: * lavabis me, * et super nivem dealbabor.\n\r\nPs",
-                        "2. Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nGloria Patri, et Filio * et Spiritui Sancto.\r\nSicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen. Ant.",
+                        "Antyfona: Asperges me, Domine, * hyssopo, et mundabor: * lavabis me, * et super nivem dealbabor.",
+                        "1. Miserere mei, Deus, * secundum magnam misericordiam tuam. * Gloria Patri, et Filio * et Spiritui Sancto. * Sicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen.",
+                        "Antyfona: Asperges me, Domine, * hyssopo, et mundabor: * lavabis me, * et super nivem dealbabor.",
                         " "
                     ]
                 },
@@ -1141,11 +1145,15 @@
                 {
                     "title": "Oto Pan B\u00f3g przyjdzie",
                     "lyrics": [
-                        "1. Antyfona: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.",
-                        "2. O Miasto \u015awi\u0119te, Jeruzalem, zst\u0119puj\u0105ce z nieba, maj\u0105ce chwa\u0142\u0119 Boga, * \u017ar\u00f3d\u0142o twego \u015bwiat\u0142a po-dobne do kamienia drogocennego, * jakby do ja-spisu o przejrzysto\u015bci kryszta\u0142u. Ant.",
-                        "3. Miastu nie trzeba s\u0142o\u0144ca ni ksi\u0119\u017cyca, by mu \u015bwieci\u0142y, * bo chwa\u0142a Boga je o\u015bwietli\u0142a * a jego lamp\u0105 Baranek. Ant.",
-                        "4. I w jego \u015bwietle b\u0119d\u0105 chodzi\u0142y narody * i wnios\u0105 do niego kr\u00f3lowie ziemi sw\u00f3j przepych * i za dnia bramy jego nie b\u0119d\u0105 zamkni\u0119te, bo ju\u017c nie b\u0119dzie tam nocy. Ant.",
-                        "5. I odt\u0105d nocy ju\u017c nie b\u0119dzie, a nie potrzeba im \u015bwiat\u0142a lampy i \u015bwiat\u0142a s\u0142o\u0144ca, * bo Pan B\u00f3g b\u0119-dzie \u015bwieci\u0142 nad nimi * i b\u0119d\u0105 kr\u00f3lowa\u0107 na wieki wiek\u00f3w. Ant.",
+                        "Refren: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.",
+                        "1. O Miasto \u015awi\u0119te, Jeruzalem, zst\u0119puj\u0105ce z nieba, maj\u0105ce chwa\u0142\u0119 Boga, * \u017ar\u00f3d\u0142o twego \u015bwiat\u0142a po-dobne do kamienia drogocennego, * jakby do ja-spisu o przejrzysto\u015bci kryszta\u0142u.",
+                        "Refren: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.",
+                        "2. Miastu nie trzeba s\u0142o\u0144ca ni ksi\u0119\u017cyca, by mu \u015bwieci\u0142y, * bo chwa\u0142a Boga je o\u015bwietli\u0142a * a jego lamp\u0105 Baranek.",
+                        "Refren: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.",
+                        "3. I w jego \u015bwietle b\u0119d\u0105 chodzi\u0142y narody * i wnios\u0105 do niego kr\u00f3lowie ziemi sw\u00f3j przepych * i za dnia bramy jego nie b\u0119d\u0105 zamkni\u0119te, bo ju\u017c nie b\u0119dzie tam nocy.",
+                        "Refren: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.",
+                        "4. I odt\u0105d nocy ju\u017c nie b\u0119dzie, a nie potrzeba im \u015bwiat\u0142a lampy i \u015bwiat\u0142a s\u0142o\u0144ca, * bo Pan B\u00f3g b\u0119-dzie \u015bwieci\u0142 nad nimi * i b\u0119d\u0105 kr\u00f3lowa\u0107 na wieki wiek\u00f3w.",
+                        "Refren: Oto Pan B\u00f3g przyjdzie, * z rzesz\u0105 \u015bwi\u0119tych k\u2019nam przyb\u0119dzie; * wielka \u015bwiat\u0142o\u015b\u0107 w dzie\u0144 \u00f3w b\u0119dzie, * alleluja, alleluja.",
                         " "
                     ]
                 },
@@ -1270,11 +1278,15 @@
                 {
                     "title": "Pan jest blisko, ju\u017c przychodzi",
                     "lyrics": [
-                        "1. Antyfona: Pan jest blisko, ju\u017c przychodzi, * by zbawienie ludziom da\u0107.",
-                        "2. Wys\u0142uchaj Pasterzu pro\u015bby ludu Twego * i prowad\u017a nas jak nar\u00f3d wybrany. Ant.",
-                        "3. Ty, kt\u00f3ry panujesz nad narodami * oka\u017c si\u0119 ludowi Twemu. Ant.",
-                        "4. Panie, wzbud\u017a pot\u0119g\u0119 Twoj\u0105 * i przyb\u0105d\u017a, by nas zbawi\u0107. Ant.",
-                        "5. O Bo\u017ce, odn\u00f3w ducha naszego, * aby\u015bmy byli zbawieni. Ant.",
+                        "Antyfona: Pan jest blisko, ju\u017c przychodzi, * by zbawienie ludziom da\u0107.",
+                        "1. Wys\u0142uchaj Pasterzu pro\u015bby ludu Twego * i prowad\u017a nas jak nar\u00f3d wybrany.",
+                        "Antyfona: Pan jest blisko, ju\u017c przychodzi, * by zbawienie ludziom da\u0107.",
+                        "2. Ty, kt\u00f3ry panujesz nad narodami * oka\u017c si\u0119 ludowi Twemu.",
+                        "Antyfona: Pan jest blisko, ju\u017c przychodzi, * by zbawienie ludziom da\u0107.",
+                        "3. Panie, wzbud\u017a pot\u0119g\u0119 Twoj\u0105 * i przyb\u0105d\u017a, by nas zbawi\u0107.",
+                        "Antyfona: Pan jest blisko, ju\u017c przychodzi, * by zbawienie ludziom da\u0107.",
+                        "4. O Bo\u017ce, odn\u00f3w ducha naszego, * aby\u015bmy byli zbawieni.",
+                        "Antyfona: Pan jest blisko, ju\u017c przychodzi, * by zbawienie ludziom da\u0107.",
                         " "
                     ]
                 },
@@ -1623,7 +1635,8 @@
                     "lyrics": [
                         "1.  A ja czekam na Ciebie m\u00f3j Jezu, tak jak kiedy\u015b inni czekali. * A ja czekam na Ciebie m\u00f3j Jezu, tam w oddali \u015bwiate\u0142ko si\u0119 pali.",
                         "Refren: Jezu przyjd\u017a wo\u0142am Ci\u0119 Jezu przyjd\u017a.",
-                        "2.  A ja czekam na Ciebie m\u00f3j Jezu, aby\u015b przyszed\u0142 pomi\u0119dzy ludzi * a ja czekam na Ciebie m\u00f3j Jezu, by\u015b drzemi\u0105ce serca obudzi\u0142. Ref.",
+                        "2.  A ja czekam na Ciebie m\u00f3j Jezu, aby\u015b przyszed\u0142 pomi\u0119dzy ludzi * a ja czekam na Ciebie m\u00f3j Jezu, by\u015b drzemi\u0105ce serca obudzi\u0142.",
+                        "Refren: Jezu przyjd\u017a wo\u0142am Ci\u0119 Jezu przyjd\u017a.",
                         " "
                     ]
                 },
@@ -1638,21 +1651,28 @@
                     "title": "B\u00f3g mi\u0119dzy nami zamieszka\u0142",
                     "lyrics": [
                         "1.  Mo\u017ce nam si\u0119 zdawa\u0142o albo si\u0119 tylko przy\u015bni\u0142o, * kto\u015b noc wymalowa\u0142 na bia\u0142o i dzieci\u0119 si\u0119 narodzi\u0142o. * Dzieci\u0119 si\u0119 narodzi\u0142o ca\u0142e w jasno\u015bci i bieli, * a potem przyszli w go\u015bci, a potem przyszli w go\u015bci * \u015awi\u0119ci Anieli.",
-                        "2. Ref: B\u00f3g mi\u0119dzy nami zamieszka\u0142, przez serce prowadzi tam \u015bcie\u017cka. * B\u00f3g do nas wreszcie wyruszy\u0142 by dotrze\u0107 do naszej duszy.",
-                        "3.  Nawet zwierz\u0119ta poczu\u0142y \u0142ask\u0119 bosk\u0105 i w wielkie ludzkie \u015bwi\u0119to zacz\u0119\u0142y m\u00f3wi\u0107 po polsku. * Bucza\u0142y, mecza\u0142y, \u0107wierka\u0142y, gdaka\u0142y, \u017ce dzi\u015b \u015bwiat ca\u0142y pe\u0142en jest boskiej chwa\u0142y. Ref.",
-                        "4.  Tak powiedzia\u0142y zwierz\u0119ta, ka\u017cdy to dobrze pami\u0119ta, * a one si\u0119 myli\u0107 nie mog\u0105 jak gwiazdy nad szop\u0105 ubog\u0105 * tote\u017c przed \u015awi\u0119t\u0105 Panienk\u0105 trzeba przepi\u0119knie ukl\u0119kn\u0105\u0107 ,u\u015bcisn\u0105\u0107 J\u00f3zefa d\u0142onie i d\u0142ugo tak trwa\u0107 * i d\u0142ugo tak trwa\u0107 i d\u0142ugo tak trwa\u0107 w pok\u0142onie bo Ref.",
-                        "5.  Ma\u0142emu za\u015b dzieci\u0105tku b\u0119dziemy zn\u00f3w od pocz\u0105tku \u015bpiewa\u0107 wszystkie kol\u0119dy * tak pe\u0142ne rado\u015bci i biedy, b\u0119dziemy \u015bpiewa\u0107 kol\u0119dy tak pe\u0142ne rado\u015bci i biedy, * a kiedy do domu wr\u00f3ci mo\u017ce je sobie zanuci. Ref.",
+                        "Refren: B\u00f3g mi\u0119dzy nami zamieszka\u0142, przez serce prowadzi tam \u015bcie\u017cka. * B\u00f3g do nas wreszcie wyruszy\u0142 by dotrze\u0107 do naszej duszy.",
+                        "2.  Nawet zwierz\u0119ta poczu\u0142y \u0142ask\u0119 bosk\u0105 i w wielkie ludzkie \u015bwi\u0119to zacz\u0119\u0142y m\u00f3wi\u0107 po polsku. * Bucza\u0142y, mecza\u0142y, \u0107wierka\u0142y, gdaka\u0142y, \u017ce dzi\u015b \u015bwiat ca\u0142y pe\u0142en jest boskiej chwa\u0142y.",
+                        "Refren: B\u00f3g mi\u0119dzy nami zamieszka\u0142, przez serce prowadzi tam \u015bcie\u017cka. * B\u00f3g do nas wreszcie wyruszy\u0142 by dotrze\u0107 do naszej duszy.",
+                        "3.  Tak powiedzia\u0142y zwierz\u0119ta, ka\u017cdy to dobrze pami\u0119ta, * a one si\u0119 myli\u0107 nie mog\u0105 jak gwiazdy nad szop\u0105 ubog\u0105 * tote\u017c przed \u015awi\u0119t\u0105 Panienk\u0105 trzeba przepi\u0119knie ukl\u0119kn\u0105\u0107 ,u\u015bcisn\u0105\u0107 J\u00f3zefa d\u0142onie i d\u0142ugo tak trwa\u0107 * i d\u0142ugo tak trwa\u0107 i d\u0142ugo tak trwa\u0107 w pok\u0142onie bo",
+                        "Refren: B\u00f3g mi\u0119dzy nami zamieszka\u0142, przez serce prowadzi tam \u015bcie\u017cka. * B\u00f3g do nas wreszcie wyruszy\u0142 by dotrze\u0107 do naszej duszy.",
+                        "4.  Ma\u0142emu za\u015b dzieci\u0105tku b\u0119dziemy zn\u00f3w od pocz\u0105tku \u015bpiewa\u0107 wszystkie kol\u0119dy * tak pe\u0142ne rado\u015bci i biedy, b\u0119dziemy \u015bpiewa\u0107 kol\u0119dy tak pe\u0142ne rado\u015bci i biedy, * a kiedy do domu wr\u00f3ci mo\u017ce je sobie zanuci.",
+                        "Refren: B\u00f3g mi\u0119dzy nami zamieszka\u0142, przez serce prowadzi tam \u015bcie\u017cka. * B\u00f3g do nas wreszcie wyruszy\u0142 by dotrze\u0107 do naszej duszy.",
                         " "
                     ]
                 },
                 {
                     "title": "Chrystus Kr\u00f3l do nas przychodzi",
                     "lyrics": [
-                        "1. Ref. Chrystus Kr\u00f3l do nas przychodzi, p\u00f3jd\u017amy wszyscy z pok\u0142onem.",
-                        "2.  O\u017cywcz\u0105 ros\u0105 zst\u0105p na ziemi\u0119. Oczekujemy Ci\u0119, Panie. Ref.",
-                        "3.  Mi\u0142o\u015bci\u0105 rozgrzej zimne serca i we\u017a je w swoje w\u0142adanie. Ref.",
-                        "4.  Odrzu(my smutek, b\u00f3l i troski, Pan niesie 'wiatu zbawienie. Ref.",
-                        "5.  Zwyci\u0119zca \u015bmierci zakr\u00f3luje, cieszy si\u0119 wszelkie stworzenie. Ref.",
+                        "Refren: Chrystus Kr\u00f3l do nas przychodzi, p\u00f3jd\u017amy wszyscy z pok\u0142onem.",
+                        "1.  O\u017cywcz\u0105 ros\u0105 zst\u0105p na ziemi\u0119. Oczekujemy Ci\u0119, Panie.",
+                        "Refren: Chrystus Kr\u00f3l do nas przychodzi, p\u00f3jd\u017amy wszyscy z pok\u0142onem.",
+                        "2.  Mi\u0142o\u015bci\u0105 rozgrzej zimne serca i we\u017a je w swoje w\u0142adanie.",
+                        "Refren: Chrystus Kr\u00f3l do nas przychodzi, p\u00f3jd\u017amy wszyscy z pok\u0142onem.",
+                        "3.  Odrzu(my smutek, b\u00f3l i troski, Pan niesie 'wiatu zbawienie.",
+                        "Refren: Chrystus Kr\u00f3l do nas przychodzi, p\u00f3jd\u017amy wszyscy z pok\u0142onem.",
+                        "4.  Zwyci\u0119zca \u015bmierci zakr\u00f3luje, cieszy si\u0119 wszelkie stworzenie.",
+                        "Refren: Chrystus Kr\u00f3l do nas przychodzi, p\u00f3jd\u017amy wszyscy z pok\u0142onem.",
                         " "
                     ]
                 },
@@ -1673,8 +1693,10 @@
                     "lyrics": [
                         "1.  Gdy roratniej \u015bwiecy p\u0142omie\u0144 mrok rozja\u015bnia adwentowy, * kiedy dusza czuje g\u0142\u00f3d, gdy potrzebny jest jej B\u00f3g.",
                         "Refren: Oczekuj\u0119, wypatruj\u0119 Zbawiciela, kt\u00f3rym Jezus Chrystus jest. * On nape\u0142ni mnie rado\u015bci\u0105, gdy przyjdzie.",
-                        "2.  Kiedy czeka si\u0119 z mi\u0142o\u015bci\u0105, to czekanie jest rado\u015bci\u0105. * I cho\u0107 czasem d\u0142u\u017cy si\u0119, nigdy nie zniech\u0119ci mnie. Ref.",
-                        "3.  A B\u00f3g czeka\u0107 d\u0142ugo nie da. Przyjdzie pod postaci\u0105 Chleba. *Jeszcze chwila, jeszcze krok i rozja\u015bni duszy mrok. Ref.",
+                        "2.  Kiedy czeka si\u0119 z mi\u0142o\u015bci\u0105, to czekanie jest rado\u015bci\u0105. * I cho\u0107 czasem d\u0142u\u017cy si\u0119, nigdy nie zniech\u0119ci mnie.",
+                        "Refren: Oczekuj\u0119, wypatruj\u0119 Zbawiciela, kt\u00f3rym Jezus Chrystus jest. * On nape\u0142ni mnie rado\u015bci\u0105, gdy przyjdzie.",
+                        "3.  A B\u00f3g czeka\u0107 d\u0142ugo nie da. Przyjdzie pod postaci\u0105 Chleba. *Jeszcze chwila, jeszcze krok i rozja\u015bni duszy mrok.",
+                        "Refren: Oczekuj\u0119, wypatruj\u0119 Zbawiciela, kt\u00f3rym Jezus Chrystus jest. * On nape\u0142ni mnie rado\u015bci\u0105, gdy przyjdzie.",
                         " "
                     ]
                 },
@@ -1717,9 +1739,12 @@
                     "title": "Marana tha! Przyjd\u017a, Jezu Panie",
                     "lyrics": [
                         "Refren: Marana tha! * Przyjd\u017a, Jezu Panie, * w swej chwale do nas zejd\u017a! * Marana tha! Us\u0142ysz wo\u0142anie, * gdy si\u0119 wype\u0142ni\u0105 wieki.",
-                        "1.  Jak rosy ch\u0142\u00f3d na spragniony grunt, * jak dobry chleb na g\u0142odnego d\u0142o\u0144! Ref.",
-                        "2.  W Ko\u015bciele Twym, gdzie dajesz si\u0119 nam, * przez Cia\u0142a, Krwi, tajemnicz\u0105 moc. Ref.",
-                        "3.  Gdy mi\u0142o\u015b\u0107 sw\u0105 oka\u017cemy wkr\u0105g, * przychodzisz ju\u017c dzi\u015b na ziemi\u0119 sw\u0105. Ref.",
+                        "1.  Jak rosy ch\u0142\u00f3d na spragniony grunt, * jak dobry chleb na g\u0142odnego d\u0142o\u0144!",
+                        "Refren: Oczekuj\u0119, wypatruj\u0119 Zbawiciela, kt\u00f3rym Jezus Chrystus jest. * On nape\u0142ni mnie rado\u015bci\u0105, gdy przyjdzie.",
+                        "2.  W Ko\u015bciele Twym, gdzie dajesz si\u0119 nam, * przez Cia\u0142a, Krwi, tajemnicz\u0105 moc.",
+                        "Refren: Oczekuj\u0119, wypatruj\u0119 Zbawiciela, kt\u00f3rym Jezus Chrystus jest. * On nape\u0142ni mnie rado\u015bci\u0105, gdy przyjdzie.",
+                        "3.  Gdy mi\u0142o\u015b\u0107 sw\u0105 oka\u017cemy wkr\u0105g, * przychodzisz ju\u017c dzi\u015b na ziemi\u0119 sw\u0105.",
+                        "Refren: Oczekuj\u0119, wypatruj\u0119 Zbawiciela, kt\u00f3rym Jezus Chrystus jest. * On nape\u0142ni mnie rado\u015bci\u0105, gdy przyjdzie.",
                         " "
                     ]
                 },
@@ -1766,11 +1791,16 @@
                     "title": "Oto Panna pocznie i porodzi Syna",
                     "lyrics": [
                         "Refren: Oto Panna pocznie i porodzi Syna, * i nazw\u0105 go imieniem: Emmanuel.",
-                        "1.  Za dni Jego zakwitnie sprawiedliwo\u015b\u0107 * i wielki pok\u00f3j a\u017c ksi\u0119\u017cyc nie zga\u015bnie. Ref.",
-                        "2.  B\u0119dzie panowa\u0142 od morza do morza, * od rzeki a\u017c po kra\u0144ce ziemi. Ref.",
-                        "3.  Wyzwoli bowiem biedaka, kt\u00f3ry Go wzywa * i ubogiego co nie ma opieki. Ref.",
-                        "4.  Zmi\u0142uj si\u0119 nad biednym i ubogim, * n\u0119dzarza ocali od \u015bmierci. Ref.",
-                        "5.  Chwa\u0142a Ojcu i Synowi i Duchowi \u015awi\u0119temu, * jak by\u0142a na pocz\u0105tku, teraz i zawsze, i na wieki wiek\u00f3w. Amen. Ref.",
+                        "1.  Za dni Jego zakwitnie sprawiedliwo\u015b\u0107 * i wielki pok\u00f3j a\u017c ksi\u0119\u017cyc nie zga\u015bnie.",
+                        "Refren: Oto Panna pocznie i porodzi Syna, * i nazw\u0105 go imieniem: Emmanuel.",
+                        "2.  B\u0119dzie panowa\u0142 od morza do morza, * od rzeki a\u017c po kra\u0144ce ziemi.",
+                        "Refren: Oto Panna pocznie i porodzi Syna, * i nazw\u0105 go imieniem: Emmanuel.",
+                        "3.  Wyzwoli bowiem biedaka, kt\u00f3ry Go wzywa * i ubogiego co nie ma opieki.",
+                        "Refren: Oto Panna pocznie i porodzi Syna, * i nazw\u0105 go imieniem: Emmanuel.",
+                        "4.  Zmi\u0142uj si\u0119 nad biednym i ubogim, * n\u0119dzarza ocali od \u015bmierci.",
+                        "Refren: Oto Panna pocznie i porodzi Syna, * i nazw\u0105 go imieniem: Emmanuel.",
+                        "5.  Chwa\u0142a Ojcu i Synowi i Duchowi \u015awi\u0119temu, * jak by\u0142a na pocz\u0105tku, teraz i zawsze, i na wieki wiek\u00f3w. Amen.",
+                        "Refren: Oto Panna pocznie i porodzi Syna, * i nazw\u0105 go imieniem: Emmanuel.",
                         " "
                     ]
                 },
@@ -1778,7 +1808,8 @@
                     "title": "Podnie\u015bcie w g\u00f3r\u0119 bramy, szczyty wasze",
                     "lyrics": [
                         "Refren: Podnie\u015bcie w g\u00f3r\u0119 bramy, szczyty wasze, * rozst\u0105pcie si\u0119 odwieczne drzwi. * Niech wnijdzie chwa\u0142y Kr\u00f3l, chwa\u0142y Kr\u00f3l.",
-                        "1.  Kt\u00f3\u017c godzien wst\u0105pi\u0107 na g\u00f3r\u0119 Pa\u0144sk\u0105 lub kto mo\u017ce stan\u0105\u0107 na \u015bwi\u0119tym miejscu Jego? * Cz\u0142owiek r\u0105k niewinnych i czystego serca. Ref.",
+                        "1.  Kt\u00f3\u017c godzien wst\u0105pi\u0107 na g\u00f3r\u0119 Pa\u0144sk\u0105 lub kto mo\u017ce stan\u0105\u0107 na \u015bwi\u0119tym miejscu Jego? * Cz\u0142owiek r\u0105k niewinnych i czystego serca.",
+                        "Refren: Podnie\u015bcie w g\u00f3r\u0119 bramy, szczyty wasze, * rozst\u0105pcie si\u0119 odwieczne drzwi. * Niech wnijdzie chwa\u0142y Kr\u00f3l, chwa\u0142y Kr\u00f3l.",
                         " "
                     ]
                 },
@@ -1818,8 +1849,10 @@
                     "title": "Spu\u015b\u0107cie ros\u0119, niebiosa z g\u00f3ry",
                     "lyrics": [
                         "Refren: Spu\u015b\u0107cie ros\u0119m niebiosa z g\u00f3ry, * a ob\u0142oki niech spuszcz\u0105 * z deszczem Sprawiedliwego. * Niech si\u0119 otworzy ziemia, * Niech si\u0119 otworzy ziemia * i zrodzi Zbawiciela.",
-                        "1.  Niebiosa opowiadaj\u0105 chwa\u0142\u0119 Bogu, * a widnokr\u0105g rozg\u0142asza dzie\u0142a r\u0105k Jego. Ref.",
-                        "2.  Chwa\u0142a Ojcu i Synowi i Duchowi \u015awi\u0119temu, * jak by\u0142a na pocz\u0105tku, teraz i zawsze, i na wieki wiek\u00f3w. Amen. Ref.",
+                        "1.  Niebiosa opowiadaj\u0105 chwa\u0142\u0119 Bogu, * a widnokr\u0105g rozg\u0142asza dzie\u0142a r\u0105k Jego.",
+                        "Refren: Spu\u015b\u0107cie ros\u0119m niebiosa z g\u00f3ry, * a ob\u0142oki niech spuszcz\u0105 * z deszczem Sprawiedliwego. * Niech si\u0119 otworzy ziemia, * Niech si\u0119 otworzy ziemia * i zrodzi Zbawiciela.",
+                        "2.  Chwa\u0142a Ojcu i Synowi i Duchowi \u015awi\u0119temu, * jak by\u0142a na pocz\u0105tku, teraz i zawsze, i na wieki wiek\u00f3w. Amen.",
+                        "Refren: Spu\u015b\u0107cie ros\u0119m niebiosa z g\u00f3ry, * a ob\u0142oki niech spuszcz\u0105 * z deszczem Sprawiedliwego. * Niech si\u0119 otworzy ziemia, * Niech si\u0119 otworzy ziemia * i zrodzi Zbawiciela.",
                         " "
                     ]
                 },
@@ -1839,7 +1872,8 @@
                     "lyrics": [
                         "1.  Us\u0142ysz, dobry Bo\u017ce, pro\u015bb\u0119 dzieci \u017cyw\u0105: * Niech do serc spragnionych przyjdzie sprawiedliwy.",
                         "Refren: O, niebiosa spu\u015b\u0107cie ros\u0119 i o\u017cywcie \u0142any. * Przyjd\u017a, o Jezu, do serc naszych, * Jezu ukochany.",
-                        "2.  Bez Twej \u0142aski Panie, dobrym by\u0107 nie mog\u0119. * Ty\u015b mym ukochaniem, Prawd\u0105, \u015awiat\u0142em, Drog\u0105. Ref.",
+                        "2.  Bez Twej \u0142aski Panie, dobrym by\u0107 nie mog\u0119. * Ty\u015b mym ukochaniem, Prawd\u0105, \u015awiat\u0142em, Drog\u0105.",
+                        "Refren: O, niebiosa spu\u015b\u0107cie ros\u0119 i o\u017cywcie \u0142any. * Przyjd\u017a, o Jezu, do serc naszych, * Jezu ukochany.",
                         " "
                     ]
                 },
@@ -1877,10 +1911,13 @@
                 {
                     "title": "A my\u015bmy si\u0119 chlubi\u0107 powinni",
                     "lyrics": [
-                        "1. Antyfona: A my\u015bmy si\u0119 chlubi\u0107 powinni Krzy\u017cem Pana naszego Jezusa Chrystusa: * w Nim jest zbawienie, * \u017cycie i zmartwychwstanie nasze. * Przez Niego jeste\u015bmy zbawieni i oswobodzeni.",
-                        "2. Niech B\u00f3g si\u0119 zmi\u0142uje nad nami i nam b\u0142ogos\u0142awi, * niech nam uka\u017ce pogodne oblicze.\r\nAby na ziemi znano Jego drog\u0119, * Jego zbawienie w\u015br\u00f3d wszystkich narod\u00f3w. Ant.",
-                        "3. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nNiech si\u0119 narody ciesz\u0105 i wesel\u0105, \u2020 bo rz\u0105dzisz ludami sprawiedliwie * i kierujesz narodami na ziemi. Ant.",
-                        "4. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nZiemia wyda\u0142a sw\u00f3j owoc, * B\u00f3g, nasz B\u00f3g, nam pob\u0142ogos\u0142awi\u0142.\r\nNiech nam B\u00f3g b\u0142ogos\u0142awi * i niech cze\u015b\u0107 Mu oddaj\u0105 wszystkie kra\u0144ce ziemi. Ant.",
+                        "Antyfona: A my\u015bmy si\u0119 chlubi\u0107 powinni Krzy\u017cem Pana naszego Jezusa Chrystusa: * w Nim jest zbawienie, * \u017cycie i zmartwychwstanie nasze. * Przez Niego jeste\u015bmy zbawieni i oswobodzeni.",
+                        "1. Niech B\u00f3g si\u0119 zmi\u0142uje nad nami i nam b\u0142ogos\u0142awi, * niech nam uka\u017ce pogodne oblicze.\r\nAby na ziemi znano Jego drog\u0119, * Jego zbawienie w\u015br\u00f3d wszystkich narod\u00f3w.",
+                        "Antyfona: A my\u015bmy si\u0119 chlubi\u0107 powinni Krzy\u017cem Pana naszego Jezusa Chrystusa: * w Nim jest zbawienie, * \u017cycie i zmartwychwstanie nasze. * Przez Niego jeste\u015bmy zbawieni i oswobodzeni.",
+                        "2. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nNiech si\u0119 narody ciesz\u0105 i wesel\u0105, \u2020 bo rz\u0105dzisz ludami sprawiedliwie * i kierujesz narodami na ziemi.",
+                        "Antyfona: A my\u015bmy si\u0119 chlubi\u0107 powinni Krzy\u017cem Pana naszego Jezusa Chrystusa: * w Nim jest zbawienie, * \u017cycie i zmartwychwstanie nasze. * Przez Niego jeste\u015bmy zbawieni i oswobodzeni.",
+                        "3. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nZiemia wyda\u0142a sw\u00f3j owoc, * B\u00f3g, nasz B\u00f3g, nam pob\u0142ogos\u0142awi\u0142.\r\nNiech nam B\u00f3g b\u0142ogos\u0142awi * i niech cze\u015b\u0107 Mu oddaj\u0105 wszystkie kra\u0144ce ziemi.",
+                        "Antyfona: A my\u015bmy si\u0119 chlubi\u0107 powinni Krzy\u017cem Pana naszego Jezusa Chrystusa: * w Nim jest zbawienie, * \u017cycie i zmartwychwstanie nasze. * Przez Niego jeste\u015bmy zbawieni i oswobodzeni.",
                         " "
                     ]
                 },
@@ -1894,10 +1931,13 @@
                 {
                     "title": "Dzieci hebrajskie",
                     "lyrics": [
-                        "1. Antyfona: Dzieci hebrajskie, * nios\u0105c ga\u0142\u0105zki oliwne, * wysz\u0142y naprzeciw Pana * wo\u0142aj\u0105c i m\u00f3wi\u0105c: * Hosanna na wysoko\u015bci.",
-                        "2. Pana jest ziemia i wszystko, co j\u0105 nape\u0142nia, * \u015bwiat ca\u0142y i jego mieszka\u0144cy.\r\nAlbowiem On go na morzach osadzi\u0142 * i utwierdzi\u0142 ponad rzekami. Ant.",
-                        "3. Bramy, podnie\u015bcie swe szczyty, \u2020 unie\u015bcie si\u0119, odwieczne podwoje, * aby m\u00f3g\u0142 wkroczy\u0107 Kr\u00f3l chwa\u0142y!\r\n\u201eKt\u00f3\u017c jest tym kr\u00f3lem chwa\u0142y?\u201d * \u201ePan Zast\u0119p\u00f3w, On jest Kr\u00f3lem chwa\u0142y.\u201d Ant.",
-                        "4. Chwa\u0142a Ojcu i Synowi * i Duchowi \u015awi\u0119temu.\r\nJak by\u0142a na pocz\u0105tku, teraz i zawsze * i na wieki wiek\u00f3w. Amen. Ant.",
+                        "Antyfona: Dzieci hebrajskie, * nios\u0105c ga\u0142\u0105zki oliwne, * wysz\u0142y naprzeciw Pana * wo\u0142aj\u0105c i m\u00f3wi\u0105c: * Hosanna na wysoko\u015bci.",
+                        "1. Pana jest ziemia i wszystko, co j\u0105 nape\u0142nia, * \u015bwiat ca\u0142y i jego mieszka\u0144cy.\r\nAlbowiem On go na morzach osadzi\u0142 * i utwierdzi\u0142 ponad rzekami.",
+                        "Antyfona: Dzieci hebrajskie, * nios\u0105c ga\u0142\u0105zki oliwne, * wysz\u0142y naprzeciw Pana * wo\u0142aj\u0105c i m\u00f3wi\u0105c: * Hosanna na wysoko\u015bci.",
+                        "2. Bramy, podnie\u015bcie swe szczyty, \u2020 unie\u015bcie si\u0119, odwieczne podwoje, * aby m\u00f3g\u0142 wkroczy\u0107 Kr\u00f3l chwa\u0142y!\r\n\u201eKt\u00f3\u017c jest tym kr\u00f3lem chwa\u0142y?\u201d * \u201ePan Zast\u0119p\u00f3w, On jest Kr\u00f3lem chwa\u0142y.\u201d",
+                        "Antyfona: Dzieci hebrajskie, * nios\u0105c ga\u0142\u0105zki oliwne, * wysz\u0142y naprzeciw Pana * wo\u0142aj\u0105c i m\u00f3wi\u0105c: * Hosanna na wysoko\u015bci.",
+                        "3. Chwa\u0142a Ojcu i Synowi * i Duchowi \u015awi\u0119temu.\r\nJak by\u0142a na pocz\u0105tku, teraz i zawsze * i na wieki wiek\u00f3w. Amen.",
+                        "Antyfona: Dzieci hebrajskie, * nios\u0105c ga\u0142\u0105zki oliwne, * wysz\u0142y naprzeciw Pana * wo\u0142aj\u0105c i m\u00f3wi\u0105c: * Hosanna na wysoko\u015bci.",
                         " "
                     ]
                 },
@@ -1983,10 +2023,13 @@
                 {
                     "title": "Wielbimy Krzy\u017c Tw\u00f3j, Panie",
                     "lyrics": [
-                        "1. Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
-                        "2. Niech B\u00f3g si\u0119 zmi\u0142uje nad nami i nam b\u0142ogos\u0142awi, * niech nam uka\u017ce pogodne oblicze.\r\nAby na ziemi znano Jego drog\u0119, * Jego zbawienie w\u015br\u00f3d wszystkich narod\u00f3w. Ant.",
-                        "3. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nNiech si\u0119 narody ciesz\u0105 i wesel\u0105, \u2020 bo rz\u0105dzisz ludami sprawiedliwie * i kierujesz narodami na ziemi. Ant.",
-                        "4. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nZiemia wyda\u0142a sw\u00f3j owoc, * B\u00f3g, nasz B\u00f3g, nam pob\u0142ogos\u0142awi\u0142.\r\nNiech nam B\u00f3g b\u0142ogos\u0142awi * i niech cze\u015b\u0107 Mu oddaj\u0105 wszystkie kra\u0144ce ziemi. Ant.",
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
+                        "1. Niech B\u00f3g si\u0119 zmi\u0142uje nad nami i nam b\u0142ogos\u0142awi, * niech nam uka\u017ce pogodne oblicze.\r\nAby na ziemi znano Jego drog\u0119, * Jego zbawienie w\u015br\u00f3d wszystkich narod\u00f3w.",
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
+                        "2. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nNiech si\u0119 narody ciesz\u0105 i wesel\u0105, \u2020 bo rz\u0105dzisz ludami sprawiedliwie * i kierujesz narodami na ziemi.",
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
+                        "3. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nZiemia wyda\u0142a sw\u00f3j owoc, * B\u00f3g, nasz B\u00f3g, nam pob\u0142ogos\u0142awi\u0142.\r\nNiech nam B\u00f3g b\u0142ogos\u0142awi * i niech cze\u015b\u0107 Mu oddaj\u0105 wszystkie kra\u0144ce ziemi.",
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
                         " "
                     ]
                 },
@@ -2581,10 +2624,13 @@
                 {
                     "title": "Nadzieja nasza w Zmartwychwsta\u0142ym",
                     "lyrics": [
-                        "1. Antyfona: Nadzieja nasza w Zmartwychwsta\u0142ym, * rado\u015bci\u0105 nasz\u0105 Jego chwa\u0142a. * Alleluja!",
-                        "2. Alleluja, pusty gr\u00f3b, * bowiem Pana nie ma w nim. * Alleluja, powsta\u0142 ju\u017c * i zmartwychwsta\u0142, aby \u017cy\u0107. Ant.",
-                        "3. Alleluja, mocny B\u00f3g * przezwyci\u0119\u017cy\u0142 straszn\u0105 \u015bmier\u0107. * Alleluja, sp\u0142aci\u0142 d\u0142ug, * tak do chwa\u0142y swojej wszed\u0142. Ant.",
-                        "4. Alleluja, wierny lud, * s\u0142awi zmartwychwstania blask. * Alleluja, Pa\u0144ski cud, * kiedy\u015b si\u0119 dokona w nas. Ant.",
+                        "Antyfona: Nadzieja nasza w Zmartwychwsta\u0142ym, * rado\u015bci\u0105 nasz\u0105 Jego chwa\u0142a. * Alleluja!",
+                        "1. Alleluja, pusty gr\u00f3b, * bowiem Pana nie ma w nim. * Alleluja, powsta\u0142 ju\u017c * i zmartwychwsta\u0142, aby \u017cy\u0107.",
+                        "Antyfona: Nadzieja nasza w Zmartwychwsta\u0142ym, * rado\u015bci\u0105 nasz\u0105 Jego chwa\u0142a. * Alleluja!",
+                        "2. Alleluja, mocny B\u00f3g * przezwyci\u0119\u017cy\u0142 straszn\u0105 \u015bmier\u0107. * Alleluja, sp\u0142aci\u0142 d\u0142ug, * tak do chwa\u0142y swojej wszed\u0142.",
+                        "Antyfona: Nadzieja nasza w Zmartwychwsta\u0142ym, * rado\u015bci\u0105 nasz\u0105 Jego chwa\u0142a. * Alleluja!",
+                        "3. Alleluja, wierny lud, * s\u0142awi zmartwychwstania blask. * Alleluja, Pa\u0144ski cud, * kiedy\u015b si\u0119 dokona w nas.",
+                        "Antyfona: Nadzieja nasza w Zmartwychwsta\u0142ym, * rado\u015bci\u0105 nasz\u0105 Jego chwa\u0142a. * Alleluja!",
                         " "
                     ]
                 },
@@ -2797,8 +2843,9 @@
                 {
                     "title": "Vidi aquam egredientem",
                     "lyrics": [
-                        "1. Antyfona: Vidi aquam * egredientem de templo, * a latere dextro, * alleluia: * et omnes, ad quos pervenit * aqua ista, * salvi facti sunt, * et dicent, * alleluia, * alleluia.\n\r\nPs",
-                        "2. 7\n\r\nConfitemini Domino quoniam bonus: * quoniam in saeculum misericordia eius.\r\nGloria Patri, et Filio, * et Spiritui Sancto.\r\nSicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen. Ant.",
+                        "Antyfona: Vidi aquam * egredientem de templo, * a latere dextro, * alleluia: * et omnes, ad quos pervenit * aqua ista, * salvi facti sunt, * et dicent, * alleluia, * alleluia.",
+                        "1. Confitemini Domino quoniam bonus: * quoniam in saeculum misericordia eius.\r\nGloria Patri, et Filio, * et Spiritui Sancto.\r\nSicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen.",
+                        "Antyfona: Vidi aquam * egredientem de templo, * a latere dextro, * alleluia: * et omnes, ad quos pervenit * aqua ista, * salvi facti sunt, * et dicent, * alleluia, * alleluia.",
                         " "
                     ]
                 },
@@ -3236,11 +3283,14 @@
                 {
                     "title": "Cudowny kwiecie polskiej ziemi",
                     "lyrics": [
-                        "1. Cudowny kwiecie polskiej ziemi",
-                        "2. Cudowny kwiecie polskiej ziemi, * prostego\r\nludu wiejskiej chaty; * w kielichu swym jak kryszta\u0142\r\nczysty, * a cn\u00f3t barwami przebogaty.\n\r\nRefren: B\u0142ogos\u0142awiona Karolino, * \u015bwie\u0107 nam przyk\u0142adem\r\ncnoty m\u0119stwa; * b\u0105d\u017a wzorem pracy i modlitwy,\r\n* czysto\u015bci \u017cycia i m\u0119cze\u0144stwa.",
-                        "3. O aposto\u0142ko Bo\u017cej sprawy, * anio\u0142\u00f3w chlebem\r\nwci\u0105\u017c karmiona; * o \u201eGwiazdo ludu\u201d najja\u015bniejsza, *\r\nw s\u0142u\u017cbie bli\u017aniemu niestrudzona. Ref.",
-                        "4. Twym ukochaniem Jezus Chrystus, * nie skarby\r\n\u015bwiata, przyjemno\u015bci; * w godzinie pr\u00f3by \u015bmier\u0107\r\nwybierasz, * aby nie zdradzi\u0107 tej mi\u0142o\u015bci. Ref.",
-                        "5. Wpatrzona w posta\u0107 Bo\u017cej Matki, * czystego\r\npi\u0119kna wz\u00f3r wspania\u0142y; * Jej \u015bladem idziesz przez\r\nm\u0119cze\u0144stwo * po nieskalany wieniec chwa\u0142y. Ref.",
+                        "1. Cudowny kwiecie polskiej ziemi, * prostego\r\nludu wiejskiej chaty; * w kielichu swym jak kryszta\u0142\r\nczysty, * a cn\u00f3t barwami przebogaty.\r\n",
+                        "Refren: B\u0142ogos\u0142awiona Karolino, * \u015bwie\u0107 nam przyk\u0142adem\r\ncnoty m\u0119stwa; * b\u0105d\u017a wzorem pracy i modlitwy,\r\n* czysto\u015bci \u017cycia i m\u0119cze\u0144stwa.",
+                        "2. O aposto\u0142ko Bo\u017cej sprawy, * anio\u0142\u00f3w chlebem\r\nwci\u0105\u017c karmiona; * o \u201eGwiazdo ludu\u201d najja\u015bniejsza, *\r\nw s\u0142u\u017cbie bli\u017aniemu niestrudzona.",
+                        "Refren: B\u0142ogos\u0142awiona Karolino, * \u015bwie\u0107 nam przyk\u0142adem\r\ncnoty m\u0119stwa; * b\u0105d\u017a wzorem pracy i modlitwy,\r\n* czysto\u015bci \u017cycia i m\u0119cze\u0144stwa.",
+                        "3. Twym ukochaniem Jezus Chrystus, * nie skarby\r\n\u015bwiata, przyjemno\u015bci; * w godzinie pr\u00f3by \u015bmier\u0107\r\nwybierasz, * aby nie zdradzi\u0107 tej mi\u0142o\u015bci.",
+                        "Refren: B\u0142ogos\u0142awiona Karolino, * \u015bwie\u0107 nam przyk\u0142adem\r\ncnoty m\u0119stwa; * b\u0105d\u017a wzorem pracy i modlitwy,\r\n* czysto\u015bci \u017cycia i m\u0119cze\u0144stwa.",
+                        "4. Wpatrzona w posta\u0107 Bo\u017cej Matki, * czystego\r\npi\u0119kna wz\u00f3r wspania\u0142y; * Jej \u015bladem idziesz przez\r\nm\u0119cze\u0144stwo * po nieskalany wieniec chwa\u0142y.",
+                        "Refren: B\u0142ogos\u0142awiona Karolino, * \u015bwie\u0107 nam przyk\u0142adem\r\ncnoty m\u0119stwa; * b\u0105d\u017a wzorem pracy i modlitwy,\r\n* czysto\u015bci \u017cycia i m\u0119cze\u0144stwa.",
                         " "
                     ]
                 },
@@ -5461,7 +5511,9 @@
                 {
                     "title": "Requiem aeternam",
                     "lyrics": [
-                        "1. Antyfona: Requiem * aeternam dona eis, Domine: et lux perpetua luceat eis.\r\nTe decet hymnus, Deus, in Sion * et tibi reddetur votum in Ierusalem: * exaudi orationem meam, * ad te omnis caro veniet. Ant.",
+                        "Antyfona: Requiem * aeternam dona eis, Domine: et lux perpetua luceat eis.",
+                        "1. Te decet hymnus, Deus, in Sion * et tibi reddetur votum in Ierusalem: * exaudi orationem meam, * ad te omnis caro veniet.",
+                        "Antyfona: Requiem * aeternam dona eis, Domine: et lux perpetua luceat eis.",
                         " "
                     ]
                 },
@@ -7634,14 +7686,22 @@
                 {
                     "title": "Pozdrowiona b\u0105d\u017a, kr\u00f3lowo",
                     "lyrics": [
-                        "1.  Pozdrowiona b\u0105d\u017a, Kr\u00f3lowo, \u015awi\u0119ta Maryjo! * Ty\u015b jest matk\u0105 Chrystusow\u0105, \u015awi\u0119ta Maryjo!\n\rRefren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
-                        "2.  Ty\u015b jest Matka lito\u015bciwa, \u015awi\u0119ta Maryjo! * Opiekunka tak troskliwa, \u015awi\u0119ta Maryjo! Ref.",
-                        "3.  Ty jak gwiazda w mrokach \u015bwiecisz, \u015awi\u0119ta Maryjo! * Ty\u015b nadzieja grzesznych dzieci, \u015awi\u0119ta Maryjo! Ref.",
-                        "4.  Dzieci Ewy, my tu\u0142acze, \u015awi\u0119ta Maryjo! * Przychodzimy, Matko z p\u0142aczem, \u015awi\u0119ta Maryjo! Ref.",
-                        "5.  Wci\u0105\u017c t\u0119sknimy i wzdychamy, \u015awi\u0119ta Maryjo! * Z \u0142ez pado\u0142u w niebios bramy, \u015awi\u0119ta Maryjo! Ref.",
-                        "6.  Zwr\u00f3\u0107 swe oczy, Po\u015bredniczko, \u015awi\u0119ta Maryjo! * Wspom\u00f3\u017c nas, Or\u0119downiczko, \u015awi\u0119ta Maryjo! Ref.",
-                        "7.  Uka\u017c nam, B\u0142ogos\u0142awiona, \u015awi\u0119ta Maryjo! * Syna owoc Twego \u0142ona, \u015awi\u0119ta Maryjo! Ref.",
-                        "8.  Gdy si\u0119 sko\u0144czy to wygnanie, \u015awi\u0119ta Maryjo! * Upro\u015b z Tob\u0105 kr\u00f3lowanie, \u015awi\u0119ta Maryjo! Ref.",
+                        "1.  Pozdrowiona b\u0105d\u017a, Kr\u00f3lowo, \u015awi\u0119ta Maryjo! * Ty\u015b jest matk\u0105 Chrystusow\u0105, \u015awi\u0119ta Maryjo!\r\n",
+                        "Refren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
+                        "2.  Ty\u015b jest Matka lito\u015bciwa, \u015awi\u0119ta Maryjo! * Opiekunka tak troskliwa, \u015awi\u0119ta Maryjo!",
+                        "Refren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
+                        "3.  Ty jak gwiazda w mrokach \u015bwiecisz, \u015awi\u0119ta Maryjo! * Ty\u015b nadzieja grzesznych dzieci, \u015awi\u0119ta Maryjo!",
+                        "Refren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
+                        "4.  Dzieci Ewy, my tu\u0142acze, \u015awi\u0119ta Maryjo! * Przychodzimy, Matko z p\u0142aczem, \u015awi\u0119ta Maryjo!",
+                        "Refren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
+                        "5.  Wci\u0105\u017c t\u0119sknimy i wzdychamy, \u015awi\u0119ta Maryjo! * Z \u0142ez pado\u0142u w niebios bramy, \u015awi\u0119ta Maryjo!",
+                        "Refren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
+                        "6.  Zwr\u00f3\u0107 swe oczy, Po\u015bredniczko, \u015awi\u0119ta Maryjo! * Wspom\u00f3\u017c nas, Or\u0119downiczko, \u015awi\u0119ta Maryjo!",
+                        "Refren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
+                        "7.  Uka\u017c nam, B\u0142ogos\u0142awiona, \u015awi\u0119ta Maryjo! * Syna owoc Twego \u0142ona, \u015awi\u0119ta Maryjo!",
+                        "Refren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
+                        "8.  Gdy si\u0119 sko\u0144czy to wygnanie, \u015awi\u0119ta Maryjo! * Upro\u015b z Tob\u0105 kr\u00f3lowanie, \u015awi\u0119ta Maryjo!",
+                        "Refren: Nu\u0107cie, niebianie, Naj\u015bwi\u0119tszej Pannie * pie\u015b\u0144 na powitanie: * zdrowa\u015b, zdrowa\u015b, * zdrowa\u015b Maryjo!",
                         " "
                     ]
                 },
@@ -7868,7 +7928,9 @@
                 {
                     "title": "Requiem aeternam",
                     "lyrics": [
-                        "1. Antyfona: Requiem * aeternam dona eis, Domine: et lux perpetua luceat eis.\r\nTe decet hymnus, Deus, in Sion * et tibi reddetur votum in Ierusalem: * exaudi orationem meam, * ad te omnis caro veniet. Ant.",
+                        "Antyfona: Requiem * aeternam dona eis, Domine: et lux perpetua luceat eis.",
+                        "1. Te decet hymnus, Deus, in Sion * et tibi reddetur votum in Ierusalem: * exaudi orationem meam, * ad te omnis caro veniet.",
+                        "Antyfona: Requiem * aeternam dona eis, Domine: et lux perpetua luceat eis.",
                         " "
                     ]
                 },
@@ -8009,8 +8071,8 @@
                 {
                     "title": "Vidi aquam egredientem",
                     "lyrics": [
-                        "1. Antyfona: Vidi aquam * egredientem de templo, * a latere dextro, * alleluia: * et omnes, ad quos pervenit * aqua ista, * salvi facti sunt, * et dicent, * alleluia, * alleluia.\n\r\nPs",
-                        "2. 7\n\r\nConfitemini Domino quoniam bonus: * quoniam in saeculum misericordia eius.\r\nGloria Patri, et Filio, * et Spiritui Sancto.\r\nSicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen. Ant.",
+                        "Antyfona: Vidi aquam * egredientem de templo, * a latere dextro, * alleluia: * et omnes, ad quos pervenit * aqua ista, * salvi facti sunt, * et dicent, * alleluia, * alleluia.",
+                        "1. Confitemini Domino quoniam bonus: * quoniam in saeculum misericordia eius.\r\nGloria Patri, et Filio, * et Spiritui Sancto.\r\nSicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen.",
                         " "
                     ]
                 },
@@ -8138,10 +8200,13 @@
                 {
                     "title": "Miserere mei Deus",
                     "lyrics": [
-                        "1. Antyfona: Miserere mei, Deus, * miserere mei.",
-                        "2. Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nEt secundum multitudinem miserationum tuarum, * dele iniquitatem meam. Ant.",
-                        "3. Amplius lava me ab iniquitate mea: * et a peccato meo munda me.\r\nQuoniam iniquitatem meam ego cognosco: * et peccatum meum contra me est semper. Ant.",
-                        "4. Tibi soli peccavi, et malum coram te feci: * ut iustificeris in sermonibus tuis, * et vincas cum iudicaris.\r\nEcce enim in iniquitatibus conceptus sum: * et in peccatis concepit me mater mea. Ant.",
+                        "Antyfona: Miserere mei, Deus, * miserere mei.",
+                        "1. Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nEt secundum multitudinem miserationum tuarum, * dele iniquitatem meam.",
+                        "Antyfona: Miserere mei, Deus, * miserere mei.",
+                        "2. Amplius lava me ab iniquitate mea: * et a peccato meo munda me.\r\nQuoniam iniquitatem meam ego cognosco: * et peccatum meum contra me est semper.",
+                        "Antyfona: Miserere mei, Deus, * miserere mei.",
+                        "3. Tibi soli peccavi, et malum coram te feci: * ut iustificeris in sermonibus tuis, * et vincas cum iudicaris.\r\nEcce enim in iniquitatibus conceptus sum: * et in peccatis concepit me mater mea.",
+                        "Antyfona: Miserere mei, Deus, * miserere mei.",
                         " "
                     ]
                 },
@@ -8239,8 +8304,9 @@
                 {
                     "title": "Asperges me, Domine",
                     "lyrics": [
-                        "1. Antyfona: Asperges me, Domine, * hyssopo, et mundabor: * lavabis me, * et super nivem dealbabor.\n\r\nPs",
-                        "2. Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nGloria Patri, et Filio * et Spiritui Sancto.\r\nSicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen. Ant.",
+                        "Antyfona: Asperges me, Domine, * hyssopo, et mundabor: * lavabis me, * et super nivem dealbabor.",
+                        "2. Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nGloria Patri, et Filio * et Spiritui Sancto. * Sicut erat in principio, * et nunc, et semper, * et in saecula saeculorum. Amen.",
+                        "Antyfona: Asperges me, Domine, * hyssopo, et mundabor: * lavabis me, * et super nivem dealbabor.",
                         " "
                     ]
                 },
@@ -8412,10 +8478,13 @@
                 {
                     "title": "Ubi caritas est vera",
                     "lyrics": [
-                        "1. Antyfona: Ubi caritas est vera, Deus ibi est.",
-                        "2. Congregavit nos in unum Christi amor. * Exsultemus, et in ipso iucundemur. * Timeamus, et amemus Deum vivum. * Et ex corde diligamus nos sincero. Ant.",
-                        "3. Simul ergo cum in unum congregamur. * Ne nos mente dividamur, caveamus. * Cessent iurgia maligna, cessent lites. * Et in medio nostri sit Christus Deus. Ant.",
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.",
+                        "2. Congregavit nos in unum Christi amor. * Exsultemus, et in ipso iucundemur. * Timeamus, et amemus Deum vivum. * Et ex corde diligamus nos sincero.",
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.",
+                        "3. Simul ergo cum in unum congregamur. * Ne nos mente dividamur, caveamus. * Cessent iurgia maligna, cessent lites. * Et in medio nostri sit Christus Deus.",
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.",
                         "4. Simul quoque cum beatis videamus. * Glorianter vultum tuum, Christe Deus. * Gaudium quod est immensum, atque probum. * Saecula per infinita saeculorum. Amen.",
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.",
                         " "
                     ]
                 },
@@ -11792,10 +11861,13 @@
                 {
                     "title": "Wielbimy Krzy\u017c Tw\u00f3j, Panie",
                     "lyrics": [
-                        "1. Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
-                        "2. Niech B\u00f3g si\u0119 zmi\u0142uje nad nami i nam b\u0142ogos\u0142awi, * niech nam uka\u017ce pogodne oblicze.\r\nAby na ziemi znano Jego drog\u0119, * Jego zbawienie w\u015br\u00f3d wszystkich narod\u00f3w. Ant.",
-                        "3. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nNiech si\u0119 narody ciesz\u0105 i wesel\u0105, \u2020 bo rz\u0105dzisz ludami sprawiedliwie * i kierujesz narodami na ziemi. Ant.",
-                        "4. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nZiemia wyda\u0142a sw\u00f3j owoc, * B\u00f3g, nasz B\u00f3g, nam pob\u0142ogos\u0142awi\u0142.\r\nNiech nam B\u00f3g b\u0142ogos\u0142awi * i niech cze\u015b\u0107 Mu oddaj\u0105 wszystkie kra\u0144ce ziemi. Ant.",
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
+                        "2. Niech B\u00f3g si\u0119 zmi\u0142uje nad nami i nam b\u0142ogos\u0142awi, * niech nam uka\u017ce pogodne oblicze.\r\nAby na ziemi znano Jego drog\u0119, * Jego zbawienie w\u015br\u00f3d wszystkich narod\u00f3w.",
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
+                        "3. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nNiech si\u0119 narody ciesz\u0105 i wesel\u0105, \u2020 bo rz\u0105dzisz ludami sprawiedliwie * i kierujesz narodami na ziemi.",
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
+                        "4. Niech Ciebie, Bo\u017ce, wys\u0142awiaj\u0105 ludy, * niech wszystkie narody oddaj\u0105 Ci chwa\u0142\u0119.\r\nZiemia wyda\u0142a sw\u00f3j owoc, * B\u00f3g, nasz B\u00f3g, nam pob\u0142ogos\u0142awi\u0142.\r\nNiech nam B\u00f3g b\u0142ogos\u0142awi * i niech cze\u015b\u0107 Mu oddaj\u0105 wszystkie kra\u0144ce ziemi.",
+                        "Antyfona: Wielbimy Krzy\u017c Tw\u00f3j, Panie Jezu, * wys\u0142awiamy Twoje \u015bwi\u0119te zmartwychwstanie, * bo przez drzewo Krzy\u017ca przysz\u0142a rado\u015b\u0107 dla ca\u0142ego \u015bwiata.",
                         " "
                     ]
                 },
@@ -11909,12 +11981,17 @@
                 {
                     "title": "Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107",
                     "lyrics": [
-                        "1. Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.",
-                        "2. Do Ciebie, Zbawco i Kr\u00f3lu Najwy\u017cszy, * zalane \u0142zami podnosimy oczy. * O, wejrzyj, Chryste, na b\u0142aganie nasze. Ant.",
-                        "3. Prawico Ojca, kamieniu w\u0119gielny, * drogo zbawienia i do niebios bramo, * ach, obmyj we krwi wszystkie nasze winy. Ant.",
-                        "4. Stajemy, Bo\u017ce, przed Twym majestatem. * Otw\u00f3rz swe uszy na nasze wzdychanie, * przebacz \u0142askawie nasze przewinienia! Ant.",
-                        "5. \u017be\u015bmy zgrzeszyli, szczerze wyznajemy, * z sercem skruszonym winy ujawniamy. * Ty nam je odpu\u015b\u0107, Zbawco lito\u015bciwy! Ant.",
-                        "6. Chocia\u017c niewinny, by\u0142e\u015b os\u0105dzony * na mocy k\u0142amstwa \u015bwiadk\u00f3w niegodziwych. * Zachowaj, Chryste, przez Ci\u0119 odkupionych! Ant.",
+                        "Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.",
+                        "1. Do Ciebie, Zbawco i Kr\u00f3lu Najwy\u017cszy, * zalane \u0142zami podnosimy oczy. * O, wejrzyj, Chryste, na b\u0142aganie nasze.",
+                        "Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.",
+                        "2. Prawico Ojca, kamieniu w\u0119gielny, * drogo zbawienia i do niebios bramo, * ach, obmyj we krwi wszystkie nasze winy.",
+                        "Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.",
+                        "3. Stajemy, Bo\u017ce, przed Twym majestatem. * Otw\u00f3rz swe uszy na nasze wzdychanie, * przebacz \u0142askawie nasze przewinienia!",
+                        "Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.",
+                        "4. \u017be\u015bmy zgrzeszyli, szczerze wyznajemy, * z sercem skruszonym winy ujawniamy. * Ty nam je odpu\u015b\u0107, Zbawco lito\u015bciwy!",
+                        "Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.",
+                        "5. Chocia\u017c niewinny, by\u0142e\u015b os\u0105dzony * na mocy k\u0142amstwa \u015bwiadk\u00f3w niegodziwych. * Zachowaj, Chryste, przez Ci\u0119 odkupionych!",
+                        "Antyfona: Wys\u0142uchaj, Panie, daj si\u0119 przeb\u0142aga\u0107, * bowiem zgrzeszyli\u015bmy Tobie.",
                         " "
                     ]
                 },
@@ -11950,10 +12027,13 @@
                 {
                     "title": "Ubi caritas est vera",
                     "lyrics": [
-                        "1. Antyfona: Ubi caritas est vera, Deus ibi est.",
-                        "2. Congregavit nos in unum Christi amor. * Exsultemus, et in ipso iucundemur. * Timeamus, et amemus Deum vivum. * Et ex corde diligamus nos sincero. Ant.",
-                        "3. Simul ergo cum in unum congregamur. * Ne nos mente dividamur, caveamus. * Cessent iurgia maligna, cessent lites. * Et in medio nostri sit Christus Deus. Ant.",
-                        "4. Simul quoque cum beatis videamus. * Glorianter vultum tuum, Christe Deus. * Gaudium quod est immensum, atque probum. * Saecula per infinita saeculorum. Amen.",
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.",
+                        "1. Congregavit nos in unum Christi amor. * Exsultemus, et in ipso iucundemur. * Timeamus, et amemus Deum vivum. * Et ex corde diligamus nos sincero.",
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.",
+                        "2. Simul ergo cum in unum congregamur. * Ne nos mente dividamur, caveamus. * Cessent iurgia maligna, cessent lites. * Et in medio nostri sit Christus Deus.",
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.",
+                        "3. Simul quoque cum beatis videamus. * Glorianter vultum tuum, Christe Deus. * Gaudium quod est immensum, atque probum. * Saecula per infinita saeculorum. Amen.",
+                        "Antyfona: Ubi caritas est vera, Deus ibi est.",
                         " "
                     ]
                 },
@@ -12014,10 +12094,13 @@
                 {
                     "title": "Miserere mei Deus",
                     "lyrics": [
-                        "1. Antyfona: Miserere mei, Deus, * miserere mei.",
-                        "2. Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nEt secundum multitudinem miserationum tuarum, * dele iniquitatem meam. Ant.",
-                        "3. Amplius lava me ab iniquitate mea: * et a peccato meo munda me.\r\nQuoniam iniquitatem meam ego cognosco: * et peccatum meum contra me est semper. Ant.",
-                        "4. Tibi soli peccavi, et malum coram te feci: * ut iustificeris in sermonibus tuis, * et vincas cum iudicaris.\r\nEcce enim in iniquitatibus conceptus sum: * et in peccatis concepit me mater mea. Ant.",
+                        "Antyfona: Miserere mei, Deus, * miserere mei.",
+                        "2. Miserere mei, Deus, * secundum magnam misericordiam tuam.\r\nEt secundum multitudinem miserationum tuarum, * dele iniquitatem meam.",
+                        "Antyfona: Miserere mei, Deus, * miserere mei.",
+                        "3. Amplius lava me ab iniquitate mea: * et a peccato meo munda me.\r\nQuoniam iniquitatem meam ego cognosco: * et peccatum meum contra me est semper.",
+                        "Antyfona: Miserere mei, Deus, * miserere mei.",
+                        "4. Tibi soli peccavi, et malum coram te feci: * ut iustificeris in sermonibus tuis, * et vincas cum iudicaris.\r\nEcce enim in iniquitatibus conceptus sum: * et in peccatis concepit me mater mea.",
+                        "Antyfona: Miserere mei, Deus, * miserere mei.",
                         " "
                     ]
                 },
