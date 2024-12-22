@@ -7,14 +7,17 @@
     
 </head>
 <style>
+    * {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
     body {
         
         margin: 0;
         background-color: white;
         font-size: 10vh;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        
         color: black;
         height: 100vh;
         width: 100vw;
@@ -32,7 +35,7 @@
     let index = 0;
 
     function typeText() {
-        if (index < 4) {
+        if (index < 3) {
             textElement.innerHTML += ".";
             index++;
         } else {
@@ -41,7 +44,7 @@
         }
     }
 
-    setInterval(typeText, 100);
+    setInterval(typeText, 250);
 
 </script>
 </html>
