@@ -1,9 +1,7 @@
 import { getWindow } from "./window.js"
 
-var verse = null
-
 function nextVerse(){
-    verse = document.getElementsByClassName("currentVerse")[0]
+    var verse = document.getElementsByClassName("currentVerse")[0]
     if (!verse || verse.nextSibling == null || !verse.nextSibling.classList.contains("verseBox")){
         return false
     }
@@ -23,7 +21,7 @@ function nextVerse(){
 }
 
 function prevVerse(){
-    verse = document.getElementsByClassName("currentVerse")[0]
+    var verse = document.getElementsByClassName("currentVerse")[0]
     if (!verse || verse.previousSibling == null || !verse.previousSibling.classList.contains("verseBox")){
         return false
     }
@@ -51,7 +49,7 @@ function updateWindow(){
 
     var displayWind = getWindow("displayWind")
   
-    verse = document.getElementsByClassName("currentVerse")[0]
+    var verse = document.getElementsByClassName("currentVerse")[0]
 
     if (!displayWind || !verse){
         return false
