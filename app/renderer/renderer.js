@@ -1,9 +1,9 @@
 // file imports
-import "./dom/eventHandlers.js"
+import "./dom/index/eventHandlers.js"
 
 // module imports
-import { load_previews } from "./dom/dbutils.js"
-import { getSongsPreview } from "./dom/ipcHandlers.js"
+import { load_previews } from "./dom/index/dbutils.js"
+import { getSongsPreview } from "./dom/index/ipcHandlers.js"
 
 
 var previews = getSongsPreview(10000,"wszystko")
