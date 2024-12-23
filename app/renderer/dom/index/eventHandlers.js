@@ -4,7 +4,7 @@ import {
     getSongFullById,
     getSongsPreview,
     getSongCategories } from "./ipcHandlers.js"
-import { scrollPlayView } from "./viewModifiers.js"
+import { scrollPlayView, switchToEditor, switchToIndex } from "./viewModifiers.js"
 import { load_categories, load_previews } from "./dbutils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as windManager from "../windowManager/window.js"
@@ -63,11 +63,20 @@ function add_playlistRecord_click_event(playlistRecord){
     playlistRecord.addEventListener("click",playlistRecord_click_event) 
 }
 //
+function editorButtonClickEvent(event){
+    var editElement = event.currentTarget.parentNode.parentNode
+    switchToEditor(editElement)
+}
+function add_editor_button_click_event(button){
+    button.addEventListener("click",editorButtonClickEvent)
 
+}
+
+//
 function db_record_button_click_event(event){
     var button = event.currentTarget
 
-    var dbRecord = button.parentNode.cloneNode(true)
+    var dbRecord = button.parentNode.parentNode.cloneNode(true)
     appendToPlaylist(dbRecord)
 }
 function add_db_record_button_click_event(button){
@@ -77,7 +86,7 @@ function add_db_record_button_click_event(button){
 
 function playlist_record_button_click_event(event){
     
-    var playlistRecord = event.currentTarget.parentNode
+    var playlistRecord = event.currentTarget.parentNode.parentNode
     removeFromPlaylist(playlistRecord)
     if (playlistRecord.classList.contains("selected")){
         var playView = document.getElementById("playView")
@@ -282,4 +291,5 @@ export {
     playlistRecord_click_event, 
     add_playlistRecord_click_event,
     add_verseBox_click_event,
-    add_categoryRecord_click_event }
+    add_categoryRecord_click_event,
+    add_editor_button_click_event }

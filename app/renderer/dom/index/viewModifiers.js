@@ -21,4 +21,13 @@ function scrollPlayView(){
 
    
 }
-export{ scrollPlayView }
+function switchToEditor(editElement){
+    console.log("editor")
+}
+function switchToIndex(){
+    console.log(index)
+}
+export{ 
+    scrollPlayView,
+    switchToEditor,
+    switchToIndex }

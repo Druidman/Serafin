@@ -3,7 +3,8 @@ import {
     add_playlistRecord_button_click_event,
     add_db_record_button_click_event, 
     add_verseBox_click_event,
-    add_categoryRecord_click_event 
+    add_categoryRecord_click_event,
+    add_editor_button_click_event 
 } from "./eventHandlers.js"
 
 function construct_verse(verse){
@@ -28,14 +29,26 @@ function construct_db_record(element){
     var title_p = document.createElement("p")
     title_p.textContent = element["title"]
 
+    var buttonHolder = document.createElement("div")
+    buttonHolder.classList.add("dbRecordButtonHolder")
+
     var dbButton = document.createElement("button")
     dbButton.textContent = "+"
     dbButton.classList.add("dbRecordButton")
 
+    var editorButton = document.createElement("button")
+    editorButton.textContent = "✎"
+    editorButton.classList.add("editorButton")
+
+    add_editor_button_click_event(editorButton)
     add_db_record_button_click_event(dbButton)
 
+    buttonHolder.appendChild(dbButton)
+    buttonHolder.appendChild(editorButton)
+
     dbRecord.appendChild(title_p)
-    dbRecord.appendChild(dbButton)
+    dbRecord.appendChild(buttonHolder)
+
 
     return dbRecord
 }
@@ -78,14 +91,27 @@ function construct_playlist_record(dbRecord){
     var textHolder = document.createElement("p")
     textHolder.innerHTML = text
 
-    var button = document.createElement("button")
-    button.classList.add("playlistRecordButton")
-    button.textContent = "-"
+    var buttonHolder = document.createElement("div")
+    buttonHolder.classList.add("dbRecordButtonHolder")
 
-    add_playlistRecord_button_click_event(button)
+    var editorButton = document.createElement("button")
+    editorButton.textContent = "✎"
+    editorButton.classList.add("editorButton")
+
+    
+
+    var dbButton = document.createElement("button")
+    dbButton.classList.add("playlistRecordButton")
+    dbButton.textContent = "-"
+
+    add_editor_button_click_event(editorButton)
+    add_playlistRecord_button_click_event(dbButton)
+
+    buttonHolder.appendChild(editorButton)
+    buttonHolder.appendChild(dbButton)
 
     playlistRecord.append(textHolder)
-    playlistRecord.append(button)
+    playlistRecord.append(buttonHolder)
 
     add_playlistRecord_click_event(playlistRecord)
 
