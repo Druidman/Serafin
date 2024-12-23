@@ -1,4 +1,5 @@
 import { loadStylesheet } from "./utils.js"
+import { getSongFullById } from "./ipcHandlers.js"
 
 function scrollPlayView(){
     var currVerse = document.getElementsByClassName("currentVerse")[0]
@@ -24,6 +25,16 @@ function scrollPlayView(){
 function switchToEditor(editElement){
     console.log("editor")
     loadStylesheet("editorStyles.css")
+    var textEditor = document.getElementById("textEditingArea")
+    var fullText = ""
+    var ind = 1
+    
+    var lyrics = getSongFullById(editElement.id)
+    for (var verse of lyrics){
+        fullText += `<br>${verse}<br><br>`
+        ind++
+    }
+    textEditor.innerHTML = fullText.replaceAll("\n","<br>")
 }
 function switchToIndex(){
     console.log(index)
