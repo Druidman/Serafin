@@ -27,6 +27,7 @@ function switchToEditor(editElement){
 }
 function switchToIndex(){
     console.log(index)
+    loadStylesheet("indexStyles.css")
 }
 export{ 
     scrollPlayView,
