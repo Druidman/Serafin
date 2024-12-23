@@ -1,4 +1,13 @@
-import { construct_db_record, construct_category_record } from "./elementConstructors.js"
+import { construct_db_record, construct_category_record, construct_styleheet } from "./elementConstructors.js"
+
+function loadStylesheet(name){
+    var head = document.head
+    document.getElementById("localStylesheet").remove()
+    
+    var stylesheetElement = construct_styleheet(name)
+    head.appendChild(stylesheetElement)
+
+}
 
 function sortCategories(data){
     var tosort = data.map((element)=>{return element["category"]})
@@ -50,5 +59,5 @@ function load_categories(data){
 }
 
 
-export { load_previews, load_categories }
+export { load_previews, load_categories, loadStylesheet }
 

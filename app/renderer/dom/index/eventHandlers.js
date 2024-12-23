@@ -5,7 +5,7 @@ import {
     getSongsPreview,
     getSongCategories } from "./ipcHandlers.js"
 import { scrollPlayView, switchToEditor, switchToIndex } from "./viewModifiers.js"
-import { load_categories, load_previews } from "./dbutils.js"
+import { load_categories, load_previews } from "./utils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as windManager from "../windowManager/window.js"
 import * as displayWind from "../windowManager/displayWindow.js"

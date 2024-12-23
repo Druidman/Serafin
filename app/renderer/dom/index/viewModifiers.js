@@ -1,4 +1,4 @@
-
+import { loadStylesheet } from "./utils.js"
 
 function scrollPlayView(){
     var currVerse = document.getElementsByClassName("currentVerse")[0]
@@ -23,6 +23,7 @@ function scrollPlayView(){
 }
 function switchToEditor(editElement){
     console.log("editor")
+    loadStylesheet("editorStyles.css")
 }
 function switchToIndex(){
     console.log(index)

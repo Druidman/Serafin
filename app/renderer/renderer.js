@@ -2,7 +2,7 @@
 import "./dom/index/eventHandlers.js"
 
 // module imports
-import { load_previews } from "./dom/index/dbutils.js"
+import { load_previews } from "./dom/index/utils.js"
 import { getSongsPreview } from "./dom/index/ipcHandlers.js"
 
 
