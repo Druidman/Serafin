@@ -141,6 +141,7 @@ async function handlePlayButtonEvent(event){
         return;
     }
     event.stopPropagation();
+    console.log("Gone thru")
     const windName = "displayWind"
     const filename = "displayWindow.html"
 
@@ -148,8 +149,9 @@ async function handlePlayButtonEvent(event){
     var state = playButton.getAttribute("data-value")
 
     if (!windManager.check_window_active(windName)){
+        console.log("event starts")
         await windManager.openNewWindow(filename,windName)
-        
+        console.log("event ends")
     }
 
 
