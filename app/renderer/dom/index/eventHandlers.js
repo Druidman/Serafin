@@ -7,8 +7,8 @@ import {
 import { scrollPlayView } from "./viewModifiers.js"
 import { load_categories, load_previews } from "./dbutils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
-import * as windManager from "./windowManager/window.js"
-import * as displayWind from "./windowManager/displayWindow.js"
+import * as windManager from "../windowManager/window.js"
+import * as displayWind from "../windowManager/displayWindow.js"
 
 
 function categoryRecord_click_event(event){
@@ -142,7 +142,7 @@ async function handlePlayButtonEvent(event){
     }
     event.stopPropagation();
     const windName = "displayWind"
-    const filename = "display.html"
+    const filename = "displayWindow.html"
 
     var playButton = event.currentTarget
     var state = playButton.getAttribute("data-value")

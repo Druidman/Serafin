@@ -3,6 +3,16 @@
     box-sizing: border-box;
     font-family: "Arial";
 }
+#editor {
+    display: none;
+}
+.window-page {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+    width: 100vw;
+}
 input {
     border-style: none;
     border-radius: 5px;

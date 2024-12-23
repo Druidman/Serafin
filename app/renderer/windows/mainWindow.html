@@ -2,11 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles/indexStyles.css">
+    <link rel="stylesheet" href="../styles/editorStyles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
+    <div id="index" class="window-page">
+      <header>
         <section id="headerDbSection">
           <button class="headerButton" id="categorySelector" data-value="wszystko"><i class="fa fa-bars"></i></button>  
           <input placeholder="Search..." id="databaseSearch">  
@@ -58,7 +60,12 @@
       
       
     </main>
+    </div>
+    <div id="editor" class="window-page">
+
+    </div>
+    
     
   </body>
-  <script type="module" src="renderer.js"></script>
+  <script type="module" src="../renderer.js"></script>
 </html>

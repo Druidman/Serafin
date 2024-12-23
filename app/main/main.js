@@ -11,7 +11,7 @@ async function setup_app(){
     await database.Config(db)
     
     setupIpcHandlers(db)
-    var path_to_index = path.join(__dirname,"../renderer/index.html")
+    var path_to_index = path.join(__dirname,"../renderer/windows/mainWindow.html")
     win.loadFile(path_to_index)
 
 
@@ -29,7 +29,7 @@ const createWindow = () => {
     }
  
   })
-  var path_to_loading = path.join(__dirname,"../renderer/loading.html")
+  var path_to_loading = path.join(__dirname,"../renderer/windows/loading.html")
   win.loadFile(path_to_loading)
   return win
 }
