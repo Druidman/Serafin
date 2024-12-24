@@ -4,6 +4,7 @@ async function openNewWindow(filename,name){
     const pathToDisplayFile = "../windows/" + filename
     console.log("window Open")
     var newWind = window.open(pathToDisplayFile,"_blank","width=1000,height=500,frame=false")
+    
     return new Promise((resolve,reject)=>{
         newWind.addEventListener("load",()=>{
             windows[name] = newWind
