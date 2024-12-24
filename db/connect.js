@@ -5,7 +5,7 @@ const path = require('path')
 function ConnectDatabase(){
     
     
-    var path_to_file = path.join(process.cwd(),"db/data/Songs.db")
+    var path_to_file = path.join(process.cwd(),"Songs.db")
     const db = new sqlite3.Database(path_to_file)
     
     return db
