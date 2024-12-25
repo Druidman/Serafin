@@ -249,34 +249,41 @@ document.getElementById("stashButton").addEventListener("click",handleStashButto
 
 
 document.addEventListener("keydown",async (event)=>{
-    event.preventDefault()
+    
     switch (event.code){
         case "Enter":
         case "Numpad0":
+            event.preventDefault()
             await handlePlayButtonEvent(event)
             break
         case "ArrowLeft":
         case "Numpad4":
+            event.preventDefault()
             handlePrevVerseEvent(event)
             break
 
         case "ArrowRight":
         case "Numpad6":
         case "Space":
+            event.preventDefault()
             handleNextVerseEvent(event)
+
             break
         
         case "ArrowUp":
         case "Numpad8":
+            event.preventDefault()
             handlePrevPlaylistRecord(event)
             break
 
         case "ArrowDown":
         case "Numpad2":
+            event.preventDefault()
             handleNextPlaylistRecord(event)
             break
 
         case "Numpad0":
+            event.preventDefault()
             displayWind.showWindow()
     }
 })
