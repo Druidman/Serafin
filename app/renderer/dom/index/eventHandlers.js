@@ -251,6 +251,10 @@ document.getElementById("stashButton").addEventListener("click",handleStashButto
 document.addEventListener("keydown",(event)=>{
     event.preventDefault()
     switch (event.code){
+        case "Enter":
+        case "Numpad0":
+            handlePlayButtonEvent(event)
+            break
         case "ArrowLeft":
         case "Numpad4":
             handlePrevVerseEvent(event)
