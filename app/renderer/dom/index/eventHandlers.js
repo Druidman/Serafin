@@ -249,7 +249,7 @@ document.getElementById("stashButton").addEventListener("click",handleStashButto
 
 
 document.addEventListener("keydown",(event)=>{
-    event.preventDefault()
+    //event.preventDefault()
     switch (event.code){
         case "ArrowLeft":
         case "Numpad4":
