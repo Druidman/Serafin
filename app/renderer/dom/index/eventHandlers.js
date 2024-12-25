@@ -131,16 +131,15 @@ function handleNextVerseEvent(event){
     scrollPlayView()
 }
 function handlePrevVerseEvent(event){
+
     if (!displayWind.prevVerse()){
         return
     }
     scrollPlayView()
 }
 async function handlePlayButtonEvent(event){
-    if (event.pointerType !== 'mouse') {
-        return;
-    }
-    event.stopPropagation();
+    
+    
     console.log("Gone thru")
     const windName = "displayWind"
     const filename = "displayWindow.html"
@@ -250,6 +249,7 @@ document.getElementById("stashButton").addEventListener("click",handleStashButto
 
 
 document.addEventListener("keydown",(event)=>{
+    event.preventDefault()
     switch (event.code){
         case "ArrowLeft":
         case "Numpad4":
