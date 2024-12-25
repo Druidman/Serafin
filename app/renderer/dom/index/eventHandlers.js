@@ -144,7 +144,7 @@ async function handlePlayButtonEvent(event){
     const windName = "displayWind"
     const filename = "displayWindow.html"
 
-    var playButton = event.currentTarget
+    var playButton = document.getElementById("play")
     var state = playButton.getAttribute("data-value")
 
     if (!windManager.check_window_active(windName)){
@@ -248,12 +248,12 @@ document.getElementById("categorySelector").addEventListener("click",handleCateg
 document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
 
 
-document.addEventListener("keydown",(event)=>{
+document.addEventListener("keydown",async (event)=>{
     event.preventDefault()
     switch (event.code){
         case "Enter":
         case "Numpad0":
-            handlePlayButtonEvent(event)
+            await handlePlayButtonEvent(event)
             break
         case "ArrowLeft":
         case "Numpad4":

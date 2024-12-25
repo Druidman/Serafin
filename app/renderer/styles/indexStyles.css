@@ -2,7 +2,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Arial";
-    user-select: none;
+    
+    outline: none;
 }
 #editor {
     display: none;
@@ -30,6 +31,7 @@ button {
     border-style: none;
     border-radius: 5px;
 }
+
 
 body{
     background-color: white;
