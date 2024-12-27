@@ -1,10 +1,10 @@
-import { construct_db_record, construct_category_record, construct_styleheet } from "./elementConstructors.js"
+import { construct_db_record, construct_category_record, construct_stylesheet } from "./elementConstructors.js"
 
 function loadStylesheet(name){
     var head = document.head
     document.getElementById("localStylesheet").remove()
     
-    var stylesheetElement = construct_styleheet(name)
+    var stylesheetElement = construct_stylesheet(name)
     head.appendChild(stylesheetElement)
 
 }

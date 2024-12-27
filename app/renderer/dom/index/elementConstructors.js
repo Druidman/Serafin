@@ -119,7 +119,7 @@ function construct_playlist_record(dbRecord){
 
 }
 
-function construct_styleheet(name){
+function construct_stylesheet(name){
     var linkElement = document.createElement("link")
     linkElement.setAttribute("id","localStylesheet")
     linkElement.setAttribute("rel", "stylesheet")
@@ -133,4 +133,4 @@ export {
     construct_verse, 
     construct_spaceTaker, 
     construct_playlist_record,
-    construct_styleheet }
+    construct_stylesheet }
