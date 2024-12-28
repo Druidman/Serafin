@@ -1,6 +1,6 @@
 const { ipcMain } = require('electron')
 const database = require('../../db/database')
-const displayWind = require("./displayWindow")
+const displayWind = require("./windowManager/displayWindow")
 
 
 function setupIpcHandlers(db){
@@ -35,7 +35,7 @@ function setupIpcHandlers(db){
     
 
     ipcMain.on("openDisplayWindow",(Event)=>{
-        Event.returnValue = displayWind.openWindow()
+        Event.returnValue = displayWind.createWindow()
     })
     ipcMain.on("checkDisplayWindowActive",(Event,id)=>{
         Event.returnValue = displayWind.checkWindowActive(id)
@@ -43,9 +43,7 @@ function setupIpcHandlers(db){
     ipcMain.on("writeToDisplayWindow",(Event,id,data)=>{
         Event.returnValue = displayWind.write(id,data)
     })
-    ipcMain.on("setDisplayWindowFontSize",(Event,id)=>{
-        Event.returnValue = displayWind.setFontSize(id)
-    })
+  
 }
 
 

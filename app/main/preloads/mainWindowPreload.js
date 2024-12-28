@@ -13,5 +13,5 @@ contextBridge.exposeInMainWorld("electronAPI", {
     openDisplayWindow: () => ipcRenderer.sendSync("openDisplayWindow"),
     checkDisplayWindowActive: (id) => ipcRenderer.sendSync("checkDisplayWindowActive",id),
     writeToDisplayWindow: (id,data)=> ipcRenderer.sendSync("writeToDisplayWindow",id,data),
-    setDisplayWindowFontSize: (id)=> ipcRenderer.sendSync("setDisplayWindowFontSize", id)
+    
 })

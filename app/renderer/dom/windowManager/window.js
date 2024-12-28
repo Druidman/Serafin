@@ -1,4 +1,4 @@
-import { openDisplayWindow,checkDisplayWindowActive,writeToDisplayWindow, setDisplayWindowFontSize } from "../index/ipcHandlers.js"
+import { openDisplayWindow,checkDisplayWindowActive,writeToDisplayWindow} from "../index/ipcHandlers.js"
 
 var displayWindId = null
 async function openNewWindow(){
@@ -23,8 +23,6 @@ function checkWindowActive(){
 function writeToWindow(data){
     writeToDisplayWindow(displayWindId,data)
 }
-function setFontSize(){
-    setDisplayWindowFontSize(displayWindId)
-}
 
-export { openNewWindow, checkWindowActive,writeToWindow, setFontSize }
+
+export { openNewWindow, checkWindowActive,writeToWindow }
