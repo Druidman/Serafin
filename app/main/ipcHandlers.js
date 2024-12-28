@@ -1,5 +1,6 @@
 const { ipcMain } = require('electron')
 const database = require('../../db/database')
+const displayWind = require("./displayWindow")
 
 
 function setupIpcHandlers(db){
@@ -30,6 +31,20 @@ function setupIpcHandlers(db){
     ipcMain.on("updateSongById",(Event,id,rowToEdit,valueToInsert)=>{
         database.updateSongById(Event,id,rowToEdit,valueToInsert,db)
         console.debug("updateSongById: IPC")
+    })
+    
+
+    ipcMain.on("openDisplayWindow",(Event)=>{
+        Event.returnValue = displayWind.openWindow()
+    })
+    ipcMain.on("checkDisplayWindowActive",(Event,id)=>{
+        Event.returnValue = displayWind.checkWindowActive(id)
+    })
+    ipcMain.on("writeToDisplayWindow",(Event,id,data)=>{
+        Event.returnValue = displayWind.write(id,data)
+    })
+    ipcMain.on("setDisplayWindowFontSize",(Event,id)=>{
+        Event.returnValue = displayWind.setFontSize(id)
     })
 }
 

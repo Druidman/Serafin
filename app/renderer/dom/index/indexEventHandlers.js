@@ -145,15 +145,14 @@ function handlePrevVerseEvent(event){
     }
     scrollPlayView()
 }
-async function handlePlayButtonEvent(event){
-    const windName = "displayWind"
-    const filename = "displayWindow.html"
+function handlePlayButtonEvent(event){
+
 
     var playButton = document.getElementById("play")
     var state = playButton.getAttribute("data-value")
 
-    if (!windManager.check_window_active(windName)){
-        await windManager.openNewWindow(filename,windName)
+    if (!windManager.checkWindowActive()){
+        windManager.openNewWindow()
         
     }
 

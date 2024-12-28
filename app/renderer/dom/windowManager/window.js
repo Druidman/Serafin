@@ -1,32 +1,30 @@
-var windows = {}
+import { openDisplayWindow,checkDisplayWindowActive,writeToDisplayWindow, setDisplayWindowFontSize } from "../index/ipcHandlers.js"
 
-async function openNewWindow(filename,name){
-    const pathToDisplayFile = "../windows/" + filename
-    var newWind = window.open(pathToDisplayFile,"_blank","width=1000,height=500,frame=false")
-    return new Promise((resolve,reject)=>{
-        newWind.addEventListener("load",()=>{
-            windows[name] = newWind
-            resolve(newWind)
-        })
-    })
+var displayWindId = null
+async function openNewWindow(){
+    
+    displayWindId = openDisplayWindow()
+    console.log(displayWindId)
     
 }
 
-function check_window_active(name){
-    var currWind = windows[name]
-    
-    if (!currWind){
+function checkWindowActive(){
+    if (!displayWindId){
         return false
     }
-    if (currWind.closed){
+    if (!checkDisplayWindowActive(displayWindId)){
         return false
     }
     return true
+    
   
 }
 
-function getWindow(name){
-    return windows[name]
+function writeToWindow(data){
+    writeToDisplayWindow(displayWindId,data)
+}
+function setFontSize(){
+    setDisplayWindowFontSize(displayWindId)
 }
 
-export { openNewWindow, getWindow, check_window_active }
+export { openNewWindow, checkWindowActive,writeToWindow, setFontSize }

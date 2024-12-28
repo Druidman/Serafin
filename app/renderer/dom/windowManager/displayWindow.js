@@ -1,4 +1,5 @@
-import { getWindow } from "./window.js"
+
+import * as displayWind from "./window.js"
 
 function nextVerse(){
     var verse = document.getElementsByClassName("currentVerse")[0]
@@ -46,37 +47,36 @@ function updateWindow(){
     if (state != "shown"){
         return false
     }
-
-    var displayWind = getWindow("displayWind")
   
     var verse = document.getElementsByClassName("currentVerse")[0]
 
-    if (!displayWind || !verse){
+    if (!verse || !displayWind.checkWindowActive()){
         return false
     }
 
     
-    var doc = displayWind.document
-    var container = doc.getElementById("container")
-    container.innerHTML = ''
+    // var doc = displayWind.document
+    // var container = doc.getElementById("container")
+    // container.innerHTML = ''
 
     var versecopy = verse.cloneNode(true)
     versecopy.classList.remove("currentVerse")
     versecopy.setAttribute("id","currVerse")
 
-    container.appendChild(versecopy)
+    displayWind.writeToWindow("")
+    displayWind.writeToWindow(versecopy)
+
     console.log(verse)
     if (verse.textContent != " "){
-        setFontSize()
+        displayWind.setFontSize()
     }
     
     return true
 }
 
 function hideWindow(){
-    var doc = getWindow("displayWind").document
-    var container = doc.getElementById("container")
-    container.innerHTML = ''
+    displayWind.writeToWindow("")
+    
 }
 function showWindow(){
 

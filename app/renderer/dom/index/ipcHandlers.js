@@ -31,4 +31,31 @@ function getSongCategories(){
     return data
 }
 
-export { getSongsFullById, getSongsPreview, getSongsByPrefix, getSongFullById, getSongCategories, updateSongById }
+function openDisplayWindow(){
+    var data = window.electronAPI.openDisplayWindow()
+    return data
+}
+function checkDisplayWindowActive(windowId){
+    var data = window.electronAPI.checkDisplayWindowActive(windowId)
+    return data
+}
+function writeToDisplayWindow(windowId,dataToWrite){
+    window.electronAPI.writeToDisplayWindow(windowId,dataToWrite)
+    
+}
+function setDisplayWindowFontSize(windowId){
+    window.electronAPI.setDisplayWindowFontSize(windowId)
+}
+
+export { 
+    getSongsFullById, 
+    getSongsPreview, 
+    getSongsByPrefix, 
+    getSongFullById, 
+    getSongCategories, 
+    updateSongById,
+
+    openDisplayWindow,
+    checkDisplayWindowActive,
+    writeToDisplayWindow,
+    setDisplayWindowFontSize }
