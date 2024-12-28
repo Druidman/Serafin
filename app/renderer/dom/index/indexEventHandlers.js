@@ -250,17 +250,7 @@ function handlePrevPlaylistRecord(event){
 function handleReturnButtonClickEvent(event){
     switchToIndex()
 }
-
-document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
-document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
-document.getElementById("next").addEventListener("click",handleNextVerseEvent)
-document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
-document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
-document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
-document.getElementById("returnButton").addEventListener("click",handleReturnButtonClickEvent)
-
-
-document.addEventListener("keydown",(event)=>{
+function handleKeyPressEvent(event){
     switch (event.code){
         case "ArrowLeft":
         case "Numpad4":
@@ -286,7 +276,18 @@ document.addEventListener("keydown",(event)=>{
         case "Numpad0":
             displayWind.showWindow()
     }
-})
+}
+
+document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
+document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
+document.getElementById("next").addEventListener("click",handleNextVerseEvent)
+document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
+document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
+document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
+document.getElementById("returnButton").addEventListener("click",handleReturnButtonClickEvent)
+
+
+document.addEventListener("keydown",handleKeyPressEvent)
 
 
 export { 

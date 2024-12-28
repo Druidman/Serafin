@@ -1,5 +1,6 @@
 // file imports
-import "./dom/index/eventHandlers.js"
+import "./dom/index/indexEventHandlers.js"
+import "./dom/editor/editorEventHandlers.js"
 
 // module imports
 import { load_previews } from "./dom/index/utils.js"

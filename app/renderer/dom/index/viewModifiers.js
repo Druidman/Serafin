@@ -1,6 +1,9 @@
 import { loadStylesheet } from "./utils.js"
 import { getSongFullById } from "./ipcHandlers.js"
 
+
+
+
 function scrollPlayView(){
     var currVerse = document.getElementsByClassName("currentVerse")[0]
     var verseRect = currVerse.getBoundingClientRect()
@@ -23,18 +26,22 @@ function scrollPlayView(){
    
 }
 function switchToEditor(editElement){
-    console.log("editor")
+    
     loadStylesheet("editorStyles.css")
     var textEditor = document.getElementById("textEditingArea")
-    var fullText = ""
-    var ind = 1
+    var editorOptions = document.getElementById("editorOptions")
     
+    var fullText = ""
+  
+    var slideNum = 1
     var lyrics = getSongFullById(editElement.id)
     for (var verse of lyrics){
-        fullText += `<br>${verse}<br><br>`
-        ind++
+        fullText += `<br><br>( SLAJD ${slideNum} )<br>${verse}`
+        slideNum++
     }
     textEditor.innerHTML = fullText.replaceAll("\n","<br>")
+    
+    editorOptions.setAttribute("data-value",editElement.id)
 }
 function switchToIndex(){
     console.log(index)

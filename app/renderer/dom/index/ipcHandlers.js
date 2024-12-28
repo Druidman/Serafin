@@ -1,6 +1,8 @@
 
 
-
+function updateSongById(id,rowToEdit,valueToInsert){
+    // window.electronAPI.updateSongById(id,rowToEdit,valueToInsert)
+}
 
 function getSongsPreview(amount,categoryName){
     var data = window.electronAPI.getSongsPreview(amount,categoryName)
@@ -29,4 +31,4 @@ function getSongCategories(){
     return data
 }
 
-export { getSongsFullById, getSongsPreview, getSongsByPrefix, getSongFullById, getSongCategories }
+export { getSongsFullById, getSongsPreview, getSongsByPrefix, getSongFullById, getSongCategories, updateSongById }

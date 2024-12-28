@@ -5,7 +5,7 @@ import {
     add_verseBox_click_event,
     add_categoryRecord_click_event,
     add_editor_button_click_event 
-} from "./eventHandlers.js"
+} from "./indexEventHandlers.js"
 
 function construct_verse(verse){
     var box = document.createElement("div")
