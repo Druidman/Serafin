@@ -27,6 +27,10 @@ function setupIpcHandlers(db){
         database.getSongCategories(Event,db)
         console.debug("getSongCategories: IPC")
     })
+    ipcMain.on("updateSongById",(Event,id,rowToEdit,valueToInsert)=>{
+        database.updateSongById(Event,id,rowToEdit,valueToInsert,db)
+        console.debug("updateSongById: IPC")
+    })
 }
 
 

@@ -17,7 +17,9 @@ async function getSongFullById(event,id,db){
 }
 async function getSongCategories(event,db){
     event.returnValue = await songs.getCategories(db)
-    
+}
+async function updateSongById(event,id,rowToEdit,valueToInsert,db){
+    event.returnValue = await songs.updateById(id,rowToEdit,valueToInsert,db)
 }
 
 module.exports = { 
@@ -27,6 +29,7 @@ module.exports = {
     getSongsFullById,
     getSongFullById,
     getSongCategories,
+    updateSongById,
     Config
 
 }

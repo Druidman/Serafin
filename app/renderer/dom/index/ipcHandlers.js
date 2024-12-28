@@ -1,7 +1,7 @@
 
 
 function updateSongById(id,rowToEdit,valueToInsert){
-    // window.electronAPI.updateSongById(id,rowToEdit,valueToInsert)
+    window.electronAPI.updateSongById(id,rowToEdit,valueToInsert)
 }
 
 function getSongsPreview(amount,categoryName){

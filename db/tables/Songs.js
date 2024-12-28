@@ -101,6 +101,22 @@ async function getCategories(db){
 
     })
 }
+
+async function updateById(id,rowToEdit,valueToInsert,db){
+    return await new Promise((resolve,reject)=>{
+        
+        db.run(`UPDATE songs SET ${rowToEdit}=? WHERE id=?`,[JSON.stringify(valueToInsert),id],(err)=>{
+            if (err){
+                console.log(`Error occured while updating row in songs table: ${err}`)
+                reject(err)
+            }
+            else{
+                resolve()
+            }
+        })
+
+    })
+}
     
     
     
@@ -108,4 +124,4 @@ async function getCategories(db){
     
 
 
-module.exports = { getPreviews, getByPrefix, getFullById, getCategories }
+module.exports = { getPreviews, getByPrefix, getFullById, getCategories, updateById }

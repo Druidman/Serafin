@@ -4,12 +4,13 @@ function editorSaveButton_click_event(event){
     
     var verses = editedText.split(/\( SLAJD \d+ \)/)
     verses.shift()
+    
 
     const id = document.getElementById("editorOptions").getAttribute("data-value")
     const rowToEdit = "lyrics"
-    const valueToInsert = verses
+    
 
-    updateSongById(id,rowToEdit,valueToInsert)
+    updateSongById(id,rowToEdit,verses)
 
 }
 
