@@ -10,7 +10,8 @@ import {
 function construct_verse(verse){
     var box = document.createElement("div")
     box.classList.add("verseBox")
-    
+
+    console.log(verse)
 
     var p_tag = document.createElement("p")
     p_tag.innerText = verse
