@@ -1,4 +1,4 @@
-const { ipcMain } = require('electron')
+const { ipcMain, screen } = require('electron')
 const database = require('../../db/database')
 const displayWind = require("./windowManager/displayWindow")
 
@@ -32,14 +32,20 @@ function setupIpcHandlers(db){
         database.updateSongById(Event,id,rowToEdit,valueToInsert,db)
         console.debug("updateSongById: IPC")
     })
-    ipcMain.on("openDisplayWindow",(Event)=>{
-        Event.returnValue = displayWind.createWindow()
+    ipcMain.on("openDisplayWindow",async (Event,cords)=>{
+        
+        cords = JSON.parse(cords)
+        Event.returnValue = await displayWind.createWindow(cords)
     })
     ipcMain.on("checkDisplayWindowActive",(Event,id)=>{
         Event.returnValue = displayWind.checkWindowActive(id)
     })
     ipcMain.on("writeToDisplayWindow",(Event,id,data)=>{
         Event.returnValue = displayWind.write(id,data)
+    })
+
+    ipcMain.on("getAllDisplays",(Event)=>{
+        Event.returnValue = screen.getAllDisplays()
     })
   
 }

@@ -1,7 +1,8 @@
 import { 
     construct_db_record, 
     construct_category_record, 
-    construct_stylesheet 
+    construct_stylesheet,
+    construct_displayOption 
 } from "../index/elementConstructors.js"
 
 function loadStylesheet(name){
@@ -62,6 +63,14 @@ function load_categories(data){
     }
 }
 
+function load_displays(data){
+    var displaysDropDown = document.getElementById("availableDisplays")
+    for (var display of data){
+        var displayOption = construct_displayOption(display)
+        displaysDropDown.appendChild(displayOption)
+    }
+}
 
-export { load_previews, load_categories, loadStylesheet }
+
+export { load_previews, load_categories, loadStylesheet, load_displays }
 

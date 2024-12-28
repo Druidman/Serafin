@@ -1,4 +1,4 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, screen } = require('electron')
 const path = require('path');
 const database = require('../../db/database')
 const { setupIpcHandlers } = require("./mainIpcHandlers.js")

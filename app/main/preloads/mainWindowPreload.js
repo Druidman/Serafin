@@ -10,8 +10,9 @@ contextBridge.exposeInMainWorld("electronAPI", {
     getSongFullById: (id) => ipcRenderer.sendSync("getSongFullById",id),
     getSongCategories: () => ipcRenderer.sendSync("getSongCategories"),
     updateSongById: (id,rowToEdit,valueToInsert)=> ipcRenderer.sendSync("updateSongById",id,rowToEdit,valueToInsert),
-    openDisplayWindow: () => ipcRenderer.sendSync("openDisplayWindow"),
+    openDisplayWindow: (cords) => ipcRenderer.sendSync("openDisplayWindow",cords),
     checkDisplayWindowActive: (id) => ipcRenderer.sendSync("checkDisplayWindowActive",id),
     writeToDisplayWindow: (id,data)=> ipcRenderer.sendSync("writeToDisplayWindow",id,data),
+    getAllDisplays: ()=> ipcRenderer.sendSync("getAllDisplays")
     
 })

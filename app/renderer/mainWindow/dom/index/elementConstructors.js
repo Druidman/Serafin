@@ -127,6 +127,19 @@ function construct_stylesheet(name){
     linkElement.setAttribute("href","../styles/" + name)
     return linkElement
 }
+function construct_displayOption(display){
+    var option = document.createElement("option")
+    option.setAttribute("value",JSON.stringify(display.nativeOrigin))
+    
+    if (display.nativeOrigin.x == 0){
+        option.innerHTML = `${display.label}(Główny)`
+    }
+    else {
+        option.innerHTML = display.label
+    }
+    return option
+    
+}
 
 export { 
     construct_db_record,
@@ -134,4 +147,5 @@ export {
     construct_verse, 
     construct_spaceTaker, 
     construct_playlist_record,
-    construct_stylesheet }
+    construct_stylesheet,
+    construct_displayOption }

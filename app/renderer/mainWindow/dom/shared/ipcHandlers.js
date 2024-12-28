@@ -31,8 +31,8 @@ function getSongCategories(){
     return data
 }
 
-function openDisplayWindow(){
-    var data = window.electronAPI.openDisplayWindow()
+function openDisplayWindow(cords){
+    var data = window.electronAPI.openDisplayWindow(cords)
     return data
 }
 function checkDisplayWindowActive(windowId){
@@ -47,6 +47,11 @@ function setDisplayWindowFontSize(windowId){
     window.electronAPI.setDisplayWindowFontSize(windowId)
 }
 
+function getAllDisplays(){
+    var data = window.electronAPI.getAllDisplays()
+    return data
+}
+
 export { 
     getSongsFullById, 
     getSongsPreview, 
@@ -54,6 +59,7 @@ export {
     getSongFullById, 
     getSongCategories, 
     updateSongById,
+    getAllDisplays,
 
     openDisplayWindow,
     checkDisplayWindowActive,

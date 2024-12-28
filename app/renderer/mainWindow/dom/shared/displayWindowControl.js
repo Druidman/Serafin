@@ -70,7 +70,9 @@ function showWindow(){
 
 function openWindow(){
     
-    displayWindId = openDisplayWindow()
+    var cords = document.getElementById("availableDisplays").value
+   
+    displayWindId = openDisplayWindow(cords)
     console.log(displayWindId)
     
 }

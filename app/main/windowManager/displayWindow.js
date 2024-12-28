@@ -2,10 +2,15 @@ const { BrowserWindow } = require("electron")
 const path = require("path")
 
 
-function createWindow(){
+function createWindow(cords){
+    
+    const x = cords["x"]
+    const y = cords["y"]
+
     const window = new BrowserWindow({
-        width: 800,
-        height: 800,
+        x: x,
+        y: y,
+        fullscreen: true,
         frame: false,
         webPreferences: {
             preload: path.join(__dirname, '../preloads/displayWindowPreload.js')
@@ -13,8 +18,12 @@ function createWindow(){
     })
     const path_to_display = path.join(__dirname,"../../renderer/displayWindow/pages/displayWindow.html")
     window.loadFile(path_to_display)
-    
-    return window.id
+    return new Promise((resolve,reject)=>{
+        window.once("ready-to-show",()=>{
+            resolve(window.id)
+        })
+    })
+
 
 }
 
