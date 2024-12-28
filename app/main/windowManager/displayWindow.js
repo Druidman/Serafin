@@ -11,7 +11,7 @@ function createWindow(){
             preload: path.join(__dirname, '../preloads/displayWindowPreload.js')
         }
     })
-    const path_to_display = path.join(__dirname,"../../renderer/windows/displayWindow.html")
+    const path_to_display = path.join(__dirname,"../../renderer/displayWindow/pages/displayWindow.html")
     window.loadFile(path_to_display)
     
     return window.id

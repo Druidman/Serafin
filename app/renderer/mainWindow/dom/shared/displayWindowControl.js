@@ -1,6 +1,6 @@
+import { openDisplayWindow,checkDisplayWindowActive,writeToDisplayWindow} from "./ipcHandlers.js"
 
-import * as displayWind from "./window.js"
-
+var displayWindId = null
 function nextVerse(){
     var verse = document.getElementsByClassName("currentVerse")[0]
     if (!verse || verse.nextSibling == null || !verse.nextSibling.classList.contains("verseBox")){
@@ -50,22 +50,45 @@ function updateWindow(){
   
     var verse = document.getElementsByClassName("currentVerse")[0]
 
-    if (!verse || !displayWind.checkWindowActive()){
+    if (!verse || !checkWindowActive()){
         return false
     }
 
-    displayWind.writeToWindow(verse.textContent)
+    writeToWindow(verse.textContent)
     
     return true
 }
 
 function hideWindow(){
-    displayWind.writeToWindow("")
-    console.log("hide wind")
+    writeToWindow("")
+   
     
 }
 function showWindow(){
     updateWindow()
 }
 
-export { updateWindow, prevVerse, nextVerse, hideWindow,showWindow }
+function openWindow(){
+    
+    displayWindId = openDisplayWindow()
+    console.log(displayWindId)
+    
+}
+
+function checkWindowActive(){
+    if (!displayWindId){
+        return false
+    }
+    if (!checkDisplayWindowActive(displayWindId)){
+        return false
+    }
+    return true
+    
+  
+}
+
+function writeToWindow(data){
+    writeToDisplayWindow(displayWindId,data)
+}
+
+export { updateWindow, prevVerse, nextVerse, hideWindow, showWindow, openWindow, checkWindowActive}

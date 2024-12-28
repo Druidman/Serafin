@@ -1,4 +1,6 @@
-import { updateSongById } from "../index/ipcHandlers.js"
+import { updateSongById } from "../shared/ipcHandlers.js"
+import { switchToIndex } from "../shared/viewModifiers.js"
+
 function editorSaveButton_click_event(event){
     var editedText = document.getElementById("textEditingArea").textContent
     
@@ -13,6 +15,9 @@ function editorSaveButton_click_event(event){
     updateSongById(id,rowToEdit,verses)
 
 }
+function handleReturnButtonClickEvent(event){
+    switchToIndex()
+}
 
 document.getElementById("editorSaveButton").addEventListener("click",editorSaveButton_click_event)
-
+document.getElementById("returnButton").addEventListener("click",handleReturnButtonClickEvent)

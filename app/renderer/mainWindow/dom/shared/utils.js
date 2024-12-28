@@ -1,4 +1,8 @@
-import { construct_db_record, construct_category_record, construct_stylesheet } from "./elementConstructors.js"
+import { 
+    construct_db_record, 
+    construct_category_record, 
+    construct_stylesheet 
+} from "../index/elementConstructors.js"
 
 function loadStylesheet(name){
     var head = document.head

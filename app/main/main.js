@@ -1,7 +1,7 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path');
 const database = require('../../db/database')
-const { setupIpcHandlers } = require("./ipcHandlers")
+const { setupIpcHandlers } = require("./mainIpcHandlers.js")
 const { createMainWindow } = require("./windowManager/mainWindow.js")
 
 
@@ -13,7 +13,7 @@ async function setup_app(){
     await database.Config(db)
     
     setupIpcHandlers(db)
-    var path_to_index = path.join(__dirname,"../renderer/windows/mainWindow.html")
+    var path_to_index = path.join(__dirname,"../renderer/mainWindow/pages/mainWindow.html")
     win.loadFile(path_to_index)
 
 }

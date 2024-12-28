@@ -3,12 +3,11 @@ import {
     getSongsByPrefix, 
     getSongFullById,
     getSongsPreview,
-    getSongCategories } from "./ipcHandlers.js"
-import { scrollPlayView, switchToEditor, switchToIndex } from "./viewModifiers.js"
-import { load_categories, load_previews } from "./utils.js"
+    getSongCategories } from "../shared/ipcHandlers.js"
+import { scrollPlayView, switchToEditor } from "../shared/viewModifiers.js"
+import { load_categories, load_previews } from "../shared/utils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
-import * as windManager from "../windowManager/window.js"
-import * as displayWind from "../windowManager/displayWindow.js"
+import * as displayWind from "../shared/displayWindowControl.js"
 
 
 function categoryRecord_click_event(event){
@@ -109,7 +108,8 @@ function verseBox_click_event(event){
     curr.classList.remove("currentVerse")
     event.currentTarget.classList.add("currentVerse")
     var button = document.getElementById("play")
-    if (button.innerHTML == "Hid"){
+    var state = button.getAttribute("data-value")
+    if (state == "shown"){
         displayWind.updateWindow()
     }
     
@@ -151,8 +151,8 @@ function handlePlayButtonEvent(event){
     var playButton = document.getElementById("play")
     var state = playButton.getAttribute("data-value")
 
-    if (!windManager.checkWindowActive()){
-        windManager.openNewWindow()
+    if (!displayWind.checkWindowActive()){
+        displayWind.openWindow()
         
     }
 
@@ -242,9 +242,7 @@ function handlePrevPlaylistRecord(event){
         displayWind.updateWindow()
     }
 }
-function handleReturnButtonClickEvent(event){
-    switchToIndex()
-}
+
 async function handleKeyPressEvent(event){
     console.log("event")
     switch (event.code){
@@ -290,7 +288,7 @@ document.getElementById("next").addEventListener("click",handleNextVerseEvent)
 document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
 document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
 document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
-document.getElementById("returnButton").addEventListener("click",handleReturnButtonClickEvent)
+
 
 
 document.addEventListener("keydown",handleKeyPressEvent)

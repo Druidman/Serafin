@@ -32,8 +32,6 @@ function setupIpcHandlers(db){
         database.updateSongById(Event,id,rowToEdit,valueToInsert,db)
         console.debug("updateSongById: IPC")
     })
-    
-
     ipcMain.on("openDisplayWindow",(Event)=>{
         Event.returnValue = displayWind.createWindow()
     })
