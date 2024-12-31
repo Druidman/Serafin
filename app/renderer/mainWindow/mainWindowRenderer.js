@@ -7,7 +7,7 @@ import { load_previews, load_displays } from "./dom/shared/utils.js"
 import { getSongsPreview, getAllDisplays } from "./dom/shared/ipcHandlers.js"
 
 
-var previews = getSongsPreview(10000,"wszystko")
+var previews = getSongsPreview(100,"wszystko")
 load_previews(previews)
 
 var displays = getAllDisplays()
