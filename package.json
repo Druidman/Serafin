@@ -48,12 +48,7 @@
             "target": [
                 "nsis"
             ]
-        },
-        "extraResources": [
-            {
-                "from": "Songs.db",
-                "to": "Songs.db"
-            }
-        ]
+        }
+        
     }
 }
