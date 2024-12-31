@@ -243,13 +243,13 @@ function handlePrevPlaylistRecord(event){
     }
 }
 
-async function handleKeyPressEvent(event){
+function handleKeyPressEvent(event){
     console.log("event")
     switch (event.code){
         case "Enter":
         case "Numpad0":
             event.preventDefault()
-            await handlePlayButtonEvent(event)
+            handlePlayButtonEvent(event)
             break
         case "ArrowLeft":
         case "Numpad4":
@@ -301,4 +301,5 @@ export {
     add_playlistRecord_click_event,
     add_verseBox_click_event,
     add_categoryRecord_click_event,
-    add_editor_button_click_event }
+    add_editor_button_click_event,
+    handleKeyPressEvent }

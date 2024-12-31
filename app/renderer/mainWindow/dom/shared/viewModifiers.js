@@ -1,6 +1,6 @@
 import { loadStylesheet } from "./utils.js"
 import { getSongFullById } from "./ipcHandlers.js"
-
+import { handleKeyPressEvent } from "../index/indexEventHandlers.js"
 
 
 
@@ -27,6 +27,7 @@ function scrollPlayView(){
 }
 function switchToEditor(editElement){
     
+    document.removeEventListener("keydown",handleKeyPressEvent)
     loadStylesheet("editorStyles.css")
     var textEditor = document.getElementById("textEditingArea")
     var editorOptions = document.getElementById("editorOptions")
@@ -45,7 +46,7 @@ function switchToEditor(editElement){
 }
 function switchToIndex(){
     console.log(index)
-   
+    document.addEventListener("keydown",handleKeyPressEvent)
     loadStylesheet("indexStyles.css")
 }
 export{ 
