@@ -16,6 +16,7 @@ function createWindow(cords){
             preload: path.join(__dirname, '../preloads/displayWindowPreload.js')
         }
     })
+    
     const path_to_display = path.join(__dirname,"../../renderer/displayWindow/pages/displayWindow.html")
     window.loadFile(path_to_display)
     return new Promise((resolve,reject)=>{

@@ -15,6 +15,10 @@ async function setup_app(){
     setupIpcHandlers(db)
     var path_to_index = path.join(__dirname,"../renderer/mainWindow/pages/mainWindow.html")
     win.loadFile(path_to_index)
+    win.once("closed",()=>{
+      app.quit()
+      console.log("CLOSED")
+    })
 
 }
 
@@ -28,11 +32,11 @@ app.on('activate', () => {
   }
 })
 
-app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin'){
-    app.quit()
-  } 
-})
+// app.on('window-all-closed', () => {
+//   if (process.platform !== 'darwin'){
+//     app.quit()
+//   } 
+// })
 
 
 
