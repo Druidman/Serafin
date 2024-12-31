@@ -11,6 +11,7 @@ var previews = getSongsPreview(100,"wszystko")
 load_previews(previews)
 
 var displays = getAllDisplays()
+console.log(displays)
 load_displays(displays)
 
 
