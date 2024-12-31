@@ -8,6 +8,7 @@ import { scrollPlayView, switchToEditor } from "../shared/viewModifiers.js"
 import { load_categories, load_previews } from "../shared/utils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as displayWind from "../shared/displayWindowControl.js"
+import { construct_playlist_record } from "./elementConstructors.js"
 
 
 function categoryRecord_click_event(event){
@@ -122,7 +123,7 @@ function add_verseBox_click_event(verse){
 
 
 function dbSearchEvent(event){
-    
+    console.log(event.data)
     var categoryName = document.getElementById("categorySelector").getAttribute("data-value")
     if (!categoryName){
         return
@@ -190,7 +191,6 @@ function handleStashButtonEvent(event){
         button.setAttribute("data-value","hide")
     }
 }
-
 function handleNextPlaylistRecord(event){
     var selected = document.getElementsByClassName("selected")[0]
     if (selected == null){
@@ -245,6 +245,9 @@ function handlePrevPlaylistRecord(event){
 
 function handleKeyPressEvent(event){
     console.log("event")
+    if (document.activeElement === document.getElementById("databaseSearch")){
+        return
+    }
     switch (event.code){
         case "Enter":
         case "Numpad0":
