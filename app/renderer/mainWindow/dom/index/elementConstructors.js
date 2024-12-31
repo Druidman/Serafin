@@ -129,9 +129,12 @@ function construct_stylesheet(name){
 }
 function construct_displayOption(display){
     var option = document.createElement("option")
-    option.setAttribute("value",JSON.stringify(display.nativeOrigin))
+    var bounds = display.bounds
+    var nativeOrigin = {x: bounds.x, y: bounds.y}
+    option.setAttribute("value",JSON.stringify(nativeOrigin))
     
-    if (display.nativeOrigin.x == 0){
+
+    if (nativeOrigin.x == 0){
         option.innerHTML = `${display.label}(Główny)`
     }
     else {
