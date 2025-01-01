@@ -9,15 +9,20 @@
     <div id="index" class="window-page">
       <header>
         <section id="headerDbSection">
-          <button class="headerButton" id="categorySelector" data-value="wszystko"><i class="fa fa-bars"></i></button>  
+          
           <input placeholder="Search..." id="databaseSearch">  
+          <button class="headerButton" id="categorySelector" data-value="wszystko"><i class="fa fa-bars"></i></button>  
           <button class="headerButton" id="stashButton" data-value="hide"><i class="fa fa-truck"></i></button>
         </section>
         <section id="headerPlayerSection">
 
         </section>
         <section id="headerControlPanelSection">
-          <select id="availableDisplays"></select>
+        
+       
+          <select id="availableDisplays" placeholder="MONITOR"></select>
+        
+          
 
         </section>
     </header>
@@ -64,22 +69,26 @@
     <div id="editor" class="window-page">
       <header>
         <button id="returnButton">wróć</button>
-        <div id="loadButtons"></div>
+        <div id="loadButtons">
+          <button>Z pliku *.txt</button>
+          <button>Z pliku *.json</button>
+        </div>
       </header>
       <main>
         <section id="editSection">
           <div id="textEditingArea" class="mainBox" contenteditable="true"></div>
         </section>
         <section id="editControlSection">
-          <div id="editControlBox" class="mainBox">
-            <div id="editorOptions" >
-              <div class="categoryOption">
-                <p>Category:  </p>
-                <input id="category">
-              </div>
+          <div id="editorOptions" class="mainBox">
+            
+            <div id="categoryOption">
+              <p>Category:  </p>
+              <input id="category">
             </div>
-            <button id="editorSaveButton" >Save</button>
+            
+            
           </div>
+          <button id="editorSaveButton" >Save</button>
           
 
         </section>
