@@ -21,11 +21,13 @@ function construct_verse(verse){
     return box
 }
 
-function construct_db_record(element){
+function construct_db_record(element,category){
     var dbRecord = document.createElement("div")
 
     dbRecord.classList.add("dbRecord")
-    dbRecord.id = element["id"]
+
+    dbRecord.setAttribute("id",element["id"])
+    dbRecord.setAttribute("data-category",category)
 
     var title_p = document.createElement("p")
     title_p.textContent = element["title"]
@@ -83,11 +85,13 @@ function construct_playlist_record(dbRecord){
 
     var text = dbRecord.getElementsByTagName("p")[0].innerHTML
     
-
+    var category = dbRecord.getAttribute("data-category")
 
     var playlistRecord = document.createElement("div")
+
     playlistRecord.classList.add("playlistRecord")
     playlistRecord.setAttribute("id",dbRecord.id)
+    playlistRecord.setAttribute("data-category",category)
 
     var textHolder = document.createElement("p")
     textHolder.innerHTML = text

@@ -33,6 +33,8 @@ function sortPreviews(data){
 
 function load_previews(data){
     var dataBox = document.getElementById("databaseViewer")
+    var category = document.getElementById("categorySelector").getAttribute("data-value")
+    
     dataBox.innerHTML = ""
     dataBox.scrollTop = 0
 
@@ -40,7 +42,7 @@ function load_previews(data){
 
     for (var element of data){
         
-        var db_record = construct_db_record(element)
+        var db_record = construct_db_record(element,category)
         dataBox.appendChild(db_record)
     }
 

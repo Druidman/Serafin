@@ -13,6 +13,7 @@
           <input placeholder="Search..." id="databaseSearch">  
           <button class="headerButton" id="categorySelector" data-value="wszystko"><i class="fa fa-bars"></i></button>  
           <button class="headerButton" id="stashButton" data-value="hide"><i class="fa fa-truck"></i></button>
+          
         </section>
         <section id="headerPlayerSection">
 
@@ -30,9 +31,8 @@
 
       <section class="mainSection" id="database">
         
-        <div class="mainBox recordHolder" id="databaseViewer">
-          <div class="dbRecord">
-          </div>
+        <div class="mainBox recordHolder" id="databaseViewer" data-category="wszystko">
+          
         </div>
       </section>
       <section class="mainSection" id="player">
@@ -79,10 +79,10 @@
           <div id="textEditingArea" class="mainBox" contenteditable="true"></div>
         </section>
         <section id="editControlSection">
-          <div id="editorOptions" class="mainBox">
+          <div id="editorOptions" class="mainBox" data-value="">
             
             <div id="categoryOption">
-              <p>Category:  </p>
+              <p>Kategoria:  </p>
               <input id="category">
             </div>
             

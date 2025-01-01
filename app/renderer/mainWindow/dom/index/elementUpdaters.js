@@ -38,6 +38,9 @@ function updatePlayView(song){
     
 }
 function appendToPlaylist(dbRecord){
+    
+  
+
     var playlistRecord = construct_playlist_record(dbRecord)
     var playlist = document.getElementById("playlist")
     playlist.append(playlistRecord)

@@ -31,6 +31,10 @@ function switchToEditor(editElement){
     loadStylesheet("editorStyles.css")
     var textEditor = document.getElementById("textEditingArea")
     var editorOptions = document.getElementById("editorOptions")
+
+    var categoryInput = document.getElementById("category")
+    console.log(editElement.getAttribute("data-category"))
+    categoryInput.setAttribute("value",editElement.getAttribute("data-category"))
     
     var fullText = ""
   
