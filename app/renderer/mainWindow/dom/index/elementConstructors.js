@@ -21,13 +21,13 @@ function construct_verse(verse){
     return box
 }
 
-function construct_db_record(element,category){
+function construct_db_record(element){
     var dbRecord = document.createElement("div")
 
     dbRecord.classList.add("dbRecord")
 
     dbRecord.setAttribute("id",element["id"])
-    dbRecord.setAttribute("data-category",category)
+    dbRecord.setAttribute("data-category",element["category"])
 
     var title_p = document.createElement("p")
     title_p.textContent = element["title"]
@@ -83,9 +83,9 @@ function construct_spaceTaker(){
 
 function construct_playlist_record(dbRecord){
 
-    var text = dbRecord.getElementsByTagName("p")[0].innerHTML
+    const text = dbRecord.getElementsByTagName("p")[0].innerHTML
     
-    var category = dbRecord.getAttribute("data-category")
+    const category = dbRecord.getAttribute("data-category")
 
     var playlistRecord = document.createElement("div")
 

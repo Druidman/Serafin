@@ -13,27 +13,25 @@ function loadStylesheet(name){
     head.appendChild(stylesheetElement)
 
 }
-
+// nie tykać
 function sortCategories(data){
     var tosort = data.map((element)=>{return element["category"]})
     tosort.sort((a,b)=>a.localeCompare(b, 'pl'))
     var ready = tosort.map((el)=>{return {"category": el}})
     return ready
 }
+// nie tykać
 function sortPreviews(data){
     var obj = {}
-    for (var element of data){
-        obj[element["title"]] = element["id"]
-    }
-    var toSort = Object.keys(obj)
-    toSort.sort((a,b)=>a.localeCompare(b, 'pl'))
-    var ready = toSort.map((title)=>{return {"title": title,"id": obj[title]}})
+    for (var element of data){obj[element["title"]] = { "id": element["id"], "category": element["category"] }}
+    var titles = Object.keys(obj)
+    var sortedtitles = titles.sort((a,b)=>a.localeCompare(b,"pl"))
+    var ready = sortedtitles.map((title)=>{return { "title": title, "id": obj[title]["id"], "category": obj[title]["category"] }})
     return ready
 }
 
 function load_previews(data){
     var dataBox = document.getElementById("databaseViewer")
-    var category = document.getElementById("categorySelector").getAttribute("data-value")
     
     dataBox.innerHTML = ""
     dataBox.scrollTop = 0
@@ -41,8 +39,9 @@ function load_previews(data){
     data = sortPreviews(data)
 
     for (var element of data){
+
         
-        var db_record = construct_db_record(element,category)
+        var db_record = construct_db_record(element)
         dataBox.appendChild(db_record)
     }
 

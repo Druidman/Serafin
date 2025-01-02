@@ -8,7 +8,7 @@ import { scrollPlayView, switchToEditor } from "../shared/viewModifiers.js"
 import { load_categories, load_previews } from "../shared/utils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as displayWind from "../shared/displayWindowControl.js"
-import { construct_playlist_record } from "./elementConstructors.js"
+
 
 
 function categoryRecord_click_event(event){
@@ -16,12 +16,13 @@ function categoryRecord_click_event(event){
     var textHolder = categoryRecord.getElementsByTagName("p")[0]
     var categoryName = textHolder.innerHTML
     
+    var categorySelector = document.getElementById("categorySelector")
+    categorySelector.setAttribute("data-value",categoryName)
 
     var prevs = getSongsPreview(100,categoryName)
     load_previews(prevs)
     
-    var categorySelector = document.getElementById("categorySelector")
-    categorySelector.setAttribute("data-value",categoryName)
+    
  
 }
 function add_categoryRecord_click_event(categoryRecord){

@@ -12,7 +12,7 @@ var previews = getSongsPreview(100,category)
 load_previews(previews)
 
 var displays = getAllDisplays()
-console.log(displays)
+
 load_displays(displays)
 
 

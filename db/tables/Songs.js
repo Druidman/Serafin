@@ -4,19 +4,20 @@ async function getPreviews(amount,categoryName,db){
     return await new Promise((resolve, reject)=>{
         console.log(categoryName)
         if (categoryName == "wszystko"){
-            db.all("SELECT title,id FROM songs ORDER BY title ASC LIMIT ? ",[amount],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs ORDER BY title ASC LIMIT ? ",[amount],(err,rows)=>{
                 if (err){
                     console.error(err.message)
                     reject(err)
                 }
                 else {
+                    console.log(rows)
                     resolve(rows)
                 
                 }
             })
         }
         else{
-            db.all("SELECT title,id FROM songs WHERE category=? ORDER BY title ASC LIMIT ? ",[categoryName,amount],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE category=? ORDER BY title ASC LIMIT ? ",[categoryName,amount],(err,rows)=>{
                 if (err){
                     console.error(err.message)
                     reject(err)
@@ -35,7 +36,7 @@ async function getPreviews(amount,categoryName,db){
 async function getByPrefix(prefix,categoryName,db){
     return await new Promise((resolve,reject)=>{
         if (categoryName == "wszystko"){
-            db.all("SELECT title,id FROM songs WHERE title LIKE ? ORDER BY title ASC",[prefix + "%"],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE title LIKE ? ORDER BY title ASC",[prefix + "%"],(err,rows)=>{
                 if (err) {
                     console.error(err.message)
                     reject(err)
@@ -46,7 +47,7 @@ async function getByPrefix(prefix,categoryName,db){
             })
         }
         else{
-            db.all("SELECT title,id FROM songs WHERE title LIKE ? AND category=? ORDER BY title ASC",[prefix + "%",categoryName],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE title LIKE ? AND category=? ORDER BY title ASC",[prefix + "%",categoryName],(err,rows)=>{
                 if (err) {
                     console.error(err.message)
                     reject(err)
