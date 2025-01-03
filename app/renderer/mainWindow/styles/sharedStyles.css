@@ -22,11 +22,8 @@ body{
     display: flex;
     flex-direction: column;
     
-    
     height: 100vh;
     width: 100vw;
-    
-
 }
 main {
     width: 100%;
@@ -40,6 +37,7 @@ img {
     height: 60%;
  
 }
+
 .window-page {
     display: flex;
     flex-direction: column;
@@ -51,7 +49,4 @@ img {
     background-color: #fcf5fb;
     border-radius: 10px;
     display: flex;
-   
-    
-    
 }
