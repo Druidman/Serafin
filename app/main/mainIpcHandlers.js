@@ -5,8 +5,8 @@ const displayWind = require("./windowManager/displayWindow")
 
 function setupIpcHandlers(db){
     
-    ipcMain.on("getSongsPreview",(Event,amount,categoryName)=>{
-        database.getSongsPreview(Event,amount,categoryName,db)
+    ipcMain.on("getSongsPreview",(Event,categoryName)=>{
+        database.getSongsPreview(Event,categoryName,db)
         console.debug("getSongsPreview: IPC")
        
     })

@@ -2,8 +2,8 @@ const { ConnectDatabase }  = require("./connect")
 const { Config } = require("./config/config")
 const songs = require("./tables/Songs")
 
-async function getSongsPreview(event,amount,categoryName,db){
-    event.returnValue = await songs.getPreviews(amount,categoryName,db)
+async function getSongsPreview(event,categoryName,db){
+    event.returnValue = await songs.getPreviews(categoryName,db)
 }
 async function getSongsByPrefix(event,prefix,categoryName,db){
     event.returnValue = await songs.getByPrefix(prefix,categoryName,db)

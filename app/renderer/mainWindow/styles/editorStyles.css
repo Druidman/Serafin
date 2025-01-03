@@ -1,65 +1,24 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Arial";
-}
+
 #index {
     display: none;
 }
-.window-page {
-    display: flex;
-    flex-direction: column;
-    
-    height: 100vh;
-    width: 100vw;
-}
-body{
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    
-    height: 100vh;
-    width: 100vw;
-    
-
-}
 input {
-    border-style: none;
-    border-radius: 5px;
-    font-size: x-large;
     width: 100%;
     margin-left: 10px;
+    
 }
-button {
-    border-style: none;
-    border-radius: 5px;
-    background-color: white;
-}
+
 header {
     width: 100%;
     height: 5%;
     padding: 5px;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #4a4f5e;
 }
-main {
-    width: 100%;
-    height: 95%;
-    display: flex;
-    justify-content: left;
-    background-color: #bdb8bf;
-}
-.mainBox {
-    display: flex;
-    border-radius: 10px;
-    background-color: #fcf5fb;
-    padding: 10px; 
 
 
-}
 
 #returnButton{
     height: 90%;
@@ -86,6 +45,7 @@ section#editSection {
 #textEditingArea {
     height: 95%;
     width: 100%;
+    padding: 10px;
     font-size: xx-large;
     overflow: scroll;
     display: flex;
@@ -113,7 +73,7 @@ section#editControlSection {
 #editorOptions {
     display: flex;
     flex-direction: column;
-    
+    padding: 10px;
     height: 80%;
     width: 100%;
     margin-bottom: 10px;

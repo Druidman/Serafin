@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+    
+    outline: none;
+    cursor: default;
+}
+button {
+    border-style: none;
+    border-radius: 5px;
+    background-color: white;
+}
+input {
+    border-style: none;
+    border-radius: 5px;
+    font-size: x-large;
+    cursor: text;
+}
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+main {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: left;
+    background-color: #bdb8bf;
+}
+img {
+    width: auto;
+    height: 60%;
+ 
+}
+.window-page {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100vh;
+    width: 100vw;
+}
+.mainBox{
+    background-color: #fcf5fb;
+    border-radius: 10px;
+    display: flex;
+   
+    
+    
+}

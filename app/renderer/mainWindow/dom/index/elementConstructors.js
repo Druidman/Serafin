@@ -130,7 +130,7 @@ function construct_playlist_record(dbRecord) {
     playlistRecordButton.appendChild(img)
     playlistRecordButton.classList.add("playlistRecordDelButton")
     playlistRecordButton.classList.add("playlistRecordButton")
-    playlistRecordButton.textContent = "-"
+
 
     add_editor_button_click_event(editorButton)
     add_playlistRecord_button_click_event(playlistRecordButton)

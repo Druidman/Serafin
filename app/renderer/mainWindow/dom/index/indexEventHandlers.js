@@ -19,7 +19,7 @@ function categoryRecord_click_event(event){
     var categorySelector = document.getElementById("categorySelector")
     categorySelector.setAttribute("data-value",categoryName)
 
-    var prevs = getSongsPreview(100,categoryName)
+    var prevs = getSongsPreview(categoryName)
     load_previews(prevs)
     
     
