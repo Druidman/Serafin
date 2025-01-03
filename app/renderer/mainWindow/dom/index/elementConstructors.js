@@ -1,13 +1,13 @@
-import { 
-    add_playlistRecord_click_event, 
+import {
+    add_playlistRecord_click_event,
     add_playlistRecord_button_click_event,
-    add_db_record_button_click_event, 
+    add_db_record_button_click_event,
     add_verseBox_click_event,
     add_categoryRecord_click_event,
-    add_editor_button_click_event 
+    add_editor_button_click_event
 } from "./indexEventHandlers.js"
 
-function construct_verse(verse){
+function construct_verse(verse) {
     var box = document.createElement("div")
     box.classList.add("verseBox")
 
@@ -21,13 +21,13 @@ function construct_verse(verse){
     return box
 }
 
-function construct_db_record(element){
+function construct_db_record(element) {
     var dbRecord = document.createElement("div")
 
     dbRecord.classList.add("dbRecord")
 
-    dbRecord.setAttribute("id",element["id"])
-    dbRecord.setAttribute("data-category",element["category"])
+    dbRecord.setAttribute("id", element["id"])
+    dbRecord.setAttribute("data-category", element["category"])
 
     var title_p = document.createElement("p")
     title_p.textContent = element["title"]
@@ -36,12 +36,24 @@ function construct_db_record(element){
     buttonHolder.classList.add("dbRecordButtonHolder")
 
     var dbButton = document.createElement("button")
-    dbButton.textContent = "+"
+    var img = document.createElement("img")
+    img.setAttribute("alt", "icon")
+    img.setAttribute("src", "../resources/icons/004-plus.png")
+
+
+    dbButton.appendChild(img)
+    dbButton.classList.add("dbRecordAddButton")
     dbButton.classList.add("dbRecordButton")
 
     var editorButton = document.createElement("button")
-    editorButton.textContent = "✎"
-    editorButton.classList.add("editorButton")
+    var img = document.createElement("img")
+    img.setAttribute("alt", "icon")
+    img.setAttribute("src", "../resources/icons/006-edit.png")
+
+    editorButton.appendChild(img)
+
+    editorButton.classList.add("dbRecordEditorButton")
+    editorButton.classList.add("dbRecordButton")
 
     add_editor_button_click_event(editorButton)
     add_db_record_button_click_event(dbButton)
@@ -55,23 +67,23 @@ function construct_db_record(element){
 
     return dbRecord
 }
-function construct_category_record(element){
+function construct_category_record(element) {
     var categoryRecord = document.createElement("div")
     categoryRecord.classList.add("categoryRecord")
 
     categoryRecord.classList.add("categoryRecord")
-    
+
     var title_p = document.createElement("p")
 
     title_p.textContent = element["category"]
 
     categoryRecord.appendChild(title_p)
     add_categoryRecord_click_event(categoryRecord)
- 
+
     return categoryRecord
 }
 
-function construct_spaceTaker(){
+function construct_spaceTaker() {
     var body = document.createElement("div")
     var text = document.createElement("p")
     body.appendChild(text)
@@ -81,40 +93,50 @@ function construct_spaceTaker(){
 
 }
 
-function construct_playlist_record(dbRecord){
+function construct_playlist_record(dbRecord) {
 
     const text = dbRecord.getElementsByTagName("p")[0].innerHTML
-    
+
     const category = dbRecord.getAttribute("data-category")
 
     var playlistRecord = document.createElement("div")
 
     playlistRecord.classList.add("playlistRecord")
-    playlistRecord.setAttribute("id",dbRecord.id)
-    playlistRecord.setAttribute("data-category",category)
+    playlistRecord.setAttribute("id", dbRecord.id)
+    playlistRecord.setAttribute("data-category", category)
 
     var textHolder = document.createElement("p")
     textHolder.innerHTML = text
 
     var buttonHolder = document.createElement("div")
-    buttonHolder.classList.add("dbRecordButtonHolder")
+    buttonHolder.classList.add("playlistRecordButtonHolder")
 
     var editorButton = document.createElement("button")
-    editorButton.textContent = "✎"
+    var img = document.createElement("img")
+    img.setAttribute("alt", "icon")
+    img.setAttribute("src", "../resources/icons/006-edit.png")
+
+    editorButton.appendChild(img)
     editorButton.classList.add("editorButton")
+    editorButton.classList.add("playlistRecordButton")
 
-    
 
-    var dbButton = document.createElement("button")
-    dbButton.classList.add("playlistRecordButton")
-    dbButton.textContent = "-"
+
+    var playlistRecordButton = document.createElement("button")
+    var img = document.createElement("img")
+    img.setAttribute("alt", "icon")
+    img.setAttribute("src", "../resources/icons/minus.png")
+
+    playlistRecordButton.appendChild(img)
+    playlistRecordButton.classList.add("playlistRecordDelButton")
+    playlistRecordButton.classList.add("playlistRecordButton")
+    playlistRecordButton.textContent = "-"
 
     add_editor_button_click_event(editorButton)
-    add_playlistRecord_button_click_event(dbButton)
+    add_playlistRecord_button_click_event(playlistRecordButton)
 
     buttonHolder.appendChild(editorButton)
-    buttonHolder.appendChild(dbButton)
-
+    buttonHolder.appendChild(playlistRecordButton)
     playlistRecord.append(textHolder)
     playlistRecord.append(buttonHolder)
 
@@ -124,35 +146,36 @@ function construct_playlist_record(dbRecord){
 
 }
 
-function construct_stylesheet(name){
+function construct_stylesheet(name) {
     var linkElement = document.createElement("link")
-    linkElement.setAttribute("id","localStylesheet")
+    linkElement.setAttribute("id", "localStylesheet")
     linkElement.setAttribute("rel", "stylesheet")
-    linkElement.setAttribute("href","../styles/" + name)
+    linkElement.setAttribute("href", "../styles/" + name)
     return linkElement
 }
-function construct_displayOption(display){
+function construct_displayOption(display) {
     var option = document.createElement("option")
     var bounds = display.bounds
-    var nativeOrigin = {x: bounds.x, y: bounds.y}
-    option.setAttribute("value",JSON.stringify(nativeOrigin))
-    
+    var nativeOrigin = { x: bounds.x, y: bounds.y }
+    option.setAttribute("value", JSON.stringify(nativeOrigin))
 
-    if (nativeOrigin.x == 0){
+
+    if (nativeOrigin.x == 0) {
         option.innerHTML = `${display.label}(Główny)`
     }
     else {
         option.innerHTML = display.label
     }
     return option
-    
+
 }
 
-export { 
+export {
     construct_db_record,
     construct_category_record,
-    construct_verse, 
-    construct_spaceTaker, 
+    construct_verse,
+    construct_spaceTaker,
     construct_playlist_record,
     construct_stylesheet,
-    construct_displayOption }
+    construct_displayOption
+}

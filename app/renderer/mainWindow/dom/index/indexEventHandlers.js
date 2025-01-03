@@ -243,6 +243,9 @@ function handlePrevPlaylistRecord(event){
         displayWind.updateWindow()
     }
 }
+function handleMainEditorButtonClickEvent(){
+    switchToEditor()
+}
 
 function handleKeyPressEvent(event){
     console.log("event")
@@ -286,12 +289,15 @@ function handleKeyPressEvent(event){
     }
 }
 
+
+
 document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
 document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
 document.getElementById("next").addEventListener("click",handleNextVerseEvent)
 document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
 document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
 document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
+document.getElementById("mainEditorButton").addEventListener("click",handleMainEditorButtonClickEvent)
 
 
 

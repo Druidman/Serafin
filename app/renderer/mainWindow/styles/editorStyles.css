@@ -66,7 +66,7 @@ main {
   
 }
 
-main #editSection {
+section#editSection {
     width: 70%;
     height: 100%;
     padding: 10px; 
@@ -95,7 +95,7 @@ main #editSection {
     display: none;
 }
 
-main #editControlSection {
+section#editControlSection {
     width: 40%;
     height: 100%;
     padding: 10px; 

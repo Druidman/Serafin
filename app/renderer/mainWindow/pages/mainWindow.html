@@ -9,10 +9,18 @@
     <div id="index" class="window-page">
       <header>
         <section id="headerDbSection">
-          <button class="headerButton" id="categorySelector" data-value="wszystko"><i class="fa fa-bars"></i></button>  
+          <button class="headerButton" id="categorySelector" data-value="wszystko">
+            <img src="../resources/icons/menu.png" alt="icon" >
+          </button>  
           <input placeholder="Search..." id="databaseSearch">  
           
-          <button class="headerButton" id="stashButton" data-value="hide"><i class="fa fa-truck"></i></button>
+          <button class="headerButton" id="stashButton" data-value="hide">
+            <img src="../resources/icons/bin.png" alt="icon" />
+          </button>
+          <button class="headerButton" id="mainEditorButton">
+            <img src="../resources/icons/006-edit.png" alt="icon" />
+          </button>
+          
           
         </section>
         <section id="headerPlayerSection">
@@ -40,7 +48,9 @@
 
         </div>
         
-        <button class="mainButton" id="play" data-value="hidden">Show</button>
+        <button class="mainButton" id="play" data-value="hidden">
+          <img src="../resources/icons/003-play.png" alt="icon"/>
+        </button>
           
          
         
@@ -53,11 +63,11 @@
         </div>
         <div id="controlButtons">
           <button class="mainButton" id="prev">
-            prev
+            <img src="../resources/icons/002-arrow.png" alt="icon"/>
 
           </button>
           <button class="mainButton" id="next">
-            next
+            <img src="../resources/icons/001-right-arrow.png" alt="icon"/>
           </button>
         </div>
         
@@ -88,6 +98,10 @@
             <div class="saveOption" id="categoryOption">
               <p>Kategoria:  </p>
               <input id="category">
+            </div>
+            <div class="saveOption" id="idOption">
+              <p>Id:  </p>
+              <input id="idInput" readonly>
             </div>
             
             <div class="saveOption" id="titleOption">
