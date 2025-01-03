@@ -30,12 +30,16 @@ function handleTxtFileLoadButtonClickEvent(event){
     
     var textEditor = document.getElementById("textEditingArea")
     textEditor.innerHTML = createEditableText(lyrics)
-
-    
-
-    
-
 }
+function handleJsonFileLoadButtonClickEvent(event){
+    const properties = ["openFile"]
+    var dataFromFile = openFileDialog(properties)[0]
+    var lyrics = JSON.parse(dataFromFile)["lyrics"]
+
+    var textEditor = document.getElementById("textEditingArea")
+    textEditor.innerHTML = createEditableText(lyrics)
+}
+
 
 function handleUndoButtonClickEvent(event){
 
@@ -51,5 +55,6 @@ function handleRedoButtonClickEvent(event){
 document.getElementById("editorSaveButton").addEventListener("click",editorSaveButton_click_event)
 document.getElementById("returnIndexButton").addEventListener("click",handleReturnIndexButtonClickEvent)
 document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtFileLoadButtonClickEvent)
+document.getElementById("jsonFileLoadButton").addEventListener("click",handleJsonFileLoadButtonClickEvent)
 document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
 document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
