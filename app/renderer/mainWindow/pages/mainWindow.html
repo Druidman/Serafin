@@ -79,7 +79,7 @@
     </div>
     <div id="editor" class="window-page">
       <header>
-        <button id="returnButton"><img src="../resources/icons/009-back-arrow.png" alt="icon"/></button>
+        <button id="returnIndexButton"><img src="../resources/icons/009-back-arrow.png" alt="icon"/></button>
         <div id="loadButtons">
           <button class="fileLoadButton" id="txtFileLoadButton">Z pliku *.txt</button>
           <button class="fileLoadButton" id="jsonFileLoadButton">Z pliku *.json</button>
@@ -87,8 +87,16 @@
       </header>
       <main>
         <section id="editSection">
+          <div id="editBoxControl" class="mainBox">
+            <button class="historyButton" id="undoButton">
+              <img src="../resources/icons/002-arrow.png">
+            </button>
+            <h1>Podgląd</h1>
+            <button class="historyButton" id="redoButton">
+              <img src="../resources/icons/001-right-arrow.png">
+            </button>
+          </div>
           
-          <h1>Podgląd</h1>
           <div id="textEditingArea" class="mainBox" contenteditable="true"></div>
           
           

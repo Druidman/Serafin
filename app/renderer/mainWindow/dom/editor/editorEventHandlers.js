@@ -16,14 +16,14 @@ function editorSaveButton_click_event(event){
     updateSongById(id,rowToEdit,verses)
 
 }
-function handleReturnButtonClickEvent(event){
+function handleReturnIndexButtonClickEvent(event){
     const confirmMsg = "Zmiany nie zostaną zapisane!\nCzy napewno chcesz wyłączyć edytor?"
     if (window.confirm(confirmMsg)){
         switchToIndex()
     }
     
 }
-function handleTxtFileLoadButtonClick(event){
+function handleTxtFileLoadButtonClickEvent(event){
     const properties = ["openFile"]
     var dataFromFile = openFileDialog(properties)[0]
     var lyrics = dataFromFile.split(";")
@@ -37,6 +37,19 @@ function handleTxtFileLoadButtonClick(event){
 
 }
 
+function handleUndoButtonClickEvent(event){
+
+    document.execCommand("undo")
+}
+function handleRedoButtonClickEvent(event){
+    document.execCommand("redo")
+    
+}
+
+
+
 document.getElementById("editorSaveButton").addEventListener("click",editorSaveButton_click_event)
-document.getElementById("returnButton").addEventListener("click",handleReturnButtonClickEvent)
-document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtFileLoadButtonClick)
+document.getElementById("returnIndexButton").addEventListener("click",handleReturnIndexButtonClickEvent)
+document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtFileLoadButtonClickEvent)
+document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
+document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)

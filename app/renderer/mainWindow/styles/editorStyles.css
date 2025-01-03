@@ -20,7 +20,7 @@ header {
 
 
 
-#returnButton{
+#returnIndexButton{
     height: 90%;
   
 }
@@ -32,15 +32,25 @@ section#editSection {
    
     
 }
-#editSection h1 {
-    width: 100%;
-    height: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #4a4f5e;
+#editBoxControl {
     margin-bottom: 10px;
+    height: 5%;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-between;
+   
+    color: #4a4f5e;
 }
+.historyButton {
+    background-color: #fcf5fb;
+    transition: 0.2s;
+}
+.historyButton:hover {
+    background-color: white;
+
+}
+
 
 #textEditingArea {
     height: 95%;
@@ -50,6 +60,7 @@ section#editSection {
     overflow: scroll;
     display: flex;
     flex-direction: column;
+    cursor: text;
 }
 #textEditingArea::-webkit-scrollbar {
     display: none;
