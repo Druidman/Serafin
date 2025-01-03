@@ -1,8 +1,9 @@
-const { app, BrowserWindow, screen } = require('electron')
+const { app, BrowserWindow } = require('electron')
 const path = require('path');
 const database = require('../../db/database')
 const { setupIpcHandlers } = require("./mainIpcHandlers.js")
-const { createMainWindow } = require("./windowManager/mainWindow.js")
+const { createMainWindow } = require("./windowManager/mainWindow.js");
+
 
 
 async function setup_app(){
@@ -19,6 +20,7 @@ async function setup_app(){
       app.quit()
       console.log("CLOSED")
     })
+    
 
 }
 

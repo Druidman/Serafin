@@ -1,5 +1,6 @@
-import { updateSongById } from "../shared/ipcHandlers.js"
+import { updateSongById, openFileDialog } from "../shared/ipcHandlers.js"
 import { switchToIndex } from "../shared/viewModifiers.js"
+import { createEditableText } from "./utils.js"
 
 function editorSaveButton_click_event(event){
     var editedText = document.getElementById("textEditingArea").textContent
@@ -8,7 +9,7 @@ function editorSaveButton_click_event(event){
     verses.shift()
     
 
-    const id = document.getElementById("editorOptions").getAttribute("data-value")
+    const id = document.getElementById("idInput").getAttribute("value")
     const rowToEdit = "lyrics"
     
 
@@ -16,8 +17,26 @@ function editorSaveButton_click_event(event){
 
 }
 function handleReturnButtonClickEvent(event){
-    switchToIndex()
+    const confirmMsg = "Zmiany nie zostaną zapisane!\nCzy napewno chcesz wyłączyć edytor?"
+    if (window.confirm(confirmMsg)){
+        switchToIndex()
+    }
+    
+}
+function handleTxtFileLoadButtonClick(event){
+    const properties = ["openFile"]
+    var dataFromFile = openFileDialog(properties)[0]
+    var lyrics = dataFromFile.split(";")
+    
+    var textEditor = document.getElementById("textEditingArea")
+    textEditor.innerHTML = createEditableText(lyrics)
+
+    
+
+    
+
 }
 
 document.getElementById("editorSaveButton").addEventListener("click",editorSaveButton_click_event)
 document.getElementById("returnButton").addEventListener("click",handleReturnButtonClickEvent)
+document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtFileLoadButtonClick)

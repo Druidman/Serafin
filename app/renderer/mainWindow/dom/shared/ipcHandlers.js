@@ -1,5 +1,8 @@
 
-
+function openFileDialog(properties){
+    var data = window.electronAPI.openFileDialog(properties)
+    return data
+}
 function updateSongById(id,rowToEdit,valueToInsert){
     window.electronAPI.updateSongById(id,rowToEdit,valueToInsert)
 }
@@ -65,4 +68,7 @@ export {
     openDisplayWindow,
     checkDisplayWindowActive,
     writeToDisplayWindow,
-    setDisplayWindowFontSize }
+    setDisplayWindowFontSize,
+
+    openFileDialog
+}

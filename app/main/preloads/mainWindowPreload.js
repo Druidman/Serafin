@@ -13,6 +13,7 @@ contextBridge.exposeInMainWorld("electronAPI", {
     openDisplayWindow: (cords) => ipcRenderer.sendSync("openDisplayWindow",cords),
     checkDisplayWindowActive: (id) => ipcRenderer.sendSync("checkDisplayWindowActive",id),
     writeToDisplayWindow: (id,data)=> ipcRenderer.sendSync("writeToDisplayWindow",id,data),
-    getAllDisplays: ()=> ipcRenderer.sendSync("getAllDisplays")
+    getAllDisplays: ()=> ipcRenderer.sendSync("getAllDisplays"),
+    openFileDialog: (properties) => ipcRenderer.sendSync("openFileDialog",properties)
     
 })

@@ -1,6 +1,7 @@
-const { ipcMain, screen } = require('electron')
+const { ipcMain, screen, dialog } = require('electron')
 const database = require('../../db/database')
 const displayWind = require("./windowManager/displayWindow")
+const fs = require("fs")
 
 
 function setupIpcHandlers(db){
@@ -46,6 +47,16 @@ function setupIpcHandlers(db){
 
     ipcMain.on("getAllDisplays",(Event)=>{
         Event.returnValue = screen.getAllDisplays()
+    })
+
+    ipcMain.on("openFileDialog", (Event,properties)=>{
+        var paths = dialog.showOpenDialogSync({properties: properties})
+        var dataFromFiles = []
+        paths.map((path)=>{
+            var data = fs.readFileSync(path,"utf-8")
+            dataFromFiles.push(data)
+        })
+        Event.returnValue = dataFromFiles
     })
   
 }
