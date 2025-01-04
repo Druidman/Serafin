@@ -17,14 +17,14 @@ header {
     align-items: center;
     background-color: #4a4f5e;
 }
-.emptyElement {
+.elementWarning {
     border: red solid 2px;
 }
 
-.failedSave{
+.failedSummary{
     background-color: red;
 }
-.succesfulSave{
+.succesfulSummary{
     background-color: green;
 }
 
@@ -100,19 +100,27 @@ section#editControlSection {
     margin-bottom: 10px;
     
 }
-
-
-
-#editorSaveButton {
+#editorSummary {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 20%;
     width: 100%;
+    padding: 5px;
+}
+
+
+.summaryButton{
+    height: 100%;
+    width: 45%;
     font-size: x-large;
     transition: 0.5s;
+    
 }
-#editorSaveButton:hover {
+.summaryButton:hover {
     
     font-size: xx-large;
-    background-color: #c4c4c4;
+  
 }
 
 

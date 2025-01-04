@@ -1,6 +1,6 @@
 import { updateSongById, openFileDialog, createSong } from "../shared/ipcHandlers.js"
 import { switchToIndex } from "../shared/viewModifiers.js"
-import { createEditableText, emptyElementWarning } from "./utils.js"
+import { createEditableText, elementWarning, succesfulSummary, failedSummary } from "./utils.js"
 
 function editorSaveButton_click_event(event){
     var editedText = document.getElementById("textEditingArea").textContent
@@ -11,53 +11,75 @@ function editorSaveButton_click_event(event){
     var idValue = document.getElementById("idInput").getAttribute("value")
     var category = document.getElementById("category")
     var title = document.getElementById("title")
+    var button = event.currentTarget
 
 
     if (!category.value){
-        emptyElementWarning(category)
+        elementWarning(category)
         
         return
     }
     if (!title.value){
-        emptyElementWarning(title)
+        elementWarning(title)
     
         return
     }
+    if (!idValue){
+        failedSummary(button)
+        return
+    }
+
     const values = {
         "title": title.value,
         "category": category.value,
         "lyrics": verses
     }
-    if (idValue){
+    var result = updateSongById(idValue,values)
     
-        
-        var result = updateSongById(idValue,values)
-        var button = document.getElementById("editorSaveButton")
-        if (result === true){
-            
-            button.classList.add("succesfulSave")
-            window.setTimeout(()=>{
-                button.classList.remove("succesfulSave")
-            }, 1000)
-        }
-        else{
-            button.classList.add("failedSave")
-            window.setTimeout(()=>{
-                button.classList.remove("failedSave")
-            }, 1000)
-        }
+    if (result === true){
+        succesfulSummary(button) 
+    }
+    else{
+        failedSummary(button)
+    }
+}
+function editorCreateButton_click_event(event){
+    var editedText = document.getElementById("textEditingArea").textContent
+    
+    var verses = editedText.split(/\( SLAJD \d+ \)/)
+    verses.shift()
+
+    var idValue = document.getElementById("idInput").getAttribute("value")
+    var category = document.getElementById("category")
+    var title = document.getElementById("title")
+    var button = event.currentTarget
+
+    if (!category.value){
+        elementWarning(category)
         return
     }
-    createSong(values)
-    
-    
-    
-    
+    if (!title.value){
+        elementWarning(title)
+        return
+    }
+    if (idValue){
+        failedSummary(button)
+        return
+    }
 
+    const values = {
+        "title": title.value,
+        "category": category.value,
+        "lyrics": verses
+    }
+    var result = createSong(values)
     
-    
-    
-
+    if (result === true){
+        succesfulSummary(button) 
+    }
+    else{
+        failedSummary(button)
+    }
     
 
 }
@@ -97,11 +119,9 @@ function handleRedoButtonClickEvent(event){
 
 
 document.getElementById("editorSaveButton").addEventListener("click",editorSaveButton_click_event)
+document.getElementById("editorCreateButton").addEventListener("click",editorCreateButton_click_event)
 document.getElementById("returnIndexButton").addEventListener("click",handleReturnIndexButtonClickEvent)
 document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtFileLoadButtonClickEvent)
 document.getElementById("jsonFileLoadButton").addEventListener("click",handleJsonFileLoadButtonClickEvent)
 document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
 document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
-document.getElementById("titleOption").addEventListener("click",(event)=>{
-    console.log("clicked")
-})

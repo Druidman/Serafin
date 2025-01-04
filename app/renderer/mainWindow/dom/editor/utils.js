@@ -11,11 +11,24 @@ function createEditableText(lyrics){
     return fullText.replaceAll("\n","<br>")
 }
 
-function emptyElementWarning(element){
-    element.classList.toggle("emptyElement")
+function elementWarning(element){
+    element.classList.add("elementWarning")
     window.setTimeout(()=>{
-        element.classList.toggle("emptyElement")
+        element.classList.remove("elementWarning")
     }, 1000)
 }
 
-export { createEditableText, emptyElementWarning }
+function succesfulSummary(button){
+    button.classList.add("succesfulSummary")
+    window.setTimeout(()=>{
+        button.classList.remove("succesfulSummary")
+    }, 1000)
+}
+function failedSummary(button){
+    button.classList.add("failedSummary")
+    window.setTimeout(()=>{
+        button.classList.remove("failedSummary")
+    }, 1000)
+}
+
+export { createEditableText, elementWarning, failedSummary, succesfulSummary }
