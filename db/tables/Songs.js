@@ -109,7 +109,7 @@ async function updateById(id,values,db){
         
         db.run(
             `UPDATE songs SET title=?,  category=?, lyrics=?  WHERE id=?`,
-            [JSON.stringify(values["title"]),JSON.stringify(values["category"]),JSON.stringify(values["lyrics"]),id],
+            [String(values["title"]),String(values["category"]),JSON.stringify(values["lyrics"]),id],
             (err)=>{
             if (err){
                 console.debug("Error occured while updating songs table: ", err)
@@ -120,16 +120,23 @@ async function updateById(id,values,db){
             }
 
         })
-        
-        
-        
-
+    
     })
 }
 
 async function createSong(values,db){
     return new Promise((resolve,reject)=>{
-        //db.exec()
+        db.run("INSERT INTO songs(title,lyrics,category) VALUES (?,?,?)",
+            [String(values["title"]),JSON.stringify(values["lyrics"]),String(values["category"])],
+        (err)=>{
+            if (err){
+                console.debug("Error occured while creating record in songs table: ", err)
+                reject(err)
+            }
+            else{
+                resolve(true)
+            }
+        })
     })
 
 }
