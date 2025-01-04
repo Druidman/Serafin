@@ -27,12 +27,35 @@ header {
 .succesfulSummary{
     background-color: green;
 }
-
+#loadButtonsBox {
+    height: 100%;
+    width: 30%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.fileLoadButton{
+    height: 100%;
+    transition: 0.2s;
+    margin: 5px;
+}
+.fileLoadButton:hover{
+    font-size: larger;
+    background-color: #fcf5fb;
+}
 
 
 #returnIndexButton{
-    height: 90%;
+    margin: 5px;
+    height: 100%;
   
+}
+#returnIndexButton:hover{
+    background-color: #fcf5fb;
 }
 
 section#editSection {
@@ -122,5 +145,6 @@ section#editControlSection {
     font-size: xx-large;
   
 }
+
 
 
