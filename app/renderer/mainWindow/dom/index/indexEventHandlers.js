@@ -161,14 +161,16 @@ function handlePlayButtonEvent(event){
     console.log(playButton)
     switch(state){
         case "shown":
-            playButton.getElementsByTagName("img")[0].setAttribute("src","../resources/icons/003-play.png")
+            playButton.innerHTML = "⭐Pokaż ekran"
+            
             playButton.style.backgroundColor = "#8b8b8b"
             playButton.setAttribute("data-value","hidden")
             displayWind.hideWindow()
             
             break
         case "hidden":
-            playButton.getElementsByTagName("img")[0].setAttribute("src","../resources/icons/008-pause-button.png")
+            playButton.innerHTML = "<p>⭐</p>Ukryj ekran"
+          
             playButton.style.backgroundColor = "#FFFFFF"
             playButton.setAttribute("data-value","shown")
             displayWind.showWindow()
