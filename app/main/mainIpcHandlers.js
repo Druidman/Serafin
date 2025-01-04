@@ -58,6 +58,10 @@ function setupIpcHandlers(db){
         })
         Event.returnValue = dataFromFiles
     })
+    ipcMain.on("createSong",(Event,values)=>{
+        database.createSong(Event,values,db)
+        console.debug("createSong: IPC")
+    })
   
 }
 

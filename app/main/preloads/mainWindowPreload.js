@@ -3,6 +3,7 @@ const { contextBridge, ipcRenderer } = require("electron")
 
 
 
+
 contextBridge.exposeInMainWorld("electronAPI", {
     getSongsPreview: (amount,categoryName) => ipcRenderer.sendSync("getSongsPreview",amount,categoryName),
     getSongsByPrefix: (prefix,categoryName) => ipcRenderer.sendSync("getSongsByPrefix",prefix,categoryName),
@@ -14,6 +15,7 @@ contextBridge.exposeInMainWorld("electronAPI", {
     checkDisplayWindowActive: (id) => ipcRenderer.sendSync("checkDisplayWindowActive",id),
     writeToDisplayWindow: (id,data)=> ipcRenderer.sendSync("writeToDisplayWindow",id,data),
     getAllDisplays: ()=> ipcRenderer.sendSync("getAllDisplays"),
-    openFileDialog: (properties) => ipcRenderer.sendSync("openFileDialog",properties)
+    openFileDialog: (properties) => ipcRenderer.sendSync("openFileDialog",properties),
+    createSong: (values)=> ipcRenderer.sendSync("createSong",values)
     
 })

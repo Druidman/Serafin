@@ -7,6 +7,10 @@ function updateSongById(id,values){
     var data = window.electronAPI.updateSongById(id,values)
     return data
 }
+function createSong(values){
+    var data = window.electronAPI.createSong(values)
+    return data
+}
 
 function getSongsPreview(categoryName){
     var data = window.electronAPI.getSongsPreview(categoryName)
@@ -58,6 +62,7 @@ function getAllDisplays(){
 }
 
 export { 
+    createSong,
     getSongsFullById, 
     getSongsPreview, 
     getSongsByPrefix, 

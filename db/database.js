@@ -21,6 +21,9 @@ async function getSongCategories(event,db){
 async function updateSongById(event,id,values,db){
     event.returnValue = await songs.updateById(id,values,db)
 }
+async function createSong(event,values,db){
+    event.returnValue = await songs.createSong(values,db)
+}
 
 module.exports = { 
     ConnectDatabase,
@@ -30,6 +33,7 @@ module.exports = {
     getSongFullById,
     getSongCategories,
     updateSongById,
+    createSong,
     Config
 
 }

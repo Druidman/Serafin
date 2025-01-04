@@ -105,14 +105,12 @@ async function getCategories(db){
 
 async function updateById(id,values,db){
     return await new Promise((resolve,reject)=>{
-        var changes = ""
-        var columnNames = Object.keys(values)
-        for (var columnName of columnNames){
-            changes += `,${columnName}=${JSON.stringify(values[columnName])}`
-        }
-        changes = changes.slice(1)
-        const query = db.prepare(`UPDATE songs SET ${changes} WHERE id=?`)
-        db.exec(query,[id],(err)=>{
+    
+        
+        db.run(
+            `UPDATE songs SET title=?,  category=?, lyrics=?  WHERE id=?`,
+            [JSON.stringify(values["title"]),JSON.stringify(values["category"]),JSON.stringify(values["lyrics"]),id],
+            (err)=>{
             if (err){
                 console.debug("Error occured while updating songs table: ", err)
                 reject(err)
@@ -124,8 +122,16 @@ async function updateById(id,values,db){
         })
         
         
+        
 
     })
+}
+
+async function createSong(values,db){
+    return new Promise((resolve,reject)=>{
+        //db.exec()
+    })
+
 }
     
     
@@ -134,4 +140,4 @@ async function updateById(id,values,db){
     
 
 
-module.exports = { getPreviews, getByPrefix, getFullById, getCategories, updateById }
+module.exports = { getPreviews, getByPrefix, getFullById, getCategories, updateById,createSong }

@@ -1,4 +1,4 @@
-import { updateSongById, openFileDialog } from "../shared/ipcHandlers.js"
+import { updateSongById, openFileDialog, createSong } from "../shared/ipcHandlers.js"
 import { switchToIndex } from "../shared/viewModifiers.js"
 import { createEditableText, emptyElementWarning } from "./utils.js"
 
@@ -23,14 +23,14 @@ function editorSaveButton_click_event(event){
     
         return
     }
-
+    const values = {
+        "title": title.value,
+        "category": category.value,
+        "lyrics": verses
+    }
     if (idValue){
     
-        const values = {
-            "title": title.value,
-            "category": category.value,
-            "lyrics": verses
-        }
+        
         var result = updateSongById(idValue,values)
         var button = document.getElementById("editorSaveButton")
         if (result === true){
@@ -46,9 +46,9 @@ function editorSaveButton_click_event(event){
                 button.classList.remove("failedSave")
             }, 1000)
         }
-        
+        return
     }
-
+    createSong(values)
     
     
     
