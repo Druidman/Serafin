@@ -4,6 +4,7 @@
     font-family: "Arial";
     
     outline: none;
+    user-select: none;
     
 }
 button {
