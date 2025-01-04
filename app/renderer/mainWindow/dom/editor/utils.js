@@ -11,4 +11,11 @@ function createEditableText(lyrics){
     return fullText.replaceAll("\n","<br>")
 }
 
-export { createEditableText }
+function emptyElementWarning(element){
+    element.classList.toggle("emptyElement")
+    window.setTimeout(()=>{
+        element.classList.toggle("emptyElement")
+    }, 1000)
+}
+
+export { createEditableText, emptyElementWarning }

@@ -5,8 +5,8 @@
 input {
     width: 100%;
     margin-left: 10px;
-    
 }
+
 
 header {
     width: 100%;
@@ -16,6 +16,13 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #4a4f5e;
+}
+.emptyElement {
+    border: red solid 2px;
+}
+
+.failedSave{
+    background-color: red;
 }
 
 

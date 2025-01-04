@@ -4,7 +4,8 @@ function openFileDialog(properties){
     return data
 }
 function updateSongById(id,rowToEdit,valueToInsert){
-    window.electronAPI.updateSongById(id,rowToEdit,valueToInsert)
+    var data = window.electronAPI.updateSongById(id,rowToEdit,valueToInsert)
+    return data
 }
 
 function getSongsPreview(categoryName){

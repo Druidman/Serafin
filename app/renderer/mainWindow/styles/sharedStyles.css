@@ -4,7 +4,7 @@
     font-family: "Arial";
     
     outline: none;
-    cursor: default;
+    
 }
 button {
     border-style: none;
@@ -15,7 +15,7 @@ input {
     border-style: none;
     border-radius: 5px;
     font-size: x-large;
-    cursor: text;
+    z-index: 999;
 }
 body{
     background-color: white;

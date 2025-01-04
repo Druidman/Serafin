@@ -112,7 +112,7 @@ async function updateById(id,rowToEdit,valueToInsert,db){
                 reject(err)
             }
             else{
-                resolve()
+                resolve(true)
             }
         })
 

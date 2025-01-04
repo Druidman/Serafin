@@ -1,26 +1,59 @@
 import { updateSongById, openFileDialog } from "../shared/ipcHandlers.js"
 import { switchToIndex } from "../shared/viewModifiers.js"
-import { createEditableText } from "./utils.js"
+import { createEditableText, emptyElementWarning } from "./utils.js"
 
 function editorSaveButton_click_event(event){
     var editedText = document.getElementById("textEditingArea").textContent
     
     var verses = editedText.split(/\( SLAJD \d+ \)/)
     verses.shift()
+
+    var idValue = document.getElementById("idInput").getAttribute("value")
+    var category = document.getElementById("category")
+    var title = document.getElementById("title")
+
+
+    if (!category.value){
+        emptyElementWarning(category)
+        
+        return
+    }
+    if (!title.value){
+        emptyElementWarning(title)
+    
+        return
+    }
+
+    if (idValue){
+        
+        const rowToEdit = "lyrics"
+        var result = updateSongById(idValue,rowToEdit,verses)
+        if (result !== true){
+            var button = document.getElementById("editorSaveButton")
+            button.classList.add("failedSave")
+            window.setTimeout(()=>{
+                button.classList.remove("failedSave")
+            }, 1000)
+        }
+        return
+    }
+
+    
+    
+    
     
 
-    const id = document.getElementById("idInput").getAttribute("value")
-    const rowToEdit = "lyrics"
+    
+    
     
 
-    updateSongById(id,rowToEdit,verses)
+    
 
 }
 function handleReturnIndexButtonClickEvent(event){
-    const confirmMsg = "Zmiany nie zostaną zapisane!\nCzy napewno chcesz wyłączyć edytor?"
-    if (window.confirm(confirmMsg)){
-        switchToIndex()
-    }
+   
+    switchToIndex()
+    
     
 }
 function handleTxtFileLoadButtonClickEvent(event){
@@ -58,3 +91,6 @@ document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtF
 document.getElementById("jsonFileLoadButton").addEventListener("click",handleJsonFileLoadButtonClickEvent)
 document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
 document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
+document.getElementById("titleOption").addEventListener("click",(event)=>{
+    console.log("clicked")
+})
