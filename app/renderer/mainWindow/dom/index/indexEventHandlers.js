@@ -158,19 +158,19 @@ function handlePlayButtonEvent(event){
         
     }
 
-
+    console.log(playButton)
     switch(state){
         case "shown":
-            playButton.innerHTML = "Show"
+            playButton.getElementsByTagName("img")[0].setAttribute("src","../resources/icons/003-play.png")
+            playButton.style.backgroundColor = "#8b8b8b"
             playButton.setAttribute("data-value","hidden")
-            playButton.style["background-color"] = "#8b8b8b"
             displayWind.hideWindow()
             
             break
         case "hidden":
-            playButton.innerHTML = "Hide"
+            playButton.getElementsByTagName("img")[0].setAttribute("src","../resources/icons/008-pause-button.png")
+            playButton.style.backgroundColor = "#FFFFFF"
             playButton.setAttribute("data-value","shown")
-            playButton.style["background-color"] = "#FFFFFF"
             displayWind.showWindow()
 
             break
