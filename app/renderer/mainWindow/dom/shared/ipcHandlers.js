@@ -3,8 +3,8 @@ function openFileDialog(properties){
     var data = window.electronAPI.openFileDialog(properties)
     return data
 }
-function updateSongById(id,rowToEdit,valueToInsert){
-    var data = window.electronAPI.updateSongById(id,rowToEdit,valueToInsert)
+function updateSongById(id,values){
+    var data = window.electronAPI.updateSongById(id,values)
     return data
 }
 

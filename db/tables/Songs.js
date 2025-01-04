@@ -103,18 +103,27 @@ async function getCategories(db){
     })
 }
 
-async function updateById(id,rowToEdit,valueToInsert,db){
+async function updateById(id,values,db){
     return await new Promise((resolve,reject)=>{
-        
-        db.run(`UPDATE songs SET ${rowToEdit}=? WHERE id=?`,[JSON.stringify(valueToInsert),id],(err)=>{
+        var changes = ""
+        var columnNames = Object.keys(values)
+        for (var columnName of columnNames){
+            changes += `,${columnName}=${JSON.stringify(values[columnName])}`
+        }
+        changes = changes.slice(1)
+        const query = db.prepare(`UPDATE songs SET ${changes} WHERE id=?`)
+        db.exec(query,[id],(err)=>{
             if (err){
-                console.log(`Error occured while updating row in songs table: ${err}`)
+                console.debug("Error occured while updating songs table: ", err)
                 reject(err)
             }
             else{
                 resolve(true)
             }
+
         })
+        
+        
 
     })
 }

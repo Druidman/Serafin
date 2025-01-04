@@ -1,10 +1,12 @@
 import { getSongFullById  } from "../shared/ipcHandlers.js"
 import { createEditableText } from "./utils.js"
+
 function resetEditor(){
     document.getElementById("textEditingArea").innerHTML = ""
     document.getElementById("category").setAttribute("value","")
     document.getElementById("idInput").setAttribute("value","")
     document.getElementById("title").setAttribute("value","")
+    console.log("reseted")
 }
 function loadEditElement(editElement){
 

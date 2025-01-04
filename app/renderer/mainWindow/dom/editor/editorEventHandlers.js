@@ -25,17 +25,28 @@ function editorSaveButton_click_event(event){
     }
 
     if (idValue){
-        
-        const rowToEdit = "lyrics"
-        var result = updateSongById(idValue,rowToEdit,verses)
-        if (result !== true){
-            var button = document.getElementById("editorSaveButton")
+    
+        const values = {
+            "title": title.value,
+            "category": category.value,
+            "lyrics": verses
+        }
+        var result = updateSongById(idValue,values)
+        var button = document.getElementById("editorSaveButton")
+        if (result === true){
+            
+            button.classList.add("succesfulSave")
+            window.setTimeout(()=>{
+                button.classList.remove("succesfulSave")
+            }, 1000)
+        }
+        else{
             button.classList.add("failedSave")
             window.setTimeout(()=>{
                 button.classList.remove("failedSave")
             }, 1000)
         }
-        return
+        
     }
 
     

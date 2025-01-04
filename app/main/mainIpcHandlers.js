@@ -29,8 +29,8 @@ function setupIpcHandlers(db){
         database.getSongCategories(Event,db)
         console.debug("getSongCategories: IPC")
     })
-    ipcMain.on("updateSongById",(Event,id,rowToEdit,valueToInsert)=>{
-        database.updateSongById(Event,id,rowToEdit,valueToInsert,db)
+    ipcMain.on("updateSongById",(Event,id,values)=>{
+        database.updateSongById(Event,id,values,db)
         console.debug("updateSongById: IPC")
     })
     ipcMain.on("openDisplayWindow",async (Event,cords)=>{

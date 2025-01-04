@@ -18,8 +18,8 @@ async function getSongFullById(event,id,db){
 async function getSongCategories(event,db){
     event.returnValue = await songs.getCategories(db)
 }
-async function updateSongById(event,id,rowToEdit,valueToInsert,db){
-    event.returnValue = await songs.updateById(id,rowToEdit,valueToInsert,db)
+async function updateSongById(event,id,values,db){
+    event.returnValue = await songs.updateById(id,values,db)
 }
 
 module.exports = { 
