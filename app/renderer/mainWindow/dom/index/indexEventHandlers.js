@@ -161,7 +161,7 @@ function handlePlayButtonEvent(event){
     console.log(playButton)
     switch(state){
         case "shown":
-            playButton.innerHTML = "⭐Pokaż ekran"
+            playButton.innerHTML = "Pokaż ekran"
             
             playButton.style.backgroundColor = "#8b8b8b"
             playButton.setAttribute("data-value","hidden")
@@ -169,7 +169,7 @@ function handlePlayButtonEvent(event){
             
             break
         case "hidden":
-            playButton.innerHTML = "<p>⭐</p>Ukryj ekran"
+            playButton.innerHTML = "Ukryj ekran"
           
             playButton.style.backgroundColor = "#FFFFFF"
             playButton.setAttribute("data-value","shown")
