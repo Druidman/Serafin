@@ -303,10 +303,6 @@ header {
 
 
 }
-#player #play p {
-    filter: brightness(125%);
-}
-
 
 #controlPanel #playView {
     width: 100%;
