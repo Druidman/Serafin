@@ -35,13 +35,8 @@ function switchToEditor(editElement){
     if (editElement){
         loadEditElement(editElement)
     }
-    
-
-    
-    
-
-    
 }
+
 function switchToIndex(){
     console.log(index)
     document.addEventListener("keydown",handleKeyPressEvent)

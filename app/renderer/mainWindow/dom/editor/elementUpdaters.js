@@ -1,5 +1,7 @@
-import { getSongFullById  } from "../shared/ipcHandlers.js"
+import { getSongFullById, getSongCategories } from "../shared/ipcHandlers.js"
+import { constructOptionCategoryTag } from "./elementConstructors.js"
 import { createEditableText } from "./utils.js"
+
 
 function resetEditor(){
     document.getElementById("textEditingArea").innerHTML = ""
@@ -9,23 +11,30 @@ function resetEditor(){
     console.log("reseted")
 }
 function loadEditElement(editElement){
-
-
-
     var textEditor = document.getElementById("textEditingArea")
-    var categoryInput = document.getElementById("category")
+    var categorySelect = document.getElementById("category")
     var idInput = document.getElementById("idInput")
     var titleInput = document.getElementById("title")
 
-    categoryInput.setAttribute("value",editElement.getAttribute("data-category"))
+    var categoryName = editElement.getAttribute("data-category")
   
     idInput.setAttribute("value",editElement.id)
     titleInput.setAttribute("value",editElement.textContent)
-    
+
+    var categories = getSongCategories()
+    for (var category of categories){
+        
+        var categoryOption = constructOptionCategoryTag(category['category'])
+        if (category['category']== categoryName){
+            categoryOption.setAttribute("selected","selected")
+        }   
+        categorySelect.appendChild(categoryOption)
+    }
     
     var lyrics = getSongFullById(editElement.id)
 
     textEditor.innerHTML = createEditableText(lyrics)
 }
+
 
 export { loadEditElement, resetEditor }
