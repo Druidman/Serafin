@@ -49,6 +49,9 @@ header {
     width: 90%;
     
 }
+.dbRecord p {
+    padding: 10px;
+}
 .dbRecordButtonHolder {
     
     height: 100%;
@@ -64,6 +67,7 @@ header {
     width: 40%;
     margin: 5px;
     transition: 0.2s;
+    
 }
 
 .dbRecordButton:hover {
@@ -83,6 +87,9 @@ header {
     align-items: center;
     transition: 0.1s;
 
+}
+.playlistRecord p{
+    padding: 10px;
 }
 .playlistRecord:not(.selected):hover {
     width: 90%;
@@ -278,7 +285,7 @@ header {
     width: 100%;
     height: 100%;
  
-    margin-top: 5px;
+
     display: flex;
     align-items: end;
     
