@@ -70,7 +70,7 @@ header {
 }
 
 .dbRecordButton:hover {
-    background-color: #fcf5fb;
+    background-color: #e6d7e3;
 }
 
 
@@ -91,7 +91,7 @@ header {
     padding: 10px;
 }
 .playlistRecord:not(.selected):hover {
-    background-color: #fcf5fb;
+    background-color: #e6d7e3;
 }
 .playlistRecordButtonHolder {
     
