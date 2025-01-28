@@ -41,11 +41,15 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    transition: 0.15s;
+    transition: 0.3s;
 
 }
 .dbRecord p {
     padding: 10px;
+}
+
+.dbRecord:not(.selected):hover {
+    background-color: #fcf5fb;
 }
 .dbRecordButtonHolder {
     
@@ -80,14 +84,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.1s;
+    transition: 0.3s;
 
 }
 .playlistRecord p{
     padding: 10px;
 }
 .playlistRecord:not(.selected):hover {
-    width: 90%;
+    background-color: #fcf5fb;
 }
 .playlistRecordButtonHolder {
     
@@ -104,12 +108,9 @@ header {
     width: 40%;
     margin: 5px;
     transition: 0.2s;
-    display: block;
 
 }
-.playlistRecordButton img {
-    display: block;
-}
+
 .playlistRecordButton:hover {
     background-color: #fcf5fb;
 }
