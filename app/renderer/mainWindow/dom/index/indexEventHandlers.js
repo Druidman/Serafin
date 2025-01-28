@@ -213,7 +213,11 @@ function handleNextPlaylistRecord(){
 
     var nextSelected = selected.nextElementSibling
     console.log(nextSelected)
-    if (nextSelected == null){
+    if (!nextSelected){
+        if (!selected.previousElementSibling){
+            return
+        }
+        handlePrevPlaylistRecord()
         return
     }
 
@@ -241,6 +245,12 @@ function handlePrevPlaylistRecord(){
 
     
     if (!prevSelected){
+        if (!selected.nextElementSibling){
+            return 
+        }
+        handleNextPlaylistRecord()
+        
+
         return
     }
 
@@ -296,7 +306,7 @@ function handleKeyPressEvent(event){
         case "ArrowDown":
         case "Numpad2":
             event.preventDefault()
-            handleNextPlaylistRecord(event)
+            handleNextPlaylistRecord()
             break
 
         case "Numpad0":
