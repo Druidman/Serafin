@@ -44,11 +44,6 @@ header {
     transition: 0.15s;
 
 }
-.dbRecord:hover {
-    
-    width: 90%;
-    
-}
 .dbRecord p {
     padding: 10px;
 }
