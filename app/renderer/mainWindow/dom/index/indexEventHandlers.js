@@ -87,16 +87,18 @@ function add_db_record_button_click_event(button){
 
 function playlist_record_button_click_event(event){
   
-    var playlistRecord = document.getElementsByClassName("selected")[0]//event.currentTarget.parentNode.parentNode
+    var playlistRecord = event.currentTarget.parentNode.parentNode
     if (!playlistRecord){
         return
     }
 
-    
-    var playView = document.getElementById("playView")
-    playView.innerHTML = ""
+    if (playlistRecord.classList.contains("selected")){
+        var playView = document.getElementById("playView")
+        playView.innerHTML = ""
 
-    handlePrevPlaylistRecord()
+        handlePrevPlaylistRecord()
+    }
+    
         
      
     
