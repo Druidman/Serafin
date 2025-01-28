@@ -32,7 +32,7 @@ function add_categoryRecord_click_event(categoryRecord){
 //
 
 function playlistRecord_click_event(event){
-    if (event.target.tagName === "BUTTON"){
+    if (event.target.tagName === "BUTTON" || event.target.tagName === "IMG"){
         return
     }
    
@@ -86,14 +86,23 @@ function add_db_record_button_click_event(button){
 //
 
 function playlist_record_button_click_event(event){
-    
-    var playlistRecord = event.currentTarget.parentNode.parentNode
-    removeFromPlaylist(playlistRecord)
-    if (playlistRecord.classList.contains("selected")){
-        var playView = document.getElementById("playView")
-        playView.innerHTML = ""
+  
+    var playlistRecord = document.getElementsByClassName("selected")[0]//event.currentTarget.parentNode.parentNode
+    if (!playlistRecord){
+        return
+    }
 
-    }   
+    
+    var playView = document.getElementById("playView")
+    playView.innerHTML = ""
+
+    handlePrevPlaylistRecord()
+        
+     
+    
+    removeFromPlaylist(playlistRecord)
+    
+    
     
     
 }
@@ -194,7 +203,7 @@ function handleStashButtonEvent(event){
         button.setAttribute("data-value","hide")
     }
 }
-function handleNextPlaylistRecord(event){
+function handleNextPlaylistRecord(){
     var selected = document.getElementsByClassName("selected")[0]
     if (selected == null){
         return
@@ -219,14 +228,15 @@ function handleNextPlaylistRecord(event){
     }
     
 }
-function handlePrevPlaylistRecord(event){
+function handlePrevPlaylistRecord(){
     var selected = document.getElementsByClassName("selected")[0]
     
-    if (!selected){
+    if (selected == null){
         return
     }
 
     var prevSelected = selected.previousElementSibling
+
     
     if (!prevSelected){
         return
@@ -234,6 +244,7 @@ function handlePrevPlaylistRecord(event){
 
     selected.classList.remove("selected")
     prevSelected.classList.add("selected")
+    
 
     var id = prevSelected.id
     var song = getSongFullById(id)
@@ -276,7 +287,8 @@ function handleKeyPressEvent(event){
         case "ArrowUp":
         case "Numpad8":
             event.preventDefault()
-            handlePrevPlaylistRecord(event)
+            handlePrevPlaylistRecord()
+            
             break
 
         case "ArrowDown":

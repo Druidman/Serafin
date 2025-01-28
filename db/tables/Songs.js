@@ -4,7 +4,7 @@ async function getPreviews(categoryName,db){
     return await new Promise((resolve, reject)=>{
         console.log(categoryName)
         if (categoryName == "wszystko"){
-            db.all("SELECT title,id,category FROM songs ORDER BY title ASC",(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs ORDER BY title ASC LIMIT 100",(err,rows)=>{
                 if (err){
                     console.error(err.message)
                     reject(err)
@@ -17,7 +17,7 @@ async function getPreviews(categoryName,db){
             })
         }
         else{
-            db.all("SELECT title,id,category FROM songs WHERE category=? ORDER BY title ASC",[categoryName],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE category=? ORDER BY title ASC LIMIT 100",[categoryName],(err,rows)=>{
                 if (err){
                     console.error(err.message)
                     reject(err)
@@ -36,7 +36,7 @@ async function getPreviews(categoryName,db){
 async function getByPrefix(prefix,categoryName,db){
     return await new Promise((resolve,reject)=>{
         if (categoryName == "wszystko"){
-            db.all("SELECT title,id,category FROM songs WHERE title LIKE ? ORDER BY title ASC",[prefix + "%"],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE title LIKE ? ORDER BY title ASC LIMIT 100",[prefix + "%"],(err,rows)=>{
                 if (err) {
                     console.error(err.message)
                     reject(err)
@@ -47,7 +47,7 @@ async function getByPrefix(prefix,categoryName,db){
             })
         }
         else{
-            db.all("SELECT title,id,category FROM songs WHERE title LIKE ? AND category=? ORDER BY title ASC",[prefix + "%",categoryName],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE title LIKE ? AND category=? ORDER BY title ASC LIMIT 100",[prefix + "%",categoryName],(err,rows)=>{
                 if (err) {
                     console.error(err.message)
                     reject(err)

@@ -104,6 +104,11 @@ header {
     width: 40%;
     margin: 5px;
     transition: 0.2s;
+    display: block;
+
+}
+.playlistRecordButton img {
+    display: block;
 }
 .playlistRecordButton:hover {
     background-color: #fcf5fb;
