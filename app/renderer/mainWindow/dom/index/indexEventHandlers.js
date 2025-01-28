@@ -95,8 +95,13 @@ function playlist_record_button_click_event(event){
     if (playlistRecord.classList.contains("selected")){
         var playView = document.getElementById("playView")
         playView.innerHTML = ""
-
-        handlePrevPlaylistRecord()
+        if (playlistRecord.previousElementSibling){
+            handlePrevPlaylistRecord()
+        }
+        else {
+            handleNextPlaylistRecord()
+        }
+        
     }
     
         
@@ -214,10 +219,7 @@ function handleNextPlaylistRecord(){
     var nextSelected = selected.nextElementSibling
     console.log(nextSelected)
     if (!nextSelected){
-        if (!selected.previousElementSibling){
-            return
-        }
-        handlePrevPlaylistRecord()
+       
         return
     }
 
@@ -245,10 +247,7 @@ function handlePrevPlaylistRecord(){
 
     
     if (!prevSelected){
-        if (!selected.nextElementSibling){
-            return 
-        }
-        handleNextPlaylistRecord()
+        
         
 
         return
