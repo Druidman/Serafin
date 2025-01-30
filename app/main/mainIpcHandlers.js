@@ -52,10 +52,13 @@ function setupIpcHandlers(db){
     ipcMain.on("openFileDialog", (Event,properties)=>{
         var paths = dialog.showOpenDialogSync({properties: properties})
         var dataFromFiles = []
-        paths.map((path)=>{
-            var data = fs.readFileSync(path,"utf-8")
-            dataFromFiles.push(data)
-        })
+        if (paths !== undefined){
+            paths.map((path)=>{
+                var data = fs.readFileSync(path,"utf-8")
+                dataFromFiles.push(data)
+            })
+        }
+        console.log(paths)
         Event.returnValue = dataFromFiles
     })
     ipcMain.on("createSong",(Event,values)=>{

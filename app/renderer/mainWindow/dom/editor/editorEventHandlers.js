@@ -91,16 +91,24 @@ function handleReturnIndexButtonClickEvent(event){
 }
 function handleTxtFileLoadButtonClickEvent(event){
     const properties = ["openFile"]
-    var dataFromFile = openFileDialog(properties)[0]
-    var lyrics = dataFromFile.split(";")
+    var dataFromFile = openFileDialog(properties)
+    
+    if (dataFromFile.length == 0){
+        return
+    }
+    
+    var lyrics = dataFromFile[0].split(";")
     
     var textEditor = document.getElementById("textEditingArea")
     textEditor.innerHTML = createEditableText(lyrics)
 }
 function handleJsonFileLoadButtonClickEvent(event){
     const properties = ["openFile"]
-    var dataFromFile = openFileDialog(properties)[0]
-    var lyrics = JSON.parse(dataFromFile)["lyrics"]
+    var dataFromFile = openFileDialog(properties)
+    if (dataFromFile.length == 0){
+        return
+    }
+    var lyrics = JSON.parse(dataFromFile[0])["lyrics"]
 
     var textEditor = document.getElementById("textEditingArea")
     textEditor.innerHTML = createEditableText(lyrics)
