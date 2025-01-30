@@ -2,11 +2,13 @@ import { updateSongById, openFileDialog, createSong } from "../shared/ipcHandler
 import { switchToIndex } from "../shared/viewModifiers.js"
 import { createEditableText, elementWarning, succesfulSummary, failedSummary } from "./utils.js"
 
+
+const textRegex = /\( ZWROTKA \d+ \)|\( REFREN \)/
 function editorSaveButton_click_event(event){
     var editedText = document.getElementById("textEditingArea").textContent
     
-    var verses = editedText.split(/\( SLAJD \d+ \)/)
-    verses.shift()
+    var verses = editedText.split(textRegex).filter(Boolean)
+
 
     var idValue = document.getElementById("idInput").getAttribute("value")
     var category = document.getElementById("category")
@@ -46,8 +48,9 @@ function editorSaveButton_click_event(event){
 function editorCreateButton_click_event(event){
     var editedText = document.getElementById("textEditingArea").textContent
     
-    var verses = editedText.split(/\( SLAJD \d+ \)/)
-    verses.shift()
+    var verses = editedText.split(textRegex)
+
+
 
     var idValue = document.getElementById("idInput").getAttribute("value")
     var category = document.getElementById("category")
@@ -124,6 +127,18 @@ function handleRedoButtonClickEvent(event){
     
 }
 
+function handleZwrotkaTextAddButtonEvent(event){
+    let textEditArea = document.getElementById("textEditingArea")
+    let zwrotki = Number(textEditArea.getAttribute("data-zwrotki"))
+
+    textEditArea.innerHTML += `<br><br>( ZWROTKA ${zwrotki+1})`
+    textEditArea.setAttribute("data-zwrotki",zwrotki+1)
+}   
+function handleRefrenTextAddButtonEvent(event){
+    var textEditArea = document.getElementById("textEditingArea")
+    textEditArea.innerHTML += "<br><br>( REFREN )"
+}
+
 
 
 document.getElementById("editorSaveButton").addEventListener("click",editorSaveButton_click_event)
@@ -133,3 +148,5 @@ document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtF
 document.getElementById("jsonFileLoadButton").addEventListener("click",handleJsonFileLoadButtonClickEvent)
 document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
 document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
+document.getElementById("addZwrotka").addEventListener("click",handleZwrotkaTextAddButtonEvent)
+document.getElementById("addRefren").addEventListener("click",handleRefrenTextAddButtonEvent)

@@ -2,7 +2,18 @@ import { getSongFullById, getSongCategories } from "../shared/ipcHandlers.js"
 import { constructOptionCategoryTag } from "./elementConstructors.js"
 import { createEditableText } from "./utils.js"
 
+function setEditorControls(){
+    var categories = getSongCategories()
+    var categorySelect = document.getElementById("category")
 
+    for (var category of categories){
+        
+        var categoryOption = constructOptionCategoryTag(category['category'])
+     
+        categorySelect.appendChild(categoryOption)
+     
+    }
+}
 function resetEditor(){
     document.getElementById("textEditingArea").innerHTML = ""
     document.getElementById("category").setAttribute("value","")
@@ -20,21 +31,19 @@ function loadEditElement(editElement){
   
     idInput.setAttribute("value",editElement.id)
     titleInput.setAttribute("value",editElement.textContent)
-
-    var categories = getSongCategories()
+    var categories = categorySelect.getElementsByTagName("option")
     for (var category of categories){
-        
-        var categoryOption = constructOptionCategoryTag(category['category'])
-        if (category['category']== categoryName){
-            categoryOption.setAttribute("selected","selected")
-        }   
-        categorySelect.appendChild(categoryOption)
+        if (category.value == categoryName){
+            category.setAttribute("selected","selected")
+        }
     }
+  
     
     var lyrics = getSongFullById(editElement.id)
-
-    textEditor.innerHTML = createEditableText(lyrics)
+    let text = createEditableText(lyrics)
+    textEditor.innerHTML = text
+    textEditor.setAttribute("data-zwrotki",lyrics.length)
 }
 
 
-export { loadEditElement, resetEditor }
+export { loadEditElement, resetEditor, setEditorControls }

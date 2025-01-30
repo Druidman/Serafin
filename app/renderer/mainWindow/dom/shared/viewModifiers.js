@@ -1,7 +1,7 @@
 import { loadStylesheet } from "./utils.js"
 
 import { handleKeyPressEvent } from "../index/indexEventHandlers.js"
-import { loadEditElement, resetEditor } from "../editor/elementUpdaters.js"
+import { loadEditElement, resetEditor, setEditorControls } from "../editor/elementUpdaters.js"
 
 
 
@@ -31,6 +31,7 @@ function switchToEditor(editElement){
     loadStylesheet("editorStyles.css")
 
     resetEditor()
+    setEditorControls()
     
     if (editElement){
         loadEditElement(editElement)

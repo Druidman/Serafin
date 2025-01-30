@@ -3,10 +3,20 @@ function createEditableText(lyrics){
         return ""
     }
     var fullText = ""
-    var slideNum = 1
+    var slideNum = 0
     for (var verse of lyrics){
-        fullText += `<br><br>( SLAJD ${slideNum} )<br>${verse}`
-        slideNum++
+        if (!verse){
+            continue
+        }
+        if (verse.includes("Refren:")){
+            var addon = "( REFREN )"
+        }
+        else {
+            slideNum++
+            var addon = `( ZWROTKA ${slideNum} )`
+        }
+        fullText += `<br><br>${addon}<br>${verse}`
+        
     }
     return fullText.replaceAll("\n","<br>")
 }
