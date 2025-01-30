@@ -88,13 +88,25 @@
       <main>
         <section id="editSection">
           <div id="editBoxControl" class="mainBox">
-            <button class="historyButton" id="undoButton">
-              <img src="../resources/icons/002-arrow.png">
-            </button>
-            <h1>Podgląd</h1>
-            <button class="historyButton" id="redoButton">
-              <img src="../resources/icons/001-right-arrow.png">
-            </button>
+            <div id="historyButtons">
+              <button class="historyButton" id="undoButton">
+                <img src="../resources/icons/002-arrow.png">
+              </button>
+              <button class="historyButton" id="redoButton">
+                <img src="../resources/icons/001-right-arrow.png">
+              </button>
+            </div>
+            <div id="textButtons">
+              <button class="addTextButton" id="addRefren">
+                <img alt="icon" src="../resources/icons/004-plus.png">
+                <p>Refren</p>
+              </button>
+              <button class="addTextButton" id="addZwrota">
+                <img alt="icon" src="../resources/icons/004-plus.png">
+                <p>Zwrotka</p>
+              </button>
+            </div>
+            
           </div>
           
           <div id="textEditingArea" class="mainBox" contenteditable="true"></div>

@@ -72,10 +72,20 @@ section#editSection {
    
     display: flex;
     justify-content: space-between;
+    align-items: center;
    
     color: #4a4f5e;
 }
+#historyButtons{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 .historyButton {
+    height: 100%;
+    width: 10%;
     background-color: #fcf5fb;
     transition: 0.2s;
 }
@@ -83,6 +93,27 @@ section#editSection {
     background-color: white;
 
 }
+#textButtons {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.addTextButton {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #fcf5fb;
+    height: 100%;
+    width: 20%;
+    transition: 0.2s;
+}
+.addTextButton:hover {
+    background-color: white;
+}
+
 
 
 #textEditingArea {
@@ -146,6 +177,7 @@ section#editControlSection {
     font-size: xx-large;
   
 }
+
 
 
 
