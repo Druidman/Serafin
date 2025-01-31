@@ -142,12 +142,22 @@ header {
 .recordHolder {
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .recordHolder::-webkit-scrollbar{
-    display: none;
+
+    width: 10px;
 }
+
+.recordHolder::-webkit-scrollbar-thumb {
+    height: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+    background-color: #918d92;
+}
+
+
 
 .verseHolder {
     display: flex;

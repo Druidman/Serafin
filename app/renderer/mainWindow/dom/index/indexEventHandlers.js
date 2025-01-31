@@ -314,6 +314,11 @@ function handleKeyPressEvent(event){
     }
 }
 
+function handleDbViewerScrollEvent(event){
+    let dbViewer = event.currentTarget
+    
+}
+
 
 
 document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
@@ -323,6 +328,7 @@ document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
 document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
 document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
 document.getElementById("mainEditorButton").addEventListener("click",handleMainEditorButtonClickEvent)
+document.getElementById("databaseViewer").addEventListener("scroll",handleDbViewerScrollEvent)
 
 
 
