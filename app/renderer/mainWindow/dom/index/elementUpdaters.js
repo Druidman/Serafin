@@ -22,9 +22,17 @@ function updatePlayView(song){
     firstVerseElement.classList.add("currentVerse")
     playview.appendChild(firstVerseElement)
 
+    var addedEmpty = false
     for (var verse of song.slice(1)){
+        if (!verse){
+            addedEmpty = true
+        }
         var verseElement = construct_verse(verse)
         playview.appendChild(verseElement)
+    }
+    if (!addedEmpty){
+        var emptyVerseElement = construct_verse("")
+        playview.appendChild(emptyVerseElement)
     }
     
     

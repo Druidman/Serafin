@@ -163,7 +163,7 @@ function construct_displayOption(display) {
     }
     else {
         option.innerHTML = display.label
-    }
+    }" "
     return option
 
 }

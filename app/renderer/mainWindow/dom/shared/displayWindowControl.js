@@ -50,7 +50,7 @@ function updateWindow(){
   
     var verse = document.getElementsByClassName("currentVerse")[0]
 
-    if (!verse || !checkWindowActive()){
+    if (!verse || !checkWindowActive() || !verse.textContent){
         return false
     }
 
