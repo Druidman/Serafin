@@ -364,7 +364,7 @@ function handleDbViewerUnFocusEvent(event){
             elements[i].style.display = "none"
         }
         dbViewer.classList.add("hiddenScrollBar")
-    },3000)
+    },1500)
     
 
 
