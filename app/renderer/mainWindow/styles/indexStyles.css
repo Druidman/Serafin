@@ -13,7 +13,9 @@ header {
     align-items: center;
     justify-content: left;
 }
-
+.unseen {
+    display: none;
+}
 .mainButton{
     background-color: #FFFFFF;
     border-radius: 10px;
@@ -28,14 +30,15 @@ header {
     justify-content: space-between;
     padding: 5px;
 }
-.dbRecord {
+
+.dbRecord{
     font-size: 1.5vw;
     background-color: #FFFFFF;
     width: 100%;
     border-radius: 5px;
     min-height: 10%;
     height: 10%;
-    margin-top: 3px;
+    margin-bottom: 3px;
 
     display: flex;
     justify-content: space-between;
@@ -43,6 +46,10 @@ header {
 
     transition: 0.3s;
 
+}
+
+.dbRecord.unseen {
+    display: none;
 }
 .dbRecord p {
     padding: 10px;

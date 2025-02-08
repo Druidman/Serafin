@@ -37,12 +37,18 @@ function load_previews(data){
     dataBox.scrollTop = 0
 
     data = sortPreviews(data)
-
+    var counter = 100
     for (var element of data){
 
         
         var db_record = construct_db_record(element)
+        if (counter <= 0){
+            db_record.style.display = "none"
+            
+        }
+        
         dataBox.appendChild(db_record)
+        counter -= 1
     }
 
 }

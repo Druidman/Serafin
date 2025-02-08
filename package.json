@@ -1,7 +1,7 @@
 {
-    "name": "serafin",
+    "name": "verbum",
     "version": "3.1.1",
-    "description": "Serafin app to control text in church",
+    "description": "App to control text in church",
     "main": "app/main/main.js",
     "author": "Mateusz Kowalski",
     "license": "MIT",
@@ -26,8 +26,8 @@
         "sqlite3": "^5.1.7"
     },
     "build": {
-        "appId": "com.mateusz.serafin",
-        "productName": "Serafin",
+        "appId": "com.mateusz.verbum",
+        "productName": "Verbum",
         "directories": {
             "output": "dist"
         },

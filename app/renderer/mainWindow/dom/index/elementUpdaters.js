@@ -15,9 +15,6 @@ function updatePlayView(song){
     if (!song[0]){
         return false
     }
-    
-
-    
     var firstVerseElement = construct_verse(song[0])
     firstVerseElement.classList.add("currentVerse")
     playview.appendChild(firstVerseElement)

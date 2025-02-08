@@ -43,7 +43,10 @@ function switchToIndex(){
     document.addEventListener("keydown",handleKeyPressEvent)
     loadStylesheet("indexStyles.css")
 }
+
 export{ 
     scrollPlayView,
     switchToEditor,
-    switchToIndex }
+    switchToIndex,
+    
+}

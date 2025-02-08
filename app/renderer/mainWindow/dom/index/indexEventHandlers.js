@@ -4,10 +4,13 @@ import {
     getSongFullById,
     getSongsPreview,
     getSongCategories } from "../shared/ipcHandlers.js"
-import { scrollPlayView, switchToEditor } from "../shared/viewModifiers.js"
+import { scrollPlayView, switchToEditor
+
+ } from "../shared/viewModifiers.js"
 import { load_categories, load_previews } from "../shared/utils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as displayWind from "../shared/displayWindowControl.js"
+
 
 
 
@@ -314,10 +317,52 @@ function handleKeyPressEvent(event){
     }
 }
 
-function handleDbViewerScrollEvent(event){
-    let dbViewer = event.currentTarget
-    
+function handleDbViewerFocusEvent(event){
+    let elements =  Array.prototype.slice.call(document.getElementsByClassName("dbRecord"))
+    console.log("focus")
+    for (let element of elements){
+        if (element.style.display != "none"){
+            continue
+        }
+        element.style.display = "flex"
+    }
 }
+function handleDbViewerUnFocusEvent(event){
+    let elements =  Array.prototype.slice.call(document.getElementsByClassName("dbRecord"))
+    console.log("unfocus")
+    let dbViewer = event.currentTarget
+    let dbViewerRect = dbViewer.getBoundingClientRect()
+
+
+    let safeZone = []
+    for (let i=0; i<elements.length;i++){
+        let element = elements[i]
+        let rect = element.getBoundingClientRect()
+        if (rect.top < dbViewer.scrollTop && rect.top > dbViewerRect.top){
+            let safePrev = i-50
+            let safeNext = i+50
+            if (safePrev < 0){
+                safePrev = 0
+            }
+            if (safeNext > elements.length){
+                safeNext = elements.length
+            }
+            safeZone = [safePrev,safeNext]
+            break
+        }
+    }
+    for (let i=0; i<elements.length;i++){
+        if (i <=safeZone[1] && i>=safeZone[0]){
+            continue
+        }
+        elements[i].style.display = "none"
+    }
+
+
+        
+        
+}
+
 
 
 
@@ -328,7 +373,8 @@ document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
 document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
 document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
 document.getElementById("mainEditorButton").addEventListener("click",handleMainEditorButtonClickEvent)
-document.getElementById("databaseViewer").addEventListener("scroll",handleDbViewerScrollEvent)
+document.getElementById("databaseViewer").addEventListener("mouseenter",handleDbViewerFocusEvent)
+document.getElementById("databaseViewer").addEventListener("mouseleave",handleDbViewerUnFocusEvent)
 
 
 
