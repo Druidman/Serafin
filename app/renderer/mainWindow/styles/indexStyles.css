@@ -4,7 +4,6 @@
 
 
 
-
 header {
     width: 100%;
     height: 5%;
@@ -12,9 +11,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: left;
-}
-.unseen {
-    display: none;
 }
 .mainButton{
     background-color: #FFFFFF;
@@ -151,17 +147,23 @@ header {
     flex-direction: column;
     overflow-y: scroll;
 }
+.recordHolder:hover::-webkit-scrollbar-thumb{
+    display: flex;
+}
 
 .recordHolder::-webkit-scrollbar{
 
-    width: 10px;
+    width: 12px;
 }
 
+
+
 .recordHolder::-webkit-scrollbar-thumb {
-    height: 50px;
-    max-height: 50px;
+    display: none;
+    height: 40px;
+    
     border-radius: 5px;
-    background-color: #918d92;
+    background-color: #8b8b8b;
 }
 
 

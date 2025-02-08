@@ -5,6 +5,7 @@ import { loadEditElement, resetEditor, setEditorControls } from "../editor/eleme
 
 
 
+
 function scrollPlayView(){
     var currVerse = document.getElementsByClassName("currentVerse")[0]
     var verseRect = currVerse.getBoundingClientRect()
