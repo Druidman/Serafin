@@ -11,7 +11,7 @@ import { load_categories, load_previews } from "../shared/utils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as displayWind from "../shared/displayWindowControl.js"
 
-
+let dbViewerTimeout;
 
 
 function categoryRecord_click_event(event){
@@ -318,6 +318,7 @@ function handleKeyPressEvent(event){
 }
 
 function handleDbViewerFocusEvent(event){
+    clearTimeout(dbViewerTimeout)
     let elements =  Array.prototype.slice.call(document.getElementsByClassName("dbRecord"))
     console.log("focus")
     for (let element of elements){
@@ -326,6 +327,7 @@ function handleDbViewerFocusEvent(event){
         }
         element.style.display = "flex"
     }
+    event.currentTarget.classList.remove("hiddenScrollBar")
 }
 function handleDbViewerUnFocusEvent(event){
     let elements =  Array.prototype.slice.call(document.getElementsByClassName("dbRecord"))
@@ -353,12 +355,17 @@ function handleDbViewerUnFocusEvent(event){
             break
         }
     }
-    for (let i=0; i<elements.length;i++){
-        if (i <=safeZone[1] && i>=safeZone[0]){
-            continue
+    
+    dbViewerTimeout = setTimeout(()=>{
+        for (let i=0; i<elements.length;i++){
+            if (i <=safeZone[1] && i>=safeZone[0]){
+                continue
+            }
+            elements[i].style.display = "none"
         }
-        elements[i].style.display = "none"
-    }
+        dbViewer.classList.add("hiddenScrollBar")
+    },3000)
+    
 
 
         

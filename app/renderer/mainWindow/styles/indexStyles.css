@@ -147,23 +147,23 @@ header {
     flex-direction: column;
     overflow-y: scroll;
 }
-.recordHolder:hover::-webkit-scrollbar-thumb{
-    display: flex;
-}
 
 .recordHolder::-webkit-scrollbar{
-
+    
     width: 12px;
 }
 
-
-
-.recordHolder::-webkit-scrollbar-thumb {
+.recordHolder.hiddenScrollBar::-webkit-scrollbar{
     display: none;
+}
+.recordHolder::-webkit-scrollbar-thumb {
     height: 40px;
-    
+    max-height: 40px;
+    min-height: 40px;
+
     border-radius: 5px;
     background-color: #8b8b8b;
+   
 }
 
 
