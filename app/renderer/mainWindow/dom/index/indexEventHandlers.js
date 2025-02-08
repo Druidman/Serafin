@@ -338,7 +338,9 @@ function handleDbViewerUnFocusEvent(event){
     for (let i=0; i<elements.length;i++){
         let element = elements[i]
         let rect = element.getBoundingClientRect()
-        if (rect.top < dbViewer.scrollTop && rect.top > dbViewerRect.top){
+        if ((rect.top <= dbViewer.scrollTop && rect.top >= dbViewerRect.top) 
+            || 
+            (rect.top >= dbViewer.scrollTop && rect.top <= dbViewerRect.bottom)){
             let safePrev = i-50
             let safeNext = i+50
             if (safePrev < 0){
