@@ -1,6 +1,6 @@
 import { getSongFullById, getSongCategories } from "../shared/ipcHandlers.js"
 import { constructOptionCategoryTag } from "./elementConstructors.js"
-import { createEditableText } from "./utils.js"
+import { addEditableText } from "./utils.js"
 
 function setEditorControls(){
     var categories = getSongCategories()
@@ -40,8 +40,7 @@ function loadEditElement(editElement){
   
     
     var lyrics = getSongFullById(editElement.id)
-    let text = createEditableText(lyrics)
-    textEditor.innerHTML = text
+    addEditableText(lyrics)
     textEditor.setAttribute("data-zwrotki",lyrics.length)
 }
 

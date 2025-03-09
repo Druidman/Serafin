@@ -1,24 +1,25 @@
-function createEditableText(lyrics){
+function addEditableText(lyrics){
+    var textEditor = document.getElementById("textEditingArea")
     if (!lyrics){
         return ""
     }
-    var fullText = ""
-    var slideNum = 0
+ 
     for (var verse of lyrics){
         if (!verse){
             continue
         }
         if (verse.includes("Refren:")){
-            var addon = "( REFREN )"
+            var addon = "<R>"
         }
         else {
-            slideNum++
-            var addon = `( ZWROTKA ${slideNum} )`
+         
+            var addon = `<Z>`
         }
-        fullText += `<br><br>${addon}<br>${verse}`
+        textEditor.innerHTML += '<br><br>'
+        textEditor.innerText += addon
+        textEditor.innerHTML += `<br>${verse.replaceAll("\n","<br>")}`
         
     }
-    return fullText.replaceAll("\n","<br>")
 }
 
 function elementWarning(element){
@@ -41,4 +42,4 @@ function failedSummary(button){
     }, 1000)
 }
 
-export { createEditableText, elementWarning, failedSummary, succesfulSummary }
+export { addEditableText, elementWarning, failedSummary, succesfulSummary }
