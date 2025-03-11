@@ -149,3 +149,14 @@ document.getElementById("undoButton").addEventListener("click",handleUndoButtonC
 document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
 document.getElementById("addZwrotka").addEventListener("click",handleZwrotkaTextAddButtonEvent)
 document.getElementById("addRefren").addEventListener("click",handleRefrenTextAddButtonEvent)
+
+document.getElementById("textEditingArea").addEventListener("paste", function(e) {
+    // cancel paste
+    e.preventDefault();
+
+    // get text representation of clipboard
+    var text = (e.originalEvent || e).clipboardData.getData('text');
+
+    // insert text manually
+    document.execCommand("insertHTML", false, text.replace(/\n/g,'<br>'));
+});

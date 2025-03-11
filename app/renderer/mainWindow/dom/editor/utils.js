@@ -8,7 +8,7 @@ function addEditableText(lyrics){
         if (!verse){
             continue
         }
-        if (verse.includes("Refren:")){
+        if (verse.includes("Refren:") || verse.includes("Ref:")){
             var addon = "<R>"
         }
         else {
