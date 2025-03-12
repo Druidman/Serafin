@@ -5,14 +5,10 @@
                 {
                     "title": "\u015awi\u0119ty Bo\u017ce, \u015awi\u0119ty Mocny",
                     "lyrics": [
-                        "1. \u015awi\u0119ty Bo\u017ce! * \u015awi\u0119ty Mocny! * \u015awi\u0119ty Nie\u015bmiertelny! * Zmi\u0142uj si\u0119 nad nami! (",
-                        "2. x)",
-                        "3. Od powietrza, g\u0142odu, ognia i wojny, * wybaw nas Panie! (",
-                        "4. x)",
-                        "5. Od nag\u0142ej i niespodziewanej \u015bmierci * zachowaj nas, Panie! (",
-                        "6. x)",
-                        "7. My grzeszni Ciebie, Boga, prosimy, * wys\u0142uchaj nas, Panie! (",
-                        "8. x)",
+                        "\u015awi\u0119ty Bo\u017ce! * \u015awi\u0119ty Mocny! * \u015awi\u0119ty Nie\u015bmiertelny! * Zmi\u0142uj si\u0119 nad nami! /x3",
+                        "1. Od powietrza, g\u0142odu, ognia i wojny, * wybaw nas Panie! /x3",
+                        "2. Od nag\u0142ej i niespodziewanej \u015bmierci * zachowaj nas, Panie! /x3",
+                        "3. My grzeszni Ciebie, Boga, prosimy, * wys\u0142uchaj nas, Panie! /x3",
                         ""
                     ]
                 },
@@ -38,20 +34,20 @@
                         "7. Gdy nas strofujesz, wyznajemy co\u015bmy uczynili, * a gdy nam b\u0142ogos\u0142awisz, * zapominamy, \u017ce\u015bmy si\u0119 smucili.",
                         "8. Gdy na nas naciskasz, wiele Ci przyrzekamy, * a gdy miecz sw\u00f3j chowasz, * obietnic nie wype\u0142niamy.",
                         "9. Gdy nam ch\u0142ost\u0119 wymierzasz, \u201eprzebacz nam!\u201d wo\u0142amy, * a gdy ju\u017c przebaczysz, * do karania Ci\u0119 pobudzamy.",
-                        "10. . Znalaz\u0142szy si\u0119 w biedzie, o lito\u015b\u0107 b\u0142agamy, * a kiedy si\u0119 zlitujesz, * cierpliwo\u015bci Twej nadu\u017cywamy.",
-                        "11. . Pogr\u0105\u017ceni w niedoli do Ciebie wzdychamy, * a wyzwoleni z niej lecz niewdzi\u0119czni, * wnet zapominamy.",
-                        "12. . Gdy wys\u0142uchujesz szybko, folgujemy sobie, * je\u015bli zwlekasz z ratunkiem, * szemrzemy przeciw Tobie.",
-                        "13. . Chcemy, by\u015b to zachowa\u0142, czym \u017ce\u015b nas obdarzy\u0142, * lecz jeste\u015bmy oboj\u0119tni * na Twoje rozkazy.",
-                        "14. . Oto stoimy przed Tob\u0105 skruszeni grzesznicy. * Przebacz w Twym mi\u0142osierdziu, * co jest bez granicy!",
-                        "15. . Wiemy, \u017ce sprawiedliwie karzesz grzeszne czyny, * lecz jeste\u015b mi\u0142osierny * i przebaczasz winy.",
-                        "16. . Spraw nam niegodnym Panie to, o co prosimy, * Ty\u015b nas z niczego stworzy\u0142, * by\u015bmy Ci\u0119 zawsze wielbili.",
-                        "17. . Gdy wo\u0142amy do Ciebie, ulituj si\u0119, Panie, * niech Twe Serce poruszy * p\u0142acz nasz i wo\u0142anie!",
-                        "18. . Niech Twa boska \u0142askawo\u015b\u0107, w kt\u00f3rej ufno\u015b\u0107 mamy, * nie poczyta nam grzech\u00f3w, * gdy o to b\u0142agamy.",
-                        "19. . Wielka jest nasza n\u0119dza, wielki grzech nasz, Bo\u017ce, * niech wi\u0119ksza Twa \u0142askawo\u015b\u0107 * nas n\u0119dznych wspomo\u017ce!",
-                        "20. . Prosz\u0105c o wspomo\u017cenie, wyznajemy grzechy, * u Twego mi\u0142osierdzia * szukamy pociechy.",
-                        "21. . Spraw, niech przyjmiemy kornie Twoje przebaczenie, * nie przypisuj\u0105c sobie * w\u0142asne nawr\u00f3cenie.",
-                        "22. . Podnie\u015b nas w swej dobroci, Bo\u017ce nasz i Panie, * daj nam rado\u015b\u0107 zbawienia * i w mi\u0142o\u015bci trwanie!",
-                        "23. . Pozw\u00f3l nam, wiernym Tobie, co si\u0119 \u0142ask\u0105 ciesz\u0105, * radowa\u0107 si\u0119 pokojem * z wszystkich lud\u00f3w rzesz\u0105!",
+                        "1.0. Znalaz\u0142szy si\u0119 w biedzie, o lito\u015b\u0107 b\u0142agamy, * a kiedy si\u0119 zlitujesz, * cierpliwo\u015bci Twej nadu\u017cywamy.",
+                        "1.1. Pogr\u0105\u017ceni w niedoli do Ciebie wzdychamy, * a wyzwoleni z niej lecz niewdzi\u0119czni, * wnet zapominamy.",
+                        "1.2. Gdy wys\u0142uchujesz szybko, folgujemy sobie, * je\u015bli zwlekasz z ratunkiem, * szemrzemy przeciw Tobie.",
+                        "1.3. Chcemy, by\u015b to zachowa\u0142, czym \u017ce\u015b nas obdarzy\u0142, * lecz jeste\u015bmy oboj\u0119tni * na Twoje rozkazy.",
+                        "1.4. Oto stoimy przed Tob\u0105 skruszeni grzesznicy. * Przebacz w Twym mi\u0142osierdziu, * co jest bez granicy!",
+                        "1.5. Wiemy, \u017ce sprawiedliwie karzesz grzeszne czyny, * lecz jeste\u015b mi\u0142osierny * i przebaczasz winy.",
+                        "1.6. Spraw nam niegodnym Panie to, o co prosimy, * Ty\u015b nas z niczego stworzy\u0142, * by\u015bmy Ci\u0119 zawsze wielbili.",
+                        "1.7. Gdy wo\u0142amy do Ciebie, ulituj si\u0119, Panie, * niech Twe Serce poruszy * p\u0142acz nasz i wo\u0142anie!",
+                        "1.8. Niech Twa boska \u0142askawo\u015b\u0107, w kt\u00f3rej ufno\u015b\u0107 mamy, * nie poczyta nam grzech\u00f3w, * gdy o to b\u0142agamy.",
+                        "1.9. Wielka jest nasza n\u0119dza, wielki grzech nasz, Bo\u017ce, * niech wi\u0119ksza Twa \u0142askawo\u015b\u0107 * nas n\u0119dznych wspomo\u017ce!",
+                        "2.0. Prosz\u0105c o wspomo\u017cenie, wyznajemy grzechy, * u Twego mi\u0142osierdzia * szukamy pociechy.",
+                        "2.1. Spraw, niech przyjmiemy kornie Twoje przebaczenie, * nie przypisuj\u0105c sobie * w\u0142asne nawr\u00f3cenie.",
+                        "2.2. Podnie\u015b nas w swej dobroci, Bo\u017ce nasz i Panie, * daj nam rado\u015b\u0107 zbawienia * i w mi\u0142o\u015bci trwanie!",
+                        "2.3. Pozw\u00f3l nam, wiernym Tobie, co si\u0119 \u0142ask\u0105 ciesz\u0105, * radowa\u0107 si\u0119 pokojem * z wszystkich lud\u00f3w rzesz\u0105!",
                         ""
                     ]
                 }
@@ -334,7 +330,7 @@
                         "7. Spraw, niech lej\u0119 \u0142zy obficie * i przez ca\u0142e moje \u017cycie * serce me z Cierpi\u0105cym wi\u0105\u017c.\r\nPragn\u0119 sta\u0107 pod krzy\u017cem z Tob\u0105, * z Twoj\u0105 \u0142\u0105czy\u0107 si\u0119 \u017ca\u0142ob\u0105, * w p\u0142aczu si\u0119 rozp\u0142ywa\u0107 wci\u0105\u017c.",
                         "8. Panno \u015awi\u0119ta, swe dziewicze * zap\u0142akane wznie\u015b oblicze: * jeden niech nas \u0142\u0105czy p\u0142acz.\r\nSpraw, niech \u017cyj\u0119 Zbawcy zgonem, * na mym sercu roz\u017calonym * Jego b\u00f3l wycisn\u0105\u0107 racz.",
                         "9. Niech mnie m\u0119ki gwo\u017adzie zrani\u0105, * niechaj, kiedy patrz\u0119 na Ni\u0105, * krew upoi mnie i krzy\u017c.\r\nM\u0119k\u0105 ognia nieustann\u0105 * nie daj gorze\u0107, \u015awi\u0119ta Panno, * w s\u0105du dzie\u0144 sw\u0105 pomoc zbli\u017c.",
-                        "10. . A gdy \u017cycia kres nastanie, * przez sw\u0105 Matk\u0119, Chryste Panie, * do zwyci\u0119stwa doj\u015b\u0107 nam daj.\r\nGdy ulegnie \u015bmierci cia\u0142o, * obleczona wieczn\u0105 chwa\u0142\u0105 * dusza niech osi\u0105gnie raj.",
+                        "1.0. A gdy \u017cycia kres nastanie, * przez sw\u0105 Matk\u0119, Chryste Panie, * do zwyci\u0119stwa doj\u015b\u0107 nam daj.\r\nGdy ulegnie \u015bmierci cia\u0142o, * obleczona wieczn\u0105 chwa\u0142\u0105 * dusza niech osi\u0105gnie raj.",
                         ""
                     ]
                 },
@@ -448,17 +444,17 @@
                         "7. Pro peccatis suae gentis * vidit Iesum in tormentis, * et flagellis subditum.",
                         "8. Vidit suum dulcem Natum * moriendo desolatum, * dum emisit spiritum.",
                         "9. Eia, Mater, fons amoris * me sentire vim doloris * fac, ut tecum lugeam.",
-                        "10. . Fac, ut ardeat cor meum * in amando Christum Deum * ut sibi complaceam.",
-                        "11. . Sancta Mater, istud agas, * crucifixi fige plagas * cordi meo valide.",
-                        "12. . Tui Nati vulnerati, * tam dignati pro me pati, * poenas mecum divide.",
-                        "13. . Fac me tecum pie flere, * crucifixo condolere, * donec ego vixero.",
-                        "14. . Iuxta Crucem tecum stare, * et me tibi sociare * in planctu desidero.",
-                        "15. . Virgo virginum praeclara, * mihi iam non sis amara, * fac me tecum plangere.",
-                        "16. . Fac, ut portem Christi mortem, * passionis fac consortem, * et plagas recolere.",
-                        "17. . Fac me plagis vulnerari, * fac me Cruce inebriari, * et cruore Filii.",
-                        "18. . Flammis ne urar succensus, * per te, Virgo, sim defensus * in die iudicii.",
-                        "19. . Christe, cum sit hinc exire, * da per Matrem me venire * ad palmam victoriae.",
-                        "20. . Quando corpus morietur, * fac, ut animae donetur * paradisi gloria. Amen.",
+                        "1.0. Fac, ut ardeat cor meum * in amando Christum Deum * ut sibi complaceam.",
+                        "1.1. Sancta Mater, istud agas, * crucifixi fige plagas * cordi meo valide.",
+                        "1.2. Tui Nati vulnerati, * tam dignati pro me pati, * poenas mecum divide.",
+                        "1.3. Fac me tecum pie flere, * crucifixo condolere, * donec ego vixero.",
+                        "1.4. Iuxta Crucem tecum stare, * et me tibi sociare * in planctu desidero.",
+                        "1.5. Virgo virginum praeclara, * mihi iam non sis amara, * fac me tecum plangere.",
+                        "1.6. Fac, ut portem Christi mortem, * passionis fac consortem, * et plagas recolere.",
+                        "1.7. Fac me plagis vulnerari, * fac me Cruce inebriari, * et cruore Filii.",
+                        "1.8. Flammis ne urar succensus, * per te, Virgo, sim defensus * in die iudicii.",
+                        "1.9. Christe, cum sit hinc exire, * da per Matrem me venire * ad palmam victoriae.",
+                        "2.0. Quando corpus morietur, * fac, ut animae donetur * paradisi gloria. Amen.",
                         ""
                     ]
                 },
@@ -1463,7 +1459,7 @@
                         "I w jednego Pana Jezusa Chrystusa, Syna Bo\u017cego Jednorodzonego, * kt\u00f3ry z Ojca jest zrodzony przed wszystkimi wiekami. * \r\n",
                         "B\u00f3g z Boga, \u015awiat\u0142o\u015b\u0107 ze \u015awiat\u0142o\u015bci. * B\u00f3g prawdziwy z Boga prawdziwego. * \r\n",
                         "Zrodzony a nie stworzony, wsp\u00f3\u0142istotny Ojcu, * a przez Niego wszystko si\u0119 sta\u0142o. * \r\n",
-                        "On to dla nas ludzi * i dla naszego zbawienia zst\u0105pi\u0142 z nieba * .\r\n",
+                        "On to dla nas ludzi * i dla naszego zbawienia zst\u0105pi\u0142 z nieba. *\r\n",
                         "I za spraw\u0105 Ducha \u015awi\u0119tego przyj\u0105\u0142 cia\u0142o z Maryi Dziewicy * i sta\u0142 si\u0119 cz\u0142owiekiem. * \r\n",
                         "Ukrzy\u017cowany r\u00f3wnie\u017c za nas, * pod Poncjuszem Pi\u0142atem zosta\u0142 um\u0119czony i pogrzebany. * \r\n",
                         "I zmartwychwsta\u0142 trzeciego dnia jak oznajmia Pismo. * I wst\u0105pi\u0142 do nieba, siedzi po prawicy Ojca. * \r\n",
@@ -1514,7 +1510,7 @@
                         "Refren: Chrystus Pan, wczoraj i dzi\u015b, * Chrystus Kr\u00f3lem po wieczny czas. * Bo\u017cy Syn, mi\u0142o\u015bci Dar, * Ty nas wzywasz, oto my!",
                         "9. Wielki jest Pan, kt\u00f3ry ma moc * przynie\u015b\u0107 sw\u00f3j pok\u00f3j na ten \u015bwiat * w to tysi\u0105clecie nowych dr\u00f3g. * B\u00f3g ukocha\u0142 ludzi a\u017c tak! * Amen! Alleluja!",
                         "Refren: Chrystus Pan, wczoraj i dzi\u015b, * Chrystus Kr\u00f3lem po wieczny czas. * Bo\u017cy Syn, mi\u0142o\u015bci Dar, * Ty nas wzywasz, oto my!",
-                        "10. . Wielki jest Pan, Ojciec i B\u00f3g, * Jego jedyny Syn, nasz Brat * i Pocieszyciel, \u015awi\u0119ty Duch. * B\u00f3g ukocha\u0142 ludzi a\u017c tak! * Amen! Alleluja!",
+                        "10. Wielki jest Pan, Ojciec i B\u00f3g, * Jego jedyny Syn, nasz Brat * i Pocieszyciel, \u015awi\u0119ty Duch. * B\u00f3g ukocha\u0142 ludzi a\u017c tak! * Amen! Alleluja!",
                         "Refren: Chrystus Pan, wczoraj i dzi\u015b, * Chrystus Kr\u00f3lem po wieczny czas. * Bo\u017cy Syn, mi\u0142o\u015bci Dar, * Ty nas wzywasz, oto my!",
                         ""
                     ]
@@ -1618,7 +1614,7 @@
                         "7. Aposto\u0142owie, patrzajcie, * za Nim w niebo spogl\u0105dajcie; * Jezus ten, co od was idzie, * by \u015bwiat s\u0105dzi\u0107, znowu przyjdzie. * Alleluja, alleluja!",
                         "8. Czemu, patrz\u0105c tu, stoicie? * Czy s\u0142\u00f3w Mistrza nie pomnicie? * \u201eId\u0105c w ca\u0142y \u015bwiat poga\u0144ski, * g\u0142o\u015bcie mu testament Pa\u0144ski\u201d. * Alleluja, alleluja!",
                         "9. \u201eGdy Me s\u0142owa wykonacie, * \u017cycie swoje za Mnie dacie, * wtedy przyjm\u0119 Was do siebie * i uwie\u0144cz\u0119 chwa\u0142\u0105 w niebie\u201d. Alleluja, alleluja!",
-                        "10. . Tego czasu weso\u0142ego * chwalmy z serca Pana swego; * chwa\u0142a b\u0105d\u017a Bogu naszemu, * w Tr\u00f3jcy \u015awi\u0119tej jedynemu. * Alleluja, alleluja!",
+                        "10. Tego czasu weso\u0142ego * chwalmy z serca Pana swego; * chwa\u0142a b\u0105d\u017a Bogu naszemu, * w Tr\u00f3jcy \u015awi\u0119tej jedynemu. * Alleluja, alleluja!",
                         ""
                     ]
                 },
@@ -1810,7 +1806,7 @@
                         "7. Ciesz si\u0119, Syjonie, Chrystus\u00f3w Ko\u015bciele! * Oto zabity B\u00f3g tw\u00f3j \u017cyje w ciele; * \u015bpiewaj z weselem: \u201ePan kr\u00f3luje z drzewa\u201d, * jak Dawid \u015bpiewa. Alleluja!",
                         "8. Cieszmy si\u0119 wszyscy, ju\u017c \u015bmier\u0107 poha\u0144biona, * wina pierwszego rodzica zg\u0142adzona; * niebios zamkni\u0119tych jest otwarta brama * synom Adama. Alleluja!",
                         "9. Wi\u0119c potargawszy na\u0142ogi grzechowe, * Chrystusa wzorem wied\u017amy \u017cycie nowe, * z dala mijaj\u0105c nieszcz\u0119\u015b\u0107 naszych groby, * miejsca, osoby. Alleluja!",
-                        "10. . Przez Twe chwalebne, Chryste zmartwychwstanie, * daj w \u0142asce Twojej stateczne wytrwanie * i niech tak w chwale, jako\u015b Ty, r\u00f3wnie my * zmartwychwstaniemy. Alleluja!",
+                        "10. Przez Twe chwalebne, Chryste zmartwychwstanie, * daj w \u0142asce Twojej stateczne wytrwanie * i niech tak w chwale, jako\u015b Ty, r\u00f3wnie my * zmartwychwstaniemy. Alleluja!",
                         ""
                     ]
                 },
@@ -1925,14 +1921,14 @@
                         "7. Wielkie tam wesele mieli, * gdy Zbawiciela ujrzeli, * kt\u00f3rego z dawna \u017c\u0105dali. * Alleluja, alleluja!",
                         "8. Potem sw\u0105 moc\u0105 zmartwychwsta\u0142, * piecz\u0119ci z grobu nie rusza\u0142,* na str\u00f3\u017ce wielki strach powsta\u0142. * Alleluja, alleluja!",
                         "9. A gdy Chrystus Pan zmartwychwsta\u0142, * mi\u0142o\u015bnikom si\u0119 pokaza\u0142, * anio\u0142y do Matki pos\u0142a\u0142. * Alleluja, alleluja!",
-                        "10. . O anieli najmilejsi, * id\u017acie\u017c do Panny Naj\u015bwi\u0119tszej, * do Matki mej najmilejszej! * Alleluja, alleluja!",
-                        "11. . Ode Mnie J\u0105 pozdrawiajcie * i weso\u0142o za\u015bpiewajcie: * Kr\u00f3lowo rajska, wesel si\u0119! * Alleluja, alleluja!",
-                        "12. . Potem z wielk\u0105 sw\u0105 \u015bwiat\u0142o\u015bci\u0105 * do Matki swej przyst\u0105piwszy, * pocieszy\u0142 J\u0105, pozdrowiwszy. * Alleluja, alleluja!",
-                        "13. . Nape\u0142niona b\u0105d\u017a s\u0142odko\u015bci, * Matko moja, i rado\u015bci * po onej wielkiej \u017ca\u0142o\u015bci. * Alleluja, alleluja!",
-                        "14. . Witaj\u017ce, Jezu najs\u0142odszy, * Synaczku m\u00f3j najmilejszy, * Pocieszenie wszelkiej duszy. * Alleluja, alleluja!",
-                        "15. . \u201eJestem ju\u017c bardzo weso\u0142a, * gdym Ci\u0119 \u017cywego ujrza\u0142a, * jakobym si\u0119 narodzi\u0142a\u201d. * Alleluja, alleluja!",
-                        "16. . Rado\u015bnie z Nim rozmawia\u0142a, * usta Jego ca\u0142owa\u0142a, * w rado\u015bci si\u0119 z Nim rozsta\u0142a. * Alleluja, alleluja!",
-                        "17. . Przez Twe \u015bwi\u0119te zmartwychwstanie * daj nam grzech\u00f3w odpuszczenie, * a potem duszy zbawienie! * Alleluja, alleluja!",
+                        "10 .O anieli najmilejsi, * id\u017acie\u017c do Panny Naj\u015bwi\u0119tszej, * do Matki mej najmilejszej! * Alleluja, alleluja!",
+                        "11. Ode Mnie J\u0105 pozdrawiajcie * i weso\u0142o za\u015bpiewajcie: * Kr\u00f3lowo rajska, wesel si\u0119! * Alleluja, alleluja!",
+                        "12. Potem z wielk\u0105 sw\u0105 \u015bwiat\u0142o\u015bci\u0105 * do Matki swej przyst\u0105piwszy, * pocieszy\u0142 J\u0105, pozdrowiwszy. * Alleluja, alleluja!",
+                        "13. Nape\u0142niona b\u0105d\u017a s\u0142odko\u015bci, * Matko moja, i rado\u015bci * po onej wielkiej \u017ca\u0142o\u015bci. * Alleluja, alleluja!",
+                        "14. Witaj\u017ce, Jezu najs\u0142odszy, * Synaczku m\u00f3j najmilejszy, * Pocieszenie wszelkiej duszy. * Alleluja, alleluja!",
+                        "15. \u201eJestem ju\u017c bardzo weso\u0142a, * gdym Ci\u0119 \u017cywego ujrza\u0142a, * jakobym si\u0119 narodzi\u0142a\u201d. * Alleluja, alleluja!",
+                        "16. Rado\u015bnie z Nim rozmawia\u0142a, * usta Jego ca\u0142owa\u0142a, * w rado\u015bci si\u0119 z Nim rozsta\u0142a. * Alleluja, alleluja!",
+                        "17. Przez Twe \u015bwi\u0119te zmartwychwstanie * daj nam grzech\u00f3w odpuszczenie, * a potem duszy zbawienie! * Alleluja, alleluja!",
                         ""
                     ]
                 },
@@ -1967,11 +1963,11 @@
                         "Refren: Alleluia, alleluia, alleluia!",
                         "9. Quando Thomas Christi latus, * pedes vidit atque manus, * dixit: tu es Deus meus, * alleluia.",
                         "Refren: Alleluia, alleluia, alleluia!",
-                        "10. . Beati qui non viderunt * et firmiter crediderunt, * vitam aeternam habebunt, * alleluia.",
+                        "10 .Beati qui non viderunt * et firmiter crediderunt, * vitam aeternam habebunt, * alleluia.",
                         "Refren: Alleluia, alleluia, alleluia!",
-                        "11. . In hoc festo sanctissimo * sit laus et iubilatio, * benedicamus Domino, * alleluia.",
+                        "11. In hoc festo sanctissimo * sit laus et iubilatio, * benedicamus Domino, * alleluia.",
                         "Refren: Alleluia, alleluia, alleluia!",
-                        "12. . De quibus nos humillimas * devotas atque debitas * Deo dicamus gratias, * alleluia.",
+                        "12. De quibus nos humillimas * devotas atque debitas * Deo dicamus gratias, * alleluia.",
                         "Refren: Alleluia, alleluia, alleluia!",
                         ""
                     ]
@@ -2036,16 +2032,6 @@
                         "3. Jak lud wybrany po przej\u015bciu morza * dotar\u0142 do ziemi obietnic Boga, * tak my, zrodzeni w paschalnym \u017ar\u00f3dle, * nasz\u0105 ojczyzn\u0119 znajdziemy w niebie.",
                         "4. Niech zmartwychwstanie Bo\u017cego Syna * b\u0119dzie nadziej\u0105 dla wszystkich ludzi, * nasta\u0142o bowiem kr\u00f3lestwo \u0142aski, * w kt\u00f3rym Zbawiciel obdarza szcz\u0119\u015bciem.",
                         "5. Radosnym hymnem s\u0142awimy, Panie, * Twoje zwyci\u0119stwo nad z\u0142em i \u015bmierci\u0105; * niech b\u0119dzie chwa\u0142a przez wszystkie wieki * Ojcu i Tobie w jedno\u015bci Ducha. Amen.",
-                        ""
-                    ]
-                }
-            ],
-            "Gorzkie \u017cale": [
-                {
-                    "title": "Kt\u00f3ry\u015b za nas cierpia\u0142 rany",
-                    "lyrics": [
-                        "1. Kt\u00f3ry\u015b za nas cierpia\u0142 rany, * Jezu Chryste, zmi\u0142uj si\u0119 nad nami! (",
-                        "2. x)",
                         ""
                     ]
                 }
@@ -2615,7 +2601,7 @@
                         "7. Jako niegdy\u015b na Golgocie * \u201ePragn\u0119!\u201d usta Twe wo\u0142a\u0142y, * tak Twe Serce dzi\u015b w t\u0119sknocie: * \u201ePragn\u0119!\u201d wo\u0142a na \u015bwiat ca\u0142y.",
                         "8. I przed Tob\u0105 t\u0142um si\u0119 snuje, * a nikt Ciebie nie rozumie; * nikt z Twym Sercem wsp\u00f3\u0142 nie czuje, * Ciebie kocha\u0107 nikt nie umie.",
                         "9. Dobry Jezu, o m\u00f3j Panie, * ulecz \u015bwiata za\u015blepienie, * w Twego Serca \u015bwi\u0119tej ranie * daj nam znale\u017a\u0107 nawr\u00f3cenie.",
-                        "10. . Na \u015bwiat ca\u0142y, z Serca rany * rozrzu\u0107 ogie\u0144 Twej mi\u0142o\u015bci, * by\u015b od wszystkich by\u0142 kochany * na tej ziemi i w wieczno\u015bci.",
+                        "10. Na \u015bwiat ca\u0142y, z Serca rany * rozrzu\u0107 ogie\u0144 Twej mi\u0142o\u015bci, * by\u015b od wszystkich by\u0142 kochany * na tej ziemi i w wieczno\u015bci.",
                         ""
                     ]
                 },
@@ -2820,11 +2806,11 @@
                         "7. Ty\u015b Rodzica Syn z wiek wieka. * By \u015bwiat zbawi\u0107 swoim zgonem, * przyobl\u00f3k\u0142szy si\u0119 w cz\u0142owieka, * nie wzgardzi\u0142e\u015b Panny \u0142onem.",
                         "8. Ty\u015b pokruszy\u0142 \u015bmierci wrota, * star\u0142 jej o\u015bcie\u0144 w m\u0119ki dobie * i rajskiego kraj \u017cywota * otworzy\u0142e\u015b wiernym sobie.",
                         "9. Po prawicy siedzisz Boga, * w chwale Ojca, Syn jedyny, * lecz gdy zabrzmi tr\u0105ba sroga, * przyjdziesz s\u0105dzi\u0107 ludzkie czyny.",
-                        "10. . Prosim, s\u0142udzy \u0142ask niegodni, * wspom\u00f3\u017c, obmyj grzech, co plami, * gdy\u015b odkupi\u0142 nas od zbrodni * drogiej swojej Krwi strugami.",
-                        "11. . Ze \u015bwi\u0119tymi, w blaskach mocy, * wiecznej chwa\u0142y zlej nam zdroje, * zbaw, o Panie, lud sierocy, * b\u0142ogos\u0142aw dziedzictwo swoje!",
-                        "12. . Rz\u0105d\u017a je, bro\u0144 po wszystkie lata, * prowad\u017a w niebios b\u0142ogie bramy. * My w dzie\u0144 ka\u017cdy, W\u0142adco \u015bwiata, * imi\u0119 Twoje wys\u0142awiamy.",
-                        "13. . Po wiek wiek\u00f3w nie ustanie * pie\u015b\u0144, co s\u0142awi Twoje czyny. * O, w dniu onym racz nas, Panie, * od wszelakiej ustrzec winy.",
-                        "14. . Zjaw sw\u0105 lito\u015b\u0107 w \u017cyciu ca\u0142ym * tym, co \u017cebrz\u0105 Twej opieki; * w Tobie, Panie, zaufa\u0142em, * nie zawstydz\u0119 si\u0119 na wieki.",
+                        "10. Prosim, s\u0142udzy \u0142ask niegodni, * wspom\u00f3\u017c, obmyj grzech, co plami, * gdy\u015b odkupi\u0142 nas od zbrodni * drogiej swojej Krwi strugami.",
+                        "11. Ze \u015bwi\u0119tymi, w blaskach mocy, * wiecznej chwa\u0142y zlej nam zdroje, * zbaw, o Panie, lud sierocy, * b\u0142ogos\u0142aw dziedzictwo swoje!",
+                        "12. Rz\u0105d\u017a je, bro\u0144 po wszystkie lata, * prowad\u017a w niebios b\u0142ogie bramy. * My w dzie\u0144 ka\u017cdy, W\u0142adco \u015bwiata, * imi\u0119 Twoje wys\u0142awiamy.",
+                        "13. Po wiek wiek\u00f3w nie ustanie * pie\u015b\u0144, co s\u0142awi Twoje czyny. * O, w dniu onym racz nas, Panie, * od wszelakiej ustrzec winy.",
+                        "14. Zjaw sw\u0105 lito\u015b\u0107 w \u017cyciu ca\u0142ym * tym, co \u017cebrz\u0105 Twej opieki; * w Tobie, Panie, zaufa\u0142em, * nie zawstydz\u0119 si\u0119 na wieki.",
                         ""
                     ]
                 },
@@ -2933,20 +2919,20 @@
                         "7. Gdy nas strofujesz, wyznajemy co\u015bmy uczynili, * a gdy nam b\u0142ogos\u0142awisz, * zapominamy, \u017ce\u015bmy si\u0119 smucili.",
                         "8. Gdy na nas naciskasz, wiele Ci przyrzekamy, * a gdy miecz sw\u00f3j chowasz, * obietnic nie wype\u0142niamy.",
                         "9. Gdy nam ch\u0142ost\u0119 wymierzasz, \u201eprzebacz nam!\u201d wo\u0142amy, * a gdy ju\u017c przebaczysz, * do karania Ci\u0119 pobudzamy.",
-                        "10. . Znalaz\u0142szy si\u0119 w biedzie, o lito\u015b\u0107 b\u0142agamy, * a kiedy si\u0119 zlitujesz, * cierpliwo\u015bci Twej nadu\u017cywamy.",
-                        "11. . Pogr\u0105\u017ceni w niedoli do Ciebie wzdychamy, * a wyzwoleni z niej lecz niewdzi\u0119czni, * wnet zapominamy.",
-                        "12. . Gdy wys\u0142uchujesz szybko, folgujemy sobie, * je\u015bli zwlekasz z ratunkiem, * szemrzemy przeciw Tobie.",
-                        "13. . Chcemy, by\u015b to zachowa\u0142, czym \u017ce\u015b nas obdarzy\u0142, * lecz jeste\u015bmy oboj\u0119tni * na Twoje rozkazy.",
-                        "14. . Oto stoimy przed Tob\u0105 skruszeni grzesznicy. * Przebacz w Twym mi\u0142osierdziu, * co jest bez granicy!",
-                        "15. . Wiemy, \u017ce sprawiedliwie karzesz grzeszne czyny, * lecz jeste\u015b mi\u0142osierny * i przebaczasz winy.",
-                        "16. . Spraw nam niegodnym Panie to, o co prosimy, * Ty\u015b nas z niczego stworzy\u0142, * by\u015bmy Ci\u0119 zawsze wielbili.",
-                        "17. . Gdy wo\u0142amy do Ciebie, ulituj si\u0119, Panie, * niech Twe Serce poruszy * p\u0142acz nasz i wo\u0142anie!",
-                        "18. . Niech Twa boska \u0142askawo\u015b\u0107, w kt\u00f3rej ufno\u015b\u0107 mamy, * nie poczyta nam grzech\u00f3w, * gdy o to b\u0142agamy.",
-                        "19. . Wielka jest nasza n\u0119dza, wielki grzech nasz, Bo\u017ce, * niech wi\u0119ksza Twa \u0142askawo\u015b\u0107 * nas n\u0119dznych wspomo\u017ce!",
-                        "20. . Prosz\u0105c o wspomo\u017cenie, wyznajemy grzechy, * u Twego mi\u0142osierdzia * szukamy pociechy.",
-                        "21. . Spraw, niech przyjmiemy kornie Twoje przebaczenie, * nie przypisuj\u0105c sobie * w\u0142asne nawr\u00f3cenie.",
-                        "22. . Podnie\u015b nas w swej dobroci, Bo\u017ce nasz i Panie, * daj nam rado\u015b\u0107 zbawienia * i w mi\u0142o\u015bci trwanie!",
-                        "23. . Pozw\u00f3l nam, wiernym Tobie, co si\u0119 \u0142ask\u0105 ciesz\u0105, * radowa\u0107 si\u0119 pokojem * z wszystkich lud\u00f3w rzesz\u0105!",
+                        "10. Znalaz\u0142szy si\u0119 w biedzie, o lito\u015b\u0107 b\u0142agamy, * a kiedy si\u0119 zlitujesz, * cierpliwo\u015bci Twej nadu\u017cywamy.",
+                        "11. Pogr\u0105\u017ceni w niedoli do Ciebie wzdychamy, * a wyzwoleni z niej lecz niewdzi\u0119czni, * wnet zapominamy.",
+                        "12. Gdy wys\u0142uchujesz szybko, folgujemy sobie, * je\u015bli zwlekasz z ratunkiem, * szemrzemy przeciw Tobie.",
+                        "13. Chcemy, by\u015b to zachowa\u0142, czym \u017ce\u015b nas obdarzy\u0142, * lecz jeste\u015bmy oboj\u0119tni * na Twoje rozkazy.",
+                        "14. Oto stoimy przed Tob\u0105 skruszeni grzesznicy. * Przebacz w Twym mi\u0142osierdziu, * co jest bez granicy!",
+                        "15. Wiemy, \u017ce sprawiedliwie karzesz grzeszne czyny, * lecz jeste\u015b mi\u0142osierny * i przebaczasz winy.",
+                        "16. Spraw nam niegodnym Panie to, o co prosimy, * Ty\u015b nas z niczego stworzy\u0142, * by\u015bmy Ci\u0119 zawsze wielbili.",
+                        "17. Gdy wo\u0142amy do Ciebie, ulituj si\u0119, Panie, * niech Twe Serce poruszy * p\u0142acz nasz i wo\u0142anie!",
+                        "18. Niech Twa boska \u0142askawo\u015b\u0107, w kt\u00f3rej ufno\u015b\u0107 mamy, * nie poczyta nam grzech\u00f3w, * gdy o to b\u0142agamy.",
+                        "19. Wielka jest nasza n\u0119dza, wielki grzech nasz, Bo\u017ce, * niech wi\u0119ksza Twa \u0142askawo\u015b\u0107 * nas n\u0119dznych wspomo\u017ce!",
+                        "20. Prosz\u0105c o wspomo\u017cenie, wyznajemy grzechy, * u Twego mi\u0142osierdzia * szukamy pociechy.",
+                        "21. Spraw, niech przyjmiemy kornie Twoje przebaczenie, * nie przypisuj\u0105c sobie * w\u0142asne nawr\u00f3cenie.",
+                        "22. Podnie\u015b nas w swej dobroci, Bo\u017ce nasz i Panie, * daj nam rado\u015b\u0107 zbawienia * i w mi\u0142o\u015bci trwanie!",
+                        "23. Pozw\u00f3l nam, wiernym Tobie, co si\u0119 \u0142ask\u0105 ciesz\u0105, * radowa\u0107 si\u0119 pokojem * z wszystkich lud\u00f3w rzesz\u0105!",
                         ""
                     ]
                 },
@@ -3114,11 +3100,11 @@
                         "7. Ty\u015b Rodzica Syn z wiek wieka. * By \u015bwiat zbawi\u0107 swoim zgonem, * przyobl\u00f3k\u0142szy si\u0119 w cz\u0142owieka, * nie wzgardzi\u0142e\u015b Panny \u0142onem.",
                         "8. Ty\u015b pokruszy\u0142 \u015bmierci wrota, * star\u0142 jej o\u015bcie\u0144 w m\u0119ki dobie * i rajskiego kraj \u017cywota * otworzy\u0142e\u015b wiernym sobie.",
                         "9. Po prawicy siedzisz Boga, * w chwale Ojca, Syn jedyny, * lecz gdy zabrzmi tr\u0105ba sroga, * przyjdziesz s\u0105dzi\u0107 ludzkie czyny.",
-                        "10. . Prosim, s\u0142udzy \u0142ask niegodni, * wspom\u00f3\u017c, obmyj grzech, co plami, * gdy\u015b odkupi\u0142 nas od zbrodni * drogiej swojej Krwi strugami.",
-                        "11. . Ze \u015bwi\u0119tymi, w blaskach mocy, * wiecznej chwa\u0142y zlej nam zdroje, * zbaw, o Panie, lud sierocy, * b\u0142ogos\u0142aw dziedzictwo swoje!",
-                        "12. . Rz\u0105d\u017a je, bro\u0144 po wszystkie lata, * prowad\u017a w niebios b\u0142ogie bramy. * My w dzie\u0144 ka\u017cdy, W\u0142adco \u015bwiata, * imi\u0119 Twoje wys\u0142awiamy.",
-                        "13. . Po wiek wiek\u00f3w nie ustanie * pie\u015b\u0144, co s\u0142awi Twoje czyny. * O, w dniu onym racz nas, Panie, * od wszelakiej ustrzec winy.",
-                        "14. . Zjaw sw\u0105 lito\u015b\u0107 w \u017cyciu ca\u0142ym * tym, co \u017cebrz\u0105 Twej opieki; * w Tobie, Panie, zaufa\u0142em, * nie zawstydz\u0119 si\u0119 na wieki.",
+                        "10. Prosim, s\u0142udzy \u0142ask niegodni, * wspom\u00f3\u017c, obmyj grzech, co plami, * gdy\u015b odkupi\u0142 nas od zbrodni * drogiej swojej Krwi strugami.",
+                        "11. Ze \u015bwi\u0119tymi, w blaskach mocy, * wiecznej chwa\u0142y zlej nam zdroje, * zbaw, o Panie, lud sierocy, * b\u0142ogos\u0142aw dziedzictwo swoje!",
+                        "12. Rz\u0105d\u017a je, bro\u0144 po wszystkie lata, * prowad\u017a w niebios b\u0142ogie bramy. * My w dzie\u0144 ka\u017cdy, W\u0142adco \u015bwiata, * imi\u0119 Twoje wys\u0142awiamy.",
+                        "13. Po wiek wiek\u00f3w nie ustanie * pie\u015b\u0144, co s\u0142awi Twoje czyny. * O, w dniu onym racz nas, Panie, * od wszelakiej ustrzec winy.",
+                        "14. Zjaw sw\u0105 lito\u015b\u0107 w \u017cyciu ca\u0142ym * tym, co \u017cebrz\u0105 Twej opieki; * w Tobie, Panie, zaufa\u0142em, * nie zawstydz\u0119 si\u0119 na wieki.",
                         ""
                     ]
                 },
@@ -3503,7 +3489,7 @@
                         "7. Jawnogrzesznej darowa\u0142e\u015b, * \u0142otra mod\u0142\u00f3w wys\u0142ucha\u0142e\u015b * i mnie te\u017c nadziej\u0119 da\u0142e\u015b.\r\nCho\u0107 niegodne me b\u0142aganie, * nie daj mi, dobroci Panie, * w ognia wieczne wpa\u015b\u0107 otch\u0142anie.",
                         "8. Mi\u0119dzy owce Twe wliczony * i od koz\u0142\u00f3w od\u0142\u0105czony, * daj, niech z prawej stan\u0119 strony.\r\nGdy odtr\u0105cisz pot\u0119pionych, * srogim \u017carom przeznaczonych, * we\u017a mnie do b\u0142ogos\u0142awionych.",
                         "9. B\u0142agam z czo\u0142em pochylonym, * z sercem, z \u017calu w proch skruszonym, * piecz\u0119 miej nad moim zgonem.\r\nOp\u0142akany dzie\u0144 nastanie, * gdy z popio\u0142\u00f3w zmartwychwstanie * grzesznik na Twoj s\u0105d straszliwy, * b\u0105d\u017a mu, Bo\u017ce, mi\u0142o\u015bciwy.",
-                        "10. . Bo\u017ce w Tr\u00f3jcy wywy\u017cszony, * b\u0105d\u017a na wieki pochwalony, * przywr\u00f3\u0107 grzesznym raj stracony. Amen.",
+                        "10. Bo\u017ce w Tr\u00f3jcy wywy\u017cszony, * b\u0105d\u017a na wieki pochwalony, * przywr\u00f3\u0107 grzesznym raj stracony. Amen.",
                         ""
                     ]
                 },
@@ -6739,10 +6725,10 @@
                         "7. Niech b\u0119dzie uwielbiony Duch \u015awi\u0119ty Pocieszyciel.",
                         "8. Niech b\u0119dzie pochwalona Bogurodzica Naj\u015bwi\u0119tsza Panna Maryja.",
                         "9. Niech b\u0119dzie pochwalone Jej \u015bwi\u0119te i Niepokalane Pocz\u0119cie.",
-                        "10. . Niech b\u0119dzie pochwalone Jej chwalebne Wniebowzi\u0119cie.",
-                        "11. . Niech b\u0119dzie pochwalone imi\u0119 Maryi Dziewicy i Matki.",
-                        "12. . Niech b\u0119dzie pochwalony \u015bwi\u0119ty J\u00f3zef, Jej przeczysty Oblubieniec.",
-                        "13. . Niech b\u0119dzie uwielbiony B\u00f3g w swoich Anio\u0142ach i w swoich \u015bwi\u0119tych.",
+                        "10. Niech b\u0119dzie pochwalone Jej chwalebne Wniebowzi\u0119cie.",
+                        "11. Niech b\u0119dzie pochwalone imi\u0119 Maryi Dziewicy i Matki.",
+                        "12. Niech b\u0119dzie pochwalony \u015bwi\u0119ty J\u00f3zef, Jej przeczysty Oblubieniec.",
+                        "13. Niech b\u0119dzie uwielbiony B\u00f3g w swoich Anio\u0142ach i w swoich \u015bwi\u0119tych.",
                         ""
                     ]
                 },
@@ -6878,13 +6864,13 @@
                         "7. \u015awi\u0119ty, Mocny, Nie\u015bmiertelny, * w majestacie swym niezmierny!",
                         "8. Anio\u0142owie si\u0119 l\u0119kaj\u0105, * gdy na Jego twarz patrzaj\u0105.",
                         "9. Wszyscy niebiescy duchowie * l\u0119kaj\u0105 si\u0119 i kr\u00f3lowie;",
-                        "10. . Niebo, ziemia ani morze * poj\u0105\u0107, co jest B\u00f3g, nie mo\u017ce.",
-                        "11. . \u017baden z wojska anielskiego * nie dost\u0105pi nigdy tego.",
-                        "12. . Czego cz\u0142owiek dost\u0119puje, * Cia\u0142o i Krew gdy przyjmuje.",
-                        "13. . Jam nie godzien, Panie, tego, * aby\u015b wszed\u0142 do serca mego;",
-                        "14. . Rzeknij tylko s\u0142owo swoje, * a tym zbawisz dusz\u0119 moj\u0105.",
-                        "15. . K\u0142aniam si\u0119 Tobie samemu, * b\u0105d\u017a mi\u0142o\u015bciw mnie grzesznemu.",
-                        "16. . Niechaj \u017cyj\u0119 z Tob\u0105, Panem, * a\u017c na wieki wiek\u00f3w. Amen.",
+                        "10. Niebo, ziemia ani morze * poj\u0105\u0107, co jest B\u00f3g, nie mo\u017ce.",
+                        "11. \u017baden z wojska anielskiego * nie dost\u0105pi nigdy tego.",
+                        "12. Czego cz\u0142owiek dost\u0119puje, * Cia\u0142o i Krew gdy przyjmuje.",
+                        "13. Jam nie godzien, Panie, tego, * aby\u015b wszed\u0142 do serca mego;",
+                        "14. Rzeknij tylko s\u0142owo swoje, * a tym zbawisz dusz\u0119 moj\u0105.",
+                        "15. K\u0142aniam si\u0119 Tobie samemu, * b\u0105d\u017a mi\u0142o\u015bciw mnie grzesznemu.",
+                        "16. Niechaj \u017cyj\u0119 z Tob\u0105, Panem, * a\u017c na wieki wiek\u00f3w. Amen.",
                         ""
                     ]
                 },
@@ -7019,9 +7005,9 @@
                         "7. Przyszed\u0142szy na \u015bwiat, Pan wiecznej chwa\u0142y, * u\u017cy\u0142e\u015b wiele n\u0119dzy niema\u0142ej.",
                         "8. Da\u0142e\u015b si\u0119 potem z wielkiej mi\u0142o\u015bci * na m\u0119ki srogie bez wszej lito\u015bci.",
                         "9. Wst\u0119puj\u0105c potem do chwa\u0142y wiecznej, * zostawi\u0142e\u015b nam ten to dar zacny.",
-                        "10. . Na co my patrz\u0105c w tym Sakramencie, * z pociech\u0105 wielk\u0105 serce nam ro\u015bnie.",
-                        "11. . Tobie my, Bo\u017ce, teraz \u015bpiewamy, * przed Tw\u0105 \u015bwiat\u0142o\u015bci\u0105 nisko padamy.",
-                        "12. . U\u017cycz nam \u0142aski, wszechmocny Bo\u017ce, * bez Twej pomocy cz\u0142ek nic nie mo\u017ce.",
+                        "10. Na co my patrz\u0105c w tym Sakramencie, * z pociech\u0105 wielk\u0105 serce nam ro\u015bnie.",
+                        "11. Tobie my, Bo\u017ce, teraz \u015bpiewamy, * przed Tw\u0105 \u015bwiat\u0142o\u015bci\u0105 nisko padamy.",
+                        "12. U\u017cycz nam \u0142aski, wszechmocny Bo\u017ce, * bez Twej pomocy cz\u0142ek nic nie mo\u017ce.",
                         ""
                     ]
                 }
@@ -7194,11 +7180,11 @@
                         "Refren: Alleluia, alleluia, alleluia!",
                         "9. Quando Thomas Christi latus, * pedes vidit atque manus, * dixit: tu es Deus meus, * alleluia.",
                         "Refren: Alleluia, alleluia, alleluia!",
-                        "10. . Beati qui non viderunt * et firmiter crediderunt, * vitam aeternam habebunt, * alleluia.",
+                        "10. Beati qui non viderunt * et firmiter crediderunt, * vitam aeternam habebunt, * alleluia.",
                         "Refren: Alleluia, alleluia, alleluia!",
-                        "11. . In hoc festo sanctissimo * sit laus et iubilatio, * benedicamus Domino, * alleluia.",
+                        "11. In hoc festo sanctissimo * sit laus et iubilatio, * benedicamus Domino, * alleluia.",
                         "Refren: Alleluia, alleluia, alleluia!",
-                        "12. . De quibus nos humillimas * devotas atque debitas * Deo dicamus gratias, * alleluia.",
+                        "12. De quibus nos humillimas * devotas atque debitas * Deo dicamus gratias, * alleluia.",
                         "Refren: Alleluia, alleluia, alleluia!",
                         ""
                     ]
@@ -7283,17 +7269,17 @@
                         "7. Pro peccatis suae gentis * vidit Iesum in tormentis, * et flagellis subditum.",
                         "8. Vidit suum dulcem Natum * moriendo desolatum, * dum emisit spiritum.",
                         "9. Eia, Mater, fons amoris * me sentire vim doloris * fac, ut tecum lugeam.",
-                        "10. . Fac, ut ardeat cor meum * in amando Christum Deum * ut sibi complaceam.",
-                        "11. . Sancta Mater, istud agas, * crucifixi fige plagas * cordi meo valide.",
-                        "12. . Tui Nati vulnerati, * tam dignati pro me pati, * poenas mecum divide.",
-                        "13. . Fac me tecum pie flere, * crucifixo condolere, * donec ego vixero.",
-                        "14. . Iuxta Crucem tecum stare, * et me tibi sociare * in planctu desidero.",
-                        "15. . Virgo virginum praeclara, * mihi iam non sis amara, * fac me tecum plangere.",
-                        "16. . Fac, ut portem Christi mortem, * passionis fac consortem, * et plagas recolere.",
-                        "17. . Fac me plagis vulnerari, * fac me Cruce inebriari, * et cruore Filii.",
-                        "18. . Flammis ne urar succensus, * per te, Virgo, sim defensus * in die iudicii.",
-                        "19. . Christe, cum sit hinc exire, * da per Matrem me venire * ad palmam victoriae.",
-                        "20. . Quando corpus morietur, * fac, ut animae donetur * paradisi gloria. Amen.",
+                        "10. Fac, ut ardeat cor meum * in amando Christum Deum * ut sibi complaceam.",
+                        "11. Sancta Mater, istud agas, * crucifixi fige plagas * cordi meo valide.",
+                        "12. Tui Nati vulnerati, * tam dignati pro me pati, * poenas mecum divide.",
+                        "13. Fac me tecum pie flere, * crucifixo condolere, * donec ego vixero.",
+                        "14. Iuxta Crucem tecum stare, * et me tibi sociare * in planctu desidero.",
+                        "15. Virgo virginum praeclara, * mihi iam non sis amara, * fac me tecum plangere.",
+                        "16. Fac, ut portem Christi mortem, * passionis fac consortem, * et plagas recolere.",
+                        "17. Fac me plagis vulnerari, * fac me Cruce inebriari, * et cruore Filii.",
+                        "18. Flammis ne urar succensus, * per te, Virgo, sim defensus * in die iudicii.",
+                        "19. Christe, cum sit hinc exire, * da per Matrem me venire * ad palmam victoriae.",
+                        "20. Quando corpus morietur, * fac, ut animae donetur * paradisi gloria. Amen.",
                         ""
                     ]
                 },
@@ -7451,15 +7437,15 @@
                         "Refren: In cordis iubilo, * Christum natum adoremus * cum novo cantico.",
                         "9. De Matre natus Virgine, alleluia. * Sine virili semine, * alleluia, alleluia.",
                         "Refren: In cordis iubilo, * Christum natum adoremus * cum novo cantico.",
-                        "10. . Sine serpentis vulnere, alleluia. * De nostro venit sanguine, * alleluia, alleluia.",
+                        "10. Sine serpentis vulnere, alleluia. * De nostro venit sanguine, * alleluia, alleluia.",
                         "Refren: In cordis iubilo, * Christum natum adoremus * cum novo cantico.",
-                        "11. . In carne nobis similis, alleluia. * Peccato sed dissimilis, * alleluia, alleluia.",
+                        "11. In carne nobis similis, alleluia. * Peccato sed dissimilis, * alleluia, alleluia.",
                         "Refren: In cordis iubilo, * Christum natum adoremus * cum novo cantico.",
-                        "12. . Ut redderet nos homines, alleluia. Deo et sibi similes, * alleluia, alleluia.",
+                        "12. Ut redderet nos homines, alleluia. Deo et sibi similes, * alleluia, alleluia.",
                         "Refren: In cordis iubilo, * Christum natum adoremus * cum novo cantico.",
-                        "13. . In hoc natali gaudio, alleluia. * Benedicamus Domino, * alleluia, alleluia.",
+                        "13. In hoc natali gaudio, alleluia. * Benedicamus Domino, * alleluia, alleluia.",
                         "Refren: In cordis iubilo, * Christum natum adoremus * cum novo cantico.",
-                        "14. . Laudetur sancta Trinitas, alleluia. * Deo dicamus gratias, * alleluia alleluia.",
+                        "14. Laudetur sancta Trinitas, alleluia. * Deo dicamus gratias, * alleluia alleluia.",
                         "Refren: In cordis iubilo, * Christum natum adoremus * cum novo cantico.",
                         ""
                     ]
@@ -7725,9 +7711,9 @@
                         "7. Chwa\u0142\u0119 oznajmuj\u0105c, * chwa\u0142\u0119 oznajmuj\u0105c, szop\u0119 pokazuj\u0105c, * szop\u0119 pokazuj\u0105c;",
                         "8. Chwa\u0142\u0119 Boga tego, * chwa\u0142\u0119 Boga tego, dzi\u015b nam zrodzonego, * dzi\u015b nam zrodzonego:",
                         "9. \u201eTam Panna Dzieci\u0105tko, * tam Panna Dzieci\u0105tko, mi\u0142e Niemowl\u0105tko, * mi\u0142e Niemowl\u0105tko",
-                        "10. . Uwija w pieluszki, * uwija w pieluszki. Po\u015bpieszcie pastuszki, * po\u015bpieszcie pastuszki!\u201d.",
-                        "11. . Natychmiast pastuszy, * natychmiast pastuszy \u015bpiesz\u0105 z ca\u0142ej duszy, * \u015bpiesz\u0105 z ca\u0142ej duszy.",
-                        "12. . Weseli bez miary, * weseli bez miary nios\u0105 z sob\u0105 dary, * nios\u0105 z sob\u0105 dary.",
+                        "10. Uwija w pieluszki, * uwija w pieluszki. Po\u015bpieszcie pastuszki, * po\u015bpieszcie pastuszki!\u201d.",
+                        "11. Natychmiast pastuszy, * natychmiast pastuszy \u015bpiesz\u0105 z ca\u0142ej duszy, * \u015bpiesz\u0105 z ca\u0142ej duszy.",
+                        "12. Weseli bez miary, * weseli bez miary nios\u0105 z sob\u0105 dary, * nios\u0105 z sob\u0105 dary.",
                         ""
                     ]
                 },
@@ -9056,6 +9042,179 @@
             ],
             "Wielki Post": [
                 {
+                    "title": "Gorzkie żale I",
+                    "lyrics": [
+                        "1. Gorzkie żale przybywajcie, * serca nasze przenikajcie.",
+                        "2. Rozpłyńcie się, me źrenice, * toczcie smutnych łez krynice.",
+                        "3. Słońce, gwiazdy omdlewają, * żałobą się pokrywają.",
+                        "4. Płaczą rzewnie Aniołowie, * a któż żałość ich wypowie?",
+                        "5. Opoki się twarde krają, * z grobów umarli powstają.",
+                        "6. Cóż jest, pytam, co się dzieje? * Wszystko stworzenie truchleje!",
+                        "7. Na ból męki Chrystusowej, * żal przejmuje bez wymowy.",
+                        "8. Uderz, Jezu, bez odwłoki * w twarde serc naszych opoki.",
+                        "9. Jezu mój, we Krwi ran Twoich * obmyj duszę z grzechów moich.",
+                        "10. Upał serca mego chłodzę, * gdy w przepaść męki Twej wchodzę.",
+                        "1. Żal duszę ściska, serce boleść czuje, * gdy słodki Jezus na śmierć się gotuje. * Klęczy w Ogrójcu, gdy krwawy pot leje, * me serce mdleje.",
+                        "2. Pana świętości uczeń zły całuje, * żołnierz okrutny powrózmi krępuje, * Jezus tym więzom dla nas się poddaje, * na śmierć wydaje.",
+                        "3. Bije, popycha tłum nieposkromiony * nielitościwie z tej i owej strony, * za włosy targa; znosi w cierpliwości * Król z wysokości.",
+                        "4. Zsiniałe przedtem Krwią zachodzą usta, * gdy zbrojną żołnierz rękawicą chlusta; * Wnet się zmieniło w płaczliwe wzdychanie, * serca kochanie.",
+                        "5. Oby się serce we łzy rozpływało, * że Cię, mój Jezu, sprośnie obrażało! * Żal mi, ach żal mi ciężkich moich złości * dla Twej miłości.",
+                        "1. Jezu, na zabicie okrutne, * Cichy Baranku od wrogów szukany, * Jezu mój kochany!",
+                        "2. Jezu, za trzydzieści srebrników, * od niewdzięcznego ucznia zaprzedany, * Jezu mój kochany!",
+                        "3. Jezu, w ciężkim smutku żałością, * jakoś sam wyznał przed śmiercią nękany, * Jezu mój kochany!",
+                        "4. Jezu, na modlitwie w Ogrójcu, * strumieniem potu krwawego zalany, * Jezu mój kochany!",
+                        "5. Jezu, całowaniem zdradliwym, * od niegodnego Judasza wydany, * Jezu mój kochany!",
+                        "6. Jezu, powrozami grubymi, * od swawolnego żołdactwa związany, * Jezu mój kochany!",
+                        "7. Jezu, od pospólstwa zelżywie, * przed Annaszowym sądem znieważany, * Jezu mój kochany!",
+                        "8. Jezu, przez ulice sromotnie, * przed sąd Kajfasza za włosy targany, * Jezu mój kochany!",
+                        "9. Jezu, od Malchusa srogiego, * ręką zbrodniczą wypoliczkowany, * Jezu mój kochany!",
+                        "10. Jezu, od fałszywych dwóch świadków, * za zwodziciela niesłusznie podany, * Jezu mój kochany!",
+                        "Bądź pozdrowiony, bądź pochwalony, * dla nas zelżony i pohańbiony! * Bądź uwielbiony, bądź wysławiony, * Boże nieskończony!",
+                        "1. Ach! Ja Matka tak żałosna! * Boleść Mnie ściska nieznośna, * miecz Me serce przenika",
+                        "2. Czemuś, Matko ukochana, Ciężko na sercu stroskana? Czemu wszystka truchlejesz?",
+                        "3. Co mię pytasz, wszystkam w mdłości, Mówić nie mogę z żałości, Krew mi serce zalewa.",
+                        "4. Powiedz mi, o Panno moja, Czemu blednieje twarz Twoja? Czemu gorzkie łzy lejesz?",
+                        "5. Widzę, że Syn ukochany, W Ogrójcu cały zalany, Potu krwawym potokiem.",
+                        "6. O Matko, źródło miłości, Niech czuję gwałt Twej żałości! Dozwól mi z sobą płakać!",
+                        "Któryś za nas cierpiał rany, * Jezu Chryste, zmiłuj się nad nami! /x3"
+                    ]
+                },
+                {
+                    "title": "Gorzkie żale II",
+                    "lyrics": [
+                        "1. Gorzkie żale przybywajcie, * serca nasze przenikajcie.",
+                        "2. Rozpłyńcie się, me źrenice, * toczcie smutnych łez krynice.",
+                        "3. Słońce, gwiazdy omdlewają, * żałobą się pokrywają.",
+                        "4. Płaczą rzewnie Aniołowie, * a któż żałość ich wypowie?",
+                        "5. Opoki się twarde krają, * z grobów umarli powstają.",
+                        "6. Cóż jest, pytam, co się dzieje? * Wszystko stworzenie truchleje!",
+                        "7. Na ból męki Chrystusowej, * żal przejmuje bez wymowy.",
+                        "8. Uderz, Jezu, bez odwłoki * w twarde serc naszych opoki.",
+                        "9. Jezu mój, we Krwi ran Twoich * obmyj duszę z grzechów moich.",
+                        "10. Upał serca mego chłodzę, * gdy w przepaść męki Twej wchodzę.",
+                        "1. Przypatrz się, duszo, jak cię Bóg miłuje, * jako dla ciebie sobie nie folguje. * Przecież Go bardziej niż katowska dręczy, * złość twoja męczy.",
+                        "2. Stoi przed sędzią Pan wszego stworzenia, * Cichy Baranek, z wielkiego wzgardzenia * dla białej szaty, którą jest odziany, * głupim nazwany.",
+                        "3. Za moje złości grzbiet srodze biczują; * Pójdźmyż, grzesznicy, oto nam gotują * ze Krwi Jezusa dla serca ochłody * zdrój żywej wody.",
+                        "4. Pycha światowa niechaj, co chce, wróży, * co na swe skronie wije wieniec z róży, * w szkarłat na pośmiech, cierniem Król zraniony * jest ozdobiony!",
+                        "5. Oby się serce we łzy rozpływało, * że Cię, mój Jezu, sprośnie obrażało! * Żal mi, ach żal mi ciężkich moich złości * dla Twej miłości.",
+                        "1. Jezu, od pospólstwa niewinnie, * jako łotr godzien śmierci obwołany, * Jezu mój kochany!",
+                        "2. Jezu, od złośliwych morderców, * po ślicznej twarzy tak sprośnie zeplwany, * Jezu mój kochany!",
+                        "3. Jezu, pod przysięgą od Piotra, * po trzykroć z wielkiej bojaźni zaprzany, * Jezu mój kochany!",
+                        "4. Jezu, od okrutnych oprawców, * na sąd Piłata jak zbójca szarpany, * Jezu mój kochany!",
+                        "5. Jezu, od Heroda i dworzan, * Królu niebieski, zelżywie wyśmiany, * Jezu mój kochany!",
+                        "6. Jezu, w białą szatę szydersko, * na większy pośmiech i hańbę ubrany, * Jezu mój kochany!",
+                        "7. Jezu, u kamiennego słupa, * niemiłosiernie biczami wysmagany, * Jezu mój kochany!",
+                        "8. Jezu, przez szyderstwo okrutne, * cierniowym wieńcem ukoronowany, * Jezu mój kochany!",
+                        "9. Jezu, od żołnierzy niegodnie, * na pośmiewisko purpurą odziany, * Jezu mój kochany!",
+                        "10. Jezu, trzciną po głowie bity, * Królu boleści, przez lud wyszydzany, * Jezu mój kochany!",
+                        "Bądź pozdrowiony, bądź pochwalony, * dla nas zelżony, wszystek skrwawiony, * bądź uwielbiony, bądź wysławiony, * Boże nieskończony!",
+                        "1. Ach, widzę Syna mojego, * przy słupie obnażonego, * rózgami zsieczonego!",
+                        "2. Święta Panno, uproś dla mnie, * bym ran Syna Twego znamię, * miał na sercu wyryte!",
+                        "3. Ach, widzę jako niezmiernie, * ostre głowę rani ciernie! * dusza moja ustaje.",
+                        "4. O Maryjo, Syna swego, * ostrym cierniem zranionego, * podzielże ze mną mękę!",
+                        "5. Obym ja, Matka strapiona, * mogła na swoje ramiona, * złożyć krzyż Twój, Synu mój!",
+                        "6. Proszę, o Panno jedyna, * niechaj krzyż Twojego Syna, * zawsze w sercu swym noszę!",
+                        "Któryś za nas cierpiał rany, * Jezu Chryste, zmiłuj się nad nami! /x3"
+                    ]
+                },
+                {
+                    "title": "Gorzkie żale III",
+                    "lyrics": [
+                        "1. Gorzkie żale przybywajcie, * serca nasze przenikajcie.",
+                        "2. Rozpłyńcie się, me źrenice, * toczcie smutnych łez krynice.",
+                        "3. Słońce, gwiazdy omdlewają, * żałobą się pokrywają.",
+                        "4. Płaczą rzewnie Aniołowie, * a któż żałość ich wypowie?",
+                        "5. Opoki się twarde krają, * z grobów umarli powstają.",
+                        "6. Cóż jest, pytam, co się dzieje? * Wszystko stworzenie truchleje!",
+                        "7. Na ból męki Chrystusowej, * żal przejmuje bez wymowy.",
+                        "8. Uderz, Jezu, bez odwłoki * w twarde serc naszych opoki.",
+                        "9. Jezu mój, we Krwi ran Twoich * obmyj duszę z grzechów moich.",
+                        "10. Upał serca mego chłodzę, * gdy w przepaść męki Twej wchodzę.",
+                        "1. Duszo oziębła, czemu nie gorejesz? * Serce me, czemu całe nie truchlejesz? * Toczy twój Jezus z ognistej miłości * krew w obfitości.",
+                        "2. Ogień miłości, gdy Go tak rozpala, * sromotne drzewo na ramiona zwala; * Zemdlony Jezus pod krzyżem uklęka, * jęczy i stęka.",
+                        "3. Okrutnym katom posłuszny się staje, * ręce i nogi przebić sobie daje, * wisi na krzyżu, ból ponosi srogi * nasz Zbawca drogi.",
+                        "4. O słodkie drzewo, spuśćże nam już ciało, * aby na tobie dłużej nie wisiało! * My je uczciwie w grobie położymy, * płacz uczynimy.",
+                        "5. Oby się serce we łzy rozpływało, * że Cię, mój Jezu, sprośnie obrażało! * Żal mi, ach żal mi ciężkich moich złości * dla Twej miłości.",
+                        "6. Niech Ci, mój Jezu, cześć będzie w wieczności * za Twe obelgi, męki, zelżywości, * któreś ochotnie, Syn Boga jedyny, * cierpiał bez winy!",
+                        "1. Jezu, od pospólstwa niezbożnie, * jako złoczyńca z łotry porównany, * Jezu mój kochany!",
+                        "2. Jezu, od Piłata niesłusznie, * na śmierć krzyżową za ludzi skazany, * Jezu mój kochany!",
+                        "3. Jezu, srogim krzyża ciężarem, * na kalwaryjskiej drodze zmordowany, * Jezu mój kochany!",
+                        "4. Jezu, do sromotnego drzewa, * przytępionymi gwoźdźmi przykowany, * Jezu mój kochany!",
+                        "5. Jezu, jawnie pośród dwu łotrów, * na drzewie hańby ukrzyżowany, * Jezu mój kochany!",
+                        "6. Jezu, od stojących wokoło, * i od przechodzących szyderczo wyśmiany, * Jezu mój kochany!",
+                        "7. Jezu, bluźnierstwami od złego, * współwiszącego łotra wyszydzany, * Jezu mój kochany!",
+                        "8. Jezu, gorzką żółcią i octem, * w wielkim pragnieniu swoim napawany, * Jezu mój kochany!",
+                        "9. Jezu, w swej miłości niezmiernej, * jeszcze po śmierci włócznią przeorany, * Jezu mój kochany!",
+                        "10. Jezu, od Józefa uczciwie, * i od Nikodema w grobie pochowany, * Jezu mój kochany!",
+                        "Bądź pozdrowiony, bądź pochwalony, * dla nas zmęczony i krwią zbroczony, * bądź uwielbiony, bądź wysławiony, * Boże nieskończony!",
+                        "1. Ach, ja Matka boleściwa, * pod krzyżem stoję smutliwa, * serce żałość przejmuje.",
+                        "2. O Matko, niechaj prawdziwie, * patrząc na krzyż żałośliwie, * płaczę z Tobą rzewliwie!",
+                        "3. Jużci, już moje Kochanie, * gotuje się na konanie! * Toć i ja z Nim umieram!",
+                        "4. Pragnę, Matko zostać z Tobą, * dzielić się Twoją żałobą, * śmierci Syna Twojego.",
+                        "5. Zamknął słodką Jezus mowę, * już ku ziemi skłania głowę, * żegna już Matkę swoją!",
+                        "6. O Maryjo, Ciebie proszę, * niech Jezusa rany noszę, * i serdecznie rozważam.",
+                        "Któryś za nas cierpiał rany, * Jezu Chryste, zmiłuj się nad nami! /x3"
+                    ]
+                },
+                {
+                    "title": "Straszliwego majestatu",
+                    "lyrics": [
+                        "1. Straszliwego Majestatu Panie! * Za me grzechy płakać łez nie stanie! * Jam stworzenie twe wyrodne, * Świętych oczu Twych niegodne, * Twój Majestat nieskończony, * Przed którym klękają Trony,* Obraziłem!",
+                        "2. Nie śmiem oczu podnieść z publikanem, * aleć sprawa z bardzo dobrym Panem; * Skoro w oczach łzy zobaczy, * wnet darować wszystko raczy; * Lecz stąd w sercu większa rana, * żem tak łaskawego Pana, * śmiał obrazić!",
+                        "3. Kto da oczom łez obfite rzeki? * Trzeba bowiem płakać całe wieki, * żem wiecznego Boga mego; * Wyżej ceniąc coś marnego, * ja, grzesznik zapamiętały, * Wiekuistej Pana chwały * śmiał znieważyć.",
+                        "4. Nędzny prochu, na coś się odważył? * Stwórcęś swego haniebnie znieważył! * Wiesz-li, co jest grzech przeklęty? * Słuchaj, co rzekł Paweł święty: * Każde przestępstwo mandatu * jest zniewagą Majestatu * Najwyższego.",
+                        "5. Bym był zepchnion aż na dno piekielne * i za grzechy gorzał tam śmiertelne, * całą wieczność gorząc srodze * już tej krzywdy nie nagrodzę, * na wieki nie powetuję, * chyba, że ki sam daruje * te zniewagi.",
+                        "6. Jakoż ufam, że mój grzech wyznany * przez najświętsze, Jezu, Twoje rany, * z Twej dobroci zgładzisz wiecznie, * gdy za niego, ach, serdecznie * płakać będę z wielkim wstydem, * mówiąc kornie wraz z Dawidem: * Ach, zgrzeszyłem!",
+                        ""
+                    ]
+                },
+                {
+                    "title": "Serce me do Ciebie wznoszę",
+                    "lyrics": [
+                        "Refren: Serce me do Ciebie wznoszę, * Panie, szukam Cię!",
+                        "1. Usłysz, Panie, głos wołania i ulituj się. * Serce me do Ciebie wznoszę, Panie, szukam Cię!",
+                        "Refren: Serce me do Ciebie wznoszę, * Panie, szukam Cię!",
+                        "2. Nie ukrywaj się przede mną, nie odpychaj mnie, * nie opuszczaj mnie, Wybawco, wstrzymaj srogi gniew!",
+                        "Refren: Serce me do Ciebie wznoszę, * Panie, szukam Cię!",
+                        "3. Choćby o mnie zapomnieli: ojciec, matka ma, * Ty mnie przyjmiesz i przygarniesz, w utrapienia czas.",
+                        "Refren: Serce me do Ciebie wznoszę, * Panie, szukam Cię!",
+                        "4. Wskaż mi drogę Twoją, Panie, prowadź ścieżką Twą, * bo wróg czyha na bezdrożach, wyrwij z jego rąk!",
+                        "Refren: Serce me do Ciebie wznoszę, * Panie, szukam Cię!",
+                        ""
+                        
+                    ]
+                },
+                {
+                    "title": "Przepuść, Panie",
+                    "lyrics": [
+                        "Przepuść, Panie, przepuść ludowi Twojemu, * a nie bądź zagniewany na wieki. /x3",
+                        ""
+                    ]
+                },
+                {
+                    "title": "Do Ciebie, Panie",
+                    "lyrics": [
+                        "1. Do Ciebie, Panie, pokornie wołamy; * łzy wylewając, serdecznie wzdychamy.",
+                        "2. Racz na nas wejrzeć z nieba wysokiego, * a racz pocieszyć człowieka grzesznego,",
+                        "3. Któregoś, Panie, zbytnio umiłował * i Krwi najświętszej przelać nie żałował.",
+                        "4. Użycz swej łaski ku opamiętaniu, * daj serce prawe ku Twemu wzywaniu;",
+                        "5. Abyśmy zawsze w pobożności żyli, * Ciebie na wieki z świętymi chwalili.",
+                        ""
+                    ]
+                },
+                {
+                    "title": "Bądź mi litościw",
+                    "lyrics": [
+                        "1. Bądź mi litościw, Boże nieskończony, * według wielkiego miłosierdzia Twego! * Według litości Twej niepoliczonej, * chciej zmazać mnóstwo przewinienia mego.",
+                        "2. Obmyj mnie z złości, obmyj tej godziny, * oczyść mnie z brudu, w którym mnie grzech trzyma; * bo ja poznaję wielkość mojej winy * i grzech mój zawsze przed mymi oczyma.",
+                        "3. Odwróć twarz Twoją od przestępstwa mego * i wszystkie moje odpuść nieprawości; * stwórz serce czyste, warte Boga swego, * a ducha prawdy w moje wlej wnętrzności.",
+                        "4. Nie oddalaj mnie od ojcowskiej twarzy, * nie chciej mi bronić Twojego natchnienia; * wróć radość, którą niewinność nas darzy, * i racz mnie w duchu utwierdzić rządzenia.",
+                        "5. Chciej mi otworzyć usta moje, Panie, * bym śpiewał chwałę Twojego imienia; * jeśli chcesz ofiar, wszak na nie mnie stanie, * lecz nie tak miłe są całopalenia.",
+                        "6. Ofiarą Bogu żalem zdjęta dusza, * serce skruszone i upokorzone; * to do litości najprędzej Go wzrusza, * te dary miłe przed nim położone.",
+                        ""
+                    ]
+                },
+                {
                     "title": "Krzy\u017cu Chrystusa, b\u0105d\u017a\u017ce pochwalony",
                     "lyrics": [
                         "1. Krzy\u017cu Chrystusa, b\u0105d\u017a\u017ce pochwalony, * na wieczne czasy, b\u0105d\u017a\u017ce pozdrowiony; * gdzie B\u00f3g, Kr\u00f3l \u015bwiata ca\u0142ego * dokona\u0142 \u017cycia swojego.",
@@ -9130,7 +9289,7 @@
                 {
                     "title": "Jezu Chryste, Panie mi\u0142y",
                     "lyrics": [
-                        "1. Jezu Chryste, Panie mi\u0142y, * o Baranku tak cierpliwy, * wznios\u0142e\u015b, wznios\u0142e\u015b na krzy\u017c r\u0119ce swoje, * g\u0142adz\u0105c, g\u0142adz\u0105c nieprawo\u015bci moje.",
+                        "1. Jezu Chryste, Panie mi\u0142y, * Baranku bardzo cierpliwy, * wznios\u0142e\u015b, wznios\u0142e\u015b na krzy\u017c r\u0119ce swoje, * za nie-, za niesprawiedliwość moją.",
                         "2. P\u0142acz Go, cz\u0142owiecze mizerny, * patrz\u0105c, jak jest mi\u0142osierny; * Jezus, Jezus na krzy\u017cu umiera, * s\u0142o\u0144ce, s\u0142o\u0144ce jasno\u015b\u0107 sw\u0105 zawiera.",
                         "3. Pan wyrzek\u0142 ostatnie s\u0142owa, * zwis\u0142a Mu na piersi g\u0142owa; * Matka, Matka pod Nim frasobliwa, * stoi, stoi z \u017calu ledwie \u017cywa.",
                         "4. Zas\u0142ona si\u0119 potarga\u0142a, * ziemia rwie si\u0119, ryczy ska\u0142a; * setnik, setnik wo\u0142a: Syn to Bo\u017cy! * T\u0142uszcza, t\u0142uszcza, wierz\u0105c w proch si\u0119 korzy.",
@@ -9229,17 +9388,17 @@
                         "7. Pro peccatis suae gentis * vidit Iesum in tormentis, * et flagellis subditum.",
                         "8. Vidit suum dulcem Natum * moriendo desolatum, * dum emisit spiritum.",
                         "9. Eia, Mater, fons amoris * me sentire vim doloris * fac, ut tecum lugeam.",
-                        "10. . Fac, ut ardeat cor meum * in amando Christum Deum * ut sibi complaceam.",
-                        "11. . Sancta Mater, istud agas, * crucifixi fige plagas * cordi meo valide.",
-                        "12. . Tui Nati vulnerati, * tam dignati pro me pati, * poenas mecum divide.",
-                        "13. . Fac me tecum pie flere, * crucifixo condolere, * donec ego vixero.",
-                        "14. . Iuxta Crucem tecum stare, * et me tibi sociare * in planctu desidero.",
-                        "15. . Virgo virginum praeclara, * mihi iam non sis amara, * fac me tecum plangere.",
-                        "16. . Fac, ut portem Christi mortem, * passionis fac consortem, * et plagas recolere.",
-                        "17. . Fac me plagis vulnerari, * fac me Cruce inebriari, * et cruore Filii.",
-                        "18. . Flammis ne urar succensus, * per te, Virgo, sim defensus * in die iudicii.",
-                        "19. . Christe, cum sit hinc exire, * da per Matrem me venire * ad palmam victoriae.",
-                        "20. . Quando corpus morietur, * fac, ut animae donetur * paradisi gloria. Amen.",
+                        "10. Fac, ut ardeat cor meum * in amando Christum Deum * ut sibi complaceam.",
+                        "11. Sancta Mater, istud agas, * crucifixi fige plagas * cordi meo valide.",
+                        "12. Tui Nati vulnerati, * tam dignati pro me pati, * poenas mecum divide.",
+                        "13. Fac me tecum pie flere, * crucifixo condolere, * donec ego vixero.",
+                        "14. Iuxta Crucem tecum stare, * et me tibi sociare * in planctu desidero.",
+                        "15. Virgo virginum praeclara, * mihi iam non sis amara, * fac me tecum plangere.",
+                        "16. Fac, ut portem Christi mortem, * passionis fac consortem, * et plagas recolere.",
+                        "17. Fac me plagis vulnerari, * fac me Cruce inebriari, * et cruore Filii.",
+                        "18. Flammis ne urar succensus, * per te, Virgo, sim defensus * in die iudicii.",
+                        "19. Christe, cum sit hinc exire, * da per Matrem me venire * ad palmam victoriae.",
+                        "20. Quando corpus morietur, * fac, ut animae donetur * paradisi gloria. Amen.",
                         ""
                     ]
                 },
@@ -9317,20 +9476,43 @@
                     ]
                 },
                 {
+                    "title": "O duszo wszelka nabożna",
+                    "lyrics": [
+                        "1. O duszo wszelka nabożna, * ku miłemu Bogu skłonna, * wejrzyj na Syna Bożego, * na Zbawiciela naszego.",
+                        "2. Oglądaj na krzyżu Jego, * haniebnie zawieszonego, * okrutnie rozciągnionego, * całego zakrwawionego.",
+                        "3. Wejrzyj na głowę skłonioną, * ostrą koroną zranioną, * którą z ciernia upleciono, * gwałtem na skronie wciśniono.",
+                        "4. Ręce, nogi przenajświętsze * gwoźdźmi okrutnie przebite, * bok i serce przebodzono, * ostatek krwi wypuszczono.",
+                        "5. Przeto grzechu się wystrzegaj, * o łaskę skrzętnie zabiegaj, * aby krew Chrystusa Pana * nie była darmo wylana.",
+                        ""
+                    ]
+                },
+                {
+                    "title": "Najdroższy Jezu",
+                    "lyrics": [
+                        "1. Najdroższy Jezu, w czymże Twoja wina, * w czym tak okrutnej śmierci Twej przyczyna? * O jaką zbrodnię Ciebie oskarżali, * że Cię skazali?",
+                        "2. Ubiczowany, cierniem uwieńczony, * spoliczkowany, ciężko wyszydzony: * octem i żółcią Ciebie napoili, * na krzyż przybili!",
+                        "3. Co za przyczyna wszystkiej Twej udręki? * Ach, moje grzechy dały powód męki! * To ja, mój Panie, to ja zawiniłem, * Ciebie zabiłem.",
+                        "4. Lecz co się z karą słuszną dla mnie staje? * Za owcę Pasterz dobry życie daje, * najsprawiedliwszy Pan wypłaca długi * swojego sługi!",
+                        "5. Ach, wielki Królu, Władco nad wiekami, * jakże wypowiem wierność Twą słowami, * gdy żadne serce tego nie pojęło, * ile stąd wzięło!",
+                        "6. O Panie, kiedy tam, przy Twoim tronie * stanę na wieki w blasku i w koronie, * daj mi, gdy wszystko będzie Ci śpiewało, * być Twoją chwałą!",
+                        ""
+                    ]
+                },
+                {
                     "title": "Ludu, m\u00f3j ludu",
                     "lyrics": [
                         "1. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam ci\u0119 wyzwoli\u0142 z mocy faraona, * a ty\u015b przyrz\u0105dzi\u0142 krzy\u017c na me ramiona.",
-                        "2. Ludu, m\u00f3j ludu\u2026 Jam ci\u0119 wprowadzi\u0142 w kraj miodem p\u0142yn\u0105cy, * ty\u015b Mi zgotowa\u0142 \u015bmierci znak ha\u0144bi\u0105cy.",
-                        "3. Ludu, m\u00f3j ludu\u2026 Jam ciebie szczepi\u0142, winnico wybrana, * a ty\u015b Mnie octem poi\u0142, swego Pana.",
-                        "4. Ludu, m\u00f3j ludu\u2026 Jam dla ci\u0119 spuszcza\u0142 na Egipt karanie, * a ty\u015b Mnie wyda\u0142 na ubiczowanie.",
-                        "5. Ludu, m\u00f3j ludu\u2026 Jam faraona da\u0142 w odm\u0119t ba\u0142wan\u00f3w, * a ty\u015b Mnie wyda\u0142 ksi\u0105\u017c\u0119tom kap\u0142an\u00f3w.",
-                        "6. Ludu, m\u00f3j ludu\u2026 Morzem otworzy\u0142, by\u015b szed\u0142 such\u0105 nog\u0105, * a ty\u015b Mi w\u0142\u00f3czni\u0105 bok otworzy\u0142 srog\u0105.",
-                        "7. Ludu, m\u00f3j ludu\u2026 Jam ci by\u0142 wodzem w kolumnie ob\u0142oku, * ty\u015b Mnie wi\u00f3d\u0142 s\u0142ucha\u0107 Pi\u0142ata wyroku.",
-                        "8. Ludu, m\u00f3j ludu\u2026 Jam ciebie karmi\u0142 manny rozkoszami, * ty\u015b Mi odp\u0142aci\u0142 policzkowaniami.",
-                        "9. Ludu, m\u00f3j ludu\u2026 Jam ci ze ska\u0142y doby\u0142 wod\u0119 zdrow\u0105, * a ty\u015b Mnie poi\u0142 gorycz\u0105 \u017c\u00f3\u0142ciow\u0105.",
-                        "10. . Ludu, m\u00f3j ludu\u2026 Jam da\u0142, \u017ce zbici Chanaan kr\u00f3lowie, * a ty za\u015b trzcin\u0105 bi\u0142e\u015b Mnie po g\u0142owie.",
-                        "11. . Ludu, m\u00f3j ludu\u2026 Jam ci da\u0142 ber\u0142o Judzie powierzone, * a ty\u015b Mi wt\u0142oczy\u0142 cierniow\u0105 koron\u0119.",
-                        "12. . Ludu, m\u00f3j ludu\u2026 Jam ci\u0119 wywy\u017cszy\u0142 mi\u0119dzy narodami, * ty\u015b Mnie na krzy\u017cu podwy\u017cszy\u0142 z \u0142otrami.",
+                        "2. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam ci\u0119 wprowadzi\u0142 w kraj miodem p\u0142yn\u0105cy, * ty\u015b Mi zgotowa\u0142 \u015bmierci znak ha\u0144bi\u0105cy.",
+                        "3. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam ciebie szczepi\u0142, winnico wybrana, * a ty\u015b Mnie octem poi\u0142, swego Pana.",
+                        "4. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam dla ci\u0119 spuszcza\u0142 na Egipt karanie, * a ty\u015b Mnie wyda\u0142 na ubiczowanie.",
+                        "5. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam faraona da\u0142 w odm\u0119t ba\u0142wan\u00f3w, * a ty\u015b Mnie wyda\u0142 ksi\u0105\u017c\u0119tom kap\u0142an\u00f3w.",
+                        "6. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Morzem otworzy\u0142, by\u015b szed\u0142 such\u0105 nog\u0105, * a ty\u015b Mi w\u0142\u00f3czni\u0105 bok otworzy\u0142 srog\u0105.",
+                        "7. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam ci by\u0142 wodzem w kolumnie ob\u0142oku, * ty\u015b Mnie wi\u00f3d\u0142 s\u0142ucha\u0107 Pi\u0142ata wyroku.",
+                        "8. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam ciebie karmi\u0142 manny rozkoszami, * ty\u015b Mi odp\u0142aci\u0142 policzkowaniami.",
+                        "9. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam ci ze ska\u0142y doby\u0142 wod\u0119 zdrow\u0105, * a ty\u015b Mnie poi\u0142 gorycz\u0105 \u017c\u00f3\u0142ciow\u0105.",
+                        "10. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam da\u0142, \u017ce zbici Chanaan kr\u00f3lowie, * a ty za\u015b trzcin\u0105 bi\u0142e\u015b Mnie po g\u0142owie.",
+                        "11. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam ci da\u0142 ber\u0142o Judzie powierzone, * a ty\u015b Mi wt\u0142oczy\u0142 cierniow\u0105 koron\u0119.",
+                        "12. Ludu, m\u00f3j ludu, c\u00f3\u017cem ci uczyni\u0142? * W czymem zasmuci\u0142, albo w czym zawini\u0142? * Jam ci\u0119 wywy\u017cszy\u0142 mi\u0119dzy narodami, * ty\u015b Mnie na krzy\u017cu podwy\u017cszy\u0142 z \u0142otrami.",
                         ""
                     ]
                 },
@@ -9346,7 +9528,7 @@
                         "7. Spraw, niech lej\u0119 \u0142zy obficie * i przez ca\u0142e moje \u017cycie * serce me z Cierpi\u0105cym wi\u0105\u017c.\r\nPragn\u0119 sta\u0107 pod krzy\u017cem z Tob\u0105, * z Twoj\u0105 \u0142\u0105czy\u0107 si\u0119 \u017ca\u0142ob\u0105, * w p\u0142aczu si\u0119 rozp\u0142ywa\u0107 wci\u0105\u017c.",
                         "8. Panno \u015awi\u0119ta, swe dziewicze * zap\u0142akane wznie\u015b oblicze: * jeden niech nas \u0142\u0105czy p\u0142acz.\r\nSpraw, niech \u017cyj\u0119 Zbawcy zgonem, * na mym sercu roz\u017calonym * Jego b\u00f3l wycisn\u0105\u0107 racz.",
                         "9. Niech mnie m\u0119ki gwo\u017adzie zrani\u0105, * niechaj, kiedy patrz\u0119 na Ni\u0105, * krew upoi mnie i krzy\u017c.\r\nM\u0119k\u0105 ognia nieustann\u0105 * nie daj gorze\u0107, \u015awi\u0119ta Panno, * w s\u0105du dzie\u0144 sw\u0105 pomoc zbli\u017c.",
-                        "10. . A gdy \u017cycia kres nastanie, * przez sw\u0105 Matk\u0119, Chryste Panie, * do zwyci\u0119stwa doj\u015b\u0107 nam daj.\r\nGdy ulegnie \u015bmierci cia\u0142o, * obleczona wieczn\u0105 chwa\u0142\u0105 * dusza niech osi\u0105gnie raj.",
+                        "10. A gdy \u017cycia kres nastanie, * przez sw\u0105 Matk\u0119, Chryste Panie, * do zwyci\u0119stwa doj\u015b\u0107 nam daj.\r\nGdy ulegnie \u015bmierci cia\u0142o, * obleczona wieczn\u0105 chwa\u0142\u0105 * dusza niech osi\u0105gnie raj.",
                         ""
                     ]
                 },
@@ -9385,9 +9567,9 @@
                         "7. Zawitaj, Ukrzy\u017cowany, * w\u0142\u00f3czni\u0105 na sercu stargany; * piersi, wn\u0119trzno\u015bci * pe\u0142ne gorzko\u015bci, * miejcie\u017c nas w swojej lito\u015bci.",
                         "8. Zawitaj, Ukrzy\u017cowany, * w duszy srodze zatroskany; * smutki i \u017cale, * w serca upale * wnie\u015bcie\u017c nas ku Jego chwale.",
                         "9. Zawitaj, Ukrzy\u017cowany, * w B\u00f3stwie swym sponiewierany; * we czci i chwale * zniszczony wcale, * zbaw nas na swym trybunale.",
-                        "10. . Zawitaj, Ukrzy\u017cowany, * niewinnie zamordowany; * b\u0105d\u017a, konaj\u0105cy, * na nas pomn\u0105cy, * raj \u0142otrowi daruj\u0105cy.",
-                        "11. . Przez Twoje gorzkie skonanie * lito\u015bciwy b\u0105d\u017a nam, Panie; * w ostatnim zgonie * miej nas w obronie, * postaw nas po prawej stronie.",
-                        "12. . O Jezu, mi\u0142o\u015bci zdroju, * wzdycham do Twego pokoju! * Za grzechy p\u0142acz\u0119, * sercem Ci\u0119 racz\u0119, * krzy\u017cem Twoim g\u0142ow\u0119 znacz\u0119.",
+                        "10. Zawitaj, Ukrzy\u017cowany, * niewinnie zamordowany; * b\u0105d\u017a, konaj\u0105cy, * na nas pomn\u0105cy, * raj \u0142otrowi daruj\u0105cy.",
+                        "11. Przez Twoje gorzkie skonanie * lito\u015bciwy b\u0105d\u017a nam, Panie; * w ostatnim zgonie * miej nas w obronie, * postaw nas po prawej stronie.",
+                        "12. O Jezu, mi\u0142o\u015bci zdroju, * wzdycham do Twego pokoju! * Za grzechy p\u0142acz\u0119, * sercem Ci\u0119 racz\u0119, * krzy\u017cem Twoim g\u0142ow\u0119 znacz\u0119.",
                         ""
                     ]
                 },
@@ -9406,23 +9588,14 @@
                 {
                     "title": "Bliskie jest Kr\u00f3lestwo Bo\u017ce",
                     "lyrics": [
+                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119. ",
+                        "1. B\u00f3g jest \u015bwiat\u0142o\u015bci\u0105 * i nie ma w Nim \u017cadnej ciemno\u015bci. * Je\u017celi chodzimy w \u015bwiat\u0142o\u015bci, * wtedy mamy \u0142\u0105czno\u015b\u0107 mi\u0119dzy sob\u0105.",
                         "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
-                        "1. B\u00f3g jest \u015bwiat\u0142o\u015bci\u0105 * i nie ma w Nim \u017cadnej ciemno\u015bci.",
+                        "2. Krew Jezusa, Jego Syna, * oczyszcza nas z wszelkiego grzechu. * Je\u017celi m\u00f3wimy, \u017ce nie mamy grzechu, * to samych siebie oszukujemy.",
                         "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
-                        "2. Je\u017celi chodzimy w \u015bwiat\u0142o\u015bci, * wtedy mamy \u0142\u0105czno\u015b\u0107 mi\u0119dzy sob\u0105.",
+                        "3. Je\u017celi wyznajemy nasze grzechy, * B\u00f3g oczy\u015bci nas z wszelkiej nieprawo\u015bci. * Je\u015bliby nawet kto\u015b zgrzeszy\u0142, * mamy Rzecznika wobec Ojca \u2013 Jezusa Chrystusa.",
                         "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
-                        "3. Krew Jezusa, Jego Syna, * oczyszcza nas z wszelkiego grzechu.",
-                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
-                        "4. Je\u017celi m\u00f3wimy, \u017ce nie mamy grzechu, * to samych siebie oszukujemy.",
-                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
-                        "5. Je\u017celi wyznajemy nasze grzechy, * B\u00f3g oczy\u015bci nas z wszelkiej nieprawo\u015bci.",
-                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
-                        "6. Je\u015bliby nawet kto\u015b zgrzeszy\u0142, * mamy Rzecznika wobec Ojca \u2013 Jezusa Chrystusa.",
-                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
-                        "7. On jest ofiar\u0105 przeb\u0142agaln\u0105 za nasze grzechy, * a tak\u017ce za grzechy ca\u0142ego \u015bwiata.",
-                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
-                        "8. Dost\u0119pujemy odpuszczenia grzech\u00f3w * ze wzgl\u0119du na Jego imi\u0119.",
-                        "Refren: Bliskie jest kr\u00f3lestwo Bo\u017ce, * nawracajmy si\u0119 i wierzmy w Ewangeli\u0119.",
+                        "4. On jest ofiar\u0105 przeb\u0142agaln\u0105 za nasze grzechy, * a tak\u017ce za grzechy ca\u0142ego \u015bwiata. * Dost\u0119pujemy odpuszczenia grzech\u00f3w * ze wzgl\u0119du na Jego imi\u0119.",
                         ""
                     ]
                 },
@@ -9439,12 +9612,56 @@
                     ]
                 },
                 {
+                    "title": " Oto Jezus umiera",
+                    "lyrics": [
+                        "1. Oto Jezus umiera, * uważaj grzeszniku, * śmierć Mu oczy zawiera, * zapłacz niewdzięczniku.",
+                        "Refren: O grzechy ludzkie, * wyście to sprawiły, * Pana swojego * złośliwie zabiły.",
+                        "2. Oczy krwią zasłonione, * twarz pięściami starta, * włosy potem zwarzone, * głowa cierniem zdarta.",
+                        "Refren: O grzechy ludzkie, * wyście to sprawiły, * Pana swojego * złośliwie zabiły.",
+                        "3. Ręce gwoźdźmi przeszyte, * serce rozpłatane, * nogi na krzyż przybite, * żyły poszarpane",
+                        "Refren: O grzechy ludzkie, * wyście to sprawiły, * Pana swojego * złośliwie zabiły.",
+                        ""
+                    ]
+                },
+                {
+                    "title": "O Najświętsza Twarzy",
+                    "lyrics": [
+                        "1. O Najświętsza Twarzy mego Pana, * przed Tobą padamy na kolana, * ta Twarz, gdy nas sądzić będzie, * Postawże nas, Jezu, w pierwszym rzędzie.",
+                        "2. Gdy Ty nas o Jezu będziesz sądzić, * Okaż nam Twarz swoją, nie daj zbłądzić. * Przez Twe rany i boleści, * pozostań z Maryją przy mej śmierci.",
+                        ""
+                    ]
+                },
+                {
+                    "title": "Ojcze Boże wszechmogący",
+                    "lyrics": [
+                        "1. Ojcze Boże Wszechmogący, * który z miłości gorącej * zesłałeś na te niskości * Syna swego z wysokości.",
+                        "2. Ku wielkiemu pocieszeniu * Twemu ludzkiemu plemieniu * wydałeś Go na stracenie * przez człowiecze odkupienie.",
+                        "3. Miejmyż wszyscy na baczności * drogą śmierć Jego miłości * i smutek Matuchny Jego, * która cierpiała dla Niego.",
+                        "4. Gdy Go we czwartek żegnała, * tak Mu mówiąc narzekała: * „Weźmij mię w Ogrojec z sobą, * pójdę rada na śmierć z Tobą”.",
+                        "5. Smutnie na Nią Pan spoglądał, * po swej Matce tego żądał: * „Miła Matko, racz mię puścić, * noc-ci blisko, już nam czas iść”.",
+                        "6. Smutne było to rozstanie, * z Synem swym Najświętszej Pannie; * ileż boleści doznała, * gdy się z Jezusem żegnała!",
+                        "7. Gdy do Ogrojca przybieżał, * padł na ziemię, krzyżem leżał: * tam swą mękę wszystką widział, * którą nazajutrz cierpieć miał.",
+                        "8. Klęknął na kolana potem, * jął się pocić krwawym potem, * mówiąc: „Ojcze, może-li być, * racz ten kielich precz oddalić”.",
+                        "9. Jezu miły, nie lękaj się, * wstań, nie klęcz już, spamiętaj się: * masz niedaleko Judasza, * idzie z ludem od Annasza.",
+                        "10. Wtem przystąpił Judasz k’Niemu, * pokłonił się Panu swemu: * jeszcze Go zdradnie całował, * Pan się schylił, twarz mu podał.",
+                        "11. Wnet do Niego przyskoczyli, * o ziemię Nim uderzyli: * i związawszy Go okrutnie, * wiedli Go do miasta butnie.",
+                        "12. Niemiłosierni Żydowie, * okrutniejsi niż katowie, * na Piłata zawołali, * ukrzyżować Go kazali.",
+                        "13. Wisiał na krzyżu zraniony, * zbity, skłuty, zakrwawiony, * nie mając odpoczywania * od ujęcia do skonania.",
+                        "14. Chryste, Panie miłościwy, * czemuś tak bardzo cierpliwy? * Dla zmiłowania naszego * zapomniałeś Bóstwa swego!",
+                        ""
+                    ]
+                },
+                {
                     "title": "Ogrodzie oliwny",
                     "lyrics": [
-                        "1. Ogrodzie Oliwny, widok w tobie dziwny! * Widz\u0119 Pana mego na twarz upad\u0142ego. * T\u0119skno\u015b\u0107, smutek, strach Go \u015bciska, * krwawy pot z Niego wyciska; * ach, Jezu mdlej\u0105cy, prawie\u015b konaj\u0105cy!",
-                        "2. Kielich gorzkiej m\u0119ki z Ojca Twego r\u0119ki * ochotnie przyjmujesz, za nas ofiarujesz; * anio\u0142 Ci si\u0119 z nieba zjawia, o m\u0119ce z Tob\u0105 rozmawia; * ach, Jezu strwo\u017cony, przed m\u0119k\u0105 zm\u0119czony!",
-                        "3. Uczniowie posn\u0119li, Ciebie zapomnieli, * Judasz zbrojne roty stawia przede wroty; * i wnet do Ogrojca wpada z wodzem swym zbir\u00f3w gromada; * ach, Jezu kochany, przez ucznia sprzedany!",
+                        "1. Ogrodzie Oliwny, widok w tobie dziwny! * Widz\u0119 Pana mego na twarz upad\u0142ego. * T\u0119skno\u015b\u0107, smutek, strach Go \u015bciska, * krwawy pot z Niego wyciska; * Ach, Jezu mdlej\u0105cy, prawie\u015b konaj\u0105cy!",
+                        "2. Kielich gorzkiej m\u0119ki z Ojca Twego r\u0119ki * ochotnie przyjmujesz, za nas ofiarujesz; * anio\u0142 Ci si\u0119 z nieba zjawia, o m\u0119ce z Tob\u0105 rozmawia; * Ach, Jezu strwo\u017cony, przed m\u0119k\u0105 zm\u0119czony!",
+                        "3. Uczniowie posn\u0119li, Ciebie zapomnieli, * Judasz zbrojne roty stawia przede wroty; * i wnet do Ogrojca wpada z wodzem swym zbir\u00f3w gromada; * Ach, Jezu kochany, przez ucznia sprzedany!",
                         "4. Chocia\u017c ze swym ludem obalony cudem, * Judasz z ziemi wstaje, Jezusa wydaje. * Dopiero si\u0119 Na\u0144 rzucaj\u0105, wi\u0119zy, \u0142a\u0144cuchy wk\u0142adaj\u0105. * Ach, Jezu pojmany, za z\u0142oczy\u0144c\u0119 miany!",
+                        "5. W domu Annaszowym, arcykapłanowym, * w twarz pięścią trącony, upada zemdlony! Kaifasz Go w zdradzie pyta, a za bluźniercę poczyta; * Ach, Jezu zelżony ,od czci odsądzony!",
+                        "6. Wnet jak niegodnego prawa ojczystego * wiodą Marii Syna przed sąd poganina; * Tam Nań potwarze rzucają, o stracenie nalegają; * Ach, Jezu zhańbiony, jak łotr obwiniony!",
+                        "7. Piłat bojaźliwy i niesprawiedliwy * Żydom ustępuje, Jezusa skazuje * najpierw na ubiczowanie, potem na ukrzyżowanie; * Ach, Jezu wzgardzony, na śmierć zasądzony!",
+                        "8. Nie wyrok Piłata skazał Zbawcę świata * na śmierć tak hańbiącą, upokarzającą. * Grzechy moje to sprawiły, że do krzyża Go przybiły; Ach, Jezu, ma wina Męki Twej przyczyna!",
                         ""
                     ]
                 },
@@ -9460,18 +9677,24 @@
                         "7. Krzy\u017c nios\u0105c, na \u015bmier\u0107 szed\u0142 nieustraszenie, * oprawcy niecni zwlekli ze\u0144 odzienie; * do krzy\u017ca Zbawc\u0119 okrutnie przybili, * octem poili.",
                         "8. Z wo\u0142aniem g\u0142o\u015bnym po tak srogiej m\u0119ce * skona\u0142, oddaj\u0105c ducha w Ojca r\u0119ce; * zagas\u0142o s\u0142o\u0144ce, strach ludzi oniemia, * trz\u0119s\u0142a si\u0119 ziemia.",
                         "9. Zst\u0105pi\u0142 do piekie\u0142 Kr\u00f3l wieczystej mocy, * z niewoli lud sw\u00f3j wybawi\u0142 sierocy; * umar\u0142ych cia\u0142a z grob\u00f3w powstawa\u0142y, * widzie\u0107 si\u0119 da\u0142y.",
-                        "10. . Zacny Nikodem wraz z J\u00f3zefem \u015bmia\u0142o * zanie\u015bli pro\u015bb\u0119 o Jezusa cia\u0142o; * dozwala Pi\u0142at, pe\u0142ni\u0105 si\u0119 bez zw\u0142oki * Bo\u017ce wyroki.",
-                        "11. . W wieczornej porze, nie trac\u0105c ni chwili, * ostro\u017cnie z krzy\u017ca Jezusa z\u0142o\u017cyli; * Matuchna Jego cia\u0142o piastowa\u0142a, * rzewnie p\u0142aka\u0142a.",
-                        "12. . Wnet prze\u015bcierad\u0142o us\u0142awszy na ziemi, * uczcili cia\u0142o balsamy drogimi; * w \u015bwie\u017co kowanym grobie po\u0142o\u017cyli, * p\u0142acz uczynili.",
-                        "13. . P\u0142aczmy i my te\u017c, wierni, chrze\u015bcijanie, * dzi\u0119kuj\u0105c Panu za najdro\u017csze rany; * i\u017c, by nas zbawi\u0107, lej\u0105c krew obficie, * da\u0142 za nas \u017cycie!",
+                        "10. Zacny Nikodem wraz z J\u00f3zefem \u015bmia\u0142o * zanie\u015bli pro\u015bb\u0119 o Jezusa cia\u0142o; * dozwala Pi\u0142at, pe\u0142ni\u0105 si\u0119 bez zw\u0142oki * Bo\u017ce wyroki.",
+                        "11. W wieczornej porze, nie trac\u0105c ni chwili, * ostro\u017cnie z krzy\u017ca Jezusa z\u0142o\u017cyli; * Matuchna Jego cia\u0142o piastowa\u0142a, * rzewnie p\u0142aka\u0142a.",
+                        "12. Wnet prze\u015bcierad\u0142o us\u0142awszy na ziemi, * uczcili cia\u0142o balsamy drogimi; * w \u015bwie\u017co kowanym grobie po\u0142o\u017cyli, * p\u0142acz uczynili.",
+                        "13. P\u0142aczmy i my te\u017c, wierni, chrze\u015bcijanie, * dzi\u0119kuj\u0105c Panu za najdro\u017csze rany; * i\u017c, by nas zbawi\u0107, lej\u0105c krew obficie, * da\u0142 za nas \u017cycie!",
                         ""
                     ]
                 },
                 {
                     "title": "Kt\u00f3ry\u015b za nas cierpia\u0142 rany",
                     "lyrics": [
-                        "1. Kt\u00f3ry\u015b za nas cierpia\u0142 rany, * Jezu Chryste, zmi\u0142uj si\u0119 nad nami! (",
-                        "2. x)",
+                        "Kt\u00f3ry\u015b za nas cierpia\u0142 rany, * Jezu Chryste, zmi\u0142uj si\u0119 nad nami!",
+                        ""
+                    ]
+                },
+                {
+                    "title": "I Ty, któraś współcierpiała",
+                    "lyrics": [
+                        "I Ty, któraś współcierpiała, * Matko Bolesna, przyczyń się za nami!",
                         ""
                     ]
                 },
@@ -9577,11 +9800,11 @@
                         "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.",
                         "9. \u201ePoucz\u0119 ciebie i wska\u017c\u0119 jak\u0105 masz i\u015b\u0107 drog\u0105, * podam ci rady, kieruj\u0105c na ci\u0119 swe oczy.",
                         "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.",
-                        "10. . Nie b\u0105d\u017a\u017ce tedy niby ko\u0144 lub mu\u0142 nierozumny; * w\u0119dzid\u0142em i uzd\u0105 w biegu kie\u0142zna\u0107 je trzeba, inaczej nie s\u0105 ci powolne!\u201d",
+                        "1.0. Nie b\u0105d\u017a\u017ce tedy niby ko\u0144 lub mu\u0142 nierozumny; * w\u0119dzid\u0142em i uzd\u0105 w biegu kie\u0142zna\u0107 je trzeba, inaczej nie s\u0105 ci powolne!\u201d",
                         "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.",
-                        "11. . Rozliczne ch\u0142osty gn\u0119bi\u0105 bezbo\u017cnika, * a ufaj\u0105cych Panu os\u0142ania \u0142askawo\u015b\u0107.",
+                        "1.1. Rozliczne ch\u0142osty gn\u0119bi\u0105 bezbo\u017cnika, * a ufaj\u0105cych Panu os\u0142ania \u0142askawo\u015b\u0107.",
                         "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.",
-                        "12. . Weselcie si\u0119 w Panu i radujcie, sprawiedliwi; * \u015bpiewajcie weso\u0142o, wszyscy prawego serca.",
+                        "1.2. Weselcie si\u0119 w Panu i radujcie, sprawiedliwi; * \u015bpiewajcie weso\u0142o, wszyscy prawego serca.",
                         "Refren: B\u0142ogos\u0142awiony, komu odpuszczone s\u0105 winy * i komu darowano nieprawo\u015bci.",
                         ""
                     ]
@@ -9702,18 +9925,56 @@
                     "title": "Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca",
                     "lyrics": [
                         "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.",
-                        "1. Ku Tobie, Bo\u017ce, wznosz\u0119 dusz\u0119 moj\u0105, * Tobie ja ufam, niech nie doznam wstydu.",
+                        "1. Ku Tobie, Bo\u017ce, wznosz\u0119 dusz\u0119 moj\u0105, * Tobie ja ufam, niech nie doznam wstydu. * Na n\u0119dz\u0119 moj\u0105 i na trud m\u00f3j popatrz * i racz odpu\u015bci\u0107 wszystkie grzechy moje.",
                         "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.",
-                        "2. Na n\u0119dz\u0119 moj\u0105 i na trud m\u00f3j popatrz * i racz odpu\u015bci\u0107 wszystkie grzechy moje.",
+                        "2. Nie wstrzymuj Twoich wzgl\u0119dem mnie zmi\u0142owa\u0144, * Twa \u0142aska i wierno\u015b\u0107 niech mnie zawsze strzeg\u0105. * Zmi\u0142uj si\u0119, Bo\u017ce, w mi\u0142osierdziu swoim, * w wielkiej lito\u015bci zg\u0142ad\u017a nieprawo\u015b\u0107 moj\u0105.",
                         "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.",
-                        "3. Nie wstrzymuj Twoich wzgl\u0119dem mnie zmi\u0142owa\u0144, * Twa \u0142aska i wierno\u015b\u0107 niech mnie zawsze strzeg\u0105.",
+                        "3. Do Ciebie, Panie, \u015bl\u0119 modlitw\u0119 moj\u0105, * us\u0142ysz mnie wed\u0142ug wielkiej Twej dobroci. * Przywr\u00f3\u0107 mi rado\u015b\u0107 Twojego zbawienia, * usta me b\u0119d\u0105 g\u0142osi\u0107 Twoj\u0105 chwa\u0142\u0119.",
                         "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.",
-                        "4. Zmi\u0142uj si\u0119, Bo\u017ce, w mi\u0142osierdziu swoim, * w wielkiej lito\u015bci zg\u0142ad\u017a nieprawo\u015b\u0107 moj\u0105.",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.",
-                        "5. Do Ciebie, Panie, \u015bl\u0119 modlitw\u0119 moj\u0105, * us\u0142ysz mnie wed\u0142ug wielkiej Twej dobroci.",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.",
-                        "6. Przywr\u00f3\u0107 mi rado\u015b\u0107 Twojego zbawienia, * usta me b\u0119d\u0105 g\u0142osi\u0107 Twoj\u0105 chwa\u0142\u0119.",
-                        "Refren: Wstan\u0119 i p\u00f3jd\u0119 do mojego Ojca.",
+                        ""
+                    ]
+                },
+                {
+                    "title": "Z głębi mojego serca",
+                    "lyrics": [
+                        "1. Z głębi mojego serca głos wydany, * woła o litość do Pana nad pany: * natęż słuch, Panie, nachyl do mnie ucha * na głos mój, który ma wydaje skrucha.",
+                        "2. Jeśli uważać będziesz nieprawości, * któż to wytrzyma, Panie? Któż bez złości? * Ja widząc, że Bóg, Pan nasz, jest łaskawy, * chcę z serca Jego zachować ustawy.",
+                        "3. Pańskiemu słowu ufa moja dusza, * że grzech odpuści, gdy się serce skrusza. * Pan na mnie wejrzeć z wysokości raczy, * gdy skruchę moją, moje łzy zobaczy.",
+                        "4. Izrael ufa od świtu do nocy, * że mu udzieli z niebios Pan pomocy; * bo litość Boża cały świat przenika: * Bóg nigdy nie chce zguby dla grzesznika.",
+                        "5. Ma Bóg niezmierny skarb na odkupienie, * byle nas skruszył żal za przewinienie; * że z grzechów wszystkich, choć wielkich i wielu, * Bóg cię odkupi, ufaj, Izraelu.",
+                        ""
+                    ]
+                },
+                {
+                    "title": "Zmiłuj się, Boże",
+                    "lyrics": [
+                        "1. Zmiłuj się, Boże, zmiłuj nad grzesznikiem, * co w swej dobroci nie pogardzasz nikim, * w Tobie ja samym, w Tobie mam ufanie * według Twojego miłosierdzia, Panie.",
+                        "2. I według mnóstwa boskich Twych litości * racz zgładzić, Panie, moje nieprawości; * o więcej żebrzę: okaż łaskę swoją, * oczyść mnie z grzechów, wymaż zbrodnię moją.",
+                        "3. Już serce moje, smutkiem napełnione, * łzami obmywa grzechy popełnione, * zbrodnie okropne, co mnie pokrywają, * wszędzie są ze mną, wszędzie mnie ścigają.",
+                        "4. Przeciwko Tobie nędznie zawiniłem * i Ciebie, Boga, ciężko obraziłem; * Tyś jest w wyrokach, Panie, sprawiedliwy, * w karaniu jednak bardzo litościwy.",
+                        "5. Już w mym poczęciu, nim się narodziłem, * wiem o tym dobrze, że grzesznikiem byłem; * Tyś mnie nauczył w Twej dobroci świętej, * jak mam mądrości szukać niepojętej.",
+                        "6. Skrop mnie hyzopem, Panie dobroczynny, * i obmyj duszę, abym był niewinny, * abym aniołom równy w niewinności * nad same śniegi bielszy był w czystości.",
+                        ""
+                    ]
+                },
+                {
+                    "title": "Wejrzyj na nas",
+                    "lyrics": [
+                        "Antyfona: Wejrzyj na nas, przebacz nam grzechy, * obdarz nas, Panie, Twoim miłosierdziem!",
+                        "1. Syn Najwyższego zechciał przyjść na ziemię, * by nas wyzwolić z mocy złego ducha, * i nas wprowadzić do Królestwa Ojca.",
+                        "Antyfona: Wejrzyj na nas, przebacz nam grzechy, * obdarz nas, Panie, Twoim miłosierdziem!",
+                        "2. Odmieńmy serca, Królestwo już bliskie, * nawróćmy się wszyscy, przez czyn pokuty, * stańmy się ludem, miłym swemu Panu.",
+                        "Antyfona: Wejrzyj na nas, przebacz nam grzechy, * obdarz nas, Panie, Twoim miłosierdziem!",
+                        "3. Oto głos Pana: Zmieńcie swoje życie, * szukajcie dobra, a zła unikajcie. * I czyńcie wszędzie pokój dzieci Bożych",
+                        "Antyfona: Wejrzyj na nas, przebacz nam grzechy, * obdarz nas, Panie, Twoim miłosierdziem!",
+                        "4. Pan nas odnalazł, jak zgubione owce. * I nowym życie we Chrzcie nas obdarzył. * Moc Jego Ducha, wzmacnia naszą wiarę.",
+                        "Antyfona: Wejrzyj na nas, przebacz nam grzechy, * obdarz nas, Panie, Twoim miłosierdziem!",
+                        "5. Jesteśmy posłani, jak uczniowie Pana, * by dotrzeć do wszystkich i umacniać braci. * Nową nadzieję głosić całej ziemi.",
+                        "Antyfona: Wejrzyj na nas, przebacz nam grzechy, * obdarz nas, Panie, Twoim miłosierdziem!",
+                        "6. Czyńcie dobrze wszystkim, pomóc uciśnionym, * wprowadzać pokój, bliźnich swych miłować. * Oto post miły, dla naszego Pana.",
+                        "Antyfona: Wejrzyj na nas, przebacz nam grzechy, * obdarz nas, Panie, Twoim miłosierdziem!",
+                        "7. Byliśmy sługami, staliśmy się dziećmi. * Niegdyś niewolnicy, teraz przyjaciele. * Przy stole Ojca, trwajmy z nim w radości.",
+                        "Antyfona: Wejrzyj na nas, przebacz nam grzechy, * obdarz nas, Panie, Twoim miłosierdziem!",
                         ""
                     ]
                 },
