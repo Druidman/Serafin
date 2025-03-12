@@ -26,7 +26,6 @@ module.exports = {
     ConnectDatabase,
     getSongsPreview,
     getSongsByPrefix,
-    getSongsFullById,
     getSongFullById,
     getSongCategories,
     updateSongById,
