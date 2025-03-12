@@ -8,7 +8,6 @@ async function getSongsPreview(event,categoryName,db){
 async function getSongsByPrefix(event,prefix,categoryName,db){
     event.returnValue = await songs.getByPrefix(prefix,categoryName,db)
 }
-
 async function getSongFullById(event,id,db){
     event.returnValue = await songs.getFullById(id,db)
     

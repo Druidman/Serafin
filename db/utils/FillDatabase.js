@@ -47,7 +47,7 @@ async function FillDbRow(title,category,chorus,lyrics,db){
 
 async function FillWithData(db){
 
-    const DataFilePath = path.join(__dirname,"../data/songsData.json")
+    const DataFilePath = path.join(__dirname,"../data/songsDataNew.json")
     const DataFile = fs.readFileSync(DataFilePath,'utf-8')
 
     var data = JSON.parse(DataFile)["data"]
