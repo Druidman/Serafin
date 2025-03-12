@@ -16,11 +16,7 @@ function setupIpcHandlers(db){
         database.getSongsByPrefix(Event,prefix,categoryName,db)
         console.debug("getSongsByPrefix: IPC")
     })
-    ipcMain.on("getSongsFullById",(Event,ids)=>{
-        database.getSongsFullById(Event,ids,db)
-        console.debug("getSongsFullById: IPC")
-        
-    })
+
     ipcMain.on("getSongFullById", (Event,id)=>{
         database.getSongFullById(Event,id,db)
         console.debug("getSongFullById: IPC")
