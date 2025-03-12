@@ -126,8 +126,14 @@ async function updateById(id,values,db){
 
 async function createSong(values,db){
     return new Promise((resolve,reject)=>{
-        db.run("INSERT INTO songs(title,lyrics,category) VALUES (?,?,?)",
-            [String(values["title"]),JSON.stringify(values["lyrics"]),String(values["category"])],
+        db.run(
+            "INSERT INTO songs(title,category,chorus,lyrics) VALUES (?,?,?,?)",
+            [
+                String(values["title"]),
+                String(values["category"]),
+                String(values["chorus"]),
+                JSON.stringify(values["lyrics"])
+            ],
         (err)=>{
             if (err){
                 console.debug("Error occured while creating record in songs table: ", err)
