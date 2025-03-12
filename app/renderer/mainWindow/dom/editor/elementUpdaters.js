@@ -15,14 +15,16 @@ function setEditorControls(){
     }
 }
 function resetEditor(){
-    document.getElementById("textEditingArea").innerHTML = ""
+    document.getElementById("lyricsEditingArea").innerHTML = ""
+    document.getElementById("chorusEditingArea").innerHTML = ""
     document.getElementById("category").setAttribute("value","")
     document.getElementById("idInput").setAttribute("value","")
     document.getElementById("title").setAttribute("value","")
     console.log("reseted")
 }
 function loadEditElement(editElement){
-    var textEditor = document.getElementById("textEditingArea")
+    var lyricsEditor = document.getElementById("lyricsEditingArea")
+    var chorusEditor = document.getElementById("chorusEditingArea")
     var categorySelect = document.getElementById("category")
     var idInput = document.getElementById("idInput")
     var titleInput = document.getElementById("title")
@@ -39,9 +41,10 @@ function loadEditElement(editElement){
     }
   
     
-    var lyrics = getSongFullById(editElement.id)
-    addEditableText(lyrics)
-    textEditor.setAttribute("data-zwrotki",lyrics.length)
+    var songContent = getSongFullById(editElement.id)
+    addEditableText(JSON.parse(songContent.lyrics),lyricsEditor)
+    addEditableText(songContent.chorus,chorusEditor)
+    
 }
 
 

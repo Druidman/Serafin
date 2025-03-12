@@ -26,7 +26,9 @@ function updatePlayView(song){
         if (!verse){
             addedEmpty = true
         }
-        playview.appendChild(chorusElement.cloneNode(true))
+        if (song.chorus){
+            playview.appendChild(chorusElement.cloneNode(true))
+        }   
         var verseElement = construct_verse(verse)
         playview.appendChild(verseElement)
     }

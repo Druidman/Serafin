@@ -3,9 +3,10 @@ import { switchToIndex } from "../shared/viewModifiers.js"
 import { addEditableText, elementWarning, succesfulSummary, failedSummary } from "./utils.js"
 
 
-const textRegex = /<Z>|<R>/
+const textRegex = /<Z>/
 function editorSaveButton_click_event(event){
-    var editedText = document.getElementById("textEditingArea").textContent
+    var editedText = document.getElementById("lyricsEditingArea").textContent
+    var chorus = document.getElementById("chorusEditingArea").textContent
     
     var verses = editedText.split(textRegex).filter(Boolean)
 
@@ -34,7 +35,8 @@ function editorSaveButton_click_event(event){
     const values = {
         "title": title.value,
         "category": category.value,
-        "lyrics": verses
+        "lyrics": verses,
+        "chorus": chorus
     }
     var result = updateSongById(idValue,values)
     
@@ -46,9 +48,12 @@ function editorSaveButton_click_event(event){
     }
 }
 function editorCreateButton_click_event(event){
-    var editedText = document.getElementById("textEditingArea").textContent
+    var editedLyrics = document.getElementById("lyricsEditingArea").textContent
+    var chorus = document.getElementById("chorusEditingArea").textContent
     
-    var verses = editedText.split(textRegex).filter(Boolean)
+    var verses = editedLyrics.split(textRegex).filter(Boolean)
+
+
 
 
 
@@ -73,7 +78,8 @@ function editorCreateButton_click_event(event){
     const values = {
         "title": title.value,
         "category": category.value,
-        "lyrics": verses
+        "lyrics": verses,
+        "chorus": chorus
     }
     var result = createSong(values)
     
@@ -128,15 +134,10 @@ function handleRedoButtonClickEvent(event){
 }
 
 function handleZwrotkaTextAddButtonEvent(event){
-    let textEditArea = document.getElementById("textEditingArea")
+    let textEditArea = document.getElementById("lyricsEditingArea")
     textEditArea.innerHTML += '<br><br>'
     textEditArea.innerText += `<Z>`
 }   
-function handleRefrenTextAddButtonEvent(event){
-    var textEditArea = document.getElementById("textEditingArea")
-    textEditArea.innerHTML += '<br><br>'
-    textEditArea.innerText += "<R>"
-}
 
 
 
@@ -148,9 +149,8 @@ document.getElementById("jsonFileLoadButton").addEventListener("click",handleJso
 document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
 document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
 document.getElementById("addZwrotka").addEventListener("click",handleZwrotkaTextAddButtonEvent)
-document.getElementById("addRefren").addEventListener("click",handleRefrenTextAddButtonEvent)
 
-document.getElementById("textEditingArea").addEventListener("paste", function(e) {
+document.getElementById("lyricsEditingArea").addEventListener("paste", function(e) {
     // cancel paste
     e.preventDefault();
 

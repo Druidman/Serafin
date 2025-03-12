@@ -1,23 +1,21 @@
-function addEditableText(lyrics){
-    var textEditor = document.getElementById("textEditingArea")
-    if (!lyrics){
+function addEditableText(text,element){
+    if (!text){
+        return ""
+
+    }
+    if (element.id == "chorusEditingArea"){
+        element.innerHTML += text
         return ""
     }
  
-    for (var verse of lyrics){
+    for (var verse of text){
         if (!verse){
             continue
         }
-        if (verse.includes("Refren:") || verse.includes("Ref:")){
-            var addon = "<R>"
-        }
-        else {
-         
-            var addon = `<Z>`
-        }
-        textEditor.innerHTML += '<br><br>'
-        textEditor.innerText += addon
-        textEditor.innerHTML += `<br>${verse.replaceAll("\n","<br>")}`
+  
+        element.innerHTML += '<br><br>'
+        element.innerText += `<Z>`
+        element.innerHTML += `<br>${verse.replaceAll("\n","<br>")}`
         
     }
 }

@@ -113,21 +113,67 @@ section#editSection {
 .addTextButton:hover {
     background-color: white;
 }
+#textEditingBox{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    /* background-color: #bdb8bf; */
+}
 
 
-
-#textEditingArea {
-    user-select: all;
-    height: 95%;
+#lyricsSection {
+    height: 80%;
     width: 100%;
-    padding: 10px;
+    display: flex;
+
+    flex-direction: column;
+  
+}
+#lyricsSection p{
+    width: 100%;
+    text-align: center;
+}
+#chorusSection {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+  
+    flex-direction: column;
+}
+
+#chorusSection p{
+    width: 100%;
+    text-align: center;
+}
+
+
+#chorusEditingArea {
+    user-select: all;
+    height: 90%;
+    width: 100%;
     font-size: xx-large;
     overflow: scroll;
     display: flex;
     flex-direction: column;
     cursor: text;
 }
-#textEditingArea::-webkit-scrollbar {
+#chorusEditingArea::-webkit-scrollbar {
+    display: none;
+}
+
+
+#lyricsEditingArea {
+    user-select: all;
+    height: 90%;
+    width: 100%;
+    font-size: xx-large;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    cursor: text;
+}
+#lyricsEditingArea::-webkit-scrollbar {
     display: none;
 }
 
