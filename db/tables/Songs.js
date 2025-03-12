@@ -61,31 +61,23 @@ async function getByPrefix(prefix,categoryName,db){
     })
 }
 
-async function getFullById(ids,db){
-    var songs = []
-    for (id of ids){
-        var result_row = await new Promise((resolve,reject)=>{
-            db.get("SELECT lyrics FROM songs WHERE id=?",[id],(err,row)=>{
-                if (err){
-                    console.log("Error occured while getting lyrics from id",id," : ",err.message)
-                    reject(err)
-                }
-                else{
-                    row = JSON.parse(row.lyrics)
-                    resolve(row)
+async function getFullById(id,db){
+    
+    return await new Promise((resolve,reject)=>{
+        db.get("SELECT chorus,lyrics FROM songs WHERE id=?",[id],(err,row)=>{
+            if (err){
+                console.log("Error occured while getting lyrics and chorus from id",id," : ",err.message)
+                reject(err)
+            }
+            else{
+                resolve(row)
 
-                    
-                   
-                
-                }
-
-            })
+            }
 
         })
-        songs.push(result_row)
-    }
-    
-    return songs
+
+    })
+        
 }
 
 async function getCategories(db){
@@ -108,8 +100,14 @@ async function updateById(id,values,db){
     
         
         db.run(
-            `UPDATE songs SET title=?,  category=?, lyrics=?  WHERE id=?`,
-            [String(values["title"]),String(values["category"]),JSON.stringify(values["lyrics"]),id],
+            `UPDATE songs SET title=?, category=?, chorus=?, lyrics=?  WHERE id=?`,
+            [
+                String(values["title"]),
+                String(values["category"]),
+                String(values["chorus"]),
+                JSON.stringify(values["lyrics"]),
+                id
+            ],
             (err)=>{
             if (err){
                 console.debug("Error occured while updating songs table: ", err)
