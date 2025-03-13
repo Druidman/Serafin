@@ -32,6 +32,7 @@ async function FillDbRow(title,category,chorus,lyrics,db){
 
     return await new Promise((resolve,reject) =>{
         lyrics = JSON.stringify(lyrics)
+        chorus = JSON.stringify(chorus)
         fillDbRow.run(title,category,chorus,lyrics, (err)=>{
             if (err){
                 console.log("error while inserting data to db")
@@ -47,7 +48,7 @@ async function FillDbRow(title,category,chorus,lyrics,db){
 
 async function FillWithData(db){
 
-    const DataFilePath = path.join(__dirname,"../data/songsDataNew.json")
+    const DataFilePath = path.join(__dirname,"../data/songsDataNewFiltr.json")
     const DataFile = fs.readFileSync(DataFilePath,'utf-8')
 
     var data = JSON.parse(DataFile)["data"]

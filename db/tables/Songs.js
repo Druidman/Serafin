@@ -104,7 +104,7 @@ async function updateById(id,values,db){
             [
                 String(values["title"]),
                 String(values["category"]),
-                String(values["chorus"]),
+                JSON.stringify(values["chorus"]),
                 JSON.stringify(values["lyrics"]),
                 id
             ],
@@ -129,7 +129,7 @@ async function createSong(values,db){
             [
                 String(values["title"]),
                 String(values["category"]),
-                String(values["chorus"]),
+                JSON.stringify(values["chorus"]),
                 JSON.stringify(values["lyrics"])
             ],
         (err)=>{

@@ -1,14 +1,17 @@
-function addEditableText(text,element){
+function addEditableText(text){
+    var element = document.getElementById("textEditingArea")
     if (!text){
         return ""
 
     }
-    if (element.id == "chorusEditingArea"){
-        element.innerHTML += text
-        return ""
-    }
- 
-    for (var verse of text){
+    var chorus = text.chorus
+    var lyrics = text.lyrics
+    var ind = 0 
+    var chorusText = ""
+    for (var verse of lyrics){
+        if (ind in chorus){
+            chorusText = chorus[String(ind)]
+        }
         if (!verse){
             continue
         }
@@ -16,6 +19,12 @@ function addEditableText(text,element){
         element.innerHTML += '<br><br>'
         element.innerText += `<Z>`
         element.innerHTML += `<br>${verse.replaceAll("\n","<br>")}`
+        if (chorusText != ""){
+            element.innerHTML += '<br>'
+            element.innerText += `<R>`
+            element.innerHTML += `<br>${chorusText}`
+        }
+        
         
     }
 }

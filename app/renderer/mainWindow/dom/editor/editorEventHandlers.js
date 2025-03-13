@@ -3,12 +3,68 @@ import { switchToIndex } from "../shared/viewModifiers.js"
 import { addEditableText, elementWarning, succesfulSummary, failedSummary } from "./utils.js"
 
 
-const textRegex = /<Z>/
+const textRegex = /<Z>|<R>/
 function editorSaveButton_click_event(event){
-    var editedText = document.getElementById("lyricsEditingArea").textContent
-    var chorus = document.getElementById("chorusEditingArea").textContent
+    var editedText = document.getElementById("textEditingArea").textContent + " "
+
+    var chorus = {}
+    var lyrics = []
+
+    var startInd =0
+    var endInd =0
+
     
-    var verses = editedText.split(textRegex).filter(Boolean)
+
+    while ( endInd != -1){
+    
+        var ind1 = editedText.indexOf("<Z>")
+        var ind2 = editedText.indexOf("<R>")
+        if (ind1 == -1 && ind2 == -1){
+            break
+        }
+
+        if (ind2 == -1){
+            startInd = ind1
+        }
+        else if (ind1 == -1){
+            startInd == ind2
+        }
+        else {
+            startInd = Math.min(ind1,ind2)
+        }
+
+        ind1 = editedText.indexOf("<Z>",startInd + 1 )
+        ind2 = editedText.indexOf("<R>",startInd + 1 )
+        if (ind1 == -1 && ind2 == -1){
+            endInd = editedText.length
+        }
+    
+        if (ind2 == -1){
+            endInd = ind1
+        }
+        else if (ind1 == -1){
+            endInd = ind2
+        }
+        else {
+            endInd = Math.min(ind1,ind2)
+        }
+
+
+        var text = editedText.slice(startInd, endInd)
+        console.log(text)
+        editedText = editedText.slice(endInd)
+
+        switch (text.slice(0,3)){
+            case "<Z>":
+                lyrics.push(text.slice(3))
+                break
+            case "<R>":
+                chorus[String(lyrics.length - 1)] = text.slice(3)
+                break
+        }
+
+    }
+    
 
 
     var idValue = document.getElementById("idInput").getAttribute("value")
@@ -35,7 +91,7 @@ function editorSaveButton_click_event(event){
     const values = {
         "title": title.value,
         "category": category.value,
-        "lyrics": verses,
+        "lyrics": lyrics,
         "chorus": chorus
     }
     var result = updateSongById(idValue,values)
@@ -150,7 +206,7 @@ document.getElementById("undoButton").addEventListener("click",handleUndoButtonC
 document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
 document.getElementById("addZwrotka").addEventListener("click",handleZwrotkaTextAddButtonEvent)
 
-document.getElementById("lyricsEditingArea").addEventListener("paste", function(e) {
+document.getElementById("textEditingArea").addEventListener("paste", function(e) {
     // cancel paste
     e.preventDefault();
 
