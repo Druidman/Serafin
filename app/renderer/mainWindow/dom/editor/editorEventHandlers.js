@@ -112,13 +112,13 @@ function handleRedoButtonClickEvent(event){
 function handleRefrenTextAddButtonEvent(event){
     let textEditArea = document.getElementById("textEditingArea")
     textEditArea.innerHTML += '<br>'
-    textEditArea.innerText += `<R>`
+    textEditArea.textContent += `<R>`
 }   
 
 function handleZwrotkaTextAddButtonEvent(event){
     let textEditArea = document.getElementById("textEditingArea")
     textEditArea.innerHTML += '<br>'
-    textEditArea.innerText += `<Z>`
+    textEditArea.textContent += `<Z>`
 }   
 
 

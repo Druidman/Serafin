@@ -9,12 +9,12 @@ import {
 
 
 function updatePlayView(song){
-    console.log(song.chorus)
+
     song = {
         "chorus": JSON.parse(song.chorus), 
         "lyrics": JSON.parse(song.lyrics)
     }
-    console.log(song)
+
     var playview = document.getElementById("playView")
     playview.innerHTML = ""
     playview.scrollTop = 0
@@ -24,22 +24,27 @@ function updatePlayView(song){
     }
 
     var ind = 0
-    var chorusMainText = song.chorus["main"]
+    console.log(song.chorus)
+    var mainIndex = Object.keys(song.chorus)[0]
+    var chorusMainText = song.chorus[mainIndex]
+    console.log(chorusMainText)
+    song.lyrics.push(" ") // w celu space takera
     for (var verse of song.lyrics){
-        if (String(ind - 1  ) in song.chorus){
-            let chorusText = song.chorus[String(ind - 1)]
-            var chorusElement = construct_verse(chorusText)
-            playview.appendChild(chorusElement)
+        if (String(ind) in song.chorus && song.chorus[String(ind)] != ""){
+            var chorusElement = construct_verse(song.chorus[String(ind)])
+            playview.appendChild(chorusElement)    
         }
-        else if (chorusMainText != ""){
+        else if (chorusMainText && ind >= mainIndex){
             var chorusElement = construct_verse(chorusMainText)
-            playview.appendChild(chorusElement)
-        }   
-
-        var verseElement = construct_verse(verse)
-        playview.appendChild(verseElement)
-        ind++
+            playview.appendChild(chorusElement)    
+        }
+        if (verse){
+            var verseElement = construct_verse(verse)
+            playview.appendChild(verseElement)
+            ind++
+        }
     }
+
 
     playview.getElementsByClassName("verseBox")[0].classList.add("currentVerse")
 

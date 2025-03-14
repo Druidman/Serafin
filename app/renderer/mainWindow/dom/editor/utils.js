@@ -7,23 +7,18 @@ function addEditableText(text){
     var chorus = text.chorus
     var lyrics = text.lyrics
     var ind = 0 
-    var chorusText = chorus["main"]
-    if (chorusText != ""){
-        element.innerHTML += '<br>'
-        element.innerText += `<R>`
-        element.innerHTML += `<br>${chorusText}`
-    }
+
     for (var verse of lyrics){
         
         if (!verse){
             continue
         }
   
-        if (String(ind - 1) in chorus){
+        if (String(ind) in chorus && chorus[String(ind)] != ""){
        
             element.innerHTML += '<br>'
             element.innerText += `<R>`
-            let singleChorus = chorus[String(ind -1 )]
+            let singleChorus = chorus[String(ind)]
             element.innerHTML += `<br>${singleChorus}`
         }
         element.innerHTML += '<br><br>'
@@ -56,7 +51,7 @@ function failedSummary(button){
 }
 
 function parseEditedSong(editedText){
-    var chorus = {"main": ""}
+    var chorus = {}
     var lyrics = []
     
     var startInd =0
@@ -105,15 +100,15 @@ function parseEditedSong(editedText){
 
         switch (text.slice(0,3)){
             case "<Z>":
-                lyrics.push(text.slice(3))
+                if (text.slice(3) != ""){
+                    lyrics.push(text.slice(3))
+                }
                 break
             case "<R>":
-                if (Object.keys(chorus).length === 1){
-                    chorus["main"] = text.slice(3)
+                if (text.slice(3) == ""){
+                    break
                 }
-                else{
-                    chorus[String(lyrics.length - 1)] = text.slice(3)
-                }
+                chorus[String(lyrics.length)] = text.slice(3)
                 break
                 
         }
