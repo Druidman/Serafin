@@ -18,7 +18,7 @@ function resetEditor(){
     document.getElementById("textEditingArea").innerHTML = ""
     document.getElementById("category").setAttribute("value","")
     document.getElementById("idInput").setAttribute("value","")
-    document.getElementById("title").setAttribute("value","")
+    document.getElementById("title").value = ""
     console.log("reseted")
 }
 function loadEditElement(editElement){
@@ -30,7 +30,7 @@ function loadEditElement(editElement){
     var categoryName = editElement.getAttribute("data-category")
   
     idInput.setAttribute("value",editElement.id)
-    titleInput.setAttribute("value",editElement.textContent)
+    titleInput.value = editElement.textContent
     var categories = categorySelect.getElementsByTagName("option")
     for (var category of categories){
         if (category.value == categoryName){
