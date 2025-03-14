@@ -28,6 +28,7 @@ function updatePlayView(song){
     var mainIndex = Object.keys(song.chorus)[0]
     var chorusMainText = song.chorus[mainIndex]
     console.log(chorusMainText)
+    song.lyrics.push(" ") // w celu space takera
     for (var verse of song.lyrics){
         if (String(ind) in song.chorus && song.chorus[String(ind)] != ""){
             var chorusElement = construct_verse(song.chorus[String(ind)])
@@ -37,11 +38,13 @@ function updatePlayView(song){
             var chorusElement = construct_verse(chorusMainText)
             playview.appendChild(chorusElement)    
         }
-
-        var verseElement = construct_verse(verse)
-        playview.appendChild(verseElement)
-        ind++
+        if (verse){
+            var verseElement = construct_verse(verse)
+            playview.appendChild(verseElement)
+            ind++
+        }
     }
+
 
     playview.getElementsByClassName("verseBox")[0].classList.add("currentVerse")
 
