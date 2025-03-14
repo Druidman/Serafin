@@ -18,13 +18,8 @@ function getSongsPreview(categoryName){
     return data
 }
 
-function getSongsFullById(ids){
-    var songs = window.electronAPI.getSongsFullById(ids)
-    return songs
-}
-
 function getSongFullById(id){
-    var song = window.electronAPI.getSongFullById(id)[0]
+    var song = window.electronAPI.getSongFullById(id)
 
     return song
 }
@@ -63,7 +58,6 @@ function getAllDisplays(){
 
 export { 
     createSong,
-    getSongsFullById, 
     getSongsPreview, 
     getSongsByPrefix, 
     getSongFullById, 

@@ -27,12 +27,13 @@ async function CheckIfRecordExists(title,category,db){
     })
 }
 
-async function FillDbRow(title,lyrics,category,db){
-    const fillDbRow = db.prepare("INSERT INTO songs(title,lyrics,category) VALUES (?,?,?)")
+async function FillDbRow(title,category,chorus,lyrics,db){
+    const fillDbRow = db.prepare("INSERT INTO songs(title,category,chorus,lyrics) VALUES (?,?,?,?)")
 
     return await new Promise((resolve,reject) =>{
         lyrics = JSON.stringify(lyrics)
-        fillDbRow.run(title,lyrics,category, (err)=>{
+        chorus = JSON.stringify(chorus)
+        fillDbRow.run(title,category,chorus,lyrics, (err)=>{
             if (err){
                 console.log("error while inserting data to db")
                 reject(err)
@@ -47,7 +48,7 @@ async function FillDbRow(title,lyrics,category,db){
 
 async function FillWithData(db){
 
-    const DataFilePath = path.join(__dirname,"../data/songsData.json")
+    const DataFilePath = path.join(__dirname,"../data/songsDataNewFiltr.json")
     const DataFile = fs.readFileSync(DataFilePath,'utf-8')
 
     var data = JSON.parse(DataFile)["data"]
@@ -60,12 +61,14 @@ async function FillWithData(db){
 
         for (var song of songs){
             var title = song["title"]
+            var chorus = song["chorus"]
             var lyrics = song["lyrics"]
+            
             if (await CheckIfRecordExists(title,category,db)){
                 continue
             }
 
-            await FillDbRow(title,lyrics,category,db)
+            await FillDbRow(title,category,chorus,lyrics,db)
 
         }
     }    

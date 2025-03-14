@@ -22,7 +22,7 @@ function resetEditor(){
     console.log("reseted")
 }
 function loadEditElement(editElement){
-    var textEditor = document.getElementById("textEditingArea")
+
     var categorySelect = document.getElementById("category")
     var idInput = document.getElementById("idInput")
     var titleInput = document.getElementById("title")
@@ -39,9 +39,14 @@ function loadEditElement(editElement){
     }
   
     
-    var lyrics = getSongFullById(editElement.id)
-    addEditableText(lyrics)
-    textEditor.setAttribute("data-zwrotki",lyrics.length)
+    var songContent = getSongFullById(editElement.id)
+    addEditableText({
+        "chorus": JSON.parse(songContent.chorus),
+        "lyrics": JSON.parse(songContent.lyrics)
+
+    })
+
+    
 }
 
 

@@ -9,28 +9,40 @@ import {
 
 
 function updatePlayView(song){
+    console.log(song.chorus)
+    song = {
+        "chorus": JSON.parse(song.chorus), 
+        "lyrics": JSON.parse(song.lyrics)
+    }
+    console.log(song)
     var playview = document.getElementById("playView")
     playview.innerHTML = ""
     playview.scrollTop = 0
-    if (!song[0]){
+
+    if (!song.lyrics[0]){
         return false
     }
-    var firstVerseElement = construct_verse(song[0])
-    firstVerseElement.classList.add("currentVerse")
-    playview.appendChild(firstVerseElement)
 
-    var addedEmpty = false
-    for (var verse of song.slice(1)){
-        if (!verse){
-            addedEmpty = true
+    var ind = 0
+    var chorusMainText = song.chorus["main"]
+    for (var verse of song.lyrics){
+        if (String(ind - 1  ) in song.chorus){
+            let chorusText = song.chorus[String(ind - 1)]
+            var chorusElement = construct_verse(chorusText)
+            playview.appendChild(chorusElement)
         }
+        else if (chorusMainText != ""){
+            var chorusElement = construct_verse(chorusMainText)
+            playview.appendChild(chorusElement)
+        }   
+
         var verseElement = construct_verse(verse)
         playview.appendChild(verseElement)
+        ind++
     }
-    if (!addedEmpty){
-        var emptyVerseElement = construct_verse("")
-        playview.appendChild(emptyVerseElement)
-    }
+
+    playview.getElementsByClassName("verseBox")[0].classList.add("currentVerse")
+
     
     
     var spaceTaker = construct_spaceTaker()
