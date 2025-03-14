@@ -1,76 +1,16 @@
 import { updateSongById, openFileDialog, createSong } from "../shared/ipcHandlers.js"
 import { switchToIndex } from "../shared/viewModifiers.js"
-import { addEditableText, elementWarning, succesfulSummary, failedSummary } from "./utils.js"
+import { addEditableText, elementWarning, succesfulSummary, failedSummary,parseEditedSong } from "./utils.js"
 
-
-const textRegex = /<Z>|<R>/
-function editorSaveButton_click_event(event){
+const generateSavingData = () =>{
     var editedText = document.getElementById("textEditingArea").textContent + " "
 
-    var chorus = {}
-    var lyrics = []
-
-    var startInd =0
-    var endInd =0
-
+    var { chorus, lyrics } = parseEditedSong(editedText)
     
-
-    while ( endInd != -1){
     
-        var ind1 = editedText.indexOf("<Z>")
-        var ind2 = editedText.indexOf("<R>")
-        if (ind1 == -1 && ind2 == -1){
-            break
-        }
-
-        if (ind2 == -1){
-            startInd = ind1
-        }
-        else if (ind1 == -1){
-            startInd == ind2
-        }
-        else {
-            startInd = Math.min(ind1,ind2)
-        }
-
-        ind1 = editedText.indexOf("<Z>",startInd + 1 )
-        ind2 = editedText.indexOf("<R>",startInd + 1 )
-        if (ind1 == -1 && ind2 == -1){
-            endInd = editedText.length
-        }
-    
-        if (ind2 == -1){
-            endInd = ind1
-        }
-        else if (ind1 == -1){
-            endInd = ind2
-        }
-        else {
-            endInd = Math.min(ind1,ind2)
-        }
-
-
-        var text = editedText.slice(startInd, endInd)
-        console.log(text)
-        editedText = editedText.slice(endInd)
-
-        switch (text.slice(0,3)){
-            case "<Z>":
-                lyrics.push(text.slice(3))
-                break
-            case "<R>":
-                chorus[String(lyrics.length - 1)] = text.slice(3)
-                break
-        }
-
-    }
-    
-
-
-    var idValue = document.getElementById("idInput").getAttribute("value")
     var category = document.getElementById("category")
     var title = document.getElementById("title")
-    var button = event.currentTarget
+    
 
 
     if (!category.value){
@@ -83,10 +23,7 @@ function editorSaveButton_click_event(event){
     
         return
     }
-    if (!idValue){
-        failedSummary(button)
-        return
-    }
+    
 
     const values = {
         "title": title.value,
@@ -94,7 +31,22 @@ function editorSaveButton_click_event(event){
         "lyrics": lyrics,
         "chorus": chorus
     }
+
+    return values
+}
+
+function editorSaveButton_click_event(event){
+    var button = event.currentTarget
+    var idValue = document.getElementById("idInput").getAttribute("value")
+    if (!idValue){
+        failedSummary(button)
+        return
+    }
+    
+    const values = generateSavingData()
     var result = updateSongById(idValue,values)
+
+    
     
     if (result === true){
         succesfulSummary(button) 
@@ -104,39 +56,8 @@ function editorSaveButton_click_event(event){
     }
 }
 function editorCreateButton_click_event(event){
-    var editedLyrics = document.getElementById("lyricsEditingArea").textContent
-    var chorus = document.getElementById("chorusEditingArea").textContent
-    
-    var verses = editedLyrics.split(textRegex).filter(Boolean)
-
-
-
-
-
-    var idValue = document.getElementById("idInput").getAttribute("value")
-    var category = document.getElementById("category")
-    var title = document.getElementById("title")
     var button = event.currentTarget
-
-    if (!category.value){
-        elementWarning(category)
-        return
-    }
-    if (!title.value){
-        elementWarning(title)
-        return
-    }
-    if (idValue){
-        failedSummary(button)
-        return
-    }
-
-    const values = {
-        "title": title.value,
-        "category": category.value,
-        "lyrics": verses,
-        "chorus": chorus
-    }
+    const values = generateSavingData()
     var result = createSong(values)
     
     if (result === true){
@@ -188,10 +109,15 @@ function handleRedoButtonClickEvent(event){
     document.execCommand("redo")
     
 }
+function handleRefrenTextAddButtonEvent(event){
+    let textEditArea = document.getElementById("textEditingArea")
+    textEditArea.innerHTML += '<br>'
+    textEditArea.innerText += `<R>`
+}   
 
 function handleZwrotkaTextAddButtonEvent(event){
-    let textEditArea = document.getElementById("lyricsEditingArea")
-    textEditArea.innerHTML += '<br><br>'
+    let textEditArea = document.getElementById("textEditingArea")
+    textEditArea.innerHTML += '<br>'
     textEditArea.innerText += `<Z>`
 }   
 
@@ -205,6 +131,7 @@ document.getElementById("jsonFileLoadButton").addEventListener("click",handleJso
 document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
 document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
 document.getElementById("addZwrotka").addEventListener("click",handleZwrotkaTextAddButtonEvent)
+document.getElementById("addRefren").addEventListener("click",handleRefrenTextAddButtonEvent)
 
 document.getElementById("textEditingArea").addEventListener("paste", function(e) {
     // cancel paste

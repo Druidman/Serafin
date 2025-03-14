@@ -9,31 +9,33 @@ import {
 
 
 function updatePlayView(song){
+    console.log(song.chorus)
     song = {
         "chorus": JSON.parse(song.chorus), 
         "lyrics": JSON.parse(song.lyrics)
     }
+    console.log(song)
     var playview = document.getElementById("playView")
     playview.innerHTML = ""
     playview.scrollTop = 0
+
     if (!song.lyrics[0]){
         return false
     }
-    var firstVerseElement = construct_verse(song.lyrics[0])
-    firstVerseElement.classList.add("currentVerse")
-    playview.appendChild(firstVerseElement)
-
 
     var ind = 0
-    var chorusText = None
-    for (var verse of song.lyrics.slice(1)){
-        if (String(ind) in song.chorus){
-            chorusText = song.chorus[String(ind)]
-            chorusElement = construct_verse(chorusText)
+    var chorusMainText = song.chorus["main"]
+    for (var verse of song.lyrics){
+        if (String(ind - 1  ) in song.chorus){
+            let chorusText = song.chorus[String(ind - 1)]
+            var chorusElement = construct_verse(chorusText)
+            playview.appendChild(chorusElement)
         }
-        if (chorusText !== ""){
-            playview.appendChild(chorusElement.cloneNode(true))
+        else if (chorusMainText != ""){
+            var chorusElement = construct_verse(chorusMainText)
+            playview.appendChild(chorusElement)
         }   
+
         var verseElement = construct_verse(verse)
         playview.appendChild(verseElement)
         ind++
