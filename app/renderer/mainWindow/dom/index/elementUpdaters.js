@@ -41,6 +41,8 @@ function updatePlayView(song){
         ind++
     }
 
+    playview.getElementsByClassName("verseBox")[0].classList.add("currentVerse")
+
     
     
     var spaceTaker = construct_spaceTaker()
