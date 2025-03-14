@@ -37,7 +37,7 @@ async function getByPrefix(prefix,categoryName,db){
     return await new Promise((resolve,reject)=>{
         prefix = prefix.replace(",","")
         if (categoryName == "wszystko"){
-            db.all("SELECT title,id,category FROM songs WHERE UPPER(REPLACE(title,',','')) LIKE UPPER(?) ORDER BY title ASC",[prefix + "%"],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE UPPER(REPLACE(title,',','')) LIKE UPPER(?) ORDER BY title ASC",["%" + prefix + "%"],(err,rows)=>{
                 if (err) {
                     console.error(err.message)
                     reject(err)
@@ -48,7 +48,7 @@ async function getByPrefix(prefix,categoryName,db){
             })
         }
         else{
-            db.all("SELECT title,id,category FROM songs WHERE UPPER(REPLACE(title,',','')) LIKE UPPER(?) AND category=? ORDER BY title ASC",[prefix + "%",categoryName],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE UPPER(REPLACE(title,',','')) LIKE UPPER(?) AND category=? ORDER BY title ASC",["%" + prefix + "%",categoryName],(err,rows)=>{
                 if (err) {
                     console.error(err.message)
                     reject(err)
