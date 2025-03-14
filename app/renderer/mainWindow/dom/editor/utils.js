@@ -105,9 +105,16 @@ function parseEditedSong(editedText){
 
         switch (text.slice(0,3)){
             case "<Z>":
-                lyrics.push(text.slice(3))
+                if (text.slice(3) != ""){
+                    lyrics.push(text.slice(3))
+                }
+                
+
                 break
             case "<R>":
+                if (text.slice(3) == ""){
+                    break
+                }
                 if (Object.keys(chorus).length === 1){
                     chorus["main"] = text.slice(3)
                 }
