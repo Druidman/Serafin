@@ -4,7 +4,11 @@ import { handleKeyPressEvent } from "../index/indexEventHandlers.js"
 import { loadEditElement, resetEditor, setEditorControls } from "../editor/elementUpdaters.js"
 
 
-
+async function movePlaylistRecord(playlistRecord){
+    return new Promise((resolve, reject)=>{
+        
+    })
+}
 
 function scrollPlayView(){
     var currVerse = document.getElementsByClassName("currentVerse")[0]
@@ -49,5 +53,6 @@ export{
     scrollPlayView,
     switchToEditor,
     switchToIndex,
+    movePlaylistRecord
     
 }

@@ -1,10 +1,9 @@
 import {
-    add_playlistRecord_click_event,
-    add_playlistRecord_button_click_event,
-    add_db_record_button_click_event,
-    add_verseBox_click_event,
-    add_categoryRecord_click_event,
-    add_editor_button_click_event
+    add_categoryRecord_events,
+    add_playlistRecord_events,
+    add_dbRecord_events,
+    add_verseBox_events
+
 } from "./indexEventHandlers.js"
 
 function construct_verse(verse) {
@@ -15,7 +14,8 @@ function construct_verse(verse) {
     p_tag.innerText = verse
 
     box.appendChild(p_tag)
-    add_verseBox_click_event(box)
+    
+    add_verseBox_events(box)
     return box
 }
 
@@ -53,15 +53,13 @@ function construct_db_record(element) {
     editorButton.classList.add("dbRecordEditorButton")
     editorButton.classList.add("dbRecordButton")
 
-    add_editor_button_click_event(editorButton)
-    add_db_record_button_click_event(dbButton)
-
     buttonHolder.appendChild(dbButton)
     buttonHolder.appendChild(editorButton)
 
     dbRecord.appendChild(title_p)
     dbRecord.appendChild(buttonHolder)
 
+    add_dbRecord_events(dbRecord)
 
     return dbRecord
 }
@@ -77,7 +75,8 @@ function construct_category_record(element) {
     title_p.textContent = element["category"].toUpperCase()
 
     categoryRecord.appendChild(title_p)
-    add_categoryRecord_click_event(categoryRecord)
+
+    add_categoryRecord_events(categoryRecord)
 
     return categoryRecord
 }
@@ -131,15 +130,14 @@ function construct_playlist_record(dbRecord) {
     playlistRecordButton.classList.add("playlistRecordButton")
 
 
-    add_editor_button_click_event(editorButton)
-    add_playlistRecord_button_click_event(playlistRecordButton)
-
     buttonHolder.appendChild(editorButton)
     buttonHolder.appendChild(playlistRecordButton)
     playlistRecord.append(textHolder)
     playlistRecord.append(buttonHolder)
 
-    add_playlistRecord_click_event(playlistRecord)
+    playlistRecord.setAttribute("draggable","true")
+
+    add_playlistRecord_events(playlistRecord)
 
     return playlistRecord
 
