@@ -27,13 +27,27 @@ body{
     height: 100vh;
     width: 100vw;
 }
-.sortable-ghost {
+/* .sortable-ghost {
     border: 3px solid black;
     opacity: 1 !important;
 }
 .sortable-chosen {
     
     visibility: hidden;
+} */
+
+.sortable-ghost {
+    opacity: 0.5; /* Przezroczystość elementu ghost */
+    background-color: #f0f0f0; /* Kolor tła elementu ghost */
+    border: 1px dashed #ccc; /* Styl obramowania elementu ghost */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Dodaj cień do elementu ghost */
+    transition: opacity 0.2s ease, transform 0.2s ease; /* Dodaj płynne przejścia */
+}
+
+.sortable-chosen {
+    background-color: white; /* Zmień kolor tła przeciąganego elementu na biały */
+    color: black; /* Opcjonalnie zmień kolor tekstu na czarny */
+    border: 1px solid #ccc; /* Opcjonalnie dodaj obramowanie */
 }
 
 

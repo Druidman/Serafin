@@ -15,8 +15,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const sortable = Sortable.create(el, {
         animation: 150,
         ghostClass: "sortable-ghost",
-        forceFallback: false,
-        chosenClass: "sortable-chosen",
+        chosenClass: "sortable-chosen"
         
         
     })
