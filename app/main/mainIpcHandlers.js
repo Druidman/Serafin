@@ -2,10 +2,21 @@ const { ipcMain, screen, dialog } = require('electron')
 const database = require('../../db/database')
 const displayWind = require("./windowManager/displayWindow")
 const fs = require("fs")
+const path = require('path')
 
+
+const configFilePath = path.join(process.cwd(),"config.json")
+
+function getConfig(win){
+
+    var data = fs.readFileSync(configFilePath,"utf-8")
+    return data
+
+}
 
 function setupIpcHandlers(db){
     
+
     ipcMain.on("getSongsPreview",(Event,categoryName)=>{
         database.getSongsPreview(Event,categoryName,db)
         console.debug("getSongsPreview: IPC")
@@ -60,6 +71,19 @@ function setupIpcHandlers(db){
     ipcMain.on("createSong",(Event,values)=>{
         database.createSong(Event,values,db)
         console.debug("createSong: IPC")
+    })
+
+    ipcMain.on("saveConfig",(Event,values)=>{
+        if (Object.keys(values).length == 0){
+            return 
+        }
+        fs.writeFileSync(configFilePath,JSON.stringify(values))
+
+        Event.returnValue = true
+    })
+    ipcMain.on("getConfig",(Event)=>{
+    
+        Event.returnValue = getConfig()
     })
   
 }

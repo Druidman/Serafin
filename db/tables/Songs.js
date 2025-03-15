@@ -4,7 +4,7 @@ async function getPreviews(categoryName,db){
     return await new Promise((resolve, reject)=>{
         console.log(categoryName)
         if (categoryName == "wszystko"){
-            db.all("SELECT title,id,category FROM songs ORDER BY title ASC",(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE id IN (SELECT MIN(id) FROM songs GROUP BY title) ORDER BY title ASC",(err,rows)=>{
                 if (err){
                     console.error(err.message)
                     reject(err)
@@ -37,7 +37,7 @@ async function getByPrefix(prefix,categoryName,db){
     return await new Promise((resolve,reject)=>{
         prefix = prefix.replace(",","")
         if (categoryName == "wszystko"){
-            db.all("SELECT title,id,category FROM songs WHERE UPPER(REPLACE(title,',','')) LIKE UPPER(?) ORDER BY title ASC",["%" + prefix + "%"],(err,rows)=>{
+            db.all("SELECT title,id,category FROM songs WHERE UPPER(REPLACE(title,',','')) LIKE UPPER(?) AND id IN (SELECT MIN(id) FROM songs GROUP BY title) ORDER BY title ASC",["%" + prefix + "%"],(err,rows)=>{
                 if (err) {
                     console.error(err.message)
                     reject(err)

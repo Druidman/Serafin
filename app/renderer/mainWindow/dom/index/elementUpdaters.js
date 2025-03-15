@@ -25,16 +25,25 @@ function updatePlayView(song){
 
     var ind = 0
     console.log(song.chorus)
-    var mainIndex = Object.keys(song.chorus)[0]
-    var chorusMainText = song.chorus[mainIndex]
+    if (Object.keys(song.chorus).length != 0){
+        var mainIndex = Object.keys(song.chorus)[0]
+        var chorusMainText = song.chorus[mainIndex]
+    }
+    else {
+        var mainIndex = -1
+        var chorusMainText = ""
+    }
+    
+    
+    
     console.log(chorusMainText)
     song.lyrics.push(" ") // w celu space takera
     for (var verse of song.lyrics){
-        if (String(ind) in song.chorus && song.chorus[String(ind)] != ""){
+        if (String(ind) in song.chorus && song.chorus[String(ind)] != "" && verse){
             var chorusElement = construct_verse(song.chorus[String(ind)])
             playview.appendChild(chorusElement)    
         }
-        else if (chorusMainText && ind >= mainIndex){
+        else if (chorusMainText && ind >= mainIndex && verse){
             var chorusElement = construct_verse(chorusMainText)
             playview.appendChild(chorusElement)    
         }

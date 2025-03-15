@@ -3,143 +3,128 @@ import {
     getSongsByPrefix, 
     getSongFullById,
     getSongsPreview,
-    getSongCategories } from "../shared/ipcHandlers.js"
-import { scrollPlayView, switchToEditor
+    getSongCategories, 
+    saveConfig
+} from "../shared/ipcHandlers.js"
+import { scrollPlayView, switchToEditor, movePlaylistRecord
 
  } from "../shared/viewModifiers.js"
-import { load_categories, load_previews } from "../shared/utils.js"
+import { load_categories, load_previews, sortPreviews } from "../shared/utils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as displayWind from "../shared/displayWindowControl.js"
 
 let dbViewerTimeout;
+var mouseDown = true
 
-
-function categoryRecord_click_event(event){
-    var categoryRecord = event.currentTarget
-    var textHolder = categoryRecord.getElementsByTagName("p")[0]
-    var categoryName = textHolder.innerHTML
-    
-    var categorySelector = document.getElementById("categorySelector")
-    categorySelector.setAttribute("data-value",categoryName)
-
-    var prevs = getSongsPreview(categoryName)
-    load_previews(prevs)
-    
-    
- 
-}
-function add_categoryRecord_click_event(categoryRecord){
-    categoryRecord.addEventListener("click",categoryRecord_click_event)
-    
-}
-//
-
-function playlistRecord_click_event(event){
-    if (event.target.tagName === "BUTTON" || event.target.tagName === "IMG"){
-        return
-    }
-   
-    var selected = document.getElementsByClassName("playlistRecord selected")[0]
-    if (selected){
-        selected.classList.remove("selected")
-    }
-    
-    event.currentTarget.classList.add("selected")
-    
-    var id = event.currentTarget.id
-    var song = getSongFullById(id)
-    
-    updatePlayView(song)
-    
-
-    var playButton = document.getElementById("play")
-    var state = playButton.getAttribute("data-value")
-    if (state == "shown"){
-        displayWind.updateWindow()
-    }
-
-
-    
-
-
-}
-function add_playlistRecord_click_event(playlistRecord){
-    playlistRecord.addEventListener("click",playlistRecord_click_event) 
-}
-//
-function editorButtonClickEvent(event){
-    var editElement = event.currentTarget.parentNode.parentNode
-    switchToEditor(editElement)
-}
 function add_editor_button_click_event(button){
-    button.addEventListener("click",editorButtonClickEvent)
-
+    button.addEventListener("click",(event)=>{
+        var editElement = event.currentTarget.parentNode.parentNode
+        switchToEditor(editElement)
+    })
 }
 
-//
-function db_record_button_click_event(event){
-    var button = event.currentTarget
 
-    var dbRecord = button.parentNode.parentNode.cloneNode(true)
-    appendToPlaylist(dbRecord)
+function add_categoryRecord_events(categoryRecord){
+    categoryRecord.addEventListener("click",(event)=>{
+        var categoryRecord = event.currentTarget
+        var categoryName = categoryRecord.getAttribute("data-category")
+        
+        var categorySelector = document.getElementById("categorySelector")
+        categorySelector.setAttribute("data-value",categoryName)
+
+        var prevs = getSongsPreview(categoryName)
+        prevs = sortPreviews(prevs)
+        load_previews(prevs)
+    })
+    
 }
-function add_db_record_button_click_event(button){
-    button.addEventListener("click",db_record_button_click_event)
+function add_dbRecord_events(dbRecord){
+    var addButton = dbRecord.querySelector(".dbRecordAddButton")
+    var editorButton = dbRecord.querySelector(".dbRecordEditorButton")
+    addButton.addEventListener("click",()=>{
+        var button = event.currentTarget
+
+        var dbRecord = button.parentNode.parentNode.cloneNode(true)
+        appendToPlaylist(dbRecord)
+    })
+    add_editor_button_click_event(editorButton)
 }
-//
+function add_playlistRecord_events(playlistRecord){
+    let delButton = playlistRecord.querySelector(".playlistRecordDelButton")
+    let editorButton = playlistRecord.querySelector(".editorButton")
 
-function playlist_record_button_click_event(event){
-  
-    var playlistRecord = event.currentTarget.parentNode.parentNode
-    if (!playlistRecord){
-        return
-    }
+    playlistRecord.addEventListener("dragstart",()=>{
+        console.log("dragstart")
+        playlistRecord.classList.toggle("dragging")
+    })
+    playlistRecord.addEventListener("dragend",()=>{
+        console.log("dragend")
+        playlistRecord.classList.toggle("dragging")
+    })
 
-    if (playlistRecord.classList.contains("selected")){
-        var playView = document.getElementById("playView")
-        playView.innerHTML = ""
-        if (playlistRecord.previousElementSibling){
-            handlePrevPlaylistRecord()
+
+    playlistRecord.addEventListener("click",(event)=>{
+        if (event.target.tagName === "BUTTON" || event.target.tagName === "IMG"){
+            return
         }
-        else {
-            handleNextPlaylistRecord()
+       
+        var selected = document.getElementsByClassName("playlistRecord selected")[0]
+        if (selected){
+            selected.classList.remove("selected")
         }
         
-    }
-    
+        event.currentTarget.classList.add("selected")
         
-     
+        var id = event.currentTarget.id
+        var song = getSongFullById(id)
+        
+        updatePlayView(song)
+        
     
-    removeFromPlaylist(playlistRecord)
+        var playButton = document.getElementById("play")
+        var state = playButton.getAttribute("data-value")
+        if (state == "shown"){
+            displayWind.updateWindow()
+        }
     
-    
-    
-    
-}
-function add_playlistRecord_button_click_event(button){
-    button.addEventListener("click",playlist_record_button_click_event)
-}
-//
+    }) 
+    delButton.addEventListener("click",(event)=>{
+        var playlistRecord = event.currentTarget.parentNode.parentNode
+        if (!playlistRecord){
+            return
+        }
 
-function verseBox_click_event(event){
-    var curr = document.getElementsByClassName("currentVerse")[0]
-    if (!curr){
-        return
-    }
-    curr.classList.remove("currentVerse")
-    event.currentTarget.classList.add("currentVerse")
-    var button = document.getElementById("play")
-    var state = button.getAttribute("data-value")
-    if (state == "shown"){
-        displayWind.updateWindow()
-    }
-    
-    
+        if (playlistRecord.classList.contains("selected")){
+            var playView = document.getElementById("playView")
+            playView.innerHTML = ""
+            if (playlistRecord.previousElementSibling){
+                handlePrevPlaylistRecord()
+            }
+            else {
+                handleNextPlaylistRecord()
+            }
+            
+        }
+        
+        removeFromPlaylist(playlistRecord)
+    })
+    add_editor_button_click_event(editorButton)
 }
-function add_verseBox_click_event(verse){
-    verse.addEventListener("click",verseBox_click_event)
+function add_verseBox_events(verseBox){
+    verseBox.addEventListener("click",(event)=>{
+        var curr = document.getElementsByClassName("currentVerse")[0]
+        if (!curr){
+            return
+        }
+        curr.classList.remove("currentVerse")
+        event.currentTarget.classList.add("currentVerse")
+        var button = document.getElementById("play")
+        var state = button.getAttribute("data-value")
+        if (state == "shown"){
+            displayWind.updateWindow()
+        }
+    })
 }
-//
 
 
 function dbSearchEvent(event){
@@ -372,30 +357,51 @@ function handleDbViewerUnFocusEvent(event){
         
 }
 
+function setupIndexEventHandlers(){
+    document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
+    
+    document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
+    document.getElementById("next").addEventListener("click",handleNextVerseEvent)
+    document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
+    document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
+    document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
+    document.getElementById("mainEditorButton").addEventListener("click",handleMainEditorButtonClickEvent)
+    document.getElementById("databaseViewer").addEventListener("mouseenter",handleDbViewerFocusEvent)
+    document.getElementById("databaseViewer").addEventListener("mouseleave",handleDbViewerUnFocusEvent)
+
+    document.getElementById("availableDisplays").addEventListener("change",saveConfig)
+
+    document.addEventListener("keydown",handleKeyPressEvent)
+
+    
+    document.addEventListener("mousedown",()=>{
+        
+
+        setTimeout(()=>{
+            if (!mouseDown){
+                return
+            }
+        },100)
+    })
+    document.addEventListener("mouseup",()=>{
+        mouseDown = false
+    })
+}   
 
 
 
-document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
-document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
-document.getElementById("next").addEventListener("click",handleNextVerseEvent)
-document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
-document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
-document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
-document.getElementById("mainEditorButton").addEventListener("click",handleMainEditorButtonClickEvent)
-document.getElementById("databaseViewer").addEventListener("mouseenter",handleDbViewerFocusEvent)
-document.getElementById("databaseViewer").addEventListener("mouseleave",handleDbViewerUnFocusEvent)
-
-
-
-document.addEventListener("keydown",handleKeyPressEvent)
 
 
 export { 
-    add_db_record_button_click_event, 
-    add_playlistRecord_button_click_event,
-    playlistRecord_click_event, 
-    add_playlistRecord_click_event,
-    add_verseBox_click_event,
-    add_categoryRecord_click_event,
+    
+    
+    add_dbRecord_events,
+    add_playlistRecord_events,
+    add_verseBox_events,
+    add_categoryRecord_events,
+
     add_editor_button_click_event,
-    handleKeyPressEvent }
+    handleKeyPressEvent,
+
+    setupIndexEventHandlers
+}

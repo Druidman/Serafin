@@ -1,3 +1,4 @@
+import { setupDisplay } from "./config.js"
 
 function openFileDialog(properties){
     var data = window.electronAPI.openFileDialog(properties)
@@ -56,6 +57,37 @@ function getAllDisplays(){
     return data
 }
 
+function saveConfig(){
+
+    var coords = document.getElementById("availableDisplays").value
+    let values = {
+        "defaultDisplayCoords": coords
+    }
+    window.electronAPI.saveConfig(values)
+    console.log("save")
+}
+
+
+function useConfig(){
+    console.log("siema")
+    var values = window.electronAPI.getConfig()
+    values = JSON.parse(values)
+    if (Object.keys(values).length == 0){
+        return 
+    }
+    let keys = Object.keys(values)
+    console.log(keys)
+    for (let key of keys){
+        switch (key){
+            case "defaultDisplayCoords":
+                setupDisplay(JSON.parse(values[key]))
+        }
+
+    }
+
+    
+}
+
 export { 
     createSong,
     getSongsPreview, 
@@ -70,5 +102,9 @@ export {
     writeToDisplayWindow,
     setDisplayWindowFontSize,
 
-    openFileDialog
+    openFileDialog,
+
+
+    useConfig,
+    saveConfig
 }

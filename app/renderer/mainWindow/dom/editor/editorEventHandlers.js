@@ -122,24 +122,30 @@ function handleZwrotkaTextAddButtonEvent(event){
 }   
 
 
+function setupEditorEventHandlers(){
+    document.getElementById("editorSaveButton").addEventListener("click",editorSaveButton_click_event)
+    document.getElementById("editorCreateButton").addEventListener("click",editorCreateButton_click_event)
+    document.getElementById("returnIndexButton").addEventListener("click",handleReturnIndexButtonClickEvent)
+    document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtFileLoadButtonClickEvent)
+    document.getElementById("jsonFileLoadButton").addEventListener("click",handleJsonFileLoadButtonClickEvent)
+    document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
+    document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
+    document.getElementById("addZwrotka").addEventListener("click",handleZwrotkaTextAddButtonEvent)
+    document.getElementById("addRefren").addEventListener("click",handleRefrenTextAddButtonEvent)
 
-document.getElementById("editorSaveButton").addEventListener("click",editorSaveButton_click_event)
-document.getElementById("editorCreateButton").addEventListener("click",editorCreateButton_click_event)
-document.getElementById("returnIndexButton").addEventListener("click",handleReturnIndexButtonClickEvent)
-document.getElementById("txtFileLoadButton").addEventListener("click",handleTxtFileLoadButtonClickEvent)
-document.getElementById("jsonFileLoadButton").addEventListener("click",handleJsonFileLoadButtonClickEvent)
-document.getElementById("undoButton").addEventListener("click",handleUndoButtonClickEvent)
-document.getElementById("redoButton").addEventListener("click",handleRedoButtonClickEvent)
-document.getElementById("addZwrotka").addEventListener("click",handleZwrotkaTextAddButtonEvent)
-document.getElementById("addRefren").addEventListener("click",handleRefrenTextAddButtonEvent)
+    document.getElementById("textEditingArea").addEventListener("paste", function(e) {
+        // cancel paste
+        e.preventDefault();
 
-document.getElementById("textEditingArea").addEventListener("paste", function(e) {
-    // cancel paste
-    e.preventDefault();
+        // get text representation of clipboard
+        var text = (e.originalEvent || e).clipboardData.getData('text');
 
-    // get text representation of clipboard
-    var text = (e.originalEvent || e).clipboardData.getData('text');
+        // insert text manually
+        document.execCommand("insertHTML", false, text.replace(/\n/g,'<br>'));
+    });
+}
 
-    // insert text manually
-    document.execCommand("insertHTML", false, text.replace(/\n/g,'<br>'));
-});
+export {
+    setupEditorEventHandlers
+}
+
