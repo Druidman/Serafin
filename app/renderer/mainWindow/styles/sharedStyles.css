@@ -45,9 +45,7 @@ body{
 }
 
 .sortable-chosen {
-    background-color: white; /* Zmień kolor tła przeciąganego elementu na biały */
-    color: black; /* Opcjonalnie zmień kolor tekstu na czarny */
-    border: 1px solid #ccc; /* Opcjonalnie dodaj obramowanie */
+    visibility: hidden;
 }
 
 
