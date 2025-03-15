@@ -1,19 +1,32 @@
 // file imports
-import "./dom/index/indexEventHandlers.js"
-import "./dom/editor/editorEventHandlers.js"
+import { setupIndexEventHandlers } from "./dom/index/indexEventHandlers.js"
+import { setupEditorEventHandlers } from "./dom/editor/editorEventHandlers.js"
+
 
 // module imports
 import { load_previews, load_displays } from "./dom/shared/utils.js"
 import { getSongsPreview, getAllDisplays } from "./dom/shared/ipcHandlers.js"
 
-const category = "wszystko"
+document.addEventListener("DOMContentLoaded",()=>{
+    setupIndexEventHandlers()
+    setupEditorEventHandlers()
 
-var previews = getSongsPreview(category)
-load_previews(previews)
+    const el = document.getElementById('playlist')
+    const sortable = Sortable.create(el, {
+        animation: 150,
+        ghostClass: 'sortable-ghost'
+    })
 
-var displays = getAllDisplays()
+    const category = "wszystko"
 
-load_displays(displays)
+    var previews = getSongsPreview(category)
+    load_previews(previews)
+
+    var displays = getAllDisplays()
+
+    load_displays(displays)
+})
+
 
 
 

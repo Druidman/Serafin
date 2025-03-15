@@ -22,7 +22,7 @@
         "electron-builder": "^25.1.8"
     },
     "dependencies": {
-        
+        "sortablejs": "^1.15.6",
         "sqlite3": "^5.1.7"
     },
     "build": {
@@ -37,18 +37,15 @@
             "db/**/*",
             "Songs.db"
         ],
-        "linux":{
-            "target":[
+        "linux": {
+            "target": [
                 "AppImage"
             ]
-        
         },
-       
         "win": {
             "target": [
                 "nsis"
             ]
         }
-        
     }
 }

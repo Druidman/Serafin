@@ -372,22 +372,24 @@ function handleDbViewerUnFocusEvent(event){
         
 }
 
+function setupIndexEventHandlers(){
+    document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
+    document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
+    document.getElementById("next").addEventListener("click",handleNextVerseEvent)
+    document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
+    document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
+    document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
+    document.getElementById("mainEditorButton").addEventListener("click",handleMainEditorButtonClickEvent)
+    document.getElementById("databaseViewer").addEventListener("mouseenter",handleDbViewerFocusEvent)
+    document.getElementById("databaseViewer").addEventListener("mouseleave",handleDbViewerUnFocusEvent)
 
 
 
-document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
-document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
-document.getElementById("next").addEventListener("click",handleNextVerseEvent)
-document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
-document.getElementById("categorySelector").addEventListener("click",handleCategorySelectorEvent)
-document.getElementById("stashButton").addEventListener("click",handleStashButtonEvent)
-document.getElementById("mainEditorButton").addEventListener("click",handleMainEditorButtonClickEvent)
-document.getElementById("databaseViewer").addEventListener("mouseenter",handleDbViewerFocusEvent)
-document.getElementById("databaseViewer").addEventListener("mouseleave",handleDbViewerUnFocusEvent)
+    document.addEventListener("keydown",handleKeyPressEvent)
+}   
 
 
 
-document.addEventListener("keydown",handleKeyPressEvent)
 
 
 export { 
@@ -398,4 +400,7 @@ export {
     add_verseBox_click_event,
     add_categoryRecord_click_event,
     add_editor_button_click_event,
-    handleKeyPressEvent }
+    handleKeyPressEvent,
+
+    setupIndexEventHandlers
+}

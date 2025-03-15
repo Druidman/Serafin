@@ -6,6 +6,7 @@ const { createMainWindow } = require("./windowManager/mainWindow.js");
 
 
 
+
 async function setup_app(){
     
     db = database.ConnectDatabase()
