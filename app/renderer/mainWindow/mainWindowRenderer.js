@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     const el = document.getElementById('playlist')
     const sortable = Sortable.create(el, {
         animation: 150,
-        ghostClass: 'sortable-ghost'
+        ghostClass: ''
     })
 
     const category = "wszystko"
