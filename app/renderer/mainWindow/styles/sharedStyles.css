@@ -28,7 +28,9 @@ body{
     width: 100vw;
 }
 
-
+.dragging {
+    opacity: 1 !important;
+}
 
 main {
     width: 100%;

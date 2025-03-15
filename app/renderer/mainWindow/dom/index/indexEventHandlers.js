@@ -55,9 +55,11 @@ function add_playlistRecord_events(playlistRecord){
 
     playlistRecord.addEventListener("dragstart",()=>{
         console.log("dragstart")
+        playlistRecord.classList.toggle("dragging")
     })
     playlistRecord.addEventListener("dragend",()=>{
         console.log("dragend")
+        playlistRecord.classList.toggle("dragging")
     })
 
 
