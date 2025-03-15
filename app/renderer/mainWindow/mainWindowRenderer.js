@@ -13,8 +13,10 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     const el = document.getElementById('playlist')
     const sortable = Sortable.create(el, {
-        animation: 150,
-        ghostClass: ''
+        animation: 0,
+        ghostClass: "sortable-ghost",
+        chosenClass: "sortable-chosen"
+        
     })
 
     const category = "wszystko"

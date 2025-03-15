@@ -27,6 +27,13 @@ body{
     height: 100vh;
     width: 100vw;
 }
+.sortable-ghost {
+    border: 3px solid black;
+}
+.sortable-chosen {
+    visibility: hidden;
+}
+
 main {
     width: 100%;
     height: 95%;
