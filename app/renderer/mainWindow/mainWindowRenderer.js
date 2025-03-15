@@ -13,9 +13,11 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     const el = document.getElementById('playlist')
     const sortable = Sortable.create(el, {
-        animation: 0,
+        animation: 150,
         ghostClass: "sortable-ghost",
-        chosenClass: "sortable-chosen"
+        forceFallback: false,
+        chosenClass: "sortable-chosen",
+        
         
     })
 
