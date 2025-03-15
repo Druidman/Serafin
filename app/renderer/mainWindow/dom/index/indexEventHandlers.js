@@ -7,7 +7,7 @@ import {
 import { scrollPlayView, switchToEditor
 
  } from "../shared/viewModifiers.js"
-import { load_categories, load_previews } from "../shared/utils.js"
+import { load_categories, load_previews, sortPreviews } from "../shared/utils.js"
 import { updatePlayView, appendToPlaylist, removeFromPlaylist } from "./elementUpdaters.js"
 import * as displayWind from "../shared/displayWindowControl.js"
 
@@ -16,13 +16,13 @@ let dbViewerTimeout;
 
 function categoryRecord_click_event(event){
     var categoryRecord = event.currentTarget
-    var textHolder = categoryRecord.getElementsByTagName("p")[0]
-    var categoryName = textHolder.innerHTML
+    var categoryName = categoryRecord.getAttribute("data-category")
     
     var categorySelector = document.getElementById("categorySelector")
     categorySelector.setAttribute("data-value",categoryName)
 
     var prevs = getSongsPreview(categoryName)
+    prevs = sortPreviews(prevs)
     load_previews(prevs)
     
     

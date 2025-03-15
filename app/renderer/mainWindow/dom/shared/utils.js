@@ -36,7 +36,6 @@ function load_previews(data){
     dataBox.innerHTML = ""
     dataBox.scrollTop = 0
 
-    // data = sortPreviews(data)
     var counter = 100
     for (var element of data){
 
@@ -79,5 +78,5 @@ function load_displays(data){
 }
 
 
-export { load_previews, load_categories, loadStylesheet, load_displays }
+export { load_previews, load_categories, loadStylesheet, load_displays, sortPreviews }
 

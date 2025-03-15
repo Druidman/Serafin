@@ -70,10 +70,11 @@ function construct_category_record(element) {
     categoryRecord.classList.add("categoryRecord")
 
     categoryRecord.classList.add("categoryRecord")
+    categoryRecord.setAttribute("data-category", element["category"])
 
     var title_p = document.createElement("p")
 
-    title_p.textContent = element["category"]
+    title_p.textContent = element["category"].toUpperCase()
 
     categoryRecord.appendChild(title_p)
     add_categoryRecord_click_event(categoryRecord)
