@@ -15,6 +15,7 @@ contextBridge.exposeInMainWorld("electronAPI", {
     writeToDisplayWindow: (id,data)=> ipcRenderer.sendSync("writeToDisplayWindow",id,data),
     getAllDisplays: ()=> ipcRenderer.sendSync("getAllDisplays"),
     openFileDialog: (properties) => ipcRenderer.sendSync("openFileDialog",properties),
-    createSong: (values)=> ipcRenderer.sendSync("createSong",values)
-    
+    createSong: (values)=> ipcRenderer.sendSync("createSong",values),
+    saveConfig: (values)=> ipcRenderer.sendSync("saveConfig",values),
+    getConfig: ()=> ipcRenderer.sendSync("getConfig")    
 })

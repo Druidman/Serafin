@@ -3,7 +3,9 @@ import {
     getSongsByPrefix, 
     getSongFullById,
     getSongsPreview,
-    getSongCategories } from "../shared/ipcHandlers.js"
+    getSongCategories, 
+    saveConfig
+} from "../shared/ipcHandlers.js"
 import { scrollPlayView, switchToEditor
 
  } from "../shared/viewModifiers.js"
@@ -374,6 +376,7 @@ function handleDbViewerUnFocusEvent(event){
 
 function setupIndexEventHandlers(){
     document.getElementById("databaseSearch").addEventListener("input",dbSearchEvent)
+    
     document.getElementById("play").addEventListener("click",handlePlayButtonEvent)
     document.getElementById("next").addEventListener("click",handleNextVerseEvent)
     document.getElementById("prev").addEventListener("click",handlePrevVerseEvent)
@@ -383,7 +386,7 @@ function setupIndexEventHandlers(){
     document.getElementById("databaseViewer").addEventListener("mouseenter",handleDbViewerFocusEvent)
     document.getElementById("databaseViewer").addEventListener("mouseleave",handleDbViewerUnFocusEvent)
 
-
+    document.getElementById("availableDisplays").addEventListener("change",saveConfig)
 
     document.addEventListener("keydown",handleKeyPressEvent)
 }   

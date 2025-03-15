@@ -5,7 +5,7 @@ import { setupEditorEventHandlers } from "./dom/editor/editorEventHandlers.js"
 
 // module imports
 import { load_previews, load_displays } from "./dom/shared/utils.js"
-import { getSongsPreview, getAllDisplays } from "./dom/shared/ipcHandlers.js"
+import { getSongsPreview, getAllDisplays, useConfig } from "./dom/shared/ipcHandlers.js"
 import { sortPreviews } from "./dom/shared/utils.js"
 
 document.addEventListener("DOMContentLoaded",()=>{
@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded",()=>{
     var displays = getAllDisplays()
 
     load_displays(displays)
+    useConfig()
 })
 
 
