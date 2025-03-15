@@ -29,10 +29,13 @@ body{
 }
 .sortable-ghost {
     border: 3px solid black;
+    opacity: 1 !important;
 }
 .sortable-chosen {
+    
     visibility: hidden;
 }
+
 
 main {
     width: 100%;
