@@ -2,7 +2,6 @@
 
 async function getPreviews(categoryName,db){
     return await new Promise((resolve, reject)=>{
-        console.log(categoryName)
         if (categoryName == "wszystko"){
             db.all("SELECT title,id,category FROM songs WHERE id IN (SELECT MIN(id) FROM songs GROUP BY title) ORDER BY title ASC",(err,rows)=>{
                 if (err){
@@ -10,7 +9,7 @@ async function getPreviews(categoryName,db){
                     reject(err)
                 }
                 else {
-                    console.log(rows)
+                    
                     resolve(rows)
                 
                 }

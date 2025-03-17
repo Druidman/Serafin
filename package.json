@@ -8,6 +8,7 @@
     "scripts": {
         "start": "npx electron .",
         "build": "electron-builder"
+  
     },
     "repository": {
         "type": "git",
@@ -32,9 +33,12 @@
             "output": "dist"
         },
         "files": [
-            "app/**/*",
+            "app/**",
             "package.json",
-            "db/**/*",
+            "db/**"
+            
+        ],
+        "extraFiles": [
             "Songs.db"
         ],
         "linux": {

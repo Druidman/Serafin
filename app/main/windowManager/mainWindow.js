@@ -15,11 +15,6 @@ function createMainWindow(){
     show: false
  
   })
-  win.maximize()
-  win.show()
-  
-  var path_to_loading = path.join(__dirname,"../../renderer/mainWindow/pages/loading.html")
-  win.loadFile(path_to_loading)
 
   return win
 }

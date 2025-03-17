@@ -77,24 +77,24 @@ function handleReturnIndexButtonClickEvent(event){
 }
 function handleTxtFileLoadButtonClickEvent(event){
     const properties = ["openFile"]
-    var dataFromFile = openFileDialog(properties)
+    var dataFromFile = JSON.parse(openFileDialog(properties))[0]["data"]
     
     if (dataFromFile.length == 0){
         return
     }
     
-    var lyrics = dataFromFile[0].split(";")
+    var lyrics = dataFromFile.split(";")
     
     
     addEditableText(lyrics)
 }
 function handleJsonFileLoadButtonClickEvent(event){
     const properties = ["openFile"]
-    var dataFromFile = openFileDialog(properties)
+    var dataFromFile = JSON.parse(openFileDialog(properties))[0]["data"]
     if (dataFromFile.length == 0){
         return
     }
-    var lyrics = JSON.parse(dataFromFile[0])["lyrics"]
+    var lyrics = JSON.parse(dataFromFile)["lyrics"]
 
 
     addEditableText(lyrics)

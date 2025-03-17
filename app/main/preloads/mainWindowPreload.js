@@ -4,6 +4,7 @@ const { contextBridge, ipcRenderer } = require("electron")
 
 
 
+
 contextBridge.exposeInMainWorld("electronAPI", {
     getSongsPreview: (amount,categoryName) => ipcRenderer.sendSync("getSongsPreview",amount,categoryName),
     getSongsByPrefix: (prefix,categoryName) => ipcRenderer.sendSync("getSongsByPrefix",prefix,categoryName),
@@ -17,5 +18,10 @@ contextBridge.exposeInMainWorld("electronAPI", {
     openFileDialog: (properties) => ipcRenderer.sendSync("openFileDialog",properties),
     createSong: (values)=> ipcRenderer.sendSync("createSong",values),
     saveConfig: (values)=> ipcRenderer.sendSync("saveConfig",values),
-    getConfig: ()=> ipcRenderer.sendSync("getConfig")    
+    getConfig: ()=> ipcRenderer.sendSync("getConfig"),
+    createDatabaseFromJSON: (JSONData) =>ipcRenderer.sendSync("createDatabaseFromJSON",JSONData),
+    loadDatabase: (DBPath) => ipcRenderer.sendSync("loadDatabase",DBPath),
+    switchToIndex: ()=>ipcRenderer.sendSync("switchToIndex")
+
+    
 })

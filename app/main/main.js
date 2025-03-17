@@ -8,16 +8,26 @@ const { createMainWindow } = require("./windowManager/mainWindow.js");
 
 
 async function setup_app(){
-    
-    db = database.ConnectDatabase()
-    const win = createMainWindow()
-    
-    await database.Config(db)
-    //win.hide()
 
-    setupIpcHandlers(db)
-    var path_to_index = path.join(__dirname,"../renderer/mainWindow/pages/mainWindow.html")
-    win.loadFile(path_to_index)
+    const path_to_index = path.join(__dirname,"../renderer/mainWindow/pages/mainWindow.html")
+    const path_to_select = path.join(__dirname,"../renderer/mainWindow/pages/selectDb.html")
+    const path_to_db = path.join(process.cwd(),"Songs.db")
+    
+    db = database.ConnectDatabase(path_to_db)
+    const win = createMainWindow()
+    setupIpcHandlers(db,win)
+    if (!db){
+      win.loadFile(path_to_select)
+      
+    }
+    else {
+
+      win.loadFile(path_to_index)
+    }
+    
+    
+    
+    
     win.once("closed",()=>{
       app.quit()
       console.log("CLOSED")

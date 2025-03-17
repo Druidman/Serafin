@@ -17,7 +17,7 @@ async function CheckIfRecordExists(title,category,db){
                 }
                 else{
                     resolve(true)
-                    console.log("exists: ", title)
+                
                     
                 }  
                 
@@ -30,7 +30,7 @@ async function CheckIfRecordExists(title,category,db){
 async function FillDbRow(title,category,chorus,lyrics,db){
     const fillDbRow = db.prepare("INSERT INTO songs(title,category,chorus,lyrics) VALUES (?,?,?,?)")
 
-    return await new Promise((resolve,reject) =>{
+    return new Promise((resolve,reject) =>{
         lyrics = JSON.stringify(lyrics)
         chorus = JSON.stringify(chorus)
         fillDbRow.run(title,category,chorus,lyrics, (err)=>{
@@ -39,19 +39,18 @@ async function FillDbRow(title,category,chorus,lyrics,db){
                 reject(err)
             }
             else{
-                console.log("succesful insertion")
+            
                 resolve()
             }
         })
     })
 }
 
-async function FillWithData(db){
 
-    const DataFilePath = path.join(__dirname,"../data/songsDataNewFixedFiltr.json")
-    const DataFile = fs.readFileSync(DataFilePath,'utf-8')
 
-    var data = JSON.parse(DataFile)["data"]
+async function FillWithData(db,data){
+    console.log("filling")
+    var data = data["data"]
     
     var songsByCategoryName = data["categories"]
     var categories = Object.keys(songsByCategoryName)
@@ -72,6 +71,7 @@ async function FillWithData(db){
 
         }
     }    
+    console.log("filled")
     
     
 }

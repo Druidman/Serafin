@@ -1,5 +1,5 @@
-const { ConnectDatabase }  = require("./connect")
-const { Config } = require("./config/config")
+const { ConnectDatabase, CreateDatabase, CreateDatabaseFromJson }  = require("./connect")
+
 const songs = require("./tables/Songs")
 
 async function getSongsPreview(event,categoryName,db){
@@ -24,12 +24,17 @@ async function createSong(event,values,db){
 
 module.exports = { 
     ConnectDatabase,
+    CreateDatabase,
+    CreateDatabaseFromJson,
+
+
     getSongsPreview,
     getSongsByPrefix,
     getSongFullById,
     getSongCategories,
     updateSongById,
     createSong,
-    Config
+    
+
 
 }
