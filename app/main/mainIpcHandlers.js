@@ -10,10 +10,15 @@ const path_to_db = path.join(process.cwd(),"Songs.db")
 
 const configFilePath = path.join(process.cwd(),"config.json")
 
-function getConfig(win){
-
-    var data = fs.readFileSync(configFilePath,"utf-8")
-    return data
+function getConfig(){
+    if (!fs.existsSync(configFilePath)){
+        return false
+    }
+    else {
+        var data = fs.readFileSync(configFilePath,"utf-8")
+        return data
+    }
+    
 
 }
 
@@ -93,46 +98,7 @@ function setupIpcHandlers(db,win){
     })
 
     ipcMain.on("loadDatabase",async (Event,DbPath)=>{
-        
-        // var newDbPath = path_to_db
-        // var originalDbPath = DbPath
-        // console.log(newDbPath)
-        // console.log(originalDbPath)
-
-        // var newDb = database.CreateDatabase(newDbPath)
-        // var originalDb = database.ConnectDatabase(originalDbPath)
-        // if (!originalDb){
-        //     console.log("ERROR CONNECTING TO ORIGINAL DB")
-        //     Event.returnValue = false
-        // }
-        // if (!newDb){
-        //     console.log("ERROR CONNECTING TO NEW DB")
-        //     Event.returnValue = false
-        // }
-        // originalDb.all("SELECT * FROM songs",async (err,rows)=>{
-        //     if (err){
-        //         Event.returnValue = false
-        //     }
-        //     const insertSQL = newDb.prepare("INSERT INTO songs(title,category,chorus,lyrics) VALUES(?,?,?,?)")
-        //     const fillDBRow = async function(title,category,chorus,lyrics){
-        //         return new Promise((resolve,reject)=>{
-        //             insertSQL.run(title,category,chorus,lyrics,(err)=>{
-        //                 if(err){
-        //                     reject()
-        //                 }
-        //                 else {
-        //                     resolve()
-        //                 }
-        //             })
-        //         })
-        //     }
-            
-        //     for (let row of rows){
-                
-        //         await fillDBRow(row.title,row.category,row.chorus,row.lyrics)
-        //     }   
-        //     Event.returnValue = true
-        // })
+    
         var newDbPath = path_to_db
         var originalDbPath = DbPath
         console.log(newDbPath)
@@ -152,7 +118,14 @@ function setupIpcHandlers(db,win){
         if (Object.keys(values).length == 0){
             return 
         }
-        fs.writeFileSync(configFilePath,JSON.stringify(values))
+        fs.writeFileSync(configFilePath,JSON.stringify(values),(err)=>{
+            if (!err){
+                console.debug("Config state saved")
+            }
+            else {
+                console.error("Config save FAILED")
+            }
+        })
 
         Event.returnValue = true
     })
