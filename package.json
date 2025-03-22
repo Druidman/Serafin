@@ -1,6 +1,6 @@
 {
     "name": "verbum",
-    "version": "3.1.1",
+    "version": "4.1.0",
     "description": "App to control text in church",
     "main": "app/main/main.js",
     "author": "Mateusz Kowalski",
@@ -19,7 +19,7 @@
     },
     "homepage": "https://github.com/Druidman/Serafin#readme",
     "devDependencies": {
-        "electron": "^33.2.0",
+        "electron": "^22.2.3",
         "electron-builder": "^25.1.8"
     },
     "dependencies": {
@@ -38,15 +38,14 @@
             "db/**"
             
         ],
-        "extraFiles": [
-            "Songs.db"
-        ],
         "linux": {
+            "icon": "icon.png",
             "target": [
                 "AppImage"
             ]
         },
         "win": {
+            "icon": "icon.png",
             "target": [
                 "nsis"
             ]
